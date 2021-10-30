@@ -13,4 +13,8 @@
 5. Identify resources at the UoPeople including where to get assistance.
     - 支援の受け方を知る
 6. Examine the benefits of and methods for conducting peer assessments.
-    - 相互評価の重要性を知る知る
+    - 相互評価の重要性を知る
+
+### unit2
+
+- ライティングについて
