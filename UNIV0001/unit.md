@@ -1,6 +1,8 @@
-# unit2
+# UNIV0001
 
-## goal
+## unit2
+
+### goal
 
 - ピア評価について知る
 - ライティングについて
@@ -40,3 +42,35 @@
    - 剽窃チェックツールを使おう
      - [unicheck](https://unicheck.com/free-plagiarism-checker-online)
      - [paperrater](https://www.paperrater.com/free_paper_grader)
+
+## unit3
+
+### goal unit3
+
+- 成績
+- プロクタリング
+- 学習目標
+- SAP
+- LOA
+
+### detail unit3
+
+1. 成績
+   - 学期が始まったら、週ごとの成績をGradesから確認する
+   - 卒業には以下の科目の合格が必要
+     - Fundamental
+       - 学習基礎
+         - UNIV1001
+       - 数理化学
+         - MATH1201
+         - MATH1280
+       - ENGLISH Writing
+         - ENGL1102
+       - 倫理
+         - PHIL1404
+       - 文化研究
+         - HIST1421
+       - 分野知識
+         - HU2/SBS2/NST1
+
+2. SAP(Satisfactory Academic Progress)
