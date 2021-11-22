@@ -76,14 +76,14 @@
 - task
   - [x] Read the Learning Guide
   - [x] Reading Assinments
-  - [ ] Discussion Assinment
-    - [ ] review
+  - [x] Discussion Assinment
+    - [x] review
     - [x] push
-  - [ ] Written Assinment
+  - [x] Written Assinment
     - [x] peer asessmennt at last week
-    - [ ] this week task
-  - [ ] leaning jounal
-  - [ ] self-quiz
+    - [x] this week task
+  - [x] leaning jounal
+  - [x] self-quiz
 
 - reading assinment
   - Pre-Writing
@@ -126,5 +126,4 @@
     - topic
   - what
     - jap
-      - 私は筋トレが好きだ。トレーニングは、自分の肉体的な健康を促進してくれるだけなく。
-    - eng
+      - トレーニングは最高の趣味だ。今まで色々な趣味を経験してきたが、トレーニングほど楽しく継続的なものはなかった。一番大きな要因は、自分の成長をわかりやすい数値で確認することができることだ。今まで扱うことができなかった重量を扱うことができるようになった時の喜びは何にも代え難い。
