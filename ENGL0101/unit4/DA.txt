@@ -1,0 +1,38 @@
+Goal
+ストーリーに対して
+・Libraryから情報を取得
+・物語のコンセプトとどのように一致するかを記載（2-3文で）
+・内容にには以下を含める
+    1つの引用文
+    1つの言い換え
+
+・どれを選ぶか
+Author:Anton Chekhov
+Title:The bet
+link:http://www.online-literature.com/anton_chekhov/1255/
+
+・まず自分で読む
+長期間牢獄に入っていられるかを賭けた。
+青年は虚しさを知った。
+
+・何を引用するか
+彼の文章は「人生には答えがなく、誰もが自分で解決しなければならない」という哲学に基づいて書かれている・
+    He may have taken this stance towards writing as a result of having to make short, succinct entries in weekly publications for so many years, but more likely it fit the philosophy he embraced through the hardships of his life; basically that there are no answers for life, and everyone must work it out for themselves.
+たしかに、The betもBankerとLawyerの2つの立場が存在するが、どちらが正しいといったことについては触れていない。あくまで、読者が自分で答えを出すことに意義があると言った文章だ。
+
+References:
+Chekhov, A. (n.d.). Anton Chekhov. Retrieved from http://www.online-literature.com/anton_chekhov/1255/
+
+・本文
+I chose the story "The Bet".
+Sara (2011) found  that his story is "writing stories without that resolution in the manner of Maupassant"
+資料によると、彼の物語は"By writing stories without that resolution in the manner of Maupassant"のようなものと評されています。
+確かに、The betも読者が自分で自分の答えを見つけることを期待するものになっていることがわかります。
+
+I chose the story "The Bet".
+According to Sara (2011), his story is "writing stories without that resolution in the manner of Maupassant" (p.3).
+Certainly, no answers are expressed in the story either, and it is based on the philosophy that everyone must solve their own problems (Sara, 2011, p.3).
+
+References:
+Chekhov, A. (1889). The Bet. Retrieved from http://www.online-literature.com/anton_chekhov/1255/
+Sara, C. (2011) Retrieved from https://go.gale.com/ps/i.do?p=GVRL&u=lirn17237&id=GALE%7CCX1999300012&v=2.1&it=r&sid=sru&asid=b5728a6f

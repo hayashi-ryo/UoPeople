@@ -1,0 +1,28 @@
+five paragraph essay
+
+構造
+1. Introducion
+The hook
+読者の興味を引く文を入れる
+→電子書籍の広がりについて触れたい
+background infomation
+→電子書籍を取り巻く状況に触れる
+thesis
+→unit3で作成したもの
+
+2. body#1
+5-8 sentences
+topic sentence
+main idea
+conclusion
+3. body#2
+4. body#3
+5. Conclution
+
+参考
+Thesis
+A. While Initial costs such as communication environment and devices are required, Students should actively use e-books to learn. Because E-books have the advantage of convenient search., All materials can be managed in a centralized location., and Can be purchased immediately online.
+Body
+A. E-books have the advantage of convenient search.
+B. All materials can be managed in a centralized location.
+C. Can be purchased immediately online.
