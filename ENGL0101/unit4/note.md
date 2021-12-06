@@ -19,12 +19,13 @@
     - [x] Reading assiment story
     - [x] search for detail of the story in Library or the other
     - [x] APA citations
-    - [ ] peer review
+    - [x] peer review
   - [ ] WA
-    - [ ] make five paragraph essay
-  - [ ] LJ
-    - [ ] 自分の進歩とそのメモを2-3分で表現する
-  - [ ] Self-Quiz
+    - [x] make five paragraph essay
+    - [ ] make word format
+  - [x] LJ
+    - [x] 自分の進歩とそのメモを2-3分で表現する
+  - [x] Self-Quiz
 
 - reading assinments
   - guide to using the library
