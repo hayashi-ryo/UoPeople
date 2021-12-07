@@ -20,9 +20,9 @@
     - [x] search for detail of the story in Library or the other
     - [x] APA citations
     - [x] peer review
-  - [ ] WA
+  - [x] WA
     - [x] make five paragraph essay
-    - [ ] make word format
+    - [x] make word format
   - [x] LJ
     - [x] 自分の進歩とそのメモを2-3分で表現する
   - [x] Self-Quiz
