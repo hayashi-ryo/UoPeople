@@ -1,0 +1,74 @@
+目的
+読んだ情報の出典を明確にすること
+
+課題
+・1つのショートストーリーを選び読む
+・ストーリーに対するレビューを書く
+    レビューには以下の要素を含める
+    ・どの物語を選んだのか
+    ・なぜ選んだのか
+    ・物語の簡単な要約（2〜3文）
+    ・気に入ったかどうかとその理由
+・レビューとは独立して以下の課題に対応する
+    ・APAの引用スタイルを用いたin-text引用1つ
+    ・APAの引用スタイルを用いた言い換え一つ
+    ・APAのスタイルで書かれた参考文献一覧
+
+記述
+・選んだもの
+    salt
+・読みながら自由に
+    乳がんで天涯孤独な女性について、18歳のインターンの少年が書いた
+    自分が死んだ時にどんなふうに思ってもらいたいのか？
+        “Hey, kid,” she said, “when you die, how do you want your friends and family to remember you?”
+    ロイスに恋した
+    少年はロイスの死亡記事に「彼女は同僚や友達に求められている」と書いた
+        She is survived by her friends and colleagues at the newspaper.
+    これは彼女がミスタイプしてしまったものだ
+    新しい仕事にプレッシャーと感じた時に編集長にこう言われた
+        扱う人たちはみんな死んでいる、これはプレッシャーにならない
+    18歳の少年が先輩社員の死亡記事を書くことになった。
+    彼女が死んだ後死亡記事を担当することになり、ある婦人に投稿の件で電話した。
+        その婦人は認知症だった
+        彼女の話を聞くのは、彼にとって苦痛であり、本当はロイスが担当すべき仕事だったと嘆いた。
+    新聞に訃報を載せるために戻ろうとした時、老女に載せることが嫌がられた。
+        なぜ？と考えると、ここは大々的に知らせたいのではなく、自分が夫のことを忘れていないことを誰かに共有したいだけなのでは？と思えた
+        こういうタイプの死という表現があるが、これは個人的にロイスの言っていた、彼女を求め続けていることと一致しているよう
+
+・提出用
+    日本語
+    私は"Salt"という作品を選びました。
+    なぜなら、この作品が特徴的な形式で始まり、この後どのような展開で進むのか気になったためです。
+    
+    この作品は、新聞社にインターンとして働く18歳の少年が主人公です。
+    彼は、亡くなった先輩社員に変わって訃報記事を担当することになりました、それは彼にとって難しく、大変な仕事でした。
+    引き継いだ中に、ある老婦人が夫の訃報を掲載したいという依頼があったため、話をしたところ、夫は私的な人だから掲載はしたくないようでした。
+    夫のことを忘れたくない老婦人の様子は先輩社員が死について表現した、"survived"と同じものでした。
+
+    私はこの作品が好きです。
+    人間の死というテーマに対して、周りの人の中では生きている、ということが人生の本質を表しているように思えます。
+    私も、誰かの中で生き続けられるような、良い生き方をしていきたいものです。
+
+ロイスの体が科学に提供され、医療の発展に用いられることに対して、文化的な嫌悪を抱きました。
+英語
+I chose the story "Salt". Because the story started with a distinctive format, and I was curious to see how it would develop later.
+
+This story is about an 18-year-old boy who works as an intern at the newspaper.
+He was put in charge of obituaries in place of his senior employee who passed away, it was a difficult and daunting task for him. One of the works I took over the project was an old lady who asked me to publish her husband's obituary. When I talked to her, she did not want to publish it because he was a private person. The old woman's reluctance to forget her husband was the same as the senior staff member's description of death, “She is survived by her friends and colleagues at the newspaper" (Sherman, 2009, p. 13).
+
+I like this story. It seems to me that the theme of human death, but the fact that we live on the surrounding people, expresses the essence of life. I would like to live a good life so that I can continue to live among others.
+
+A quote:
+“She is survived by her friends and colleagues at the newspaper" (Sherman, 2009, p. 13)
+
+A paraphrase:
+I had a cultural aversion to Lois's body being donated to science and used for medical advancement.
+
+The original text in Sherman Alexie's 2009 book Salt:
+I was also bothered that Lois had donated her body to science. Of course, her skin and organs would become training tools for doctors and scientists, and that was absolutely vital, but the whole process still felt disrespectful to me. I thought of her, dead and naked, lying on a gurney while dozens of students stuck their hands inside of her. It seemed—well, pornographic. But I also knew that my distaste was cultural.
+Indians respect dead bodies even more than the live ones.
+
+References:
+Sherman, A. (2009). Salt. Retrieved from https://esl-bits.net/ESL.English.Listening.Short.Stories/Salt/01/default.html
+
+    
