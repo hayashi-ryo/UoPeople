@@ -10,7 +10,7 @@
 
 - task
   - [ ] Learing Guide
-  - [ ] Reading Assignment
+  - [x] Reading Assignment
     - [x] [Writing Abstract](https://my.uopeople.edu/pluginfile.php/1530280/mod_book/chapter/316596/ENGL0101.U5.Abstract%20Updated.pdf)
     - [x] Read an abstract
     - [x] Pick one story

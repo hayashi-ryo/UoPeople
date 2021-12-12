@@ -1,0 +1,65 @@
+課題
+    要約を読んで質問に答える
+
+質問
+1. What is the title of the text and what is the text about?
+2. What is the author’s view? How do I know?
+3. What is the evidence presented by the author to support ideas?
+4. Is the evidence valid? How do I know?
+5. Is the evidence relevant? How do I know?
+6. Have I heard/read anything similar or dissimilar? What was it?
+7. Do I agree or disagree with the views expressed by the author? Why?
+
+回答
+日本語
+1.Tthe title of the text is "
+
+The title is "Winning and Giving".
+Text is about "Football Results and Alumni Giving at Selective Private Colleges and Universities".
+2.
+著者は、サッカーの成功の変化が寄附行動に影響を与えるという見解を持っています。
+それは、"”の記載からわかります。
+教育機関のことがlineからわかる。
+しかし、結論ではサッカーの成功と寄附行動にほとんど相関がないと述べている。
+3.
+著者は証拠として"学問的に選択された15の大学のデータ"を提示しています。
+4.
+証拠は有効です。著者らは15の大学から取得した統計的なデータを用いて分析を行なっています。データの妥当性については参考文献にも記載があります。
+
+5.
+この証拠は完全な正当性はありません。なぜなら、このデータには15の選択的私立大学しか含まれておらず、教育機関としては不足しています。
+6.
+このようなことは聞いたことはありません。私の国では母校に対して寄附を行うこと自体が稀なことです。
+7.
+今回の調査から、サッカーの成功と寄附活動の間に直接的な関連性が見つけられなかった点には同意します。しかし、結果や結論で述べているように、知名度というパラメータを用いて分析するともっと有意義な結果が得られたのではないかと考えるため、その点については同意しません。
+
+英語
+
+I have read the abstract named "Winning and giving: Football results and alumni giving at selective private colleges and universities". The answers to the Critical Reading questions are 
+given below.
+
+1. What is the title of the text and what is the text about?
+The title of the text is “Winning and giving: Football results and alumni giving at selective private colleges and universities” (Sarah et al., 2001).
+The text discusses how changes in an institution's football success affect giving behavior.
+
+2. What is the author’s view? How do I know?
+As stated in the Objective, the author is of the view that changes in soccer success affect donation behavior (Sarah et al., 2001).
+
+3. What is the evidence presented by the author to support ideas?
+The author presents "micro data from 15 academically selective private colleges and universities" (Sarah et al., 2001) as evidence.
+
+4. Is the evidence valid? How do I know?
+The evidence is valid. The authors conducted their analysis using statistical data obtained from 15 universities. The validity of the data can be found in the references.
+
+5. Is the evidence relevant? How do I know?
+This evidence is not fully relevant. Because the data includes only 15 selective private colleges and universities, which are lacking in terms of educational institutions.
+
+6. Have I heard/read anything similar or dissimilar? What was it?
+I have never heard of anything like this. In my country, it is rare to make alumni give to one's alma mater.
+
+7. Do I agree or disagree with the views expressed by the author? Why?
+From this study, I agree that the success of soccer did not affect the donation activities. However, as stated in the results and conclusions, I think that a more meaningful result could have been obtained if the parameter of name recognition was used in the analysis.
+
+References:
+Turner, S. E., Meserve, L. A., & Bowen, W. G. (2001). Winning and Giving: Football Results and Alumni Giving at Selective Private Colleges and Universities. Social Science Quarterly, 82(4), 812-826. doi:10.1111/0038-4941.00061
+
