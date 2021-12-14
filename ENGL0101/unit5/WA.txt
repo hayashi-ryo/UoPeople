@@ -46,7 +46,8 @@ The text discusses how changes in an institution's football success affect givin
 As stated in the Objective, the author is of the view that changes in soccer success affect donation behavior (Sarah et al., 2001).
 
 3. What is the evidence presented by the author to support ideas?
-The author presents "micro data from 15 academically selective private colleges and universities" (Sarah et al., 2001) as evidence.
+
+The author presents "micro data from 15 academically selective private colleges and universities"  as evidence.
 
 4. Is the evidence valid? How do I know?
 The evidence is valid. The authors conducted their analysis using statistical data obtained from 15 universities. The validity of the data can be found in the references.
@@ -55,10 +56,11 @@ The evidence is valid. The authors conducted their analysis using statistical da
 This evidence is not fully relevant. Because the data includes only 15 selective private colleges and universities, which are lacking in terms of educational institutions.
 
 6. Have I heard/read anything similar or dissimilar? What was it?
-I have never heard of anything like this. In my country, it is rare to make alumni give to one's alma mater.
+I have never heard of anything like this. In my country, alumni giving at one's alma is rare.
 
 7. Do I agree or disagree with the views expressed by the author? Why?
 From this study, I agree that the success of soccer did not affect the donation activities. However, as stated in the results and conclusions, I think that a more meaningful result could have been obtained if the parameter of name recognition was used in the analysis.
+
 
 References:
 Turner, S. E., Meserve, L. A., & Bowen, W. G. (2001). Winning and Giving: Football Results and Alumni Giving at Selective Private Colleges and Universities. Social Science Quarterly, 82(4), 812-826. doi:10.1111/0038-4941.00061
