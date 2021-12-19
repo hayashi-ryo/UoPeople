@@ -22,9 +22,9 @@
     - [ ] assessment three classmates
   - [x] Written Assignment
     - [x] unit5 peer assessmentz
-  - [ ] Learning Journal
-    - [ ] find three sources for my five-paragrah essay
-    - [ ] to want to use one quote or one paraphrase
+  - [x] Learning Journal
+    - [x] find three sources for my five-paragrah essay
+    - [x] to want to use one quote or one paraphrase
   - [x] Self-Quiz
   - [x] Graded-Quiz
 

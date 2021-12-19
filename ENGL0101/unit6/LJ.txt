@@ -1,0 +1,71 @@
+参考文献
+
+https://proxy.lirn.net/MuseProxyID=mp03/MuseSessionID=002ff24/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+online&ft=on&pr=on&id=EJ1316293
+https://cd202ff26-mp03-y-https-go-gale-com.proxy.lirn.net/ps/i.do?p=SCIC&u=lirn17237&id=GALE%7CA478413998&v=2.1&it=r&sid=sru
+https://proxy.lirn.net/MuseProxyID=mp03/MuseSessionID=002ff29/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+online&ft=on&pr=on&id=EJ1137777
+https://proxy.lirn.net/MuseProxyID=mp03/MuseSessionID=002ff2b/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+online&ft=on&pr=on&id=EJ1201631
+https://cd202ff2e-mp03-y-https-go-gale-com.proxy.lirn.net/ps/i.do?p=HWRC&u=lirn17237&id=GALE%7CA339529077&v=2.1&it=r&sid=sru
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4e/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+paper&ft=on&pr=on+pubyearmin%3a2010&id=EJ1316209
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4a/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+paper&ft=on&pr=on+pubyearmin%3a2010&id=EJ1254859
+
+JSTOR
+https://www.jstor.org/stable/20864892?Search=yes&resultItemClick=true&searchText=%28%28E-book+%29+AND+%28study%29%29+AND+la%3A%28eng+OR+en%29&searchUri=%2Faction%2FdoAdvancedSearch%3Fgroup%3Dnone%26q0%3DE-book%2B%26q1%3Dstudy%26q2%3D%26q3%3D%26q4%3D%26q5%3D%26q6%3D%26sd%3D%26ed%3D%26pt%3D%26isbn%3D%26f0%3Dall%26c1%3DAND%26f1%3Dall%26c2%3DAND%26f2%3Dall%26c3%3DAND%26f3%3Dall%26c4%3DAND%26f4%3Dall%26c5%3DAND%26f5%3Dall%26c6%3DAND%26f6%3Dall%26acc%3Don%26la%3Deng%2BOR%2Ben%26so%3Drel&ab_segments=0%2FSYC-6168%2Ftest&refreqid=fastly-default%3A7dff4593a87443912719f5bbbc6b8d06&seq=1#metadata_info_tab_contents
+https://www.jstor.org/stable/26631128?Search=yes&resultItemClick=true&searchText=%28%28E-book+%29+AND+%28study%29%29+AND+la%3A%28eng+OR+en%29&searchUri=%2Faction%2FdoAdvancedSearch%3Fgroup%3Dnone%26q0%3DE-book%2B%26q1%3Dstudy%26q2%3D%26q3%3D%26q4%3D%26q5%3D%26q6%3D%26sd%3D2010%26pt%3D%26isbn%3D%26f0%3Dall%26c1%3DAND%26f1%3Dall%26c2%3DAND%26f2%3Dall%26c3%3DAND%26f3%3Dall%26c4%3DAND%26f4%3Dall%26c5%3DAND%26f5%3Dall%26c6%3DAND%26f6%3Dall%26acc%3Don%26la%3Deng%2BOR%2Ben%26so%3Drel%26efqs%3DeyJjdHkiOlsiYW05MWNtNWhiQT09IiwiY21WelpXRnlZMmhmY21Wd2IzSjAiXSwiZGlzYyI6W119&ab_segments=0%2FSYC-6168%2Ftest&refreqid=fastly-default%3A55e48a120cdad331fe0f8c0153ada253&seq=1#metadata_info_tab_contents
+https://www.jstor.org/stable/44507279?Search=yes&resultItemClick=true&searchText=%28%28%28%28E-book%29+AND+%28study%29%29+AND+%28online%29%29+AND+%28student%29%29+AND+la%3A%28eng+OR+en%29&searchUri=%2Faction%2FdoAdvancedSearch%3Fgroup%3Dnone%26q0%3DE-book%26q1%3Dstudy%26q2%3Donline%26q3%3Dstudent%26q4%3D%26q5%3D%26q6%3D%26sd%3D2010%26ed%3D%26pt%3D%26isbn%3D%26f0%3Dall%26c1%3DAND%26f1%3Dall%26c2%3DAND%26f2%3Dall%26c3%3DAND%26f3%3Dall%26c4%3DAND%26f4%3Dall%26c5%3DAND%26f5%3Dall%26c6%3DAND%26f6%3Dall%26acc%3Don%26la%3Deng%2BOR%2Ben%26so%3Drel&ab_segments=0%2FSYC-6168%2Ftest&refreqid=fastly-default%3A71edd8ffa0651a8ebc1ece03a822214e&seq=1#metadata_info_tab_contents
+
+
+採用
+https://proxy.lirn.net/MuseProxyID=mp03/MuseSessionID=002ff2b/MuseProtocol=https/MuseHost=files.eric.ed.gov/MusePath/fulltext/EJ1201631.pdf
+https://cd202ff2e-mp03-y-https-go-gale-com.proxy.lirn.net/ps/i.do?p=HWRC&u=lirn17237&id=GALE%7CA339529077&v=2.1&it=r&sid=sru
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4e/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+paper&ft=on&pr=on+pubyearmin%3a2010&id=EJ1316209
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4d/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+paper&ft=on&pr=on+pubyearmin%3a2010&id=EJ1274284
+
+LIONにて「E-book」「study」「online」「paper」といったキーワードを用いて検索を行い、私の論文をサポートしてくれる査読済みソースを探しました。
+その結果を以下にリストします。
+学生が電子書籍をどのように捉えているのかを表現するため、以下の言い換えを使います。
+学生たちは、最初に直面する困難を乗り切ることができれば、電子書籍を好意的に受け取ることができるのだ。
+
+1) Thesis statement
+The reason is that E-books have the advantages of convenient searching, centralized management of all materials, and instant online purchase.
+
+2,3) Three references to support my thesis and quote or paraphrase I wish to use in my essay.
+I did a search on UoPeople Library using keywords such as "e-book," "study," "online," and "paper" to find peer-reviewed sources that would support my paper.
+The results are listed below.
+
+sources 1: Saudi University Students Views, Perceptions, and Future intentions towards E-books (Oyaid & Alshaya. 2019)
+I use the following paraphrase to describe how students view e-books.
+Paraphrase
+Students can receive e-books favorably if they can overcome the initial difficulties they face.
+
+The original text in Afnan & Hessah's 2009 jounal:
+Students expressed their positive views towards using eBook and their intention to use them in the future. They were really satisfied with the interactivity, highlighting, change of font size and hyperlinking to external sources features. They also pointed out the most important feature of eBooks to them and the difficulties they faced shedding light upon some of the most recurring problems with the usage of the designed e-book. These findings are aligned with the research findings of the prior literature (Slater, 2010; Shen, 2011; Walters, 2013) which discussed the problems/issues in exploring the classes and words in the text. The difficulties which may negatively impact (Hernon et al., 2007) the perception of the students with regards to the usage of e-books, needs to be addressed.
+
+sources 2: Why Universities should push for E books? A means of University Reforms? (Harish et al., 2018)
+To illustrate the advantages of e-books, we quote the following passage
+quote:
+it will have the latest content as it gives the freedom to the authors to add content dynamically , Price of E-books will be slightly less as the cost of publishing, transportation etc will be eliminated, E books will help libraries to free up a lot of space and have more choice for the students,
+
+sources 3:Investigating the Effects of Interactive E-Book towards Academic Achievement (Bibiana et al., 2020)
+To express the effect that e-books have on learning, we use the following paraphrase.
+Students who use animated e-book texts in an effective way learn better than those who do not.
+
+The original text in Bibiana et al.'s 2020 jounal:
+While the results showed that all participants using the two types of e-book scored higher in Final Examination than Mid-Semester Test, the findings also showed that participants using the IE attained higher learning outcomes than the participants using the TE. Therefore, it suggests that using e-book with animation in learning is more effective than using text and static images from e- book. 
+firs
+4) Referenses:
+Oyaid, A., & Alshaya, H. (2019). Saudi University Students Views, Perceptions, and Future intentions towards E-books. Malaysian Online Journal of Educational Technology, 7(1), 68-75. doi:10.17220/mojet.2019.01.005
+VENKATASUBRAMANIAN, H., RAVINDRAN, S., & ANIFA, M. (2018). Why Universities should push for E books? A means of University Reforms? Asian Journal of Distance Education, 120-136. Retrieved from https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4e/MuseProtocol=https/MuseHost=files.eric.ed.gov/MusePath/fulltext/EJ1316209.pdf
+Lim, B. C., Liu, L. W., & Hou, C. C. (2020). Investigating the Effects of Interactive E-Book towards Academic Achievement. Asian Journal of University Education, 16(3), 78. doi:10.24191/ajue.v16i3.10272
+
+
+
+https://proxy.lirn.net/MuseProxyID=mp03/MuseSessionID=002ff2b/MuseProtocol=https/MuseHost=files.eric.ed.gov/MusePath/fulltext/EJ1201631.pdf
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4e/MuseProtocol=https/MuseHost=files.eric.ed.gov/MusePath/fulltext/EJ1316209.pdf
+https://files.eric.ed.gov/fulltext/EJ1274284.pdf
+
+
+Turner, S. E., Meserve, L. A., & Bowen, W. G. (2001). Winning and Giving: Football Results and Alumni Giving at Selective Private Colleges and Universities. Social Science Quarterly, 82(4), 812-826. doi:10.1111/0038-4941.00061
+Szewczyk, J. (n.d.). Writing an abstract. University of the People. Retrieved from https://my.uopeople.edu/pluginfile.php/1530280/mod_book/chapter/316596/ENGL0101.U5.Abstract%20Updated.pdf
+
+
+https://proxy.lirn.net/MuseProxyID=mp02/MuseSessionID=001yw4d/MuseProtocol=https/MuseHost=eric.ed.gov/MusePath/?q=(E-book+AND+study)+AND+paper&ft=on&pr=on+pubyearmin%3a2010&id=EJ1274284
