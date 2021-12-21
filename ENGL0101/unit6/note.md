@@ -19,7 +19,7 @@
   - [x] Discussion Forum
     - [x] read one story
     - [x] submit text
-    - [ ] assessment three classmates
+    - [x] assessment three classmates
   - [x] Written Assignment
     - [x] unit5 peer assessmentz
   - [x] Learning Journal
