@@ -21,8 +21,8 @@
     - [x] discuss at least 3-4 sentences
   - [x] Written Assignment
     - [x] write about the best story
-  - [ ] Learning Journal
-    - [ ] complete five-paragragh essay
+  - [x] Learning Journal
+    - [x] complete five-paragragh essay
   - [x] Self-Quiz
 
 - reading assignment
