@@ -4,20 +4,18 @@
 
 - Analyze a story
 - Perform a self-assignment
-- 
 
 ### detail
 
 - task
-  - [ ] Learing Guide
+  - [x] Learing Guide
   - [ ] Reading Assignment
     - [ ] pick one story
     - [ ] [Project Gutenberg ebook](http://www.gutenberg.org/ebooks/2814)
   - [ ] Discussion Forum
     - [ ] read a story
-  - [ ] Written Assignment
-    - [ ] peer assessment
+  - [x] Written Assignment
+    - [x] peer assessment
   - [ ] Learning Journal
     - [ ] submit
   - [ ] Self-Quiz
-    - [ ] 
