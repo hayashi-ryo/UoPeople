@@ -9,11 +9,11 @@
 
 - task
   - [x] Learing Guide
-  - [ ] Reading Assignment
-    - [ ] pick one story
-    - [ ] [Project Gutenberg ebook](http://www.gutenberg.org/ebooks/2814)
-  - [ ] Discussion Forum
-    - [ ] read a story
+  - [x] Reading Assignment
+    - [x] pick one story
+    - [x] [Project Gutenberg ebook](http://www.gutenberg.org/ebooks/2814)
+  - [x] Discussion Forum
+    - [x] read a story
   - [x] Written Assignment
     - [x] peer assessment
   - [ ] Learning Journal
