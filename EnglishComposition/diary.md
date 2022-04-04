@@ -26,4 +26,4 @@ To get the qualification of UoPeople, I make chat diary.
 
 6. Please give a message to your future self.
    1. How was my life in the future? I hope I get the next career and live a good life. To get my life better, I will study anything and glow up.
-   2.How has your life's journey been going? I hope you are still smiling and staying positive. Hey, please don't forget me - your past self - and rememberto always be true to yourself.
+   2. How has your life's journey been going? I hope you are still smiling and staying positive. Hey, please don't forget me - your past self - and rememberto always be true to yourself.
