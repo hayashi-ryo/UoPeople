@@ -19,3 +19,11 @@ To get the qualification of UoPeople, I make chat diary.
 4. Sum up how you feel today in a few word.
    1. I ate Yakiniku, which is so delicious. I can spend a day like this because of my environment.
    2. I don't know why, but I'm feein' pretty positive and confident. I'm still struggling with that issue, but somehow I can tell that I'll find a way soon. I can make it happen.
+
+5. Have you eaten anything delicious today?
+   1. Yes! I made Namuru for the first time, it was very delicious! In the future, I want to increase my food repertory.
+   2. Yes! Spicy salmon with a touch of honey at our potluck party! The mixture of spice and sweetness was just fabulous, perfection. Bravo to my roomie, the chef.
+
+6. Please give a message to your future self.
+   1. How was my life in the future? I hope I get the next career and live a good life. To get my life better, I will study anything and glow up.
+   2.How has your life's journey been going? I hope you are still smiling and staying positive. Hey, please don't forget me - your past self - and rememberto always be true to yourself.
