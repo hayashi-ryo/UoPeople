@@ -27,3 +27,11 @@ To get the qualification of UoPeople, I make chat diary.
 6. Please give a message to your future self.
    1. How was my life in the future? I hope I get the next career and live a good life. To get my life better, I will study anything and glow up.
    2. How has your life's journey been going? I hope you are still smiling and staying positive. Hey, please don't forget me - your past self - and rememberto always be true to yourself.
+
+7. Which songs do you always sing at karaoke?
+   1. Bump of Chicken - they are a very famous musician in Japan, and I have liked them from the first time I heard them.
+   2. Taylor Swift's - she has an amazing voice and it always soothes me. But my singing her songs is a different story. Though I always try, Anyway, I love her!
+
+8. What made you happy today?
+   1. I got the first diet goal. The last goal is very far from now, but I have continued to do so.
+   2. I got a comment from a girl in the UK who's been following my page for a while. I could only say "Thank you," but her comment motivates me to learn English!
