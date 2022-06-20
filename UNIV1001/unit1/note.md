@@ -30,6 +30,23 @@ Second, you will be exposed to diverse ways of thinking about diverse cultural a
 UoPeople provides opportunities for hands-on collaborative learning, including class forums, discussion forums, and peer reviews. We feel that these forums are an essential part of online learning and an important value of UoPeople.
 I was also able to experience this in English Composition, as I am not an English speaker and was taking it to prove my English proficiency. I was also able to experience this in English Composition, as I am not an English speaker and I was taking it to prove my English. I learned that there are classmates who have different ideas and approaches to the same issue than I do and that each individual has his or her way of thinking and approach. Discussing and asking questions about different things in itself helps to deepen my understanding, and I will actively practice this in this class as well.
 
+- response
+
+1.
+Hi Sabrina.
+Your opinion clearly describes collaborative learning and how collaborative learning is used in the UoP. As you stated in your opinion, I too find that having multiple people discussing and grading each other on the same topic is a great way to multitemporal the understanding of myself and all my classmates.
+I also think it is very good that you describe your real-life experiences on the topic of language learning, which is your hobby. If you want to learn a language in an area where there are few speakers of your target language, it is best to find someone who speaks that language.
+
+2.
+Hi Kristina.
+In this age of digitalization, the collaborative learning employed by UoP is very good and was a key factor in my decision to attend this university. Your opinion clearly describes the benefits of collaborative learning and also describes real-life experiences that maximize the benefits of collaborative learning. One of the most exciting points you make is that the communication skills gained through collaborative learning can help students to develop a predisposition for relating to people from diverse backgrounds. I look forward to working with my instructors and classmates, including you, to develop a global background.
+Good works, and I've been made aware.
+
+3.
+Hi Cleiton.
+あなたの意見にはインストラクターと生徒の役割を踏まえながら、共同学習の利点や目標について明確に記載されています。特に、共同学習におけるインストラクターは権威的に振る舞うのではなく、正しい方向に導いてくれる存在であることは今回のunitでは私は意識できていなかった点です。確かに、今までの経験からすると、権威的なリーダーが存在するチームよりもメンバーを導くリーダーが存在するチームの方がより良い成果をだせていた気がします。
+ところで、共同学習に関するあなたの実際のエピソードはあるでしょうか？あれば是非聞いてみたいです。
+
 ### Learning Journal
 
 - Q
