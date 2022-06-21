@@ -121,3 +121,4 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 It appears that binding between different classes is not supported. I believe this is because the + operator has different meanings for numbers and strings.
 For numerical values: add
 For strings: concatenate
+  
