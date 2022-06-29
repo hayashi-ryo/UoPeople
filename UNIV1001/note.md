@@ -219,3 +219,59 @@ Your written assignment should be submitted in a Word document (or compatible pr
 Rosa, S. S., Coutinho, C. P., & Flores, M. A. (2016). Online peer assessment: Method and Digital Technologies. Procedia - Social and Behavioral Sciences, 228, 418–423. <https://doi.org/10.1016/j.sbspro.2016.07.064>
 
 ### Learing Journal
+
+Reflection Topic
+
+Element 1: Did the student present information about main water pollutants in his/her community and the possible causes of water pollution?
+
+Grade (max 10 points):10
+Feedback:It specifies water pollutants and indicates information that they may be caused by local agriculture.
+
+Element 2: Did the student compare the findings from his/her community with other community and discuss the findings?
+
+Grade (max 10 points):0
+Feedback:The results of the study for your area are mentioned, but no comparisons to other areas or their findings are provided.
+
+Element 3: Did the student list at least two skills or interests that could be applied to helping improve water quality in his/her community?
+
+Grade (max 10 points):10
+Feedback:Two points are expressed: the creation of walking paths to reduce pollution caused by cars and the reduction of water pollution by plants.
+
+Element 4: Did the paper meet the length requirements of at least 700 words and include a word-count?
+
+Grade (max 10 points):6
+Feedback:It is 506 words but does not include a word count on the document.。
+
+Element 5: Writing includes proper spelling and grammar, and is clear and understandable.
+
+Grade (max 10 points):0
+Feedback:More than 8 grammatical errors are scattered; one example is the following sentence.
+Original writing:In my community we live along a river system so it is especially important to reduce water pollution here.
+Correct Writing:In my community, we live along with a river system so it is especially important to reduce water pollution here.
+
+Element 6: Does the paper include an introduction and conclusion?
+
+Grade (max 10 points):10
+Feedback:The document contains an introduction and conclusion.
+
+General comment:
+Throughout, I could tell that you expressed yourself with great enthusiasm regarding the area in which you live. I think you have explained especially well the pollution caused by agriculture in the region. I think it would be better written if you could include a comparison of the results with other areas. Good luck.
+
+APA Exercise
+1.What is the title of the webpage?
+Research Reports on Environmental Science from Sirjan University of Technology Provide New Insights
+
+2.Who is the author (or who are the authors)? Note: an author can also be an organization. The Center for Disease Control is an example of an organization that is the author of a webpage.
+Ecology, Environment & Conservation
+
+3.What year was the webpage published? Note: if there is no date, you can write “n.d.” instead.
+2021
+
+4.What is the URL of the webpage?
+<https://cd203yc7j-mp03-y-https-go-gale-com.proxy.lirn.net/ps/i.do?p=AONE&u=lirn17237&id=GALE|A679236838&v=2.1&it=r&sid=sru>
+
+5.Using the information from #1-4, write the APA reference for the webpage you found. The reference goes at the end of your work, after all of your writing is finished.
+Research Reports on Environmental Science from Sirjan University of Technology Provide New Insights  (2021, October 22). Ecology, Environment & Conservation, Retrieved from <https://cd203yc7j-mp03-y-https-go-gale-com.proxy.lirn.net/ps/i.do?p=AONE&u=lirn17237&id=GALE|A679236838&v=2.1&it=r&sid=sru>>
+
+6.Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the webpage you found.
+"In addition, matching the geographical map of water pollution with the land use map by hot spots analysis indicated that more polluted water wells have been located around the agricultural land"(Ecology, Environment & Conservation, 2021)
