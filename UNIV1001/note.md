@@ -37,13 +37,11 @@ Hi Sabrina.
 Your opinion clearly describes collaborative learning and how collaborative learning is used in the UoP. As you stated in your opinion, I too find that having multiple people discussing and grading each other on the same topic is a great way to multitemporal the understanding of myself and all my classmates.
 I also think it is very good that you describe your real-life experiences on the topic of language learning, which is your hobby. If you want to learn a language in an area where there are few speakers of your target language, it is best to find someone who speaks that language.
 
-2.
-Hi Kristina.
+2.Hi Kristina.
 In this age of digitalization, the collaborative learning employed by UoP is very good and was a key factor in my decision to attend this university. Your opinion clearly describes the benefits of collaborative learning and also describes real-life experiences that maximize the benefits of collaborative learning. One of the most exciting points you make is that the communication skills gained through collaborative learning can help students to develop a predisposition for relating to people from diverse backgrounds. I look forward to working with my instructors and classmates, including you, to develop a global background.
 Good works, and I've been made aware.
 
-3.
-Hi Cleiton.
+3.Hi Cleiton.
 あなたの意見にはインストラクターと生徒の役割を踏まえながら、共同学習の利点や目標について明確に記載されています。特に、共同学習におけるインストラクターは権威的に振る舞うのではなく、正しい方向に導いてくれる存在であることは今回のunitでは私は意識できていなかった点です。確かに、今までの経験からすると、権威的なリーダーが存在するチームよりもメンバーを導くリーダーが存在するチームの方がより良い成果をだせていた気がします。
 ところで、共同学習に関するあなたの実際のエピソードはあるでしょうか？あれば是非聞いてみたいです。
 
@@ -137,7 +135,7 @@ This situation is common whenever a new technology enters the fray, and especial
 
 このようなプロセスを踏むことで、最終的な文章をより良いものにすることができます。
 
-2. 論文とディスカッションポストでは執筆を行う大まかなプロセスは同じですが、最終的なゴールが違うものだと考えています。それぞれの立場を以下に記載します。
+2.論文とディスカッションポストでは執筆を行う大まかなプロセスは同じですが、最終的なゴールが違うものだと考えています。それぞれの立場を以下に記載します。
 論文：自分のアイデアの正しさを説明するために、さまざまな観点から説明するもの。質問することは基本的にできないので、全ての内容を文章で表現する必要がある。
 ディスカッション・ポスト：学んだ内容から得たアイデアを説明するもの。ただし、活発な議論を行うために、文字数の制約などが設けられていることから、クラスメートの数だけ回答が異なる可能性がある。
 そのため、最初のディスカッションポストとクラスメートに返答することでは内容が大きく異なります。最初のポストの目的が説明であることに対して、よい返答は活発な議論をおこなうために、話を広げたり明確にすることを目的としています。
@@ -159,7 +157,7 @@ Second, follow the writing process. No one, not even writing experts, is a perfe
 
 By following these processes, you can make your final writing better.
 
-2. I think that the broad process of writing an article and a discussion post is the same, but with different end goals. The positions of each are described below.
+2.I think that the broad process of writing an article and a discussion post is the same, but with different end goals. The positions of each are described below.
 Dissertation: an explanation of the correctness of one's ideas from different perspectives. It is impossible to ask questions, so all content must be expressed in writing.
 Discussion Post: An explanation of ideas derived from what you have learned. However, to encourage lively discussion, there is a limit to the number of words that can be used, etc., so the answers may differ depending on the number of classmates.
 Therefore, the content of the initial discussion post is very different from that of responding to classmates. Whereas the purpose of the initial post is to explain, a good reply is intended to expand and clarify the conversation to conduct a lively discussion.
@@ -275,3 +273,37 @@ Research Reports on Environmental Science from Sirjan University of Technology P
 
 6.Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the webpage you found.
 "In addition, matching the geographical map of water pollution with the land use map by hot spots analysis indicated that more polluted water wells have been located around the agricultural land"(Ecology, Environment & Conservation, 2021)
+
+## unit3
+
+task
+
+### Discussion Assignment unit3
+
+1. Did any of the information in the Catalog - such as the consequences - surprise you? Why or why not?
+2. Given the potential consequences for plagiarizing, why do you think students engage in plagiarism? Be sure to explore at least two possible reasons why students might plagiarize.
+3. What strategies will you use to avoid plagiarism?
+
+1.カタログに記載されている情報、例えばその結果について、あなたは驚きましたか？その理由またはそうでない理由は何ですか。
+After reading the catalog, I was surprised to find that there is a strict description of the penalties for violations and the process to be followed. For example, the following statement.
+First violation: Warning is issued by the course instructor, the student is issued a zero by the Office of Academic Affairs on the assignment, and a permanent note is added to the student’s record.
+Second violation: Student is issued a zero on the assignment or exam in question. The student may also receive a failing grade in the course as determined by the Office of Academic Affairs.
+Third violation: Student is issued a failing grade in the course.
+Fourth violation and up will be treated as severe violations (see below).
+I was surprised because when I attended another university, I had not been particularly concerned about the process is so strict (although it may have been defined). When I think about why UoPeople is so rigorously defining and making students aware of the process, I think it has to do with the fact that it is online-based learning. Because of the nature of online-based learning, cheating and other forms of academic irregularities are much easier to commit than in an offline environment, so I believe that UoPeople is more rigorous in its processes and penalties than offline-based universities.
+
+2.剽窃の潜在的な結果を考えると、なぜ学生は剽窃に手を染めるのだと思いますか？学生が盗作をする理由として、少なくとも2つの可能性があることを確認してください。
+I believe two main factors cause students to plagiarize.
+The first is that the evaluation is based on a specific score. There are many reasons for wanting a better score, such as family environment or personality. Students tend to think that the answers they have made on the Internet or other people's answers may be better and more accurate than their answers.
+Second, there is a lack of time. Students do not always have enough time to work on their assignments. If an answer is available on the Internet at such a time, they may use that answer.
+
+3.3. あなたは、盗作を避けるためにどのような戦略をとりますか？
+I believe two main factors cause students to plagiarize.
+The first is that the evaluation is based on a specific score. There are many reasons for wanting a better score, such as family environment or personality. Students tend to think that the answers they have made on the Internet or other people's answers may be better and more accurate than their answers.
+Second, there is a lack of time. Students do not always have enough time to work on their assignments. If an answer is available on the Internet at such a time, they may use that answer.
+
+References:
+College success. (2015). Minnesota Libraries Publishing. Retrieved  from <http://open.lib.umn.edu/collegesuccess/>
+Code of academic integrity. uopeople catalog. (2022, June 10). Retrieved from <https://catalog.uopeople.edu/graduate-catalog-t1/academic-policies-and-procedures/code-of-academic-integrity>
+
+### Learning Journal unit3
