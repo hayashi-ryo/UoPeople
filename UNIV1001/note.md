@@ -298,9 +298,12 @@ The first is that the evaluation is based on a specific score. There are many re
 Second, there is a lack of time. Students do not always have enough time to work on their assignments. If an answer is available on the Internet at such a time, they may use that answer.
 
 3.3. あなたは、盗作を避けるためにどのような戦略をとりますか？
-I believe two main factors cause students to plagiarize.
-The first is that the evaluation is based on a specific score. There are many reasons for wanting a better score, such as family environment or personality. Students tend to think that the answers they have made on the Internet or other people's answers may be better and more accurate than their answers.
-Second, there is a lack of time. Students do not always have enough time to work on their assignments. If an answer is available on the Internet at such a time, they may use that answer.
+盗作を避ける戦略として、「盗作を避けること」と「盗作に間違われないこと」が重要だと考えています。
+前者は、カタログにも記載があったように外部のソフトウェアなどを李硫黄して、課題に剽窃がないことを確認することが重要です。
+後者は、例えば質問をそのまま本文に記載するオリジナフレーズが少ないために盗作と間違われることがあります。（実際に他のクラスでこの指摘を受けました。）この問題を解決するためには、質問の言い換えを行い、あくまでオリジナルフレーズで記載することを心がける必要があります。
+I believe that the two most important strategies to avoid plagiarism are to avoid plagiarism and avoid being mistaken for plagiarism.
+For the former, it is important to make sure that there is no plagiarism in the assignment by using external software, etc., as mentioned in the catalog.
+The latter can be mistaken for plagiarism due to the lack of original phrases, for example, where the question is stated directly in the body of the text. (I had this pointed out to me in another class.) To solve this problem, you need to rephrase the question and be sure to use only original phrases to describe the question.
 
 References:
 College success. (2015). Minnesota Libraries Publishing. Retrieved  from <http://open.lib.umn.edu/collegesuccess/>
