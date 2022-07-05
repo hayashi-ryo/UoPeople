@@ -140,3 +140,86 @@ def calculate_average(*args):
 
 >>> calculate_average(3,6,1,35,6,7,1)
 8.428571428571429
+
+### unit3
+
+- floor division:商
+- modulus:余り
+
+- DF
+  - Describe the difference between a chained conditional and a nested conditional. Give your own example of each. Do not copy examples from the textbook.
+    - 数義を
+    - chained conditionalは値に対して独立した複数の可能性が考えられる際に利用します。例えば"xは偶数か奇数か”のような条件です。以下に例を記載します。
+    The chained conditional is used when multiple independent possibilities are possible for a value. For example, "x can be even or odd". An example is shown below:
+
+    ``` python
+    if (x % 2 == 0): # divisible by 2
+      print("x is an even number")
+    else:
+      print("x is an odd number")
+    ```
+
+    - nested conditionalの単純な定義としては、条件式の中に条件式を入れ子に記載することを指します。chained conditionalの例をベースに"3で割り切れるか"といつ条件をnested conditionalで与えると以下のようになります。
+    A simple definition of nested conditional is a conditional expression nested within a conditional expression. Based on the chained conditional example, the nested conditional condition "is divisible by 3" can be given as follows.
+
+    ```python
+    if(x%2 == 0): # divisible by 2
+      if(x%3 == 0): # divisible by 3
+        print("x is an even number divisible by 3")
+      else:
+        print("x is an even number")
+    else:
+      print("x is an odd number")
+    ```
+
+    このように特定の条件を満たした値に対して、追加で条件を与えたい場合にnested conditionalが利用できます。
+    ただし、nest conditionalで記載された条件式は1つのステートメントに対して複数の条件が複数行にまたがって記載される可読性の低いものになるため出来るだけ避けるべき事項となります。そこで、論理演算子などを利用して、nest conditionalを避けることができます。私が作成した例を論理演算子を用いて修正すると以下のようになります。
+    In this way, nested conditional can be used to provide an additional condition for a value that satisfies a specific condition.
+    However, nested conditional expressions should be avoided as much as possible, as they are less readable, with multiple conditions spanning multiple lines of a single statement. Therefore, logical operators can be used to avoid nest conditional. My example, modified using logical operators, looks like this:
+
+    ```python
+    if( (x%2==0) and (x%3==0) ):  
+      print("x is an even number divisible by 3")
+    elif(x%2==0):
+      print("x is an even number")
+    else:
+      print("x is an odd number")
+    ```
+
+    上記の例は、一つの条件式と一つのステートメントが1対1の対応となっており非常に可読性が高いものです。
+    The above example is highly readable, with a one-to-one correspondence between one conditional expression and one statement.
+
+The chained conditional is used when multiple independent possibilities are possible for a value. For example, "x can be even or odd". An example is shown below:
+
+``` python
+if (x % 2 == 0): # divisible by 2
+  print("x is an even number")
+else:
+  print("x is an odd number")
+```
+
+A simple definition of nested conditional is a conditional expression nested within a conditional expression. Based on the chained conditional example, the nested conditional condition "is divisible by 3" can be given as follows.
+
+```python
+if(x%2 == 0): # divisible by 2
+  if(x%3 == 0): # divisible by 3
+    print("x is an even number divisible by 3")
+  else:
+    print("x is an even number")
+else:
+  print("x is an odd number")
+```
+
+In this way, nested conditional can be used to provide an additional condition for a value that satisfies a specific condition.
+    However, nested conditional expressions should be avoided as much as possible, as they are less readable, with multiple conditions spanning multiple lines of a single statement. Therefore, logical operators can be used to avoid nest conditional. My example, modified using logical operators, looks like this:
+
+```python
+if( (x%2==0) and (x%3==0) ):  
+  print("x is an even number divisible by 3")
+elif(x%2==0):
+  print("x is an even number")
+else:
+  print("x is an odd number")
+```
+
+The above example is highly readable, with a one-to-one correspondence between one conditional expression and one statement.

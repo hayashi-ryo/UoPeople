@@ -1,0 +1,132 @@
+Programming languages are ______ languages that have been designed to express computations.
+formal
+
+Which one of the following Python expressions computes the total number of seconds in 21 minutes and 21 seconds?
+21 * 60 + 21
+
+Consider the following text from a Python interpreter.
+>>> print(2 + 2)
+4
+What is the text ">>>" called?
+a prompt
+
+Consider the following text from a Python interpreter.
+>>> print(2 + 2)
+4
+What is the text "print" called?
+a function
+
+What is Python’s response to the command: type(123)
+<class 'int'>
+
+Which one of the following Python expressions has the value 64?
+8 ** 2
+
+The correct answer is: An error in a program. → bug, The process of finding and removing any of the three kinds of programming errors. → debugging, Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are these kinds of languages. → formal language, A programming language like Python that is designed to be easy for humans to read and write. → high-level language, A program that reads another program and executes it. → interpreter, A programming language that is designed to be easy for a computer to execute; also called machine language or assembly language. → low-level language, Any one of the languages that people speak that evolved naturally. → natural language, To examine a program and analyze the syntactic structure. → parse, A property of a program that can run on more than one kind of computer. → portability, An instruction that causes the Python interpreter to display a value on the screen. → print statement, The process of formulating a problem, finding a solution, and expressing the solution. → problem solving, A sequence of instructions that specifies to a computer actions and computations to be performed. → program, A program stored in a file (usually one that will be interpreted). → script, The structure of a program. → syntax, One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language. → token
+
+Consider the following text from a Python interpreter.
+>>> print(2 + 2)
+4
+What is the text "print(2 + 2)" called?
+a statement
+
+Which one of the following Python expressions has the value 10?
+8^2
+
+A program is a sequence of instructions that specifies how to perform a computation.
+True
+
+What output will the following Python statements produce?
+>>> print (2*3-1)
+5
+
+What output will the following Python statements produce?
+>>> print ((1+1)**(5-2))
+8
+
+What output will the following Python statements produce?
+>>>percentage = ( 60.0 * 100.0 ) / 55.0
+>>>print (percentage)
+109.0909090909091
+
+What output will the following Python statements produce?
+>>> n = 17
+>>> print (n)
+17
+
+What output will the following Python statement produce?
+>>> print ((1,000,000))
+(1, 0, 0)
+
+An error that is detected while the program is running is referred to as:
+an exception
+
+What is the output of the Python code below when run in script mode?
+y = 3
+x = 5
+x + y
+“x + y”
+no output
+
+What do we call the value provided to a function when the function is called (which is assigned to the corresponding parameter in the function)?
+argument
+
+The correct answer is: A statement that creates a new variable and gives it a value. → assignment statement, Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program. → comment, The ability to combine simple expressions and statements into compound statements and expressions in order to represent complex computations concisely. → composition, To join two operands end-to-end. → concatenate, What the Python interpreter does to an expression to find its value. → evaluate, A combination of variables, operators, and values that represents a single result value. → expression, A Python data type that stores floating-point numbers. → float, A Python data type that holds positive and negative whole numbers. → int, A reserved word that is used by the interpreter to parse programs. → keyword, One of the values on which an operator operates. → operand, A special symbol that represents a simple computation like addition, multiplication, or string concatenation. → operator, A unit of code that the Python interpreter can execute. → statement, A Python data type that holds a string of characters. → str, A number or letter that can be stored in a variable or evaluated in an expression. → value, A name that refers to a value. → variable
+
+When defining a Python function that has no parameters, the parentheses that follow the function’s name are optional.
+False
+
+The * operator also works on strings for which it performs repetition.
+True
+
+In Python, the ‘+’ operator can be used with numbers and with strings. What is a property that number addition has, but string concatenation does not?
+expression value does not depend on the order of numeric addition operands
+
+Programmers generally choose names for their variables that are meaningful and document what the variable is used for.
+True
+
+A program is a sequence of instructions that specifies how to perform a computation.
+True
+
+As programs get bigger and more complicated, they get more difficult to read. This is one reason why programmers should use comments in their code.
+True
+
+In a script, an expression all by itself is a legal statement, but it does not do anything.
+True
+
+In Python, the expression “a ** (b ** c)” is the same as “(a ** b)
+False
+
+Using Python keywords for variable names will result in a ________________
+syntax error
+
+A script usually contains a sequence of statements. If there is more than one statement, the results appear one at a time as the statements execute.
+True
+
+The acronym PEMDAS is a way to remember the order of operations in Python.
+True
+
+When a Python function is called, inside the function, the arguments are assigned to variables called parameters.
+True
+
+Python functions may or may not take arguments and may or may not return a result.
+True
+
+An expression is a combination of values, variables, and operators. If you type an expression on the command line, the interpreter evaluates it and displays the result.
+True
+
+What is the output of the code below assuming that global variable x has value 2 and global y has value 3?
+def f1():
+    return "ab"
+ def f2():
+    return f1() * x
+ def f3():
+    return f2() + f1() * y
+ print(f3())
+ababababab
+
+A property of a program that can run on more than one kind of computer is called portability.
+True
+
+Which of the following is an invalid Python assignment statement?
+'3' = 3
