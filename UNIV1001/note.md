@@ -309,4 +309,24 @@ References:
 College success. (2015). Minnesota Libraries Publishing. Retrieved  from <http://open.lib.umn.edu/collegesuccess/>
 Code of academic integrity. uopeople catalog. (2022, June 10). Retrieved from <https://catalog.uopeople.edu/graduate-catalog-t1/academic-policies-and-procedures/code-of-academic-integrity>
 
+Answer1
+学生が剽窃を行ってしまう理由について、あなたの考え方に非常に共感しました。課題を実施するにあたって、非常に大きなエネルギーと時間をかけて実施することを嫌う学生は多くいます。そういった学生は結果だけを求めて剽窃を実施してしまう傾向があるのだと思います。また、剽窃が悪いことだと理解しにくい環境ということもこのような状況を作りやすくしているかもしれません。先生が生徒を評価する場合、全員の実施したものが剽窃に該当するのか確認するのは難しく、結果だけで評価した方が簡単ですからね。。
+剽窃とならない引用の方針や言い換えの技術をこのクラスで一緒に身につけて行きましょう
+I am very sympathetic to your ideas about why students plagiarize. There are many students who do not like to put a lot of energy and time into doing an assignment. They tend to plagiarize just for the results. This situation may also be facilitated by the fact that it is difficult for students to understand that plagiarism is wrong. When teachers evaluate their students, it is difficult to know if everyone's work constitutes plagiarism, and it is easier to evaluate only the results.
+Let's learn together in this class how to cite and paraphrase without plagiarism!
+
+Answer2
+UoPeopleの剽窃に関するポリシーには私も驚きました。プロセスが厳密に定義され、それぞれの過程でどのような処分が与えられるのか、最悪の場合退学になるのか、といった内容について学生自身に考えさせる行為は非常に良いものだと思います。また、剽窃を行ってしまう理由として「すぐに検索する習慣がある」ことを上げているのは非常に良い考えだと思いました。現在の社会では良い使い方をすれば検索サービスは非常に有意義に利用することができます。しかし、UoPeopleでは結果を得ることを目的としているのではなく、結果を出すプロセスを自分のものとする必要があるので、気をつけなければならない点です。
+I too was surprised by UoPeople's policy on plagiarism. I think it is very good that the process is strictly defined and that students are encouraged to think about what the consequences are for each step of the process, or worse, expulsion. I also thought it was a very good idea to mention that one of the reasons for plagiarism is "the habit of quick searches". In today's society, search services can be very useful if used in a good way. However, it is important to note that with UoPeople, the goal is not to get results but to own the process of getting results.
+
+Answer3
+今回のディスカッションポストの中で唯一、「学生が剽窃を行ってしまう理由」を外部リソースから引用している点が非常に良いと感じました。テーマとして研究されている内容なのかを確認する癖は私もすぐに身につけるべきスキルだと痛感しています。
+その上で、学生が剽窃を行う10の理由に対するあなたの考えが表現されているともっと良いものになっていたと思います。例えば、私のこの10の理由を見た時に一番大きな要因となるのが、「3. They lack confidence.」ではないかと考えました。これば結果を求める余り自分の成果よりも他人の成果を利用したいのでは？というものから来ています。
+I found it very good that the only part of this discussion post that quoted from an outside resource on why students plagiarize was very good. I am keenly aware that the habit of checking to see if the content is being researched as a topic is a skill that I too should learn soon.
+On top of that, I think it would have been better if you had expressed your thoughts on the 10 reasons why students plagiarize. For example, when I looked at my 10 reasons, I thought the biggest factor was "3. They lack confidence. This is because they want results so much that they would rather take advantage of other people's results than their own.
+
 ### Learning Journal unit3
+
+1. We know that using netiquette online is important, but why? What are the consequences of bad netiquette in the classroom? In your response, be sure to reflect on how it feels to be addressed with bad netiquette, and how you think others feel.
+2. How does netiquette relate to peer assessment? Why is it important to use good manners when leaving feedback?
+3. How do you feel about the feedback you received this week? What about the feedback you gave?
