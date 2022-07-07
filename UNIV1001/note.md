@@ -330,3 +330,33 @@ On top of that, I think it would have been better if you had expressed your thou
 1. We know that using netiquette online is important, but why? What are the consequences of bad netiquette in the classroom? In your response, be sure to reflect on how it feels to be addressed with bad netiquette, and how you think others feel.
 2. How does netiquette relate to peer assessment? Why is it important to use good manners when leaving feedback?
 3. How do you feel about the feedback you received this week? What about the feedback you gave?
+
+1. ネット上でネチケットを使うことが重要なのは分かっているが、なぜか？教室で悪いネチケットをすると、どのような結果になるのでしょうか？回答にあたっては、悪いネチケットをされたときにどう感じるか、また、他の人がどう感じるかを必ず考えてください。
+私はコミュニケーションの目的は相手に何かを伝えることだと考えています。対面でのコミュニケーションの場合は、ボディランゲージや声のトーンなど複数の要素を交えながら相手に伝えることができますが、ネット上のコミュニケーションはテキストが全てとなります。また、ネット上のコミュニケーションは基本的に非同期で行われるため、誤解が発生してもその場で対処することが困難です。
+対面でのコミュニケーションではボディランゲージや声のトーンなど複数の要素が異なり、ネット上のコミュニケーションはテキストが全てとなります。また、ネット上のコミュニケーションは基本的に非同期で行われるため、誤解が発生してもその場で対処することが困難な場合があります。このような要素から、ネチケットを守ることは、相手に伝えたいことを伝えるために、不必要な手続きをなくすために必要なものだと考えます。
+例えば、悪いネチケット（皮肉やスラングなど）が含まれたコミュニケーションは、途端に読む気力がなくなります。相手に読んでもらって評価やフィードバックをもらうことが学習効果を高めるためには必要なので、このような問題は出来るだけ避ける必要があります。
+I believe the purpose of communication is to communicate something to the other person. In face-to-face communication, you can convey something to the other person using multiple elements such as body language and tone of voice, but in online communication, the text is everything. Also, since online communication is asynchronous, it is difficult to deal with misunderstandings on the spot if they occur.
+Face-to-face communication involves multiple different factors such as body language and tone of voice, while online communication is all about text. In addition, since online communication is asynchronous, it can be difficult to deal with misunderstandings on the spot when they occur. Because of these factors, we believe that adhering to netiquette is necessary to eliminate unnecessary procedures to communicate what you want to say to others.
+For example, communications that contain bad netiquette (sarcasm, slang, etc.) are instantly unreadable. Since having the other person read and evaluate and give feedback is necessary for learning to be effective, we need to avoid such problems as much as possible.
+
+2. ネチケットと相互評価にはどのような関係がありますか？フィードバックを残すときに、なぜマナーを守ることが重要なのですか？
+相互評価を行うのは人です。そのため、文章に含まれた皮肉やスラングに腹を立てる可能性があります。これは、本来もらえるはずのフィードバックをもらえない、評価が不必要に下がる、誤解を解決することができない、などの問題が発生します。1つ目の質問でも記載した通り、学習効果を高めるためには、このような不必要な要素は出来るだけ避けた方が良いと考えています。
+It is the person who performs the peer evaluation. Therefore, they may take offense to the sarcasm or slang contained in the text. As mentioned in the first question, we believe that such unnecessary elements should be avoided as much as possible to enhance learning.
+
+3. 今週受け取ったフィードバックについて、どのように感じますか？あなたが行ったフィードバックについてはどうですか？
+建設的な内容、例えば「あなたの考えのここに共感して、このような記載ができるのは良い」「この部分はこのような考え方もできると思うがどう思うか？」といったフィードバックを得ることができると、非常に嬉しく思います。これは、自分の知らない側面から同じ物事を見ることによるさらに理解を深めることができるためです。私自身がフィードバックを行う際も、このように建設的なフィードバックを行うことができるよう心がけています。
+Constructive content, e.g., "I sympathize with this part of your idea, and it's good that you can describe it this way," or "What do you think about this part of the idea?" I would be very happy to get feedback such as, "I think this is a good idea. This is because it allows me to deepen my understanding of the same thing by looking at it from an unfamiliar aspect. When I give feedback myself, I try to be as constructive as possible.
+
+1. What is the title of the video?
+An election redesign to restore trust in US democracy
+Who is the speaker (or who uploaded the video)?
+Tiana Epps-Johnson
+What year was the video published?
+2022
+What URL is the video available at?
+<https://www.ted.com/talks/tiana_epps_johnson_an_election_redesign_to_restore_trust_in_us_democracy?language=en>
+Using the information from #1-4, write the APA reference for the video file you found. The reference goes at the end of your work, after all of your writing is finished.
+Tiana Epps-Johnson. (2022, May): An election redesign to restore trust in US democracy | TED Talk. Retrieved from <https://www.ted.com/talks/tiana_epps_johnson_an_election_redesign_to_restore_trust_in_us_democracy?language=en>.
+Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the video you found.
+
+"Because we have a much more fundamental challenge, and it’s quickly growing."(iana, 2022)
