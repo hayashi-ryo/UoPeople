@@ -37,13 +37,11 @@ Hi Sabrina.
 Your opinion clearly describes collaborative learning and how collaborative learning is used in the UoP. As you stated in your opinion, I too find that having multiple people discussing and grading each other on the same topic is a great way to multitemporal the understanding of myself and all my classmates.
 I also think it is very good that you describe your real-life experiences on the topic of language learning, which is your hobby. If you want to learn a language in an area where there are few speakers of your target language, it is best to find someone who speaks that language.
 
-2.
-Hi Kristina.
+2.Hi Kristina.
 In this age of digitalization, the collaborative learning employed by UoP is very good and was a key factor in my decision to attend this university. Your opinion clearly describes the benefits of collaborative learning and also describes real-life experiences that maximize the benefits of collaborative learning. One of the most exciting points you make is that the communication skills gained through collaborative learning can help students to develop a predisposition for relating to people from diverse backgrounds. I look forward to working with my instructors and classmates, including you, to develop a global background.
 Good works, and I've been made aware.
 
-3.
-Hi Cleiton.
+3.Hi Cleiton.
 あなたの意見にはインストラクターと生徒の役割を踏まえながら、共同学習の利点や目標について明確に記載されています。特に、共同学習におけるインストラクターは権威的に振る舞うのではなく、正しい方向に導いてくれる存在であることは今回のunitでは私は意識できていなかった点です。確かに、今までの経験からすると、権威的なリーダーが存在するチームよりもメンバーを導くリーダーが存在するチームの方がより良い成果をだせていた気がします。
 ところで、共同学習に関するあなたの実際のエピソードはあるでしょうか？あれば是非聞いてみたいです。
 
@@ -137,7 +135,7 @@ This situation is common whenever a new technology enters the fray, and especial
 
 このようなプロセスを踏むことで、最終的な文章をより良いものにすることができます。
 
-2. 論文とディスカッションポストでは執筆を行う大まかなプロセスは同じですが、最終的なゴールが違うものだと考えています。それぞれの立場を以下に記載します。
+2.論文とディスカッションポストでは執筆を行う大まかなプロセスは同じですが、最終的なゴールが違うものだと考えています。それぞれの立場を以下に記載します。
 論文：自分のアイデアの正しさを説明するために、さまざまな観点から説明するもの。質問することは基本的にできないので、全ての内容を文章で表現する必要がある。
 ディスカッション・ポスト：学んだ内容から得たアイデアを説明するもの。ただし、活発な議論を行うために、文字数の制約などが設けられていることから、クラスメートの数だけ回答が異なる可能性がある。
 そのため、最初のディスカッションポストとクラスメートに返答することでは内容が大きく異なります。最初のポストの目的が説明であることに対して、よい返答は活発な議論をおこなうために、話を広げたり明確にすることを目的としています。
@@ -159,7 +157,7 @@ Second, follow the writing process. No one, not even writing experts, is a perfe
 
 By following these processes, you can make your final writing better.
 
-2. I think that the broad process of writing an article and a discussion post is the same, but with different end goals. The positions of each are described below.
+2.I think that the broad process of writing an article and a discussion post is the same, but with different end goals. The positions of each are described below.
 Dissertation: an explanation of the correctness of one's ideas from different perspectives. It is impossible to ask questions, so all content must be expressed in writing.
 Discussion Post: An explanation of ideas derived from what you have learned. However, to encourage lively discussion, there is a limit to the number of words that can be used, etc., so the answers may differ depending on the number of classmates.
 Therefore, the content of the initial discussion post is very different from that of responding to classmates. Whereas the purpose of the initial post is to explain, a good reply is intended to expand and clarify the conversation to conduct a lively discussion.
@@ -275,3 +273,90 @@ Research Reports on Environmental Science from Sirjan University of Technology P
 
 6.Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the webpage you found.
 "In addition, matching the geographical map of water pollution with the land use map by hot spots analysis indicated that more polluted water wells have been located around the agricultural land"(Ecology, Environment & Conservation, 2021)
+
+## unit3
+
+task
+
+### Discussion Assignment unit3
+
+1. Did any of the information in the Catalog - such as the consequences - surprise you? Why or why not?
+2. Given the potential consequences for plagiarizing, why do you think students engage in plagiarism? Be sure to explore at least two possible reasons why students might plagiarize.
+3. What strategies will you use to avoid plagiarism?
+
+1.カタログに記載されている情報、例えばその結果について、あなたは驚きましたか？その理由またはそうでない理由は何ですか。
+After reading the catalog, I was surprised to find that there is a strict description of the penalties for violations and the process to be followed. For example, the following statement.
+First violation: Warning is issued by the course instructor, the student is issued a zero by the Office of Academic Affairs on the assignment, and a permanent note is added to the student’s record.
+Second violation: Student is issued a zero on the assignment or exam in question. The student may also receive a failing grade in the course as determined by the Office of Academic Affairs.
+Third violation: Student is issued a failing grade in the course.
+Fourth violation and up will be treated as severe violations (see below).
+I was surprised because when I attended another university, I had not been particularly concerned about the process is so strict (although it may have been defined). When I think about why UoPeople is so rigorously defining and making students aware of the process, I think it has to do with the fact that it is online-based learning. Because of the nature of online-based learning, cheating and other forms of academic irregularities are much easier to commit than in an offline environment, so I believe that UoPeople is more rigorous in its processes and penalties than offline-based universities.
+
+2.剽窃の潜在的な結果を考えると、なぜ学生は剽窃に手を染めるのだと思いますか？学生が盗作をする理由として、少なくとも2つの可能性があることを確認してください。
+I believe two main factors cause students to plagiarize.
+The first is that the evaluation is based on a specific score. There are many reasons for wanting a better score, such as family environment or personality. Students tend to think that the answers they have made on the Internet or other people's answers may be better and more accurate than their answers.
+Second, there is a lack of time. Students do not always have enough time to work on their assignments. If an answer is available on the Internet at such a time, they may use that answer.
+
+3.3. あなたは、盗作を避けるためにどのような戦略をとりますか？
+盗作を避ける戦略として、「盗作を避けること」と「盗作に間違われないこと」が重要だと考えています。
+前者は、カタログにも記載があったように外部のソフトウェアなどを李硫黄して、課題に剽窃がないことを確認することが重要です。
+後者は、例えば質問をそのまま本文に記載するオリジナフレーズが少ないために盗作と間違われることがあります。（実際に他のクラスでこの指摘を受けました。）この問題を解決するためには、質問の言い換えを行い、あくまでオリジナルフレーズで記載することを心がける必要があります。
+I believe that the two most important strategies to avoid plagiarism are to avoid plagiarism and avoid being mistaken for plagiarism.
+For the former, it is important to make sure that there is no plagiarism in the assignment by using external software, etc., as mentioned in the catalog.
+The latter can be mistaken for plagiarism due to the lack of original phrases, for example, where the question is stated directly in the body of the text. (I had this pointed out to me in another class.) To solve this problem, you need to rephrase the question and be sure to use only original phrases to describe the question.
+
+References:
+College success. (2015). Minnesota Libraries Publishing. Retrieved  from <http://open.lib.umn.edu/collegesuccess/>
+Code of academic integrity. uopeople catalog. (2022, June 10). Retrieved from <https://catalog.uopeople.edu/graduate-catalog-t1/academic-policies-and-procedures/code-of-academic-integrity>
+
+Answer1
+学生が剽窃を行ってしまう理由について、あなたの考え方に非常に共感しました。課題を実施するにあたって、非常に大きなエネルギーと時間をかけて実施することを嫌う学生は多くいます。そういった学生は結果だけを求めて剽窃を実施してしまう傾向があるのだと思います。また、剽窃が悪いことだと理解しにくい環境ということもこのような状況を作りやすくしているかもしれません。先生が生徒を評価する場合、全員の実施したものが剽窃に該当するのか確認するのは難しく、結果だけで評価した方が簡単ですからね。。
+剽窃とならない引用の方針や言い換えの技術をこのクラスで一緒に身につけて行きましょう
+I am very sympathetic to your ideas about why students plagiarize. There are many students who do not like to put a lot of energy and time into doing an assignment. They tend to plagiarize just for the results. This situation may also be facilitated by the fact that it is difficult for students to understand that plagiarism is wrong. When teachers evaluate their students, it is difficult to know if everyone's work constitutes plagiarism, and it is easier to evaluate only the results.
+Let's learn together in this class how to cite and paraphrase without plagiarism!
+
+Answer2
+UoPeopleの剽窃に関するポリシーには私も驚きました。プロセスが厳密に定義され、それぞれの過程でどのような処分が与えられるのか、最悪の場合退学になるのか、といった内容について学生自身に考えさせる行為は非常に良いものだと思います。また、剽窃を行ってしまう理由として「すぐに検索する習慣がある」ことを上げているのは非常に良い考えだと思いました。現在の社会では良い使い方をすれば検索サービスは非常に有意義に利用することができます。しかし、UoPeopleでは結果を得ることを目的としているのではなく、結果を出すプロセスを自分のものとする必要があるので、気をつけなければならない点です。
+I too was surprised by UoPeople's policy on plagiarism. I think it is very good that the process is strictly defined and that students are encouraged to think about what the consequences are for each step of the process, or worse, expulsion. I also thought it was a very good idea to mention that one of the reasons for plagiarism is "the habit of quick searches". In today's society, search services can be very useful if used in a good way. However, it is important to note that with UoPeople, the goal is not to get results but to own the process of getting results.
+
+Answer3
+今回のディスカッションポストの中で唯一、「学生が剽窃を行ってしまう理由」を外部リソースから引用している点が非常に良いと感じました。テーマとして研究されている内容なのかを確認する癖は私もすぐに身につけるべきスキルだと痛感しています。
+その上で、学生が剽窃を行う10の理由に対するあなたの考えが表現されているともっと良いものになっていたと思います。例えば、私のこの10の理由を見た時に一番大きな要因となるのが、「3. They lack confidence.」ではないかと考えました。これば結果を求める余り自分の成果よりも他人の成果を利用したいのでは？というものから来ています。
+I found it very good that the only part of this discussion post that quoted from an outside resource on why students plagiarize was very good. I am keenly aware that the habit of checking to see if the content is being researched as a topic is a skill that I too should learn soon.
+On top of that, I think it would have been better if you had expressed your thoughts on the 10 reasons why students plagiarize. For example, when I looked at my 10 reasons, I thought the biggest factor was "3. They lack confidence. This is because they want results so much that they would rather take advantage of other people's results than their own.
+
+### Learning Journal unit3
+
+1. We know that using netiquette online is important, but why? What are the consequences of bad netiquette in the classroom? In your response, be sure to reflect on how it feels to be addressed with bad netiquette, and how you think others feel.
+2. How does netiquette relate to peer assessment? Why is it important to use good manners when leaving feedback?
+3. How do you feel about the feedback you received this week? What about the feedback you gave?
+
+1. ネット上でネチケットを使うことが重要なのは分かっているが、なぜか？教室で悪いネチケットをすると、どのような結果になるのでしょうか？回答にあたっては、悪いネチケットをされたときにどう感じるか、また、他の人がどう感じるかを必ず考えてください。
+私はコミュニケーションの目的は相手に何かを伝えることだと考えています。対面でのコミュニケーションの場合は、ボディランゲージや声のトーンなど複数の要素を交えながら相手に伝えることができますが、ネット上のコミュニケーションはテキストが全てとなります。また、ネット上のコミュニケーションは基本的に非同期で行われるため、誤解が発生してもその場で対処することが困難です。
+対面でのコミュニケーションではボディランゲージや声のトーンなど複数の要素が異なり、ネット上のコミュニケーションはテキストが全てとなります。また、ネット上のコミュニケーションは基本的に非同期で行われるため、誤解が発生してもその場で対処することが困難な場合があります。このような要素から、ネチケットを守ることは、相手に伝えたいことを伝えるために、不必要な手続きをなくすために必要なものだと考えます。
+例えば、悪いネチケット（皮肉やスラングなど）が含まれたコミュニケーションは、途端に読む気力がなくなります。相手に読んでもらって評価やフィードバックをもらうことが学習効果を高めるためには必要なので、このような問題は出来るだけ避ける必要があります。
+I believe the purpose of communication is to communicate something to the other person. In face-to-face communication, you can convey something to the other person using multiple elements such as body language and tone of voice, but in online communication, the text is everything. Also, since online communication is asynchronous, it is difficult to deal with misunderstandings on the spot if they occur.
+Face-to-face communication involves multiple different factors such as body language and tone of voice, while online communication is all about text. In addition, since online communication is asynchronous, it can be difficult to deal with misunderstandings on the spot when they occur. Because of these factors, we believe that adhering to netiquette is necessary to eliminate unnecessary procedures to communicate what you want to say to others.
+For example, communications that contain bad netiquette (sarcasm, slang, etc.) are instantly unreadable. Since having the other person read and evaluate and give feedback is necessary for learning to be effective, we need to avoid such problems as much as possible.
+
+2. ネチケットと相互評価にはどのような関係がありますか？フィードバックを残すときに、なぜマナーを守ることが重要なのですか？
+相互評価を行うのは人です。そのため、文章に含まれた皮肉やスラングに腹を立てる可能性があります。これは、本来もらえるはずのフィードバックをもらえない、評価が不必要に下がる、誤解を解決することができない、などの問題が発生します。1つ目の質問でも記載した通り、学習効果を高めるためには、このような不必要な要素は出来るだけ避けた方が良いと考えています。
+It is the person who performs the peer evaluation. Therefore, they may take offense to the sarcasm or slang contained in the text. As mentioned in the first question, we believe that such unnecessary elements should be avoided as much as possible to enhance learning.
+
+3. 今週受け取ったフィードバックについて、どのように感じますか？あなたが行ったフィードバックについてはどうですか？
+建設的な内容、例えば「あなたの考えのここに共感して、このような記載ができるのは良い」「この部分はこのような考え方もできると思うがどう思うか？」といったフィードバックを得ることができると、非常に嬉しく思います。これは、自分の知らない側面から同じ物事を見ることによるさらに理解を深めることができるためです。私自身がフィードバックを行う際も、このように建設的なフィードバックを行うことができるよう心がけています。
+Constructive content, e.g., "I sympathize with this part of your idea, and it's good that you can describe it this way," or "What do you think about this part of the idea?" I would be very happy to get feedback such as, "I think this is a good idea. This is because it allows me to deepen my understanding of the same thing by looking at it from an unfamiliar aspect. When I give feedback myself, I try to be as constructive as possible.
+
+1. What is the title of the video?
+An election redesign to restore trust in US democracy
+Who is the speaker (or who uploaded the video)?
+Tiana Epps-Johnson
+What year was the video published?
+2022
+What URL is the video available at?
+<https://www.ted.com/talks/tiana_epps_johnson_an_election_redesign_to_restore_trust_in_us_democracy?language=en>
+Using the information from #1-4, write the APA reference for the video file you found. The reference goes at the end of your work, after all of your writing is finished.
+Tiana Epps-Johnson. (2022, May): An election redesign to restore trust in US democracy | TED Talk. Retrieved from <https://www.ted.com/talks/tiana_epps_johnson_an_election_redesign_to_restore_trust_in_us_democracy?language=en>.
+Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the video you found.
+
+"Because we have a much more fundamental challenge, and it’s quickly growing."(iana, 2022)
