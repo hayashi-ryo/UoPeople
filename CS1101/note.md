@@ -223,3 +223,36 @@ else:
 ```
 
 The above example is highly readable, with a one-to-one correspondence between one conditional expression and one statement.
+
+### Learning Journal unit3
+
+今回作成したプログラムを以下に記載します。
+
+プログラムを3パターンで実行した結果を記載します。
+
+1. 正の数
+please input number:3
+3
+2
+1
+Blastoff!
+2. 負の数
+please input number:-4
+-4
+-3
+-2
+-1
+Blastoff!
+3. 0
+please input number:0
+Blastoff!
+
+今回のプログラムでは入力として0が与えられた場合は、countdown関数を利用するよう定義を行いました。
+
+2. 1で作成したプログラムを実行する際に、文字列を入力するとエラーが発生します。
+please input number:test
+Traceback (most recent call last):
+  File "/work/unit3/LeaningJournal1.py", line 17, in <module>
+    n = int(input("please input number:"))
+ValueError: invalid literal for int() with base 10: 'test'
+これは入力された"test"という文字列を数値に変換することができないために発生しています。このエラーに対処するために、プログラムに以下の修正を加えます。
