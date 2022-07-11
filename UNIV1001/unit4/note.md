@@ -12,7 +12,7 @@ Topics in this unit
 
 - [x] Read the Learning Guide and the Reading Assignment
 - [ ] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
-  - [ ] post
+  - [x] post
   - [ ] three comment
 - [ ] Complete and submit the Written Assignment
 - [ ] Complete an entry in the Learning Journal
@@ -63,10 +63,20 @@ Topics in this unit
       - 課題に対する解決策が生み出す影響について、長期短期自分周りなどあらゆる視点から分析する
     - 他の観点を探る
       - 一度決めた解決策について、別の立場から考えた際に穴がないか、もっと良い方法がないかを考え尽くす
+- Root Cause Analysis
+  - そもそもなぜ問題が発生したのか？を探るために利用される手法
+    - 物理的なもの、人為的なもの、組織的なものがある
+  - プロセス
+    - 問題を定義する
+    - データを集める
+    - 原因を特定する
+    - 根本原因を特定する
+    - 根本原因を解決するためにどのような解決策をとることができるのか決定する
 
 - url
   - [College Success](https://open.lib.umn.edu/collegesuccess/part/chapter-3-thinking-about-thought/)
   - [48 critical thinking questions for any content area.](https://www.teachthought.com/critical-thinking/critical-thinking-questions/)
+  - [Root Cause Analysis](https://www.mindtools.com/pages/article/newTMC_80.htm?utm_source=youtube&utm_medium=video&utm_campaign=rootcauseanalysis&utm_content=description)
 
 ### Discussion Assignment
 
@@ -102,3 +112,60 @@ While some may hold universities responsible for students not acquiring this ski
 
 References:
 College success. (2015). Minnesota Libraries Publishing. <http://open.lib.umn.edu/collegesuccess/>
+
+### Written Assginment
+
+For this week’s Written Assignment, you have a chance to practice your critical thinking skills. Read the Between a Rock and a Hard Place Case Study and write an analysis. The goal is to demonstrate critical thinking in your analysis. In your analysis, be sure to include:
+
+- Question:
+   1. A summary of the issue. Briefly, what are the key facts of the case study?
+   2. Use of at least one critical thinking strategy or tool to analyze the situation and highlight key facts. Be sure to specifically identify the tool you select and describe its use.
+   3. A recommendation to resolve the situation, along with reasons why you recommend this solution.
+- Japanese
+   1. 課題の概要 簡潔に、事例の重要な事実は何か。
+   2. 状況を分析し、重要な事実を強調するために、少なくとも1つの批判的思考戦略またはツールを使用すること。選択したツールを具体的に特定し、その使用方法を必ず記述してください。
+   3. 状況を解決するための推奨事項と、その推奨する理由。
+<https://my.uopeople.edu/pluginfile.php/1591971/mod_workshop/instructauthors/UNIV1001BtwnRockNHardPlace.pdf>
+
+- memo
+  - 主人公は25歳の調達担当者
+  - 仕事に現状満足
+  - 会社の製品はメイドインアメリカを全面に押し出して売っている
+    - しかし、部品は他所から調達している
+  - 犬用ベッドの裏地の新しい調達先を探している
+    - もともとの調達先が潰れた
+  - 2つの候補がある
+    - アメリカ中西部のメーカー
+      - 環境汚染の噂があって、懸念あり
+    - 海外のメーカー
+      - 触れ込みは良さそうだが、作り方（労働者の扱い）に懸念あり
+  - どちらも理想的でなかったため他の候補を探そうとしたが、上司から遅れると解雇の可能性がある旨通達があった。
+
+- Answer
+  - 1. 若手の調達担当者が担当している調達がうまくいかず、製品の生産が遅れることによって解雇されるかもしれないという問題に直面している。ここで、調達がうまくいっていないことに関するキーファクトは以下の通り
+    - 元々の調達先が潰れ、新規の調達先を見つける必要がある
+    - 2つの候補を見つけたが、担当者が適切でないと判断し他の調達先を探そうとしている
+  - 2. 今回の問題の本質は「調達がうまくいっていないこと」です。この問題をRoot Cause Analysis Processという手法で分析します。この手法は問題の原因を特定するために、特定の手順とツールを利用して主要な原因を突き止めることを目的としています。(Mind Tools Content Team, )
+  - First step: Define the Problem
+    - 今回の問題は、調達がうまくいっていないことです。より具体的に定義すると、調達先としてふさわしいサプライヤーが見つけられていないことです。
+  - Second step: Collect data
+    - 本文から情報を収集します。
+      - 2つの調達先を見つけることができた
+        - 一つ目のサプライヤー(All-Fabric Inc.)
+          - アメリカ中西部に存在(事実)
+          - 犬が噛んだ敗れる懸念(仮定)
+          - 環境汚染の報告がある(事実)
+        - 2つめ(Fab-Right Inc.)
+          - アメリカ国外に存在(事実)
+          - 労働条件がひどく、従業員を酷使している(事実)
+          - 製造工程が環境に影響を及ぼしている懸念がある(仮定)
+          - 品質は問題ない(事実)
+  - Third step: Identify Possible Causal Factors
+    - 今回見つけた2つのサプライヤーについて、調達担当者は理想的でないためにために他のサプライやを探す決心をしています。この理想的とはsecond stepにて提示した情報をもとにデメリットのないサプライヤを探すことを目的としているため発生しています。
+  - Forth step: Identify the Root Cause(s)
+    - 調達担当者がThird stepのような判断をする原因は2つあります。
+      - 調達に際して、妥協して良い点があるか
+      - 仮定をもとに判断を行ってしまっている
+  - Fifth step: Recommend and Implement Solutions
+    - Forth stepで定義した原因をもとに対策を探ります。まず調達担当者が実施すべき事項は、仮定で判断している事項の事実確認をおこなうことです。もし2つ目のサプライヤが環境汚染をしている事実がないと判断できれば、その時点で調達先を決定することができるかもしれません。
+    - また、上司に対して妥協点を確認することも必要です。今回の調達先のサプライヤに求める必須条件は何か、また妥協するとしたらどの点かを明確に確認すべきです。調達担当者は情報をもとに方法は提示できますが、決断をする立場に現時点でありません。決断をするために必要が情報を整理して上司に渡す必要があるのです。
