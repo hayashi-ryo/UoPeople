@@ -130,3 +130,33 @@ True
 
 Which of the following is an invalid Python assignment statement?
 '3' = 3
+
+Chained conditionals are used when there are three or more possibilities.
+True
+
+A development approach that that is intended to avoid a lot of debugging by only adding and testing small amounts of code at a time is called.
+incremental development
+
+Functions can only return Boolean expressions.
+False
+
+The modulus operator is the same as the divide operator.
+False
+
+Encapsulation is the process of wrapping a piece of code in a function
+True
+
+A function that returns an integer value grater than 0 is called a boolean function.
+False
+
+With built in functions, it is generally acceptable to take a "Leap of Faith".
+True
+
+Boolean expressions control _________________
+all of the above
+
+The int function can convert floating-point values to integers, and it performs rounding up/down as needed.
+False
+
+"Dead code" is code that performs calculations but never displays the results.
+False
