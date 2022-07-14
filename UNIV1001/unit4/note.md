@@ -15,7 +15,7 @@ Topics in this unit
   - [x] post
   - [x] three comment
 - [x] Complete and submit the Written Assignment
-- [ ] Complete an entry in the Learning Journal
+- [x] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
 
 ### Reading Assignment
@@ -179,3 +179,54 @@ For this week’s Written Assignment, you have a chance to practice your critica
     - また、上司に対して妥協点を確認することも必要です。今回の調達先のサプライヤに求める必須条件は何か、また妥協するとしたらどの点かを明確に確認すべきです。調達担当者は情報をもとに方法は提示できますが、決断をする立場に現時点でありません。決断をするために必要が情報を整理して上司に渡す必要があるのです。
 
 Team, the M. T. C. (n.d.). Root Cause Analysis: Tracing a Problem to Its Origins. Problem Solving From MindTools.com. Retrieved from <https://www.mindtools.com/pages/article/newTMC_80.htm>
+
+### Learning Journal
+
+Reflection Topic:Critical thinking and peer assessment
+
+1. How does critical thinking relate to peer assessment? What strategies from this week can you apply when you assess Written Assignments?
+2. At this point, you have completed a practice assessment and an actual assessment of a Written Assignment. You have also rated posts each week on the Discussion Board. Has any part of the process surprised you? Do you have any concerns about assessment?
+
+1. クリティカルシンキングと相互評価にはどのような関係がありますか。今週から、Written Assignments を評価する際にどのような戦略を適用できますか。
+2. この時点で、あなたは練習用評価と実際の課題文の評価を完了しました。また、毎週ディスカッションボードの投稿を評価しました。プロセスのどの部分にも驚きましたか? 評価に関して、何か懸念がありますか?
+
+相互評価のプロセスはクリティカルシンキングのプロセスと非常によく似たプロセスだと感じています。私の相互評価のプロセスを以下に記載します。
+
+1. 剽窃のチェック
+2. 項目ごとの評価基準との突き合わせ
+3. 全体的なコメント
+
+このうち、二つ目のプロセスは事実（相互評価対象の文章）から情報を取得し、どのような問題や良い点があるのかを細かい点まで探し出すプロセスです。このプロセスは非常にクリティカルシンキングに似た考え方だと思っています。また、この評価を行う際に気を付けるべき点として、目立つ悪い点だけピックアップしてはいけないということもあると考えています。剽窃で作られた文章でなければ、評価に達して胃タンクともクラスメイトの考えが記載されているはずです。その点をしっかりと評価コメントに残すことは重要なプロセスだとかんがえています。
+このようにクリティカルシンキングのプロセスはピアアセスメントの評価のプロセスに非常によく似た考え方と捉えることができるため、フレームワークを適用することでより的確に課題点や評価点を洗い出すための戦略とすることが可能です。
+
+評価の仕方という点については、現時点では私自身あまり驚きは感じていないです。決められた基準に基づいて評価を行い、自分自身が読みとった評価できる点や課題点を伝えるというプロセスは、今自分が社会人として生活する上でごく自然に利用しているスキルだからです。
+しかし、評価のされ方について不安を覚えています。インストラクターに修正いただきましたが、unit2のWritten Assignmentについて、私としては記載している内容がコメントで記載されていないと指摘を受けて今いた。このような場合、実名でコミュニケーションをとりながら評価をするプロセスを踏めるのであれば、この部分で説明しているが、確かにアイデアとしてはもっと詳細に記載するべきだったかもしれない、と言った会話ができるかもしれません。しかし、この課題はそのようなプロセスを踏むことはできないので、最初から完璧なものを説明するためにスキルを身につける必要があると痛感しています。
+
+1. I find the process of peer evaluation to be very similar to the process of critical thinking. My mutual evaluation process is described below.
+
+First step: check for plagiarism
+Second step: checking each item against the evaluation criteria
+Third step: overall comments
+
+The second step is the process of taking information from the facts (the text being peer evaluated) and finding out in detail what problems or good points there are. I believe this process is very similar to critical thinking. We also believe that one thing to keep in mind when conducting this evaluation is that we should not pick out only the bad points that stand out. If the text is not made by plagiarism, it should contain the thoughts of the classmates, even if it is a stomach tank that has reached the evaluation. We think it is an important process to make sure that this point is left in the evaluation comments.
+The critical thinking process can be seen as very similar to the evaluation process of peer assessment, so the framework can be applied as a strategy to more accurately identify issues and points to be evaluated.
+
+2. In terms of the evaluation process, I am not too surprised at this point. This is because the process of conducting evaluations based on set criteria and communicating what I have read and what I can appreciate and what issues I have identified is a skill that I am using quite naturally in my life as a working adult.
+However, I am concerned about how the evaluation is done. The instructor corrected me, but I was just pointed out that the written assignment in unit2 is not described in the comments, which is what I am describing. In such a case, if we could follow the process of communicating and evaluating with real names, we might be able to have a conversation saying what I have explained in this section, but certainly as an idea, I should have described it in more detail. However, this assignment does not allow us to follow such a process, and I am acutely aware that we need to develop the skills to explain things perfectly from the beginning.
+
+Word-Count: 368
+
+APA Exercise
+
+1. What is the title of the video?
+The actual cost of preventing climate breakdown
+2. Who is the speaker (or who uploaded the video)?
+Yuval Noah Harari
+3. What year was the video published?
+2022
+4. What URL is the video available at?
+<https://www.ted.com/talks/yuval_noah_harari_the_actual_cost_of_preventing_climate_breakdown>
+5. Using the information from #1-4, write the APA reference for the video file you found. The reference goes at the end of your work, after all of your writing is finished.
+Yuval Noah Harari. (2022): The actual cost of preventing climate breakdown | TED Talk. Retrieved from <https://www.ted.com/talks/yuval_noah_harari_the_actual_cost_of_preventing_climate_breakdown>
+6. Now, let’s write the in-text citation, to use at the end of a sentence you are writing. In-text citations are always (Author, Year). Using the information from #5, write the APA in-text citation for the video you found.
+Even the more pessimistic models generally estimate it at below five percent. And most models say it requires investing only an additional two percent of global GDP in the right places. (Harari, 2022)
