@@ -1,0 +1,3 @@
+hypotenuse(3, 4): 5.0
+hypotenuse(5, 12): 13.0
+hypotenuse(10, 10): 14.142135623730951
