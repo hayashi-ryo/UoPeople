@@ -10,12 +10,12 @@
 ### Tasks
 
 - [x] Reading assignment
-- [ ] Discussion Forum
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Discussion Forum
 
@@ -176,3 +176,140 @@ If the argument b is 1
   Return False if a=b=1 otherwise
 
 Here is a script (power.py) and its result (power_out.txt) implementing the above functionality. It can be confirmed that the expected results are obtained.
+
+### Learning Journal
+
+Part1
+
+1. 関数を定義する
+今回作成する関数は2つの入力から1つの出力を得るものです、その大枠を定義します。
+
+```python
+def hypotenuse(x,y):
+  return 0
+```
+
+この関数を実行すると0を取得できました。結果は正しいものではないですが、関数が正常に動作することは確認できています。
+2. 演算部分を定義する
+今回の関数で求めたい斜辺の長さは二つの辺の二乗の和の平方根で定義されます。まずは、引数の二乗を計算する部分を追加します。
+
+```python
+def hypotenuse(x, y):
+    x = x * x
+    y = y * y
+    print("x*x:", x)
+    print("y*y:", y)
+    return 0
+
+
+hypotenuse(3, 4)
+hypotenuse(5, 12)
+```
+
+上記を実行した結果は以下のようになり動作に問題がないことがわかります。
+x*x: 9
+y*y: 16
+x*x: 25
+y*y: 144
+次に二つの和の平方根を求める演算を追加します。
+
+```python
+import math
+
+
+def hypotenuse(x, y):
+    x = x * x
+    y = y * y
+    z = math.sqrt(x+y)
+    print("z:", z)
+    return 0
+
+
+hypotenuse(3, 4)
+hypotenuse(5, 12)
+```
+
+上記を実行すると以下の結果が得られます。
+z: 5.0
+z: 13.0
+斜辺の値として求めたい演算ができていることが確認できました。
+3. 返り値を定義する
+最後に返り値を定義して、余計な文言を削除します。
+
+```python
+import math
+
+
+def hypotenuse(x, y):
+    x = x * x
+    y = y * y
+    z = math.sqrt(x+y)
+    return 0
+
+
+print("hypotenuse(3, 4):",hypotenuse(3, 4))
+print("hypotenuse(5, 12):",hypotenuse(5, 12))
+print("hypotenuse(10, 10):",hypotenuse(10, 10))
+```
+
+この結果をhypotenuse_out.txtとして提出します。3つのパターンを試して問題ないことが確認できました。
+
+Part2
+為替レートを考慮した投資収支を算出する関数を作成します。仕様としては以下のイメージです
+インプット
+購入時為替レート
+現在為替レート
+購入評価額（$）
+現在評価額（$）
+アウトプット
+評価損益（円）
+まずは関数の雛形を作成します。
+def calBalance(exBef, exNow, valBef, valNow):
+    return 0
+この関数を実行すると、0を取得できました。関数の定義が問題ないことが確認できたので処理を設計します。まずは、円換算した評価額を購入時と現在で求める処理を追加します。
+def calBalance(exBef, exNow, valBefDoL, valNowDoL):
+    valBefYen = exBef *valBefDoL
+valNowYen = exNow* valNowDoL
+    print("valBefYen:", valBefYen)
+    print("valNowYen:", valNowYen)
+    return 0
+
+calBalance(100, 120, 300, 400)
+print("#####")
+calBalance(120, 140, 300, 250)
+実行した結果以下の結果が得られました。
+valBefYen: 30000
+valNowYen: 48000
+
+#####
+
+valBefYen: 36000
+valNowYen: 35000
+この結果は想定した通りのものなのでここまで問題ないことが確認できました。次に円換算の評価損益を計算する処理を追加します。
+
+def calBalance(exBef, exNow, valBefDoL, valNowDoL):
+    valBefYen = exBef *valBefDoL
+valNowYen = exNow* valNowDoL
+    PaL = valNowYen - valBefYen
+    print("PaL:", PaL)
+    return 0
+
+calBalance(100, 120, 300, 400)
+print("#####")
+calBalance(120, 140, 300, 250)
+
+この出力は以下の通りです。
+PaL: 18000
+
+#####
+
+PaL: -1000
+この結果も想定通りとなっているため問題ありません。
+最後に返り値を定義して、余計な文言を削除します。その結果calBalance_out.txtを提出します。3つのパターンを試しそれぞれ問題ないことが確認できました。
+
+Part3
+私はディカッションについて、できれば多くのフィードバックをもらえればと考えているため、できるだけ早く提出することを心がけています。その上で、クラスメイトからもらったフィードバックを以下のように役立つものが多いと感じています
+・ここの記載がわかりやすくよいと思う
+・このような説明の仕方は私も参考にする
+また、私自身が与えるフィードバックについてもできるだけ実践的な内容となるよう心がけています。たとえば、よくわからないエラーが出たと言っているクラスメイトにはその原因を伝え、このような対処が考えられると伝えたり、定義を様々な文献をもとに説明できている場合は私にはできなかったことで素晴らしいと思う、などのコメントを残すことです。
+評価については正直難しいと考えています。このクラスの評価はまず要件を満たした提出物があり、その上で建設的な議論ができていれば10点となるイメージで採点しているため、ほとんどのクラスメイトに9点か10点をつけているのが実情です。
