@@ -1,0 +1,151 @@
+Part1
+The following process is used for incremental development.
+
+1. Define the function
+The function I will create obtains one output from two inputs, and I will define the general framework of the function.
+
+def hypotenuse(x,y):
+  return 0
+
+When I run this function I get 0. The result is not correct, but it confirms that the function works correctly.
+
+2. Defining the arithmetic part
+The length of the hypotenuse I want to find in this function is defined as the square root of the sum of the squares of the two sides. First, I add the part that calculates the square of the argument.
+
+def hypotenuse(x, y):
+  x = x * x
+  y = y * y
+  print("x*x:", x)
+  print("y*y:", y)
+  return 0
+
+hypotenuse(3, 4)
+print("#####")
+hypotenuse(5, 12)
+
+The results of executing this program are as follows, indicating that there is no problem in its operation.
+
+x*x: 9
+y*y: 16
+#####
+x*x: 25
+y*y: 144
+
+Then add an operation to find the square root of the two sums.
+
+import math
+
+def hypotenuse(x, y):
+  x = x * x
+  y = y * y
+  z = math.sqrt(x+y)
+  print("z:", z)
+  return 0
+
+hypotenuse(3, 4)
+print("#####")
+hypotenuse(5, 12)
+
+Running this program yields the following results
+z: 5.0
+#####
+z: 13.0
+It has been verified that the operation I want to find as the value of the shaded area has been performed.
+
+3. Defining the return value
+Finally, I define the return value and remove the superfluous text.
+
+import math
+
+def hypotenuse(x, y):
+  x = x * x
+  y = y * y
+  z = math.sqrt(x+y)
+  return 0
+
+print("hypotenuse(3, 4):",hypotenuse(3, 4))
+print("hypotenuse(5, 12):",hypotenuse(5, 12))
+print("hypotenuse(10, 10):",hypotenuse(10, 10))
+
+I tried this program in three different patterns and obtained the following appropriate outputs.
+
+hypotenuse(3, 4): 5.0
+hypotenuse(5, 12): 13.0
+hypotenuse(10, 10): 14.142135623730951
+
+Part2
+
+Create a function to calculate investment income and expenditure taking into account the exchange rate. The specification is as follows images
+
+Specification: To calculate investment income/loss, input the exchange rate at the time of purchase and the current exchange rate, and the valuation amount, and output the valuation income/loss in yen.
+Input
+  The exchange rate at the time of purchase
+  Current exchange rate
+  Purchase Valuation ($)
+  Current valuation ($)
+Output
+  Gains or Losses from Valuation (Yen)
+
+The first step is to create a function template.
+
+python
+def calBalance(exBef, exNow, valBef, valNow):
+  return 0
+
+
+When this function was executed, 0 was obtained. Now that I have confirmed that the function definition is OK, I can design the process. First, I will add a process to obtain the yen-converted valuation at the time of purchase and present.
+
+def calBalance(exBef, exNow, valBefDoL, valNowDoL):
+  valBefYen = exBef *valBefDoL
+  valNowYen = exNow* valNowDoL
+  print("valBefYen:", valBefYen)
+  print("valNowYen:", valNowYen)
+  return 0
+
+calBalance(100, 120, 300, 400)
+print("#####")
+calBalance(120, 140, 300, 250)
+
+The following results were obtained as a result of the run.
+
+valBefYen: 30000
+valNowYen: 48000
+#####
+valBefYen: 36000
+valNowYen: 35000
+
+This result is as expected, so I have confirmed that there is no problem so far. Next, I will add a process to calculate the valuation gains/losses converted to yen.
+
+def calBalance(exBef, exNow, valBefDoL, valNowDoL):
+  valBefYen = exBef *valBefDoL
+  valNowYen = exNow* valNowDoL
+  PaL = valNowYen - valBefYen
+  print("PaL:", PaL)
+  return 0
+
+calBalance(100, 120, 300, 400)
+print("#####")
+calBalance(120, 140, 300, 250)
+
+This output is as follows
+
+PaL: 18000
+#####
+PaL: -1000
+
+This result is also fine, as it is as expected.
+Finally, define the return value and remove any extraneous text. The program I created was implemented in three patterns, and the following output was confirmed. Each of these outputs is appropriate, indicating that the program is working properly.
+
+18000
+#####
+-1000
+#####
+50000
+
+
+Part3
+I try to submit my discussion as soon as possible, as I would like to get as much feedback on my discussion as possible. On top of that, I find much of the feedback I receive from my classmates to be useful, including the following
+I think the description here is good and easy to understand.
+. I also find this way of explaining things helpful.
+I also try to make the feedback I give as practical as possible. For example, if a classmate says that he/she has found an error that I don't understand, I tell him/her the cause of the error and tell him/her that this is a possible way to deal with it.
+As for the evaluation, I honestly believe it is difficult. The fact is that I give most of my classmates a 9 or 10 because I grade this class under the image that if there is a submission that meets the requirements first and then there is a constructive discussion, I get a 10.

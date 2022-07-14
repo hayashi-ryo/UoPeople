@@ -14,7 +14,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ### Discussion Forum
@@ -201,7 +201,6 @@ def hypotenuse(x, y):
     print("y*y:", y)
     return 0
 
-
 hypotenuse(3, 4)
 hypotenuse(5, 12)
 ```
@@ -216,21 +215,23 @@ y*y: 144
 ```python
 import math
 
-
 def hypotenuse(x, y):
-    x = x * x
-    y = y * y
-    z = math.sqrt(x+y)
-    print("z:", z)
-    return 0
-
+  x = x * x
+  y = y * y
+  z = math.sqrt(x+y)
+  print("z:", z)
+  return 0
 
 hypotenuse(3, 4)
+print("#####")
 hypotenuse(5, 12)
 ```
 
-上記を実行すると以下の結果が得られます。
+このプログラムを実行すると以下の結果が得られます。
 z: 5.0
+
+#####
+
 z: 13.0
 斜辺の値として求めたい演算ができていることが確認できました。
 3. 返り値を定義する
@@ -239,23 +240,22 @@ z: 13.0
 ```python
 import math
 
-
 def hypotenuse(x, y):
-    x = x * x
-    y = y * y
-    z = math.sqrt(x+y)
-    return 0
-
+  x = x * x
+  y = y * y
+  z = math.sqrt(x+y)
+  return 0
 
 print("hypotenuse(3, 4):",hypotenuse(3, 4))
 print("hypotenuse(5, 12):",hypotenuse(5, 12))
 print("hypotenuse(10, 10):",hypotenuse(10, 10))
 ```
 
-この結果をhypotenuse_out.txtとして提出します。3つのパターンを試して問題ないことが確認できました。
+このプログラムを3つパターンで試し、以下の適切な出力を得ることができました。
 
 Part2
 為替レートを考慮した投資収支を算出する関数を作成します。仕様としては以下のイメージです
+仕様：投資損益を算出するため、購入時および現在の為替レートと評価額を入力し、評価損益を円で出力する。
 インプット
 購入時為替レート
 現在為替レート
@@ -263,16 +263,17 @@ Part2
 現在評価額（$）
 アウトプット
 評価損益（円）
+
 まずは関数の雛形を作成します。
 def calBalance(exBef, exNow, valBef, valNow):
-    return 0
+  return 0
 この関数を実行すると、0を取得できました。関数の定義が問題ないことが確認できたので処理を設計します。まずは、円換算した評価額を購入時と現在で求める処理を追加します。
 def calBalance(exBef, exNow, valBefDoL, valNowDoL):
-    valBefYen = exBef *valBefDoL
-valNowYen = exNow* valNowDoL
-    print("valBefYen:", valBefYen)
-    print("valNowYen:", valNowYen)
-    return 0
+  valBefYen = exBef *valBefDoL
+  valNowYen = exNow* valNowDoL
+  print("valBefYen:", valBefYen)
+  print("valNowYen:", valNowYen)
+  return 0
 
 calBalance(100, 120, 300, 400)
 print("#####")
@@ -288,11 +289,11 @@ valNowYen: 35000
 この結果は想定した通りのものなのでここまで問題ないことが確認できました。次に円換算の評価損益を計算する処理を追加します。
 
 def calBalance(exBef, exNow, valBefDoL, valNowDoL):
-    valBefYen = exBef *valBefDoL
-valNowYen = exNow* valNowDoL
-    PaL = valNowYen - valBefYen
-    print("PaL:", PaL)
-    return 0
+  valBefYen = exBef *valBefDoL
+  valNowYen = exNow* valNowDoL
+  PaL = valNowYen - valBefYen
+  print("PaL:", PaL)
+  return 0
 
 calBalance(100, 120, 300, 400)
 print("#####")
@@ -305,7 +306,8 @@ PaL: 18000
 
 PaL: -1000
 この結果も想定通りとなっているため問題ありません。
-最後に返り値を定義して、余計な文言を削除します。その結果calBalance_out.txtを提出します。3つのパターンを試しそれぞれ問題ないことが確認できました。
+最後に返り値を定義して、余計な文言を削除します。作成したプログラムを3パターンで実施したところ以下の出力が確認できました。それぞれ適切な出力となるためプログラムが正常に動作していることがわかりました。
+その結果calBalance_out.txtを提出します。3つのパターンを試しそれぞれ問題ないことが確認できました。
 
 Part3
 私はディカッションについて、できれば多くのフィードバックをもらえればと考えているため、できるだけ早く提出することを心がけています。その上で、クラスメイトからもらったフィードバックを以下のように役立つものが多いと感じています
