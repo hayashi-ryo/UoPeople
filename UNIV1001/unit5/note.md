@@ -122,7 +122,20 @@ Self-directed learning: A four-step process. Centre for Teaching Excellence. (20
   4. 自己管理型の学習者になるための戦略を少なくとも3つ説明してください。学習者として成長するために、どのように自分に責任を持たせますか？
 
 - Answer
-  1. じこ主導型学習とは、
+  1. Knowles(1975)によると、自己主導型学習は"a process in which individuals take the initiative without the help of others in diagnosing their learning needs, formulating goals, identifying human and material resources, and evaluating learning outcomes"と定義されています。従って、自己主導型学習者とは、目標設定や学習の評価方法、学習に利用すべきリソースの選定などを他の人に言われずとも進めることができる人のことを指します。
+  この自己主導型学習の本質的な側面は、学習に対するアプローチが講師主導のものから自己主導のものへと転換することを指します。大学や社会人として生活を送る上では、丁寧に物事を教えてくれる人はおらず、自分自身で目標やプロセスを管理する必要があります。
+  学習に対して講師主導のアプローチから生徒主導のアプローチに変換すべき
+  2. 私の学生としての強みは、動き出したものを推進する力が強いことと、トピックをとりまく要素に対して好奇心を持って接することができる点です。一つ目の強みは、自己管理型学習において、
+  3. 逆に私の学生としての弱みは、動き出しまでに労力がかかることと、同時に多数の物事を考える癖があることです。
+  4. ここまでに考えた強み・弱みから、私が自己主導型学習者となるための戦略を説明します。
+     1. なぜ学びが必要なのか定義する
+     2. 最初の動き出しはできるだけ小さくする
+     3. できるだけ計測しやすい目標設定を行う
+     4. 設定した目標を公表する
+  また、自己主導型学習では責任は報酬（成果）一体となっているため、自身がなぜその目標を達成する必要があるのかを明確にすることができれば、必然的に自身の学習者としての成長につなげることができると考えます。しかし、私の性格上どうしてもだらけてしまう可能性があるので、自身が設定した目標を公表することで、外発的な動機づけを並行して行うことで学習者として責任を持たせようと思います。
+
+References:
+Manning, G. (2007). Self-directed learning: A key component of adult learning theory. Journal of the Washington Institute on China Studies. 2(2), 104-115. <https://www.bpastudies.org/bpastudies/article/view/38/78>
 
 ### Learning Jounal
 
