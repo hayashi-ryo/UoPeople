@@ -121,6 +121,9 @@ Self-directed learning: A four-step process. Centre for Teaching Excellence. (20
   3. 学生としてのあなたの最大の弱点は何ですか？これらの弱点は、自己管理型学習者になるための準備にどのように影響しますか？
   4. 自己管理型の学習者になるための戦略を少なくとも3つ説明してください。学習者として成長するために、どのように自分に責任を持たせますか？
 
+- Answer
+  1. じこ主導型学習とは、
+
 ### Learning Jounal
 
 - Reflection Topic: Intrinsic versus extrinsic motivation
