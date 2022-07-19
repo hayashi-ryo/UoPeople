@@ -29,7 +29,7 @@ I will be able to:
   - [ ] reply three classmates
 - [x] Written Assignment
 - [ ] Learning Jounal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Reading Assignment
 
