@@ -15,7 +15,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ### Discussion Forum
@@ -50,5 +50,42 @@ any_lowercase5(Start): False (Unexpected)
 any_lowercase5(sTART): False (Unexpected)
 
 ### Learning Journal
+
+A piece of string is called a slice. Three characteristics of string slices are described below.
+
+feature1
+The number of characters to be extracted can be specified by index.
+script
+  sport = "basketball"
+  print("sport[3:6]:",sport[3:6])
+output
+  sport[3:6]: ket
+
+feature2
+The start and end characters may be omitted.
+script
+  sport = "basketball"
+  print("sport[:4]:",sport[:4])
+  print("sport[3:]:",sport[3:])
+Output
+  sport[:4]: bask
+  sport[3:]: ketball
+If omitted, the first and last characters are specified. Therefore, if you omit both specifications, the entire string will be output.
+script
+  sport = "basketball"
+  print("sport[:]:",sport[:])
+Output
+  sport[:]: basketball
+
+feature3
+Minus can be used to define the number of characters from the end.
+sport = "basketball"
+  print("sport[:-1]",sport[:-1])
+  print("sport[-3:10]",sport[-3:10])
+  print("sport[7:10]",sport[7:10])
+output
+  sport[:-1] basketbal
+  sport[-3:10] all
+If the total number of characters is known, it can be sliced without using a minus sign. However, this is useful for functions that handle multiple strings, for example, when you want to explicitly specify the number of characters from the end of the string.
 
 ### Programming Assignment
