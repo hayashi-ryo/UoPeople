@@ -1,0 +1,28 @@
+All functions use a for loop to determine if a word in a string is lowercase. The behavior of each function is described below.
+
+any_lowercase1: Because there is a return statement in the for loop, only the result of the first character is reflected no matter how many characters are passed. Therefore, if a function is executed with a string that contains lowercase letters other than the first letter, it will return a different result than expected.
+Output:
+any_lowercase1(StarT): False
+any_lowercase1(sTART): True
+
+any_lowercase2: Evaluates a fixed string 'c', so the result will be True no matter what string is given.
+Output:
+any_lowercase2(StarT): True
+any_lowercase2(sTART): True
+
+any_lowercase3: The function does not keep the result of evaluation for each character, so only the result of the last character is reflected. Therefore, if the function is executed on a string that contains lowercase letters other than the last letter, it will return a different result than expected.
+Output:
+any_lowercase3(sTART): False (Unexpected)
+any_lowercase3(Start): True (Expected)
+
+any_lowercase4: Keeps the result of each character as a flag and returns True if even one lowercase character is included, as expected.
+Output:
+any_lowercase4(sTART): True (Expected)
+any_lowercase4(start): True (Expected)
+any_lowercase4(START): False (Expected)
+
+any_lowercase5: The behavior is to return False when the string contains uppercase letters, so it will not work correctly unless an all-lowercase string is given.
+Output:
+any_lowercase5(start): True (Expected)
+any_lowercase5(Start): False (Unexpected)
+any_lowercase5(sTART): False (Unexpected)
