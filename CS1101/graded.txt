@@ -160,3 +160,26 @@ False
 
 "Dead code" is code that performs calculations but never displays the results.
 False
+
+A Python loop where the terminating condition is never achieved is called _______.
+
+What is the value of the following Python expression? "Xanadu" > "Yellowstone"
+
+What does Python function subroutine do?
+def subroutine( n ):
+    while n > 0:
+        print (n,)
+        n = n - 1
+
+For the Python program below, will there be any output, and will the program terminate?
+while True:
+    while 1 > 0:
+        break
+    print("Got it!")
+    break
+
+An algorithm is a general process for solving a category of problems.
+
+Python allows while loops inside while loops and if statements within the body of if statements.
+
+
