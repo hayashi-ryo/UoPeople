@@ -6,11 +6,11 @@
 
 - [x] Reading assignment
   - [x] Think Python Chapter10
-- [ ] Discussion Forum
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 - [x] Take Graded-Quiz
 - [x] Peer assess unit5
