@@ -1,0 +1,41 @@
+Describe the difference between objects and values using the terms “equivalent” and “identical”. Illustrate the difference using your examples with Python lists and the “is” operator.
+
+Thinking of two lists.
+a = [100,200,300]
+b = [100,200,300]
+The results of the are and == operations on these two lists would be output.
+a == b: True
+a is b: False
+This indicates that the values each list has are themselves equivalent, but not identical. The elements are the same, so at first glance identical a and b appear to be identical, but in reality, they are different things!
+
+Describe the relationship between objects, references, and aliasing. Again, create your examples with Python lists.
+
+Again, create a new list and variables. 
+  c = [100, 200, 300]
+  d = c
+The association of an object, such as a list, with a variable, as in this example, is called a reference. The object itself also has multiple names: variable c and variable d. These are called aliasing.
+Also, changing the alias itself changes all variables that refer to it.
+Output
+  d: [100, 200, 300]
+  c[1] = 300
+  d: [100, 300, 300]
+
+Finally, create your example of a function that modifies a list passed in as an argument. Describe what your function does in terms of arguments, parameters, objects, and references.
+
+Created a function that appends a string to the end of the function and removes the string with index 0
+
+def FIFO(lst, a):
+  lst.append(a)
+  lst.pop(0)
+
+This function uses the list object and string given as arguments to modify the object alias itself. The execution is described below.
+
+script
+  e = ["basketball", "baseball", "soccer"]
+  print(e)
+  FIFO(e, "tennis")
+  print(e)
+
+Output
+  ['basketball', 'baseball', 'soccer']
+  ['baseball', 'soccer', 'tennis']

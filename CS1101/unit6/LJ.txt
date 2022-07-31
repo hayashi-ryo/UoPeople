@@ -1,0 +1,24 @@
+>>> sport = "basketball soccer tennis baseball"
+>>> sports = "basketball soccer tennis baseball"
+>>> sport = sports.spilit(" ")
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    sport = sports.spilit(" ")
+AttributeError: 'str' object has no attribute 'spilit'
+>>> sport = sports.split(" ")
+>>> sport
+['basketball', 'soccer', 'tennis', 'baseball']
+>>> # delete1
+>>> sport.pop(0)
+'basketball'
+>>> sport
+['soccer', 'tennis', 'baseball']
+>>> # delete2
+>>> sport.remove("tennis")
+>>> sport
+['soccer', 'baseball']
+>>> # delete3
+>>> del sport[1]
+>>> sport
+['soccer']
+>>> 

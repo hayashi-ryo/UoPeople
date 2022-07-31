@@ -162,14 +162,17 @@ False
 False
 
 A Python loop where the terminating condition is never achieved is called _______.
+an infinite loop
 
 What is the value of the following Python expression? "Xanadu" > "Yellowstone"
+False
 
 What does Python function subroutine do?
 def subroutine( n ):
     while n > 0:
         print (n,)
         n = n - 1
+Counts from n down to 1 and displays each number
 
 For the Python program below, will there be any output, and will the program terminate?
 while True:
@@ -177,9 +180,219 @@ while True:
         break
     print("Got it!")
     break
+Yes and yes
 
 An algorithm is a general process for solving a category of problems.
+True
 
 Python allows while loops inside while loops and if statements within the body of if statements.
+True
 
+Traversal can only be accomplished with the "while" loop.
+False
 
+What is the output of the following Python program?
+mylist = ["now", "four", "is", "score", "the", "and seven", "time", "years", "for"]
+print(" ".join(mylist[1::2]))
+four score and seven years
+
+The Python expression 'Unit 6'[-1] has value '6'.
+True
+
+What is the output of the following Python program?
+index = "Ability is a poor man's wealth".find("w")
+print(index)
+24
+
+What is the output of the Python code below?
+my_list = [3, 2, 1]
+print(my_list)
+[3, 2, 1]
+
+The elements of a list are immutable.
+False
+
+String objects are modified with string slices.
+False
+
+This Python code:
+for fruit in ["banana", "apple", "quince"]:
+    print (fruit)
+will produce this output:
+banana apple quince
+False
+
+To create a new object that has the same value as an existing object is knows as creating an alias.
+False
+
+In Python, a list of characters is the same as a string.
+False
+
+What is the output of the following Python program?
+mylist = [ [2,4,1], [1,2,3], [2,3,5] ]
+a=0
+total = 0
+while a < 3:
+    b = 0
+    while b < 2:
+        total += mylist[a][b]
+        b += 1
+    a += 1
+print(total)
+14
+
+A variable that has a data type of "str" cannot be part of a compound data type
+
+What is the output of the Python code below?
+my_list = [3, 2, 1]
+print(my_list.sort())
+None
+
+What is the output of the following Python program?
+
+What is the output of the following Python program? 
+fruit = "banana"
+letter = fruit[1]
+print (letter)
+a
+
+What is the output of the following Python program? 
+mylist = [ [2,4,1], [1,2,3], [2,3,5] ]
+total = 0
+for sublist in mylist:
+    total += sum(sublist)
+print(total) 
+23
+
+index = "Ability is a poor man's wealth".find("W")
+print(index)
+-1
+
+mylist = ["now", "four", "is", "score", "the", "and seven", "time", "years", "for"]
+a=0
+while a < 8:
+    print(mylist[a],)
+    a = a + 2
+now is the time
+
+What output will the following statements produce using Python in interactive mode?
+>>> n = 2
+>>> n = n + 5
+>>> n
+7
+
+What output will the following Python program produce?
+n = 10
+while n != 1:
+    print (n,)
+    if n % 2 == 0: # n is even
+        n = n // 2
+    else: # n is odd
+        n = n * 3 + 1
+10 5 16 8 4 2
+
+The following Python code illustrates what programming concept?
+bruce = 5
+print (bruce,)
+bruce = 7
+print (bruce)
+Reassignment
+
+The statements inside of a Python loop are known as the ____ of the loop.
+body
+
+The following Python script will generate an error when executed.  What is the cause of the error?
+def function2(param):
+    print (param, param)
+    print (cat)
+def function1(part1, part2):
+    cat = part1 + part2
+    function2(cat)
+chant1 = "See You "
+chant2 = "See Me "
+function1(chant1, chant2)
+The variable cat is local to function1 and cannot be used in function2
+
+What output will the following code produce?
+def area(l, w):
+    temp = l * w;
+    return temp
+l = 4.0
+w = 3.25
+x = area(l, w)
+if ( x ):
+  print (x)
+13.0
+
+What output will the following Python script produce?
+def function2(param):
+    print (param, param)
+def function1(part1, part2):
+    cat = part1 + part2
+    function2(cat)
+chant1 = "See You "
+chant2 = "See Me "
+function1(chant1, chant2)
+See You See Me See You See Me
+
+What will the output of this program be when it is executed?
+def test_function( length, width, height):
+    print ("the area of the box is ", length*width*height)
+    return length*width*height
+l = 12.5
+w = 5
+h = 2
+test_function(l, w, h)
+print ("The area of the box is ", length*width*height)
+A NameError because a variable not defined
+
+What will the output of this python program be?
+def test_function( length, width, height):
+    print ("the area of the box is ",length*width*height)
+    return length*width*height
+l = 12.5
+w = 5
+h = 2
+test_function(l, w, h)
+The area of the box is 125.0
+
+What is the output of the Python code below?
+n = int(10.)
+print(isinstance(n, float), isinstance(n * 1.0, float))
+False True
+
+The order in which statements are executed during a program run.
+flow of execution
+
+The first part of a compound statement begins with a keyword and ends with a colon ( : )
+header
+
+A statement that executes a function. It consists of the name of the function followed by a list of arguments enclosed in parentheses.
+function call
+
+A variable defined inside a function that can only be used inside its function.
+local various
+
+A graphical representation of functions, their variables, and the values to which they refer.
+stack diagram
+
+A stack diagram shows the value of each variable and the function to which each variable belongs.
+True
+
+What is the return type of the Python function shown below?
+isinstance(10.001, float)
+bool
+
+What is the output of the Python code below?
+s = "help"
+for letter in s[1:]:
+      last = letter
+      break
+print(last)
+
+A development approach that is intended to avoid a lot of debugging by only adding and testing small amounts of code at a time is called:
+incremental development
+
+The Python 3 program below prints the number 3.
+s = "Python3"
+print(s[len(s)])
