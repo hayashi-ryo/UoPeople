@@ -1,0 +1,37 @@
+1. This was the first time I had ever taken such a test, and the result was Strong KinestheticShare, but in retrospect, I was surprised that the results were accurate because they were well aligned with my learning trends.
+
+2. The following points are important in my study. (VARK, 2022)
+   - Practice what you have learned
+   - Separate each one as a task
+   - Imagine it in a more concrete form
+Based on these results, I would like to add the following two strategies to my previous strategies as a self-directed learner
+   - Emphasize the sense of accomplishment of completion.
+   - Putting abstract images into more concrete details.
+These strategies will help me to keep my learning more practical and motivated, based on my learning tendencies. Viewing the task as more practical content also requires a deeper understanding of the abstract problem as you go through the process. I believe that being able to implement such a process naturally and without resistance will help me to further improve my own learning performance.
+
+3. Looking back on the past learning process that allowed me to learn more effectively, I have followed the following flow.
+   first: knowledge acquisition
+   second: testing
+   third review
+By repeating this process over and over again, what was initially vague became a clearer memory and my knowledge. This learning process was consistent with my learning tendency to prefer more practical content so that when I was learning something that I felt was effective, I was able to naturally follow the process based on my learning tendency. On the other hand, there were times when I spent more time acquiring knowledge and less time practicing the process, and in these cases, I was not able to achieve better results.
+Based on the above, I would like to implement a learning process in the future that is in line with my learning tendencies, in which the cycle of knowledge acquisition and its confirmation is carried out over and over again.
+
+References:
+VARK Learn Limited. (2022). Kinesthetic strategies. VARK. Retrieved from https://vark-learn.com/strategies/kinesthetic-strategies/ 
+
+APA
+
+1. What was the full reference for the e-book you found for the Week 1 APA exercise? (If your instructor gave you feedback on how to correct your reference, be sure to write the correct reference this week).
+Ruparelia, N. (2016). Cloud Computing. MIT Press. Retrieved from https://cd21kxc3b-mp03-y-https-ebookcentral-proquest-com.proxy.lirn.net/lib/univ-people-ebooks/detail.action?docID=4527741&query=cloud
+
+2. What was the in-text citation for the e-book you found for the Week 1 APA exercise? (If your instructor gave you feedback on how to correct your citation, be sure to write the correct citation this week).
+This situation is common whenever a new technology enters the fray, and especially one that is bound to create a major paradigm shift. The purpose of this book therefore is to cut through the hype and show you how you can take advantage of cloud computing. (Ruparelia, 2016).
+
+3. Find a paragraph in your e-book, and copy and paste it here.
+None of these are provided as a matter of course by virtualization. Virtualization can act as an enabling technology in order to facilitate these features, but a lot of additional enablers are required such as reporting, billing, demand management, and various other business processes and tools. To truly deploy a cloud, you need to consider how to standardize your service offerings, make them available through simple portals, track usage and cost information, measure their availability, orchestrate them to meet demand, provide a security framework, provide instantaneous reporting, and have a billing or charging mechanism on the basis of usage. Another way of looking at this is that virtualization, per se, is not a service. It can be used, in conjunction with other tools and processes, to create an infrastructure-as-a-service offering.
+
+4. Select a section from #3, and using the APA rule for short quotations, put the section in quotation marks while adding an APA in-text citation at the end.
+"Virtualization can act as an enabling technology in order to facilitate these features, but a lot of additional enablers are required such as reporting, billing, demand management, and various other business processes and tools. To truly deploy a cloud, you need to consider how to standardize your service offerings, make them available through simple portals, track usage and cost information, measure their availability, orchestrate them to meet demand, provide a security framework, provide instantaneous reporting, and have a billing or charging mechanism on the basis of usage. "(Ruparelia, 2016)
+
+5. Re-read the section from #3, and re-write it in your own words while adding an APA in-text citation at the end. (This is called paraphrasing).
+Ruparelia described Virtualization exists as one technology to realize cloud computing, but it is necessary to use other tools, etc., depending on the functions to be realized.(2016)
