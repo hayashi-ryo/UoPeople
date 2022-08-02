@@ -27,8 +27,10 @@ By the end of this Unit, you will be able to:
 
 ### Reading Assignment
 
-- Time Management
+- Introduction
   - [Chapter 2: Staying motivated, organized, and on track.](https://open.lib.umn.edu/collegesuccess/part/chapter-2-staying-motivated-organized-and-on-track/)
+    - 目標とは、自分の行動によって辿り着こうとする結果。
+- Time Management
   - [How to Gain Control of Your Free Time | Laura Vanderkam](https://my.uopeople.edu/pluginfile.php/1591987/mod_book/chapter/352623/How%20to%20gain%20control%20of%20your%20free%20time%20Transcript.pdf)
   - [Inside the Mind of a Master Procrastinator](https://my.uopeople.edu/pluginfile.php/1591987/mod_book/chapter/352623/Inside%20the%20Mind%20of%20a%20Master%20Procrastinator.pdf)
 - Time Manegement Strategies
