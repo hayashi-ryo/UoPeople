@@ -1,0 +1,101 @@
+Tuples and lists have a very similar structure, but the biggest difference is that tuples are immutable. With this in mind, let's consider their usage.
+Tuples can be effectively used in two-dimensional arrays, as shown in the following example.
+
+code:
+sport_tuple = (('b', 1), ('a', 2), ('s', 3), ('k', 4), ('e', 5), ('t', 6), ('b', 7), ('a', 8), ('l', 9), ('l', 10))
+for s, index in sport_tuple:
+  print(index, s)
+
+output:
+1 b
+2 a
+3 s
+4 k
+5 e
+6 t
+7 b
+8 a
+9 l
+10 l
+
+If the above were implemented with a list, and the elements were fully known, it would look like this
+
+code:
+sport_list = [['b', 1], ['a', 2], ['s', 3], ['k', 4], ['e', 5], ['t', 6], ['b', 7], ['a', 8], ['l', 9], ['l', 10]]
+for i in sport_list:
+  s = i[0]
+  index = i[1]
+  print(index, s)
+output:
+1 b
+2 a
+3 s
+4 k
+5 e
+6 t
+7 b
+8 a
+9 l
+10 l
+
+This example describes a manual process for accessing a specific element, which can easily contain bugs. Also, tuples such as the one shown in this example can be generated using the zip function, which is used to return a tuple from two or more sequences.
+
+code:
+sport = "basketball"
+t = [1,2,3,4,5,6,7,8,9,10]
+zip(sport,t)
+
+The zip object created in this way can be accessed effectively with a for a loop.
+code:
+for pair in zip(sport,t):
+  print(pair)
+output:
+('b', 1)
+('a', 2)
+('s', 3)
+('k', 4)
+('e', 5)
+('t', 6)
+('b', 7)
+('a', 8)
+('l', 9)
+('l', 10)
+
+If you need to follow the elements of a sequence and their indices, you can use the enumerate function, which returns the given sequence with its indices.
+code:
+sport = "basketball"
+for index, s in enumerate(sport):
+  print(index,s)
+output:
+0 b
+1 a
+2 s
+3 k
+4 e
+5 t
+6 b
+7 a
+8 l
+9 l
+
+Since access to key entries in a dictionary is in the form of a hash, the entries must be immutable. Since tuples are immutable, they can be used as dictionary entries. Here is an example of generating a dictionary from tuples created in the example.
+
+code:
+sport_tuple = (('b', 1), ('a', 2), ('s', 3), ('k', 4), ('e', 5), ('t', 6), ('b', 7), ('a', 8), ('l', 9), ('l', 10))
+d = dict(sport_tuple)
+
+Here, the items method, which displays all elements of the dictionary as iterators, can be used to conveniently access elements of the dictionary.
+code:
+sport_tuple = (('b', 1), ('a', 2), ('s', 3), ('k', 4), ('e', 5), ('t', 6), ('b', 7), ('a', 8), ('l', 9), ('l', 10))
+d = dict(sport_tuple)
+t = d.items()
+for key, value in d.items():
+  print(key, value)
+output:
+b 7
+a 8
+s 3
+k 4
+e 5
+t 6
+l 10
