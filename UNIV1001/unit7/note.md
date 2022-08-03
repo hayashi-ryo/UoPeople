@@ -17,13 +17,13 @@ By the end of this Unit, you will be able to:
 
 ## Task
 
-- [ ] Reading Assignment
-- [ ] Discussion Forum
+- [x] Reading Assignment
+- [x] Discussion Forum
   - [x] Fisrt post
-  - [ ] reply three classmate
+  - [x] reply three classmate
 - [x] Written Assignment
 - [ ] Learning Journal
-- [ ] Self-Quiz
+- [x] Self-Quiz
 
 ### Reading Assignment
 
