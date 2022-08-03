@@ -21,7 +21,7 @@ By the end of this Unit, you will be able to:
 - [ ] Discussion Forum
   - [x] Fisrt post
   - [ ] reply three classmate
-- [ ] Written Assignment
+- [x] Written Assignment
 - [ ] Learning Journal
 - [ ] Self-Quiz
 
@@ -30,6 +30,13 @@ By the end of this Unit, you will be able to:
 - Introduction
   - [Chapter 2: Staying motivated, organized, and on track.](https://open.lib.umn.edu/collegesuccess/part/chapter-2-staying-motivated-organized-and-on-track/)
     - 目標とは、自分の行動によって辿り着こうとする結果。
+    - 良い目標にはいくつかの要素がある
+      - 現実性
+      - 具体的
+      - 期限感
+      - 自発性
+      - Goals should be realistic, specific, and time oriented, and you must be committed to them.
+
 - Time Management
   - [How to Gain Control of Your Free Time | Laura Vanderkam](https://my.uopeople.edu/pluginfile.php/1591987/mod_book/chapter/352623/How%20to%20gain%20control%20of%20your%20free%20time%20Transcript.pdf)
   - [Inside the Mind of a Master Procrastinator](https://my.uopeople.edu/pluginfile.php/1591987/mod_book/chapter/352623/Inside%20the%20Mind%20of%20a%20Master%20Procrastinator.pdf)
@@ -108,6 +115,24 @@ By the end of this Unit, you will be able to:
     1. 目標を設定して達成できなかったとき、そして目標を設定して成功したときを簡単に話してください。最初の例では、なぜうまくいかなかったのですか？なぜ、2つ目の例では成功したのですか？
     2. なぜ、効果的な目標設定が目標達成につながるのでしょうか？良い目標にはどのような特徴がありますか？
     3. 質問1と2の答えを踏まえて、短期、中期、長期の3つの目標を設定してください。
+- Answer
+  1. 私自身の経験として、ダイエットの目標を掲げて成功した経験と失敗した経験があるので、その際の状況を説明します。
+     1. まず、目標を達成できなかった経験についてです、私は大学卒業から数年で体重が増えており、自身の健康のためにもダイエットを決意しました。しかし、その際にはあまり具体的な目標を掲げず、ただ痩せることだけを意識していました。また、方法についてもあまり吟味せず、一般的に提唱されている方法を試していく形をとっていました。その結果、あまり継続することができず目標を達成することができませんでした。
+     2. 次に同じダイエットの経験でも目標を達成した経験についてです。過去の経験から目標達成を行うために、「継続的な観測」と「1ヶ月程度の短期的なダイエット目標が重要だと考え、食事制限やトレーニングなど目標を達成するための方法を実践しました。その結果、短期目標をできるだけ具体的なものとできていたこともあり、当初の目標を達成することができました。
+    これらの経験から、目標を達成できなかった要素として以下の二つが挙げられます。
+      具体的な目標がなかった
+      継続的な観察をおこなっていなかったため、自身が目標に対してどこまで達成することができているか判断できなかった
+    また、目標を達成することができた要素としては以下3点が挙げられます。
+      いつまでに何キロ痩せる、という具体的な目標があった
+      目標に対して短期的な計測を行い、随時状況の確認を行った
+      状況確認のなかで目標が現実的でない範囲であると判断できた場合は、期間を延ばすなど対処することができた
+  2. Cullege Successによると、良い目標には以下の要素があると説明されています。
+    "Goals should be realistic, specific, and time oriented, and you must be committed to them." (Cullege SUccess, )
+    自身の経験と上記の説明を踏まえると、よい目標には「具体的かつ現実的なものであり」「最終的なゴールまでの達成状況を確認できる、短期的な指針があるもの」だと考えます。
+  3. 私のUoPeoppleで達成したい目標を以下に記載します。
+    長期的な目標：UoPeopleでCSの学位を取得し、私自身のキャリアアップを掴む。具体的には、今の会社よりも高い給料をもらえる会社に転職する。
+    中期的な目標：今Termを含め、直近1年で受講する全てのクラスでA評価以上を取得する
+    短期的な目標：現在受講しているクラスでA評価以上を獲得するために、効果的な学習方法や学習習慣を身につける。また、語学力の向上も図る。
 
 ### Learning Jounal
 
