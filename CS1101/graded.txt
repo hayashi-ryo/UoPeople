@@ -396,3 +396,74 @@ incremental development
 The Python 3 program below prints the number 3.
 s = "Python3"
 print(s[len(s)])
+
+If you use a Python dictionary in a for statement, it traverses the _____ of the dictionary.
+keys
+
+Python dictionaries are mutable.
+True
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+for k in d:
+    if d[k] == v:
+        return k
+a reverse lookup
+
+Traversal can only be accomplished with the "while" loop.
+False
+
+What will the contents of mylist be after the following Python code has been executed?
+>>> mylist = [1, 4, 2, 3]
+>>> mylist.append(5)
+[1, 4, 2, 3, 5]
+
+What is the output of the Python code below?
+my_list = [3, 2, 1]
+print(my_list.sort())
+None
+
+Which of the following types are allowed for Python dictionary values?
+All of the above
+
+What is the output of the Python code below?
+ print(dict().get("no", "help!"))
+help!
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+result = dict()
+for key in d:
+    val = d[key]
+    if val not in result:
+        result[val] = [key]
+    else:
+        result[val].append(key)
+an inverted dictionary
+
+What is the output of the Python code below?
+my_tup = (3, 2, 1, 2)
+print(tuple(sorted(my_tup)))
+(1, 2, 2, 3)
+
+Given a Python dictionary d and a value v, it is efficient to find the corresponding key: d[k] = v.
+False
+
+What is the value of the following Python expression?
+(0, 1, 5, 2) > (0, 1.0, 4, 3.1)
+True
+
+Python tuples are immutable.
+True
+
+Python functions can take a variable number of arguments.
+True
+
+Which of the following types are allowed for Python dictionary keys?
+tuple
+
+In the following segment of Python code, what do we call the portion of the statement that follows the dot('.capitalize')?
+str.capitalize('maryland')
+Method
+
+Assume that d is a Python dictionary. What does the following Python code produce?
+d.items()
+a list of tuples
