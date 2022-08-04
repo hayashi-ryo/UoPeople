@@ -100,3 +100,27 @@ By the end of this Unit, you will be able to:
 ### Programming Assignment
 
 ### Learning Journal
+
+Create a Python dictionary that returns a list of values for each key. The key can be whatever type you want.
+
+Design the dictionary so that it could be useful for something meaningful to you. Create at least three different items in it. Invent the dictionary yourself. Do not copy the design or items from some other source.
+
+Next consider the invert_dict function from Section 11.5 of your textbook.
+
+def invert_dict(d):
+     inverse = dict()
+     for key in d:
+          val = d[key]
+          if val not in inverse:
+               inverse[val] = [key]
+          else:
+               inverse[val].append(key)
+     return inverse
+
+Modify this function so that it can invert your dictionary. In particular, the function will need to turn each of the list items into separate keys in the inverted dictionary.
+
+Run your modified invert_dict function on your dictionary. Print the original dictionary and the inverted one.
+
+Include your Python program and the output in your Learning Journal submission.
+
+Describe what is useful about your dictionary. Then describe whether the inverted dictionary is useful or meaningful, and why.

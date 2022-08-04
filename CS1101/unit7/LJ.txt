@@ -1,13 +1,36 @@
-# my dictionary
-dic =  {"Tokyo" : ["Yokosuka-line", "Tokaido-line", "KehinTohoku-line"], "Shinjuku" : ["Yamanote-line", "Chuo-line"]}
-駅名から接続された路線を出力するリスト
+# original dictionary
+line =  {
+  "Tokyo" : ["Yamanote-line", "Yokosuka-line", "Tokaido-line", "KehinTohoku-line", "Chuo-line"], 
+  "Shinjuku" : ["Yamanote-line", "Chuo-line"],
+  "Shinagawa" : ["Yamanote-line", "Yokosuka-line", "Tokaido-line"],
+  "Ikebukuro" : ["Yamanote-line", "Saikyo-line", "KehinTohoku-line"]
+}
 
+# Invert_dict function
 def invert_dict(d):
-     inverse = dict()
-     for key in d:
-          val = d[key]
-          if val not in inverse:
-               inverse[val] = [key]
-          else:
-               inverse[val].append(key)
-     return inverse 
+  inverse = dict()
+  # Get element as a tuple
+  for key, value in d.items():
+    # Explore Value-list
+    for v in value:
+      if v not in inverse:
+        inverse[v] = [key]
+      else:
+        inverse[v].append(key)
+  return inverse
+
+
+# function call
+print("Original dictionary")
+print(line)
+print("Invert dictionary")
+print(invert_dict(line))
+
+# Output
+Original dictionary
+{'Tokyo': ['Yamanote-line', 'Yokosuka-line', 'Tokaido-line', 'KehinTohoku-line', 'Chuo-line'], 'Shinjuku': ['Yamanote-line', 'Chuo-line'], 'Shinagawa': ['Yamanote-line', 'Yokosuka-line', 'Tokaido-line'], 'Ikebukuro': ['Yamanote-line', 'Saikyo-line', 'KehinTohoku-line']}
+Invert dictionary
+{'Yamanote-line': ['Tokyo', 'Shinjuku', 'Shinagawa', 'Ikebukuro'], 'Yokosuka-line': ['Tokyo', 'Shinagawa'], 'Tokaido-line': ['Tokyo', 'Shinagawa'], 'KehinTohoku-line': ['Tokyo', 'Ikebukuro'], 'Chuo-line': ['Tokyo', 'Shinjuku'], 'Saikyo-line': ['Ikebukuro']}
+
+For my original dictionary, I have created a dictionary with the station name as a key and the routes that arrive at that station as a value list. This dictionary allows me to determine which line will get me from my current location to the station I want to go to.
+An inverted dictionary is a dictionary with the train line as the key and the station where that line arrives as the value list. This dictionary can be used to determine if a train that you boarded in a hurry will get you to the station you want to go to.
