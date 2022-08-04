@@ -1,3 +1,13 @@
 # my dictionary
 dic =  {"Tokyo" : ["Yokosuka-line", "Tokaido-line", "KehinTohoku-line"], "Shinjuku" : ["Yamanote-line", "Chuo-line"]}
 駅名から接続された路線を出力するリスト
+
+def invert_dict(d):
+     inverse = dict()
+     for key in d:
+          val = d[key]
+          if val not in inverse:
+               inverse[val] = [key]
+          else:
+               inverse[val].append(key)
+     return inverse 
