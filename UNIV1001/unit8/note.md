@@ -15,7 +15,7 @@ By the end of this Unit, you will be able to:
 
 ## Task
 
-- [ ] Peer assess unit7
+- [x] Peer assess unit7
 - [x] Reading assignment
 - [ ] Discussion Forum
   - [x] first post
