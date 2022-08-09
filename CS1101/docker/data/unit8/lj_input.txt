@@ -1,0 +1,8 @@
+line =  {
+"Tokyo" : ["Yamanote-line", "Yokosuka-line", "Tokaido-line", "KehinTohoku-line", "Chuo-line"],
+"Shinjuku" : ["Yamanote-line", "Chuo-line"],
+"Shinagawa" : ["Yamanote-line", "Yokosuka-line", "Tokaido-line"],
+"Ikebukuro" : ["Yamanote-line", "Saikyo-line", "KehinTohoku-line"],
+"Yokohama" : ["Yokosuka-line", "Tokaido-line", "KehinTohoku-line"],
+"Shibuya" : ["Yamanote-line", "Shonanshinjuku-line", "Keio-line"]
+}

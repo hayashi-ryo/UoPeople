@@ -16,11 +16,11 @@
 
 - [ ] Reading assignment
 - [ ] Discussion Forum
-  - [ ] first post
+  - [x] first post
   - [ ] reply classmates
 - [x] Programming assignmet
   - [x] unit7 peer-assess
-- [ ] Learning Journal
+- [x] Learning Journal
 - [ ] Take Self-Quiz
 
 ### Reading Assignment
@@ -76,3 +76,18 @@
     - ファイルから読み込み、辞書を反転させ、別のファイルに書き込むPythonプログラム。
     - 反転された辞書の出力ファイル。
     - 元の辞書と反転した辞書をどのようにテキストファイルでエンコードすることにしたかの説明。
+
+- Answer
+  - Learning Journal unit7:original dictionary
+  unit7のラーニングジャーナルで提出した辞書に要素を二つ追加したものを入力ファイル(lj_input.txt)として用意します。
+
+  この辞書を反転した辞書の出力を行うためのプログラムの実装を以下のように定める。
+    入力ファイルの読み込み(read_dicFile)
+      辞書ファイルは全ての要素が文字列なので、文字列としてフォーマットし入力する
+      フォーマットする際は不要な文字は削除する
+    出力ファイルへの書き出し(write_dicFile)
+      key : value-listの形式でにフォーマットして書き込みを行う
+  
+  これらの設計に基づいて作成したプログラム(lj.py)とそのアウトプット(lj_output.txt)を提出する。
+
+  プログラムを実行した結果を以下に記載する。
