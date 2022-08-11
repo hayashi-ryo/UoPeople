@@ -1,0 +1,10 @@
+Invert dictionary = {
+Yamanote-line : ['Tokyo', 'Shinjuku', 'Shinagawa', 'Ikebukuro', 'Shibuya'],
+Yokosuka-line : ['Tokyo', 'Shinagawa', 'Yokohama'],
+Tokaido-line : ['Tokyo', 'Shinagawa', 'Yokohama'],
+KehinTohoku-line : ['Tokyo', 'Ikebukuro', 'Yokohama'],
+Chuo-line : ['Tokyo', 'Shinjuku'],
+Saikyo-line : ['Ikebukuro'],
+Shonanshinjuku-line : ['Shibuya'],
+Keio-line : ['Shibuya'],
+}

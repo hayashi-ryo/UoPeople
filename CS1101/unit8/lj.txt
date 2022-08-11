@@ -1,0 +1,10 @@
+Prepare an input file (lj_input.txt) with two elements added to the dictionary submitted in the unit7 Learning Journal.
+
+The implementation of the program for outputting this inverted dictionary is defined as follows
+  Reading the input file(read_dicFile function)
+    Since all elements of the dictionary file are strings, format the file as a string and output it.
+    Delete unnecessary characters when formatting
+  Writing to output file(write_dicFile function)
+    Format and write the file in the format of key : value-list
+
+Submit the program (lj.py) and its output (lj_output.txt) based on these designs.

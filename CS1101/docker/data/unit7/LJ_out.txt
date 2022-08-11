@@ -1,0 +1,4 @@
+Original dictionary
+{'Tokyo': ['Yamanote-line', 'Yokosuka-line', 'Tokaido-line', 'KehinTohoku-line', 'Chuo-line'], 'Shinjuku': ['Yamanote-line', 'Chuo-line'], 'Shinagawa': ['Yamanote-line', 'Yokosuka-line', 'Tokaido-line'], 'Ikebukuro': ['Yamanote-line', 'Saikyo-line', 'KehinTohoku-line']}
+Invert dictionary
+{'Yamanote-line': ['Tokyo', 'Shinjuku', 'Shinagawa', 'Ikebukuro'], 'Yokosuka-line': ['Tokyo', 'Shinagawa'], 'Tokaido-line': ['Tokyo', 'Shinagawa'], 'KehinTohoku-line': ['Tokyo', 'Ikebukuro'], 'Chuo-line': ['Tokyo', 'Shinjuku'], 'Saikyo-line': ['Ikebukuro']}

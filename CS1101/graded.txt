@@ -467,3 +467,72 @@ Method
 Assume that d is a Python dictionary. What does the following Python code produce?
 d.items()
 a list of tuples
+
+What is the output from the following interactive Python statement?
+>>> '%g' % '0.1'
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.path.abspath(cwd)
+/Users/me
+
+Which of the following Python statements runs without error?
+open('three.txt','w').write(str(3))
+
+What is the output of the Python code below?
+ print('%d + %d + %d = %d' % (1, 2, 3, 1+2+3))
+not (1 + 2 + 3 = 6)
+
+What is the output from the following interactive Python statement?
+>>> '%g' % (0,1)
+not '0'
+What is the output from the following interactive Python statement?
+>>> '%g %d' % (0.1)
+Not '0.1'
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.path.isdir(cwd)
+True
+
+Consider the following Python program.
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+What is word?
+not A list of characters
+
+Consider the following Python program.
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+What is fin?
+A file object
+
+What is the output of the following Python program?
+try:
+    fin = open('answer.txt')
+    fin.write('Yes')
+except:
+    print('No')
+print('Maybe')
+not 
+Yes
+Maybe
+
+Exceptions allow the programmer to _________________.
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.path.exists(cwd)
+
+What is the output from the following interactive Python statement?
+>>> '%g' % (0.1)
