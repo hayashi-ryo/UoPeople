@@ -14,14 +14,14 @@
 
 ## Task
 
-- [ ] Reading assignment
-- [ ] Discussion Forum
+- [x] Reading assignment
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
   - [x] unit7 peer-assess
 - [x] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Reading Assignment
 
