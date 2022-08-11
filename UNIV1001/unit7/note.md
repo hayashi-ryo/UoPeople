@@ -22,7 +22,7 @@ By the end of this Unit, you will be able to:
   - [x] Fisrt post
   - [x] reply three classmate
 - [x] Written Assignment
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Self-Quiz
 
 ### Reading Assignment
