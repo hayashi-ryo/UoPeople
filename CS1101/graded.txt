@@ -470,6 +470,7 @@ a list of tuples
 
 What is the output from the following interactive Python statement?
 >>> '%g' % '0.1'
+TypeError: float argument required, not str
 
 Assume the following Python code has already executed.
 import os
@@ -483,14 +484,15 @@ open('three.txt','w').write(str(3))
 
 What is the output of the Python code below?
  print('%d + %d + %d = %d' % (1, 2, 3, 1+2+3))
-not (1 + 2 + 3 = 6)
+1 + 2 + 3 = 6
 
 What is the output from the following interactive Python statement?
 >>> '%g' % (0,1)
-not '0'
+TypeError: not all arguments converted during string formatting
+
 What is the output from the following interactive Python statement?
 >>> '%g %d' % (0.1)
-Not '0.1'
+TypeError: not enough arguments for format string
 
 Assume the following Python code has already executed.
 import os
@@ -505,7 +507,7 @@ for line in fin:
     word = line.strip()
     print(word)
 What is word?
-not A list of characters
+A string with no newline
 
 Consider the following Python program.
 fin = open('words.txt')
@@ -522,17 +524,94 @@ try:
 except:
     print('No')
 print('Maybe')
-not 
-Yes
 Maybe
 
 Exceptions allow the programmer to _________________.
+write code to handle runtime errors
 
 Assume the following Python code has already executed.
 import os
 cwd = os.getcwd()
 Which answer is most likely output from the following Python statement?
 os.path.exists(cwd)
+True
 
 What is the output from the following interactive Python statement?
 >>> '%g' % (0.1)
+'0.1'
+
+Consider the following Python program.
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+What is line?
+A string that may have a newline
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.path.isfile(cwd)
+False
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.path.join(cwd, 'Documents/file.txt')
+/Users/me/Documents/file.txt
+
+Assume the following Python code has already executed.
+import os
+cwd = os.getcwd()
+Which answer is most likely output from the following Python statement?
+os.listdir(cwd)
+['Music', 'Pictures', 'Desktop', 'Library', 'Documents', 'Downloads']
+
+Handling an exception with a try statement is called throwing an exception.
+False
+
+Consider the following Python program.
+fin = open('words.txt')
+for line in fin:
+    word = line.strip()
+    print(word)
+What does the program loop over?
+Lines in a file
+
+Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are this kind of languages.
+formal language
+
+An error that does not occur until the program has started to execute but that prevents the program from continuing.
+natural language
+
+An error in a program that makes it do something other than what the programmer intended.
+semantic error
+
+An error that does not occur until the program has started to execute but that prevents the program from continuing.
+runtime error
+
+The meaning of a program
+semantics
+
+An error in a program that makes it impossible to parse — and therefore impossible to interpret.
+syntax
+
+To create a new object that has the same value as an existing object is know as creating an alias.
+token
+
+What output will the following code produce?
+print ("%s %d %f" % (5, 5, 5))
+5 5 5.000000
+
+What is the output of the Python code below?
+my_list = [3, 2, 1]
+print(my_list.sort())
+None
+
+In Python, a list of characters is the same as a string.
+False
+
+Learning to debug can be frustrating, but it is a valuable skill that is useful for many activities beyond programming.
+True
