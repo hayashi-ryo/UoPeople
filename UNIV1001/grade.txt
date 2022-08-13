@@ -139,3 +139,24 @@ False
 
 True or False: A "time stealer" is someone who steals clocks and wristwatches.
 False 
+
+True or False: Cramming before an exam can be a very effective way to learn new material.
+False
+
+What is the most effective strategy to manage test anxiety?
+Find a distraction
+
+What is a proctor?
+A responsible individual who verifies student identity during the exam
+
+Which of these strategies is NOT an effective test-taking strategy?
+Wait until the deadline, Examining each possible answer on multiple-choice questions
+
+The best strategy to prepare for your final exam is:
+Study regularly
+
+“Ad populum” means that the argument is based on:
+Everyone does it
+
+A self-directed learner is characterized by which of the following?
+Has self-confidence
