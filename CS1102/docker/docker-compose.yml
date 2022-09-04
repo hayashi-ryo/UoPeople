@@ -1,0 +1,9 @@
+version: '3' # docker-composeファイルの書式バージョン。最新の’３’を指定（2019/6/27現在）
+services:
+  java:
+    build: ./docker
+    ports:
+      - 8080:8080
+    tty: true
+    volumes:
+      - ./src:/usr/src:cached

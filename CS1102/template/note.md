@@ -1,13 +1,13 @@
-# unitx
+# unitX
 
 ## Goal
 
 ## Task
 
-### Reading Assignment
+## Reading Assignment
 
-### Discussion Forum
+## Discussion Forum
 
-### Written Assignment
+## Written Assignment
 
-### Learning Journal
+## Learning Journal
