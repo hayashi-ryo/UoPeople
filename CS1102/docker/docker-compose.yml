@@ -2,6 +2,7 @@ version: '3' # docker-composeファイルの書式バージョン。最新の’
 services:
   java:
     build: ./docker
+    image: java17_cs1102
     ports:
       - 8080:8080
     tty: true

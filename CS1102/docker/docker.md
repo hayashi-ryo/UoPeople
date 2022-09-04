@@ -13,11 +13,8 @@ java
 ├──docker
 │   └──Dockerfile
 ├──docker-compose.yml
-└──server
-    └──src
-        └──samples
-            ├──mylib
-            └──selfleatn
+└──src
+    └──unitx
 ```
 
 ## 実施内容
@@ -25,7 +22,7 @@ java
 ### 環境構築
 
 1. dockerイメージのビルド
-   `docker-compose`
+   `docker build -t java17_cs1102 .`
 2. docker起動
    `docker-compose up -d`
 3. dockerJVM環境へアクセス
