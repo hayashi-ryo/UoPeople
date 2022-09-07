@@ -13,10 +13,10 @@
 - [x] Reading assignment
 - [x] DF
   - [x] first post
-  - [ ] reply three classmate
+  - [x] reply three classmate
 - [x] PA
 - [ ] LJ
-- [ ] Self-Quiz
+- [x] Self-Quiz
 
 ## Reading Assignment
 
@@ -63,9 +63,17 @@
     - semantics error
       - 私は、nameという変数に格納した名前と"Hello!"という文字列を結合したものを出力しようとしました。しかし、以下のプログラムは適切な出力ができません。
 
-- EN
+syntaxとsemanticsのそれぞれについて例を利用しながら非常に良く説明されています。あなた自身が非常に良く理解できていることが感じられました。
+Hi Vikas,
+Each of the syntax and semantics is explained very well with the use of examples. I could sense that you have a very good understanding of the subject yourself. Good work!
 
-  -
+syntaxとsemanticsについて、特にsemanticsの具体的な例を複数あげながら説明している点が素晴らしいと感じました。また、コードも非常に簡潔で読みやすいです.
+Hi Pyae,
+I found the explanation of syntax and semantics, especially the multiple concrete examples of semantics, to be excellent. The code is also very concise and easy to read. Good work!
+
+テキストの引用を行いながら非常に良く説明されています。semanticsの例として挙げられている初期化忘れは、良く発生するものですね。。私も気をつけます。
+Hi Frank,
+The semantics example of forgetting to initialize is a common occurrence. I will take care of it. Good work!
 
 ## Written Assignment
 
