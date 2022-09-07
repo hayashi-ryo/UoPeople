@@ -4,10 +4,16 @@
 
 ## Task
 
-### Reading Assignment
+- [ ] Reading assignment
+- [ ] Discussion Forum
+  - [ ] first post
+  - [ ] reply classmates
+- [ ] Programming assignmet
+- [ ] Learning Journal
+- [ ] Take Self-Quiz
 
 ### Discussion Forum
 
-### Written Assignment
-
 ### Learning Journal
+
+### Programming Assignment

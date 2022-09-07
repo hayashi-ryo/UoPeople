@@ -1,0 +1,20 @@
+Hello classmates, I would like to explain my response to this topic.
+First, it is necessary to discuss what a function is in dealing with this issue. The textbook describes a function as A function is a relation in which each possible input value leads to exactly one output value." (Abramson, 2017). Therefore, whether an expression given in this case is a function can be determined by whether it has multiple outputs for a single input. One way to determine if an equation is a function is to check it by giving a vertical line to the graph.
+
+
+This graph represents $x^2+(y-2)^2=1$ and $x=0.5andy=1.5$. As can be seen from the graph, there are two intersections concerning the vertical line, which means that one input can have multiple outputs. Therefore, we have determined that x and y are not mutually functioned in this equation.
+
+Next, we will discuss the contents of the given expression, which is not a function, but is restricted to a domain.
+As given by (x, y) R (0, 2), this time the equation can take as its coordinates a point 1 away from a particular coordinate. x region is calculated by passing through the center of the circle and considering the intersection of the equation with a line perpendicular to the y-axis.
+x^2+(2-2)=1
+x^2-1=0
+(x-1)(x+1)=0
+Thus we see that the domain of x is [-1,1]. Similarly, when considering the domain of y, we only need to consider the case x=0, so
+(y-2)^2=1
+y^2-4y+3=0
+(y-1)(y-3)＝0
+Thus, the region of y is [1,3].
+Finally, since this time R occupies a point on a circle of radius 1, there exist (0,3) and (0,0) as points on the coordinate axis power associated with R and the center of the circle (0,2)
+
+Reflections:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from https://openstax.org/details/books/algebra-and-trigonometry
