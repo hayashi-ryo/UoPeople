@@ -1,0 +1,4 @@
+*.class
+org.*
+.classpath
+.project

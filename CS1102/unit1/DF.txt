@@ -1,0 +1,13 @@
+Hello classmates, I would like to explain my views on this issue.
+
+Programming languages, such as Java, are created to solve a specific purpose, and there are several rules involved. In this discussion, I will explain those rules.
+First, let's talk about syntax. In order to run a program, it must be translated into machine language to give instructions to the computer, called compilation. In order to compile a program, it must meet the syntax specified for each programming language, and if it does not, it cannot even be executed. The rules for determining whether a program can be executed are called syntax. This is relatively easy to detect because it is displayed as an error in Eclipse and other software.
+Next, let's talk about semantics. A program is created to solve a specific purpose. The behavior we want from the program itself is called semantics, and whether or not semantics are in proper condition can only be discovered through debugging and testing, which can be difficult to find.
+
+The following is an example of the incorrect state of these two rules using a java program.
+
+syntax error
+java requires a ";" at the end of a line. If you forget this ";", an error will occur. The following program does not satisfy the syntax of ending a line with ";" and cannot be executed.
+
+semantics error
+I tried to output the concatenation of the name stored in the variable name and the string "Hello! However, the following program does not output the proper output.
