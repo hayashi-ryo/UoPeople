@@ -1,0 +1,43 @@
+1. Find the domain of the function using interval notation.
+$f(x)= \frac{ \sqrt{x-6} }{ \sqrt{x-4}}$
+
+In this function, we need to consider the region for each of the root and denominators.
+1. root
+The region should be such that the inside of the root is a positive real number. In this function, I will use:
+\sqrt{x-6}:[6, \infty ]
+\sqrt{x-4}:[4, \infty ]
+so the domain is [6,∞].
+
+2. Denominator
+Regions with a denominator of zero should not be defined, so they must be excluded.
+\sqrt{x-4}=0
+x=4
+This result gives a domain of [-∞,4)(4,∞).
+
+From the results of 1 and 2, the domain of this function is [6,∞].
+
+2. Sketch a graph of a piecewise function. Write the domain in interval notation.
+I created the following graph:
+y=\ 2x+1\ \left\{-1<x<1\right\}
+y=x^{2}-2\left\{-2\le x\le-1\right\}
+y=-2x^{2}+5\left\{1\le x\le2\right\}
+
+3. The cost in dollars of making x items is given by the function $C(x) = 10x + 500.$
+a. The fixed cost is determined when zero items are produced. Find the fixed cost for this item.
+For the function C(x), consider x=0:
+C(0)= 10*x+500
+C(0)=500
+Thus, the fixed cost is 500. This is the same meaning as the intercept when the graph is considered.
+
+b. What is the cost of making 25 items?
+C(25)=10*25+500
+C(25)=750
+C(25)=750
+
+c. Suppose the maximum cost allowed is $1500. What are the domain and range of the cost function, C(x)?
+
+C(x)=10x+500<=1500
+10x<=1000
+x<=100
+
+Also, it is not possible to produce a negative number of goods. Therefore, the domain C(x) is [0,100]. The range of C(x) is then [500,1500].

@@ -14,7 +14,7 @@
 - [x] Discussion Forum
   - [x] first post
   - [ ] reply classmates
-- [ ] Writing assignmet
+- [x] Writing assignmet
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
@@ -54,7 +54,47 @@ y^2-4y+3=0
 ### Written Assignment
 
 1. Find the domain of the function using interval notation.
-$f(x)= \frac{\sqrt{x-6}}{\sqrt{x-4}}$
+$f(x)= \frac{ \sqrt{x-6} }{ \sqrt{x-4}}$
+今回の関数では、rootと分母それぞれについて領域を考慮する必要がある。
+   1. root
+rootの中が正の実数となるような領域とする必要があります。今回の関数では、
+$\sqrt{x-6}:[6,∞]$
+$\sqrt{x-4}:[4,∞]$
+となるので、領域は[6,∞]となります。
+   2. 分母
+分母が0となる領域は定義してはいけないため、その領域を対象外とする必要があります。
+$\sqrt{x-4}=0$
+$x=4$
+この結果から[-∞,4)(4,∞]の領域が与えられます。
+1と2の結果から、今回の関数の領域は[6,∞]となります。
+
+2. Sketch a graph of a piecewise function. Write the domain in interval notation.
+$y=x^2  for {-1 \leq x \leq 1}$
+and
+$y = 3x - 2 for  {1 \leq x \leq 3}$
+Then choose your own functions and have fun.
+
+以下のグラフを作成した
+$y=\ 2x+1\ \left\{-1<x<1\right\}$
+$y=x^{2}-2\left\{-2\le x\le-1\right\}$
+$y=-2x^{2}+5\left\{1\le x\le2\right\}$
+
+3. The cost in dollars of making x items is given by the function $C(x) = 10x + 500.$
+a. The fixed cost is determined when zero items are produced. Find the fixed cost for this item.
+関数C(x)について、x=0を考える
+C(0)= 10*x+500
+=500
+よって固定費は500となる。これはグラフを考慮した場合の切片と同じ意味である。
+
+b. What is the cost of making 25 items?
+C(25)=10*25+500
+=750
+よって、750原価となる。
+c. Suppose the maximum cost allowed is $1500. What are the domain and range of the cost function, C(x)?
+C(x)=10x+500<=1500
+10x<=1000
+x<=100
+また、商品を負の数生産することはできない。よって、C(x)のdomeinは[0,100]となる。この時、C(x)のrangeは[500,1500]となる。
 
 ### Learning Journal
 
