@@ -51,6 +51,32 @@ y^2-4y+3=0
 よって、yの領域は[1,3]となります。
 最後に、今回のRは半径1の円上の点であることを占め示すものなので、Rと円の中心(0,2)に関連する座標軸乗の点として(0,3)と(0,0)が存在します
 
+- reply
+
+1.
+
+全体を通して、今回の円の方程式への理解が深まっていることが説明からわかりました。しかし、根号を考慮した計算を行い場合の+-の考慮が不完全のようです。確認した限り、あなたの提示した関数をグラフにすると不完全なものとなるはずです。
+Hi Overcomer
+Throughout, I could see from the explanation that there is a better understanding of the equation of the circle this time. However, it seems that the +- consideration is incomplete when the root sign is taken into account in the calculation. As far as I have checked, the function you have presented should be incomplete when graphed.　Good Work!
+
+2.
+
+根号を考慮した計算や、方程式の計算が誤っているようです。根号を外す場合の+-の考慮やyに対するxの関係を求める操作がいくつか誤っている部分があります。例えば、yに対する操作は以下のように進めると簡単に行うことができます。
+
+Hi Juan,
+It seems that the calculation considering the root sign and the equation is incorrect. There are several incorrect operations to consider +- when removing the root sign and to find the relation of x to y. For example, the operation on y can be easily performed by proceeding as follows:
+x^2+(y-2)^2=1
+(y-2)^2=1-x^2
+y-2=\pm\sqrt{1-x^2}
+y=\pm\sqrt{1-x^2}+2
+
+3.
+
+あなたの説明は非常に簡潔で、かつあなた自身が今回のテーマに対して高い理解度を持っていることがよくわかりました。式の操作などについても疑問点がありません。
+
+Hi Donald,
+Your explanation was very concise, and I could see that you have a high level of understanding of the subject matter. I have no doubts about the manipulation of the equation. Good Works!
+
 ### Written Assignment
 
 1. Find the domain of the function using interval notation.
@@ -97,5 +123,7 @@ x<=100
 また、商品を負の数生産することはできない。よって、C(x)のdomeinは[0,100]となる。この時、C(x)のrangeは[500,1500]となる。
 
 ### Learning Journal
+
+今回の
 
 ### Programming Assignment
