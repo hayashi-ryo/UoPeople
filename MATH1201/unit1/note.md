@@ -13,10 +13,10 @@
 - [x] Reading assignment
 - [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Writing assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Reading Assignment
 
@@ -124,6 +124,31 @@ x<=100
 
 ### Learning Journal
 
-今回の
+Reflect on the concept of function. What concepts (only the names) did you need to accommodate the concept of function in your mind?
+私が関数という概念を理解するのに一番重要だった点は、「入力に対して出力が一つに定められるものだ」という点です。この概念を理解するまでの私は、f(x)といった記載の意味や、計算の流れについて理解することができていませんでした。しかし、「入力に対して出力が一つに定まる」ということを理解した私は、f(x)が特定のxに対する出力を示していることを理解し、その出力を求めるために方程式を計算するということを理解することができました。
 
-### Programming Assignment
+What is the simplest function you can imagine?
+私は、y=Cの形で与えられる、入力によらず一定の出力が与えられる関数が最もシンプルな関数だと考えます。このような関数は、私の身の周りでは、家を借りる場合などが該当します。住む人数などのパラメータに依存せず、出力は常に一定です。
+
+In your day to day, is there any occurring fact that can be interpreted as a function?
+私の身の回りでは、料金を求める計算が関数と解釈できるような事例だと感じています。例えば、タクシーの料金は固定値として700円を計上した上で、距離という入力に対して出力を求めるため、y=360x+700といった形で計算できます。また、コインパーキングも15分で300円がかかるため、y=300xなどという表現が可能です。
+
+Is it possible to view a function?
+私はグラフという形で関数を見ることができます。グラフとして確認する場合の注意点として、入力が連続的なものか離散的なものかはあらかじめ考慮する必要があると考えています。
+
+What strategy are you using to get the graph of a function?
+オンラインのグラフ作成ツールやプログラムを利用しない形でグラフを作成する場合は、x軸とy軸を書いた上で、入力と出力のリストに点を打ちます。リストに含まれる点を関数が通ることは明確なので、それらの点を通るようにグラフを書くことが最も基本的な戦略になると考えています。しかし、大学に通う私はオンラインのツールやエクセルなどを利用して簡単にグラフを作成することができるので、基本的にはツールを利用してグラフを作成したいと考えています。
+
+今回のユニットでは、全体を通して学んだことはある事柄に関する学習だったため概念的な部分に対する戸惑いはあまりありませんでした。しかし、母国語と異なる言語で学習することに対する不安が少々あるので、ユニットの学習と並行してリーディング/ライティングの学習を進めたいと思います。
+
+The most important point for me to understand the concept of a function is that it is something that defines a single output for an input. Until I understood this concept, I did not understand the meaning of statements such as f(x) or the flow of computation. However, once I understood that "the output is fixed to one input," I was able to understand that f(x) indicates the output for a particular x and that the equation is calculated to find that output.
+
+I consider the simplest functions to be those given in the form y=C, where the output is constant regardless of the input. Such a function applies to my immediate surroundings, such as when renting a house. The output is always constant, independent of parameters such as the number of people living in the house.
+
+In my immediate surroundings, I feel that this is an example where the calculation to find the fare can be interpreted as a function. For example, a cab fare can be calculated in the form y=360x+700, since the output is obtained for an input of distance, after accounting for a fixed value of 700 yen. Also, Coin-operated parking costs 300 yen for 15 minutes, so it can be expressed as y=300x.
+
+I can see the function in the form of a graph. One thing to keep in mind when checking a graph is whether the input is continuous or discrete needs to be considered beforehand.
+
+If you are graphing in a way that does not require the use of an online graphing tool or program, you write the x-axis and y-axis and then hit the points in the list of inputs and outputs. Since the function will pass through the points in the list, I believe that the most basic strategy would be to graph through those points. However, as a college student, I can easily create graphs using online tools and Excel, so basically I would like to use the tools to create the graph.
+
+In this unit, I was not so much confused about the conceptual part of the unit, as I had learned about certain things throughout the entire unit. However, I do have some anxiety about learning in a language different from my own, so I would like to continue learning reading/writing in parallel with the unit.
