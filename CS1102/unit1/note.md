@@ -15,7 +15,7 @@
   - [x] first post
   - [x] reply three classmate
 - [x] PA
-- [ ] LJ
+- [x] LJ
 - [x] Self-Quiz
 
 ## Reading Assignment
@@ -78,3 +78,20 @@ The semantics example of forgetting to initialize is a common occurrence. I will
 ## Written Assignment
 
 ## Learning Journal
+
+私は今週のユニットで大きく二つの事項を学びました。
+一つ目は、javaプログラムを実装してから動作するまでの流れについてです。教科書では、javaファイルをJVMに向けたjava bytecodeに変換していると説明がありました。私自身javaの開発に何度か携わったことがあったため、これがどれほどインパクトの大きい事項であるか理解しているつもりです。様々な環境(windows,macOS, distributionの異なるLinuxなど)それぞれに対して開発を行うことや、Linux環境のみを利用した開発は開発者のスキルに依存する部分があり非常に難しいものがあります。javaに代表される最近の言語はこの点を考慮している点が素晴らしいことだと考えています。
+二つ目に学んだ事項としては、プログラムを作成する上でのルールについてです。大きくsyntax、semantices、pragmaticsの3つがあります。まずsyntaxはプログラム言語を実装する上でのルールです。javaを例にすると、プログラムはコンパイルという操作を経て機械が認識できる形式に変換されます。このコンパイルの操作を行う際に特定の形式を満たしていないと、syntaxエラーとなります。代表的なものとして、文末の;を忘れてしまうことなどが上げられます。
+次に、semanticsはプログラムのある入力に対して一定の出力を定義するなど、プログラムに求める動作のことを指します。このエラーはコンパイルなど機械的に発見することが難しく、デバッグやテストなどの工程を経て確認を行います。個人的に一番発見が難しいエラーだと考えています。
+最後に、pragmaticsです。programicsはプログラム自体の構文を人間が解釈するためのルールです。個人でプログラムを作成している場合はあまり大きな問題にならないかもしれませんが、大人数が関わるプロジェクトなどで、各開発者が独自の実装を行うとプログラムの解釈が非常に難しくなります。解釈を簡単に、かつ品質を均質化するためにコーディング規約などで一定のルールを設けてプログラム全体が一貫した作りとなるようにします。大量にネストされたif文などはそれ自体を読むことが苦痛なので、このような人間が解釈しにくいものについては出来るだけ実装段階から排除する工夫が必要だと考えています。
+また、今回のユニットにおけるクラスメイトからの指摘や、クラスメイトのディカッションポストによって自身の理解を深めることができた点が素晴らしいことだったと考えています。例えば、クラスメイトから"The code that you wrote is pretty simple and I think that it is handful for the first time with java but you could include more illustrations from the textbook and more functions to make is look more formidable."といったコメントがありました。私自身としては、説明や例示が足りていると考えていても、他の人から見るとまだまだ例示や説明が足りていないことの証拠となります。私の投稿がクラスメイトからどのように見えているのか、どの程度私と周りの感覚がずれているのかについて、このコースで理解を深めたいと思います。
+
+I learned two major matters in this week's unit.
+The first is about the process of implementing a java program and then making it work. The textbook explained that java files are converted to java bytecode for the JVM. I have been involved in java development several times, so I understand how impactful this is. I think it is great that recent languages, such as java, take this into account. I think it is wonderful that recent languages such as java consider this point.
+The second thing I learned was about the rules of programming. There are three main types of rules: syntax, semantics, and pragmatics. First, syntax is the rule for implementing a programming language. java, for example, is a program that is converted into a machine-recognizable format through an operation called compilation. If this compilation operation does not meet a certain format, a syntax error occurs. Typical examples include forgetting the ";" at the end of a sentence.
+Next, semantics refers to the behavior required of a program, such as defining a certain output for a certain input of the program. This error is difficult to detect mechanically, such as by compilation and is checked through processes such as debugging and testing. I consider it the most difficult error to detect.
+Finally, pragmatics are rules for human interpretation of the syntax of the program itself. This may not be a major problem for an individual programmer, but in a project involving a large number of developers, it can be very difficult to interpret the program if each developer implements his or her implementation. To simplify interpretation and ensure uniform quality, a coding rule should be established to ensure that the entire program is consistent. Since it is painful to read a large number of nested if statements, we believe it is necessary to eliminate such statements that are difficult for humans to interpret from the implementation stage as much as possible.
+I also think it was great that I was able to deepen my understanding of the unit with the help of my classmates' pointers and their discussion posts. For example, a classmate said to me "The code that you wrote is pretty simple and I think that it is a handful for the first time with java but you could include more illustrations from the textbook and more functions to make is look more formidable.". I have heard comments such as "I'm not sure what you mean by that. Even though I think that I have enough explanations and examples, others see it as evidence that I am still lacking in examples and explanations. I hope to gain a better understanding in this course of how my classmates see my contributions and the extent to which my perceptions are out of sync with theirs.
+
+Reference:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. <http://math.hws.edu/javanotes>.
