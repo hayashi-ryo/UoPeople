@@ -1,6 +1,5 @@
-/** A program to display the message
- *  "Hello World!" on standard output.
- */
+package unit1;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
