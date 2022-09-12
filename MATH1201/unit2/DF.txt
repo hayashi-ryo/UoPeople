@@ -1,0 +1,24 @@
+Hello classmates, I would like to explain my response to this topic.
+Line segments can be organized as linear functions in the form y=ax+b. To organize it in the form of a linear function, I need to solve a linear equation using information from two points. Organize the information given as x for the number of days elapsed since January 1 and y for the stock price. Then I obtain the following information.
+
+If a stock price goes from $10 to $12 from January 1st to January 31,
+(0,10)→(30,12):lineA
+from $12 to $9 from February 1st to February 28th
+(31,12)(58,9):lineB
+from $9 to $15 from March 1st to March 31th
+(59,9)(89,15):lineC
+
+Organizing this information yields three linear functions
+lineA:y=1/15x+10 [0,30]
+lineB:y=-1/9x+139/9 [31,58]
+lineC:y=1/5x-14/5 [59,89]
+
+Each function is represented graphically as follows:
+
+These organized results are used to answer questions.
+
+But what would be a simplified solution for a first naive view of the situation? What is the simplest function to represent this situation?
+As I have organized so far, I can organize them into three linear function forms.
+
+Does your naïve initial and simplified model allow you to predict the behavior of the stock in the next month?
+Confirming the upward trend from January 1 to March 31, there is a sense that the trend will be similarly upward from April onward. However, as can be seen from the upper limit of the monthly amount, it is very difficult to predict stock prices as a linear function.
