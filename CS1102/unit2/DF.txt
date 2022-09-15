@@ -1,0 +1,25 @@
+Hello classmates, I would like to explain my views on this issue.
+
+I have created 3 samples and their programs(Example.java). Each sample program works as follows.
+
+- Example1
+Generate random numbers less than or equal to 10 and exit the loop if the number is even
+- Example2
+For numbers up to 30, output is based on conditions:
+Divisible by 3: Fizz
+Divisible by 5: Buzz
+Divisible by 3 and 5: FizzBuzz
+- Example3
+Output numbers up to 15 in sequence in a single column.
+
+Based on what we have seen so far, we can see that a given statement of either loop structure can be repeated until the decision is satisfied. The advantages and disadvantages of each loop structure can then be summarized as follows:
+| item| while loop | do..while loop | for loop |
+| -- | -- -- | -- | -- |
+|expression evaluation|before statement execution|after statement execution|before statement execution|before statement execution|before statement execution
+|Condition of expression|expressed inside of statement|expressed inside of statement|set at loop initialization|
+
+Based on this, I believe the following are appropriate use cases for each loop structure.
+while loop / do..while loop
+  This is used when you want to execute a statement up to an unspecified limit, such as when probing for input that meets certain conditions, rather than a statement that is repeated up to an upper limit. On top of that, while loops are used for statements that do not need to be executed even if they are never executed, and do...while loops are used for statements that should be executed at least once.
+for loop
+  The condition of loop can be expressed in a single line and is very readable. Therefore, this structure is used when you want to execute a statement repeatedly a specific number of times.
