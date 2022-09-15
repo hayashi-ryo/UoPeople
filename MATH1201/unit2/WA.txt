@@ -1,0 +1,43 @@
+1. Whether or not the lines are parallel can be determined by whether or not the slope matches when rearranged into the form y=ax+b.
+a.
+3y+4x=12
+  3y=-4x+12
+  y=-4/3x+4
+-6y=8x+1
+  y=-4/3x-1/6
+
+Parallel
+
+b.
+3y+x=12
+  y=-1/3x+4
+-y=8x+1
+  y=-8x-1
+Not parallel
+
+c.
+4x-7y=10
+  y=4/7x-5/2
+7x+4y=1
+  y=-7/4x+1/4
+Not parallel
+
+2. Since the value of h(t) at t=0 is the height of the building:
+h(0)=8
+Thus, the height of the building is 8 meters. Next, to find the maximum reachable point of the ball, we can examine the vertices of the quadratic function:
+h(t)=-4.9t^2+24t+8
+    =-4.9(t^2-24/4.9t)+8
+    =-4.9(t-12/4.9)^2+8+144/4.9
+As a result, the coordinates of the vertex are (12/4.9,8+144/4.9), which is the maximum reachable point of the ball. The exact values are:
+Maximum height of the ball: 2.4490...
+Time to reach maximum height: 37.38776...
+
+3. The total income of the market can be determined by the number of stores * average income.
+If the number of stores is x, the average income can be expressed as -5x+700.
+At this point, the relationship between the total market income y and the number of storefronts x is:
+y=(-5x+700)x
+  =-5x^2+700x
+  =-5(x-70)^2+24500
+Since this quadratic function has a maximum value of 24500 at x=70:
+The optimal number of stores: 70
+Total market income: 24500
