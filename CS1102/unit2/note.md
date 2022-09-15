@@ -23,7 +23,7 @@
 - [x] Read the Learning Guide and Reading Assignments
 - [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
-- [ ] Complete an entry in the Learning Journal
+- [x] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
 
 ## Reading Assignment
@@ -98,3 +98,39 @@ Your Discussion should be at least 250 words in length, but not more than 750 wo
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットでは、while/do..while/forといったloop statementと、if/switchといったbranch stagementについて学習しました。これらのstatementは解決したい問題に対する解決策を模索するアプローチの中で必ず必要になる重要な要素です。
+まず、loop statementについてです。プログラムを作成する際は、同じ処理を繰り返し実行したい場合がよくあります。このような場合に、一つ一つの処理をそれぞれ記載していると、バグを混入してしまう可能性が高く、作成にも非常に手間がかかります。このような場合に、loop statementを活用します。loop statementにはいくつかの処理が存在しますが、基本的な概念としては"条件を満たすまで処理を繰り返し行う"ことです。この概念によってプログラマーは同じものを何度も作成する退屈な時間を避けることができます。
+次に、branch statementです。問題解決を行うためには"入力AならばBという処理を行う、入力がA以外であればCという処理を行う"という設計を行いたい場面が多数存在します。このような場面にifやswitchなどのbrance statementを利用します。これらのswitch statementは、条件ごとに処理を分岐させ、場合分けすることができます。場合分けは非常に便利ですが、多用することは気をつけなければなりません。例えばif構文は以下のようにネストして実装することができます。
+if(A==X) {
+  if(B==Y) {
+    if(C==X) {
+      if(D==Y) {
+        stamement;
+      }
+    } else{
+      statement;
+    }
+  }
+}
+しかし、この記載は非常に可読性が悪くpragmaticsに欠けるプログラムです。多くても2までのネストにするか、条件式としてANDやORを利用することで一目で判断できるよう実装することが重要であると学びました。
+ここまでに説明した内容について、私はサンプルプログラムを作成し、実際に動かしながら確認を進めました。私の学習態度としては、テキストで学習した内容を完璧に定着させるには実際に手を動かしながら体験する手法が非常に効果的であることを、unit1/2を通して感じています。
+全体を通して、私の今回のユニットに関する理解は非常に深まったと感じています。テキストで学習し、サンプルを作成しながら手を動かし、その後クラスメイトとのディスカッションで理解をさらに深める。この一連の流れは私の理解を向上させるだけではなく、私が意識していない問題点やクラスメイトが気にするポイントを浮き彫りにしてくれます。今回のテーマでは、loop回数がきまっているかどうかや最低一度実行したいかなどstatementを実装するにあたってきにするべきポイントに関する意識が合っていることが確認できました。
+
+In this week's unit, we learned about loop statements such as while/do..while/for, and branch statements such as if/switch. These statements are essential elements in any approach that seeks a solution to a problem that we want to solve.
+First, let's talk about the loop statement. When creating a program, it is often the case that you want to execute the same process repeatedly. In such cases, if each process is described individually, there is a high possibility of introducing bugs, and it is very time-consuming to create a loop statement. In such cases, loop statements can be used. loop statements have several processing types, but the basic concept is to "repeat the process until the condition is satisfied. This concept allows programmers to avoid the tedium of creating the same thing over and over again.
+Next is the branch statement. To solve a problem, there are many situations in which we want to design a program that "if the input is A, then do process B. If the input is not A, then do process C." In such situations, we can use "if" and "else" statements. In such situations, branch statements such as "if" and "switch" are used. These switch statements can be used to branch the process according to each condition and divide it into cases. Although case separation is very useful, one must be careful not to use it too often. For example, if statements can be nested as follows:
+if(A==X) {
+  if(B==Y) {
+    if(C==X) {
+      if(D==Y) {
+        stamement;
+      }
+    } else{
+      statement;
+    }
+  }
+}
+However, this description is very unreadable and lacks pragmatics. I learned that it is important to nest up to two at most, or to use AND and OR as conditional expressions so that decisions can be made at a glance.
+I created a sample program and checked the contents explained up to this point by actually running the program. As for my learning attitude, I feel that hands-on experience is a very effective method to fully consolidate the contents learned in the textbook through unit1/2.
+Overall, I feel that my understanding of this unit was greatly enhanced. Learning from the text, working hands-on with samples, and then further deepening my understanding through discussions with my classmates. This sequence of events not only improves my understanding, but also highlights issues that I am not aware of and points that my classmates are concerned about. In this case, I was able to confirm that we were all aware of the points that we should be concerned about when implementing statements, such as whether or not the number of loops is fixed and whether or not we want to execute a statement at least once.
