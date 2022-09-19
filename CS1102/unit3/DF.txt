@@ -1,0 +1,14 @@
+In implementing a program, we use what are called subroutines or methods. According to the text, the subroutine is "A SUBROUTINE CONSISTS OF INSTRUCTIONS for performing some task" (Eck, 2019) and is defined as a series of processes that collectively perform a specific action. For example, "find the volume of a sphere of radius x" or "parse a string and extract only the necessary information". Then, why do we use this subroutine-like mechanism? The reason is that it is not essentially important to understand what is inside a subroutine when implementing a program, but only how to utilize the results of the subroutine. However, even if you do not understand what exactly the subroutine is operating on, you still need some kind of interface. This interface is the parameter. Returning to the previous example, a parameter would look something like this:
+Find the volume of a sphere of radius x
+  Parameter is radius
+Parsing a string and extracting only the necessary information
+  Parameters are strings
+
+Next, we will review parameters using a concrete program. There are two types of parameters: formal parameters and actual parameters. The text explains that "Parameters in a subroutine definition are called formal parameters or dummy parameters. is called are called actual parameters or arguments."(Eck, 2019) explains.
+This content is explained using a subroutine to find the volume of a sphere.
+
+There is a subroutine CalVolofSphere and the main method that uses it. At this time, the variable Radius, which is used in CalVolofSphere, has no actual value, but is a parameter that indicates how the parameter is used in the subroutine. This parameter is the formal parameter.
+Next, if you check the part of the main method that calls CalVolofSphere, you will see that the values r=1 and 5 are given as arguments. These values passed to the actual processing are called the actual parameter.
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. http://math.hws.edu/javanotes.
