@@ -1,0 +1,33 @@
+I will be discussing polynomial functions and examples of using them in this assignment. First, a polynomial function is defined as follows according to the text:
+"Let n be a non-negative integer. A polynomial function is a function that can be written in the form
+f(x)=anx^n+...+a2x^2+a1x+a0" (Abramson, 2017)
+
+This shape can be used to describe phenomena around us and is modeled in various forms. In this case, I will use a polynomial function to describe the area between a circle and a square inside the circle.
+
+The area I want to find this time is given by the area of the circle - the area of the square, so I will check each of these.
+
+Area of a circle
+First, consider a circle h(x) with radius x. This area is expressed by h(x)=πx^2.
+
+Area of a square
+Next, consider a square existing in the circle h(x), whose length from the intersection of the diagonals is given by t. The area S(t) of this square is
+S(t)=t*t/2*4=2t^2
+where given the condition "half the radius x of the circle h(x) plus 1" as the condition for t:
+t=x/2+1
+and therefore S(t) is a function of x:
+S(x)=2(x/2+1)^2
+=x^2/2+2x+2
+
+Area F(x) to be obtained
+Finally, I calculate the area F(x) that we wish to find. Since we can subtract the area of the square from the area of the circle calculated so far:
+F(x)=h(x)-S(x)
+=πx^2-(x^2/2+2x+2)
+=(π-1/2)x^2-2x-2
+This is a polynomial function whose highest degree is 2.
+Also, before graphing this function, let's review the area. Since the square must lie inside the circle
+t<=x
+must be inside the circle. We can organize this using t=x/2+1
+x/2+1<=x
+-x/2<=-1
+x>=2
+So the function F(x) is defined in the domain of [2. infinite) and can be expressed as follows:
