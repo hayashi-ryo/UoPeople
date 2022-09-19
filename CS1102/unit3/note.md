@@ -20,7 +20,7 @@ Topics:
 - [ ] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
 - [ ] Complete an entry in the Learning Journal
-- [ ] Take the Self-Quiz
+- [x] Take the Self-Quiz
 Take the Graded Quiz
 
 ## Reading Assignment
