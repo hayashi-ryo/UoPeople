@@ -17,7 +17,7 @@ Topics:
 
 - [x] Peer assess Unit 2 Programming Assignment
 - [x] Read the Learning Guide and Reading Assignments
-- [ ] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
+- [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
 - [ ] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
