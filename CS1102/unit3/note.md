@@ -19,7 +19,7 @@ Topics:
 - [x] Read the Learning Guide and Reading Assignments
 - [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
-- [ ] Complete an entry in the Learning Journal
+- [x] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
 Take the Graded Quiz
 
@@ -53,3 +53,27 @@ Discuss the concept of parameters. What are parameters for? What is the differen
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットでは、サブルーチン(Javaではメソッドと呼ばれることもある)やLambda Expressionsなど、Javaアプリケーションの実装を進める上で非常に重要な概念を学びました。
+
+まず、サブルーチンはテキストによると以下のように説明されています。
+"A SUBROUTINE CONSISTS OF INSTRUCTIONS for performing some task"(Eck, 2019)
+これは、特定の動作をする一連の処理をまとめて定義したもので、繰り返し似た処理を行う場合や、複数人で開発を行う場合には必要不可欠なものとなります。今回のユニットで私は「半径xの球を求めるサブルーチン」を作成しましたが、「データベースから特定の情報を抜き出す」「ファイルアップロード処理を実装する」など、さまざまな具体例があると考えています。同様の処理を繰り返し利用して問題解決を行うことは、プログラムを利用して問題を解決するために必要な基本的な思想だと考えているため、Exercisesなどを通して私自身の理解をさらに深めていきます。
+
+次にLambda Expressionsについてです。テキストによると、Lambda Expressionsは以下のように説明されています。
+"A lambda expression represents an anonymous subroutine, that is, one without a name."(Eck, 2019)
+また、syntaxとしては以下のように定義されます。
+( parameter-list )  ->  { statements }
+Lambda Expressionsは、テキストの説明にもあるように、以下の二つの処理を同時に行う形で実装されています。
+
+1. クラスインターフェース定義
+サブルーチンに与えるパラメータを定義する。
+2. 匿名サブルーチン定義
+サブルーチンでどのような処理を行うのか定義する
+
+この二つの仕組みを活用して、Lambda Expressionsという仕組みが実装されていることとその実装をどのように進めていくべきかにについては少し理解することができました。しかし、正直なところ単純にメソッドを定義して呼び出す形ではいけないのかという疑問から派生して、具体的な利用方法についてイメージすることができていません。6章や10章を学ぶ際に便利であることがテキストで説明されていたので、基本概念の定着をおこなった上で該当ユニットを楽しみに待ちたいと思います。
+
+また、今回のディスカッションでは非常に有意義にコメントをもらうことができました。
+"In this case, Radius is the formal parameter, and r is another formal parameter; it is redundant, but the redundancy explains the concept."というものです。私としては冗長なプログラムを実装したつもりではなかったのですが、コメントを確認した上で確認すると、確かに無駄な処理を実装してしまっており、自身のプログラムを見直すきっかけにすることができました。この体験によって、ディスカッションの重要性を再認識することができたので、今後の自分のコメントが今回クラスメイトからもら得たような有意義なものとできるよう学習を進めます。
+
+今回のユニットの学習は、Javaという言語を利用したプログラミングでは非常に重要なものだったと確信しています。Lambda Expressionsなど私自身が理解を深めるために必要な領域はまだありますが、今回の静的サブルーチンと次のユニットで学習する予定である非静的サブルーチンを理解することで、スキルを向上させていきたいと思います。
