@@ -1,0 +1,44 @@
+Reflect on the concept of polynomial and rational functions. What concepts (only the names) did you need to accommodate these concepts in your mind?
+
+To understand polynomial and rational functions, we need to know about the most basic concept, power function. According to the text, power function is of the form f(x)=kx^p(where k and p are real numbers, and k is known as the coefficient. This form is the most basic concept of all functions, and polynomial and rational functions are expressed in terms of combinations of these power functions.
+The polynomial function is defined by the addition of multiple power funcition and is generally expressed as follows
+𝑓(𝑥)=𝑎𝑛𝑥𝑛+... +𝑎2𝑥2+𝑎1𝑥+𝑎0
+This is called the general form of a polynomial function. Each 𝑎𝑖 is a coefficient and can be any real number, but 𝑎𝑛≠. Each expression 𝑎𝑖𝑥𝑖 is a term of a polynomial function.(Abramson, 2017)
+Next, a RATIONAL FUNCTION is typically expressed as follows.
+ 𝑓(𝑥)=𝑃(𝑥)𝑄(𝑥)=𝑎𝑝𝑥𝑝+𝑎𝑝-1𝑥𝑝-1+...  +𝑎1𝑥+𝑎0𝑏𝑞𝑥𝑞+𝑏𝑞-1𝑥𝑞-1+... +𝑏1𝑥+𝑏0,𝑄(𝑥)≠0
+This made me realize that everything we are learning in this unit is a combination of basic forms, and that a deeper understanding of basic forms is an important start.
+
+What are the simplest polynomial and rational function you can imagine?
+
+Two examples of simple polynomial functions are given below. The first one is expressed in the form f(x)=mx+b. As we learned in the previous unit, this is a straight line with slope m and intercept b.
+Next, f(x)=ax^2+bx+c. When graphed, it is a parabola. If we can think of the general system as f(x)=a(x+a/b)^2+C, we can also understand that the vertex is (-a/b,C).
+We have already learned these concepts in the previous unit, and we are reminded that the purpose of this study is to deepen our understanding of general systems.
+
+In your day to day, is there any occurring fact that can be interpreted as polynomial and rational functions?
+
+Compound interest calculation came to mind as a polynomial function. Compound interest calculations are generally given in the form principal*(1+interest)^years. Expanding this, it can be viewed as a polynomial function related to interest.
+Next, as for rational functions, the first one that came to mind is the one expressed in the form f(x)=tanx.
+The first thing that came to mind was a rational function in the form f(x)=tanx. tanx is a rational function defined by sinx/cosx, a concept that I used very often in my physics studies.
+
+What strategy are you using to get the graph of polynomial and rational functions?
+
+A) polynomial function
+The basic procedure is as follows
+
+1. find a simple point
+We first calculate the situation when f(x)=0 or f(0). These points can be obtained by factorization or substitution. 2.
+2. finding the slope between points
+After finding points that are easy to understand, the next step is to consider the slope. It is important to know whether the equation is upward or downward, for example, -∞, +∞, or between points. I have found that the concept of differentiation can be used very usefully in this way.
+
+B) Rational function
+The basic procedure is explained below.
+
+1. find a simple point
+As in the polynominal function, we organize axial points such as f(x)=0, f(0), etc. 2.
+2) Check for points where the denominator can be zero
+Due to the characteristics of rational functions, it is not possible to define a point where the denominator is zero, but rather it can take on an infinite number of values, either + or -. It is important to check where such a point is and whether it diverges toward + or - when drawing a graph.
+
+Word count:595
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from https://openstax.org/details/books/algebra-and-trigonometry
