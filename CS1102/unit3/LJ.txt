@@ -1,0 +1,29 @@
+In this week's unit, I learned about subroutines (sometimes called methods in Java), Lambda Expressions, and other concepts that are very important for the implementation of Java applications.
+
+First, the subroutine is described by the text as follows:
+"A SUBROUTINE CONSISTS OF INSTRUCTIONS for performing some task"(Eck, 2019)
+
+This defines a series of processes that perform a specific action together and is indispensable when performing similar processes repeatedly or when multiple people are involved in the development process. In this unit I created a "subroutine to find a sphere of radius x," but I believe there are many specific examples such as "extracting specific information from a database" or "implementing a file upload process. I will further my own understanding through Exercises and other programs, as I believe that repeatedly using similar processes to solve problems is a fundamental idea necessary to use programs to solve problems.
+
+Next, let's talk about Lambda Expressions. According to the text, Lambda Expressions are described as follows:
+"A lambda expression represents an anonymous subroutine, that is, one without a name."(Eck, 2019)
+It is also defined as syntax as follows:
+( parameter-list ) -> { statements }
+Lambda Expressions, as described in the text, is implemented in a way that simultaneously performs the following two processes:
+
+1. class interface definition
+Define parameters to be given to the subroutine.
+2. anonymous subroutine definition
+Define what processing is performed by the subroutine.
+
+I have little understanding of how the mechanism is implemented and how to proceed with its implementation. However, to be honest, I have not been able to visualize how to use it in concrete terms, deriving from the question of whether it is not possible to simply define a method and call it. The text explained that it would be useful to study chapters 6 and 10, so I will look forward to the relevant units after having established the basic concepts.
+
+I also received a very useful comment during this discussion.
+"In this case, Radius is a formal parameter, and r is another formal parameter; it is redundant, but the redundancy explains the concept.” I did not intend to implement a redundant program, but after reviewing the comments, I found that I had indeed implemented a redundant process, and it gave me a chance to review my program. This experience allowed me to reaffirm the importance of discussion, and I will continue my studies so that my comments in the future will be as meaningful as the ones my classmates gave me this time.
+
+I am convinced that what I learned in this unit was very important in programming using the Java language, and while there are still areas that I need to deepen my understanding, such as Lambda Expressions, this static subroutine and the next unit that I will be learning in I hope to improve my skills by understanding non-static subroutines.
+
+Word count:479
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. http://math.hws.edu/javanotes.
