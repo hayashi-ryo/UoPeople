@@ -1,0 +1,54 @@
+・Reflect on the concept of composite and inverse functions. What concepts (only the names) did you need to accommodate these concepts in your mind?
+
+I'll explain my understanding of composite and inverse functions learned in this unit.
+
+1. Composite function
+First, let's talk about composite functions. According to the text, composite functions are described as follows:
+"The process of combining functions so that the output of one function becomes the input of another is known as a composition of functions. The resulting function is known as a composite function."(Abramson, 2017)
+In addition, the composite function of f(x) and g(x) is notated as follows:
+(f・g)(x)=f(g(x))
+The explanation in the text helped my understanding immensely. I now understand that these composite functions explain how two seemingly unrelated things can be connected by a relationship.
+
+2. Inverse function
+Second, let's talk about inverse functions. Inverse functions are described in the following sentence in the text, which helped my understanding.
+"Informally, this means that inverse functions “undo” each other."(Abramson, 2017)
+Using the idea of composite functions, the inverse function f^{-1} can be expressed as follows
+(f/f^{-1})(x)=f(f^{-1}(x))=f(y)=x
+This shows that the inverse function and the original function have a point of symmetry about the axis y=x.
+
+・What are the simplest composite and inverse functions you can imagine?
+1. Composite function
+As the simplest composite function, I consider the composition of linear functions.
+g(x)=x+5
+h(x)=3x-3
+and its composite function, f(x)=(g・h)(x), is calculated as follows.
+f(x)=(g・h)(x)
+=g(h(x))
+=(3x-3)+5
+=3x+2
+Thus, I have computed the composite function f(x)=3x+2.
+
+2. Inverse function
+For an example of a simple inverse function, consider the inverse function for f(x)=3x^3. The calculation process is shown below.
+y=3x^3
+x=1/3y^{1/3}
+Therefore, f^{-1}(x)=1/3y^{1/3} could be calculated.
+
+・In your day to day, is there any occurring fact that can be interpreted as composite and inverse functions?
+1. Composite function
+As an example of a composite function, I considered the relationship between a map and temperature. If I consider a map with contour lines drawn, I can find the height of a certain coordinate from the map. Let g denote this relationship. Furthermore, let h be the relationship between height and temperature. By combining g and h, I can generate a relation f that identifies the temperature from the coordinates. This is an example of a very simple composite function using two relations.
+
+2. Inverse function
+I considered shopping as an example of an inverse function. For example, suppose a cup of coffee is sold for 200 yen. The total amount of money when x cups of this coffee are bought can be expressed by the relation f(x)=200x. Now consider the relation "how many cups of coffee can I buy with x yen? This relationship is called g(x). This relationship can be expressed as g(x)=x/200. These two functions f(x) and g(x) satisfy the inverse function relationship.
+f(g(x))=200(x/200)
+=x
+
+・What strategy are you using to get the graph of composite and inverse functions?
+1. Composite function
+Just because it is a composite function does not mean that you need to perform any special operations to graph it. First, I can calculate the composite function and then graph it in a way that is appropriate to the result of the calculation. The result may take many forms, including polynomial functions and rational functions, but I have learned how to graph them in previous units.
+
+2. Inverse function
+The inverse function has the relationship that it has points symmetric to y=x. Of course, as with composite functions, I can compute the inverse function and create its graph according to the form, but in some cases, it is easier to collect points subject to y=x, so I want to choose a strategy and create a graph according to the form of the original graph.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from https://openstax.org/details/books/algebra-and-trigonometry
