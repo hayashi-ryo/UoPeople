@@ -18,7 +18,7 @@
 - [x] Read the Learning Guide and Reading Assignments
 - [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
-- [ ] Complete an entry in the Learning Journal
+- [x] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
 
 ## Reading Assignment
@@ -106,3 +106,24 @@ class:人、犬、車など、同じ要素を含むものをまとめ、どの�
 ocject:classを利用して生成され、より具体的な要素や振る舞いを行うもの
 
 ## Learning Journal
+
+今週のユニットでは、クラスとオブジェクトという非常にJavaアプリケーションにおいて非常に重要な概念について学びました。
+特に重要な概念である、クラスとオブジェクトの関係について私の理解や作業について説明します。
+
+まず、クラスについてです。クラスについて非常に簡単な言葉で表すと、"設計図"です。特定の処理や要素をまとめてあらかじめ定義しておくことができます。クラスについて重要なポイントは、呼び出されるまで実行されず、実行したあとはすぐに消滅するという点です。引数や返り値など様々な要素があり、プログラミングを行う上では非常に重要な要素です。
+
+次に、オブジェクトについてです。オブジェクトはディスカッションフォーラムでの話をした通り、クラスと非常に密接な関係があります。学習を始めた時点ではないようについて十分に理解することが難しかったのですが、テキストの以下の文を読んでから自分の中でのイメージが明確になりました。
+"Real-world objects share two characteristics: They all have state and behavior. " (Gallardo et al., 2016)
+オブジェクトはクラスを利用して生成されるものであり、本質的には「振る舞い」や「要素」について表現を行うものとなります。それぞれをjavaプログラムで言い換えると以下のイメージに結びつきます。
+振る舞い：method
+要素：class and instance parameter
+
+これらの概念を学ぶための活動として自己学習も進めたが、Programming assignmentが非常に役に立ちました。unit3では静的なクラスとして定義していたクイズに関する処理が、オブジェクトとして生成することによって、より便利に使えることのイメージが湧きました。今回の課題提出には含めませんでしたが、一度生成したオブジェクトはプログラムの実行が完了するまで消滅しない特性があるので、最初に呼び出したオブジェクトをまだどこかで呼び出すといったことが可能になります。この考え方は、静的なクラス定義では実現しにくい内容です。
+
+今回学んだオブジェクトは非常に重要な概念であり、今後もjavaの学習や実装を行う上では常に必要なものとなります。そのような際に困らないように、オブジェクトの生成について、より具体的なユースケースや分割方法について自身で学習を進めていきたいと思います。
+
+最後に、学習した内容とは直接関連しない事項ですが、unit4では仕事が忙しくunitの初めのタイミングでディスカッションなどの課題に取り組むことができず、有意義なコメントをもらうことやクラスメートの課題にコメントすることができませんでした。せっかくクラスメートとの相互評価のプロセスが存在するので、活用するためにより計画的に進められるよう努めていきます。
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from <https://docs.oracle.com/javase/tutorial/java/concepts/object.html>
