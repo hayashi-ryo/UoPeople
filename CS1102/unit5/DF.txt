@@ -1,0 +1,28 @@
+Hello classmates. I would like to explain my views on this assignment.
+Before I explain "this" and "super", it is necessary to first mention "inheritance", which is the theme of this unit. Here is the textual explanation of inheritance:
+"The term inheritance refers to the fact that one class can inherit part or all of its structure and behavior from another class. "(Eck, 2019)
+
+This is a very useful way to create a new class "with a few modifications" while using an already existing class. this and super are special variables used to take advantage of such inheritance. Using the code you have created. I will explain these special variables.
+For this discussion, I have created the class "Person," which is the source of the inheritance, the class "BusinessPerson," which inherits from Person, and the class "PersonBasic," which calls them.
+
+First, let's look at the class "Person".
+Insert Figure1
+This class has the following elements and behaviors:
+1. Class has a name, age, and birthday as elements.
+2. Class has showPerson() method to output name and age
+3. Class has a showBirthday() method that outputs the birthday
+
+We now turn our attention to the constructor of class "Person". For example, the name is defined as this.name=name;. This is an operation that assigns a name, a formal parameter given as a parameter, to a name that can be referenced inside the instance. Thus, if you want to handle a variable or method inside a particular instance, you can access it by using the special variable "this".
+
+Next, let's look at the class "BusinessPerson" created by inheriting from Person.
+Insert Figure2
+I will go over these classes one by one. First, let's look at the constructor. The constructor is described as super(name, age). This is an operation that calls the constructor of Person, the class from which it is inherited. In this way, the special variable super is used when you want to explicitly access a specific element of the inherited source class.
+Next, let's look at the methods: The showPerson() method is defined by the special variable super and a new process. In BusinessPerson, super calls the showPerson() method of class "Person" and then adds processing specific to class " BusinessPerson. BusinessPerson" and adds processing specific to class " BusinessPerson".
+
+Finally, PersonBasic and its output results for class calls.
+Insert Figure3
+As you can see from the output, we have access to overridden and unwritten methods.
+
+Word-count:405
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Retrived form http://math.hws.edu/javanotes.
