@@ -1,0 +1,54 @@
+Hello classmates, I would like to explain my views on this assignment.
+In order to proceed with this assignment, we first need to review the logistic equation for this time. If we check the form of the equation this time
+f(t)=c/(1+ae^{-bt})
+and I can see that it is shown in the form According to the text, a logistic equation like this one is given for a model in which the growth slows down as we approach the limit value. The characteristics of this model are described below.
+
+1. c/(1+a) is the initial value
+2. c is the carrying capacity, or limiting value
+3. b is constant determined by the rate of growth
+(Abramson, 2017)
+
+With the above characteristics in mind, I will answer this question.
+
+To the nearest tenth, how many days will it take the culture to reach 75% of its carrying capacity?
+
+The equation shows that the capacity of the present model is 14,250. The process of performing the calculation for the number of days t is described below.
+
+14,250*(3/4)=14,250/(1+29e^{-0.62t})
+(1+29e^{-0.62t})*(3/4)=1
+1+29e^{-0.62t}=4/3
+29e^{-0.62t}=1/3
+e^{-0.62t}=1/87
+lne^{-0.62t}=ln(1/87)
+-0.62t=-ln(87)
+t=ln(87)/0.62
+t=7.2
+Thus, I found that 75% of the capacity of this model will be reached in 7.2 days.
+
+What is the carrying capacity?
+
+In exponential growth models, it is sometimes necessary to consider upper bounds. Carrying capacity refers to such an upper bound, which may be given as an upper bound for various measures such as room size or work efficiency.
+
+What is the initial population for the model?
+
+The initial population can be obtained by calculating the case t=0. The process of calculation is described below.
+P(0)=14,250/(1+29e^{-0.62*0})
+=14,250/(1+29e^0)
+=14,250/(1+29)
+=14,250/30
+=475
+Therefore, the initial population for this model is 475.0.
+
+Why a model like  P(t)=P_0 \ e^{Kt}  , where  P_0  is the initial population, would not be plausible?
+
+It is difficult to determine from this question situation alone whether such a model is not appropriate, but I thought that Logistic Growth Models like this one are appropriate instead of P(t)=P_0 \ e^{Kt} for the following reasons.
+  The growth rate of bacteria grows exponentially in a very short period of time after initiation
+  However, there is a point where environmental factors such as food and space slow the growth rate of bacteria
+From the above, P(t) = P_0 \ e^{Kt} may be appropriate for situations where it is unnecessary to consider environmental factors, but we believe that the Logistic Growth Models are often adopted when the actual environment is considered.
+
+What are the virtues of the logistic model?
+
+The beauty of the logistic model is that it allows for an upper growth limit to be considered, thus forming a longer-term model compared to a simple exponential growth model.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from https://openstax.org/details/books/algebra-and-trigonometry
