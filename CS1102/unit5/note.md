@@ -16,10 +16,10 @@
 
 - [x] Peer assess Unit 4 Programming Assignment
 - [x] Read the Learning Guide and Reading Assignments
-- [ ] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
+- [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
 - [ ] Complete an entry in the Learning Journal
-- [ ] Take the Self-Quiz
+- [x] Take the Self-Quiz
 
 ## Reading Assignment
 
