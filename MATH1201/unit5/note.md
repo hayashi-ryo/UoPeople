@@ -17,7 +17,7 @@
 - [ ] Discussion Forum
   - [x] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
+- [x] Programming assignmet
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
@@ -79,6 +79,67 @@ f(t)=c/(1+ae^{-bt})
 References:
 Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>
 
-### Learning Journal
-
 ### Programming Assignment
+
+テキストより、複利計算の式は以下の式で与えられる。
+A(t)=P(1+r/n)^{nt}
+A(t) is the account value,
+t is measured in years,
+P is the starting amount of the account, often called the principal, or more generally present value,
+r is the annual percentage rate (APR) expressed as a decimal, and
+n is the number of compounding periods in one year.
+(Abramson, 2017)
+今回の問題ではそれぞれの設定は以下となる。
+t is 20 years
+P is an initial deposit of $8500
+r is 8.12%(0.0812)
+n is 12 months
+よって、それぞれの値を代入すると以下の式を得ることができる。
+A(20)=8500(1+0.0812/12)^{12*20}
+=42888.18
+よって複利の場合の20年後の口座残高は$42888.18となる。
+単利の場合は、以下の形で計算できる
+A(t)=P(1+nt)
+=8500*(1+0.0812*20)
+=22303
+よって、単利の場合の20年後の口座残高は$22303となる。
+以上より、20年後の口座残高は複利で運用した場合の方が多いものとなる。また、それぞれに運用についてグラフで表現したものを以下に記載する。
+グラフから、複利計算は指数関数的な成長をしていることがわかる。また、1年後の時点で複利計算の方が口座残高が多くなる。
+
+N02
+y=5(0.5)^{-x}の逆関数を求める。逆関数を求めるためには、xとyを入れ替えた方程式をyについて解けば良いため、その計算を行う。
+y=5(0.5)^{-x}
+x=5(1/2)^{-y} xとyを入れ替える
+x/5=(1/2)^{-y} 両辺を5で割る
+ln(x/5)=ln((1/2)^{-y}) 常用対数をとる
+lnx-ln5=-y(ln1-ln2) 常用対数を分解する
+lnx-ln5=yln2
+y=(lnx-ln5)/ln2
+よってy=5(0.5)^{-x}の逆関数を求めることができた。グラフを以下に記載する。
+
+グラフからx切片は5であることがわかる。また、a^x=e^{x lna}は両辺の常用対数をとることで証明できる。
+a^x=e^{x lna}
+ln(a^x)=ln(e^{x lna})
+xlna=xlna(lne)
+x=x
+
+N03
+まず、K= \frac{ln0.5}{T}の証明を行う。半減期では物質の半数が崩壊するため、崩壊方程式において、A(T)/A_0=0.5が成立する。このことを利用して崩壊方程式の整理を行う
+A(T)=A_0e^{KT}
+A(T)/A_0=e^{KT} 両辺をA_0で割る
+0.5=e^{KT} A(T)/A_0=0.5を代入する
+ln(0.5)=ln(e^{KT}) 両辺の常用対数をとる
+ln(0.5)=KTlne
+K=ln(0.5)/T
+よってK= \frac{ln0.5}{T}を証明することができた。
+次に、ウラン235の20%が崩壊するまでの時間を求めていく。テキストからウラン235の半減期は703,800,000 yearsであることがわかる。また、20％が崩壊するため、最初の試料が1000グラムある場合は、800グラム残っている場合の時間を求めれば良いので計算を行っていく。
+800=1000e^{Kt}
+0.8=e^{Kt}
+ln(0.8)=ln(e^{Kt})
+ln(0.8)=Ktlne
+t=ln(0.8)/K
+t=ln(0.8)*(703,800,000/ln(0.5)
+t=226572993
+よって、20%の試料が崩壊するまでにかかる時間は226,572,993年である。
+
+### Learning Journal
