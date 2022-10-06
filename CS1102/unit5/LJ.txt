@@ -1,0 +1,21 @@
+
+In this week's unit, I learned about class inheritance and the special variables involved in inheritance. I will explain how my understanding of these concepts works for learning.
+
+First, let's talk about class inheritance. Once I have designed a class, I may want to add new methods or variables to it. In such cases, instead of creating a new class from scratch, I can use a concept called inheritance. To understand this concept, I found the following description in the text helpful.
+"Object-oriented programming allows classes to inherit commonly used state and behavior from other classes. In this example, Bicycle now becomes the superclass of MountainBike, RoadBike, and TandemBike."(Gallardo et al., 2016)
+
+I believe that this concept is a very convenient way to make effective use of the content implemented in a class once created without wasting it. However, this is an area where great care must be taken regarding how to divide the source and destination of inheritance.
+Class inheritance also has an element called polymorphism. The simplest way to explain polymorphism in my words is that "methods with the same name behave differently. For example, let's consider a situation where the class "shape" is defined as a superclass and "triangle" and "rectangle" as subclasses. When defining a method to "find the area," the same method will behave differently in different classes. In such a case, the superclass defines the abstract method and the subclass describes the concrete process. Polymorphism is a concept that can be conveniently utilized when the behavior differs but the method names need to be unified.
+
+Next, let's look at the special variables "super" and "this. The following is a brief description of each variable.
+super: Refers to the class from which it is inherited
+this: Refers to the current instance itself
+In object-oriented programming, where things are defined as objects and inheritance minimizes method implementation, these two special variables are concepts that must be used without error.
+
+To learn these concepts, I used our old Java textbook for review. I believe we were able to accomplish the goals of this unit because we were able to understand the concepts in a very simple class and then learn how to use them concretely.
+
+Finally, I was able to complete this week's unit on organized work progress, which was one of the goals of last week's learning journal. I am very happy to see that the UNIV1001 class content that I learned as a schedule management policy is being put to good use.
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html

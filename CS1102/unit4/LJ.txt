@@ -1,0 +1,19 @@
+In this week's unit, I learned about classes and objects, two very important concepts in very Java applications.
+I will discuss my understanding and work on a particularly important concept: the relationship between classes and objects.
+
+First, let's talk about classes. In very simple terms, a class is a “blueprint". It is a collection of specific processes or elements that can be predefined. The important point about classes is that they are not executed until they are called, and then they disappear immediately. It has various elements such as arguments and returns values, which are very important for programming.
+
+Next, let's talk about objects. Objects are very closely related to classes, as I talked about in the discussion forum. It was difficult for me to fully understand what they are not at the beginning of my study, but after reading the following statement in the text, the picture became clearer to me.
+"Real-world objects share two characteristics: they all have state and behavior" (Gallardo et al., 2016).
+Objects are created using classes, which are essentially representations of "behavior" and "elements". Each of these can be paraphrased in a java program and can be connected to the following image.
+Behavior: method
+Element: class and instance parameter
+
+The programming assignments were very useful, as they gave me an idea of how quiz-related processing, which was defined as a static class in a unit3, can be made more useful by generating it as an object. I could get an idea of how the quiz process, which was defined as a static class in a unit3, can be used more conveniently by creating it as an object. Although I did not include it in this assignment submission, once an object is created, it does not disappear until the program execution is completed, so it is possible to still call the object that was first invoked somewhere else. This concept is difficult to achieve with static class definitions.
+
+The objects I have learned are very important concepts and will always be necessary for learning and implementing java in the future. I would like to learn more concrete use cases and division methods for object creation by myself so that I will not be troubled in such cases.
+
+Lastly, although not directly related to what I learned, I was too busy with work in unit4 to engage in discussions and other assignments at the beginning of the unit, so I was not able to receive meaningful comments or comments on my classmates' assignments. Since there is a mutual evaluation process with classmates, I will make an effort to plan it more systematically to make the most of it.
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/object.html

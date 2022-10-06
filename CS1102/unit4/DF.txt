@@ -1,0 +1,18 @@
+Hello classmates. In this unit, I will discuss classes and objects, which are very important elements in Object Oriented Programming (OOP).
+As a premise, classes and objects are very closely related: from The Java tutorials. Oracle (Gallardo et al., 2016), I understand that classes describe the structure itself and objects represent behavior or state. To further this idea, I came up with the class Person.
+
+This class has the following elements:
+1. name and age are held as variables, and their default values are "default" and "20," respectively. 
+2. A show() method is implemented to output the name and age.
+This class by itself does not have any behavior or state, but only describes the elements and behavior of Person class. Next, consider the PersonBasic class that calls this class.
+
+This class calls the Person class and creates objects named p1 and p2. As noted in the code, each object has the same structure, but the elements themselves hold different contents. Finally, the following is the result of executing PersonBasic.
+
+I can see that the p1 and p2 objects behave as designed in the Person class.
+
+The following is a summary of what has been done so far.
+class: A blueprint of what elements are included and how they should behave by grouping together things that contain the same elements, such as a person, a dog, a car, etc.
+object: A thing that is generated using a class and has more specific elements and behavior
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
