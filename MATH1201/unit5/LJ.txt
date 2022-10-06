@@ -1,0 +1,60 @@
+Reflect on the concept of exponential and logarithm functions. What concepts (only the names) did you need to accommodate these new concepts in your mind?
+
+I will explain my understanding of the exponential and logarithmic functions I studied in this unit.
+
+1. exponential function
+According to the text, the exponential function is defined as:
+f(x)=ab^x
+where
+a is a non-zero real number called the initial value and
+b is any positive real number such that 𝑏≠1.
+The domain of f is all real numbers.
+The range of f is all positive real numbers if a>0.
+The range of f is all negative real numbers if a<0.
+The y-intercept is (0, a), and the horizontal asymptote is y=0.
+(Abramson, 2017)
+In understanding this exponential function, I was able to deepen my understanding by explaining that it is a "function that increases at the same rate. The function as I have learned so far is an image of "the same amount" increasing.
+
+2. logarithmic function
+According to the text, the logarithmic function is defined as follows:
+y=logb(x)is equivalent to b^y=x
+where,
+I read log_b(x)  as, “the logarithm with base b of x ” or the “log base b of x."
+the logarithm y is the exponent to which b must be raised to get x.
+(Abramson, 2017)
+A very important factor in understanding the logarithmic function is that it is a function of the exponential function. In other words, the trend of the graph is in contrast to y=x, so I understand it as "a function that decreases at the same rate. The students have been able to apply the concept of inverse functions that they learned in the previous unit.
+
+What are the simplest exponential and logarithmic functions with base b ≠ 1 you can imagine?
+1. exponential function
+As a simple exponential function, consider the case where the base is 2.
+f(x)=2^x
+This function will have an output that doubles with each increment of x.
+
+2. logarithmic function
+Consider the inverse function of an exponential function whose base is 2.
+f(x)=log2(x)
+This function is so simple that one can look at the graph to see how many powers of 2 can be used to obtain a particular value.
+
+In your day to day, is there any occurring fact that can be interpreted as exponential or logarithmic functions?
+1. exponential function
+As an example of an exponential function, I considered the division of an amoeba. An amoeba multiplies by dividing into two individuals. The multiplied individual then multiplies into two more individuals. This relationship can be expressed by the function f(x)=2^x, where x is the number of times of multiplication.
+
+2. logarithmic function
+As an example of a logarithmic function, I considered the magnitude of an earthquake. The magnitude is an index that indicates that for every 1 increase in magnitude, the magnitude of the earthquake increases by a factor of 32. This index can be expressed as f(x)=log_32(x), where x is the magnitude of the earthquake. 
+
+What strategy are you using to get the graph of exponential or logarithmic functions?
+This section describes how to create a graph of an exponential function.
+
+1. create a table showing the relationship between x and y
+First, create a table showing the relationship between x and y. You should find about 5 points where x is an integer. 2.
+2. plot the points taken from the table on a graph
+Plot some points (at least 3) on the graph, including the y-intercept. 3.
+3. smooth the plotted points
+Connect the plotted points with a smooth curve. 4.
+4. consider domain and area
+The direction of the exponential function depends on the magnitude of b in f(x)=b^x. If b is less than 1, y converges to 0 as x increases, and if b is greater than 1, y converges to 0 as x decreases.
+
+The same basic process is used for logarithmic functions. The only difference is that the x-intercept is always plotted.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from https://openstax.org/details/books/algebra-and-trigonometry

@@ -1,0 +1,56 @@
+What can be said about the domain of the function  f \circ g  where  f(y)= \frac{4}{y-2}  and  g(x)= \frac{5}{3x-1} ? Express it in terms of a union of intervals of real numbers. Go to www.desmos.com/calculator and obtain the graph of  f ,  g , and  f \circ g .
+
+Compute the function f・g.
+f・g = f(g(x))
+=4/(g(x)-2)
+=4/((5/(3x-1))-2)
+=4(3x-2)/(5-2(3x-1))
+=(12x-4)/(-6x+7)
+Since f・g is defined by R excluding the case where the denominator is 0, I check the case where the denominator is 0.
+-6x+7=0
+x=7/6
+Therefore, the region of f・g is R-{7/6}=(-inf,7/6)U(7/6,inf)
+Also, describe how each function is represented graphically.
+
+graph
+
+Find the inverse of the function  f(x)=4+ \sqrt{x-2}  .
+State the domains and ranges of both the function and the inverse function in terms of intervals of real numbers.
+
+To compute the inverse function, interchange x and y for y=4+(x-2)^{1/2}.
+x=4+(y-2)^{1/2}
+(y-2)^{1/2}=x-4
+y-2=(x-4)^2
+y=(x-4)^2+2
+Therefore, the inverse function f^{-1} of f(x) is:
+f^{-1}(x)=(x-4)^2+2
+Next, I find the domain and range. According to the text, the relation between f(x) and f^{-1}(x) is as follows.
+
+The range of a function  𝑓(𝑥)  is the domain of the inverse function  𝑓−1(𝑥).
+The domain of  𝑓(𝑥)  is the range of  𝑓−1(𝑥).
+(Abramson, 2017)
+
+Each function also finds the domain and range.
+DOMAIN of f(x)
+Since the inside of the root sign must be a real number greater than or equal to 0, the function f(x)=4+(x-2)^{1/2} is [2,inf).
+The range of f(x) in this case is:
+[f(2),inf)=[4,inf)
+It follows that the domain and range of f^{-1}(x)  are:
+domain:[4,inf)
+range:[2,inf)
+A summary of the results to this point is provided below:
+f(x)
+domain:[2,inf)
+range:[4,inf)
+f^{-1}(x)
+domain:[2,inf)
+range:[4,inf)
+
+Go to www.desmos.com/calculator and obtain the graph of  f , its inverse, and  g(x)=x  in the same system of axes. About what pair (a, a) are (11, 7) and (7, 11) reflected about?
+
+No2 f(x), f^-1{x}, g(x)=x,(11,7),(7,11) are displayed on the graph.
+graph
+The graph results show that (11,7),(7,11) are target points for g(x)=x.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>

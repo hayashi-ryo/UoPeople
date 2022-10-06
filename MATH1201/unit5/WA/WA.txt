@@ -1,0 +1,77 @@
+1. A retirement account is opened with an initial deposit of $8,500 and earns 8.12% interest compounded monthly. What will the account be worth in 20 years? What if the deposit was calculated using simple interest? Could you see the situation in a graph? From what point one is better than the other?
+
+From the text, the formula for compound interest calculation is given by:
+
+A(t)=P(1+r/n)^{nt}
+A(t) is the account value,
+t is measured in years,
+P is the starting amount of the account, often called the principal, or more generally present value,
+r is the annual percentage rate (APR) expressed as a decimal, and
+n is the number of compounding periods in one year.
+(Abramson, 2017)
+
+In this issue, the respective settings are as follows.
+
+t is 20 years
+P is an initial deposit of $8500
+r is 8.12%(0.0812)
+n is 12 months
+
+Therefore, the following equation can be obtained by substituting each value.
+
+A(20)=8500(1+0.0812/12)^{12*20}
+=42888.18
+Thus, the account balance after 20 years with compound interest would be $42888.18.
+
+For simple interest, the calculation can be made in the following form
+
+A(t)=P(1+nt)
+=8500*(1+0.0812*20)
+=22303
+
+Thus, the account balance after 20 years in the simple interest case is $22303.
+As a result, the account balance after 20 years will be larger in the case of compound interest. A graphical representation of each investment is shown below.
+
+figure 1
+
+The graph shows that the compounding calculation has exponential growth. Also, at the end of one year, the account balance is higher for the compound interest calculation.
+
+2.  Graph the function  f(x)=5(o.5)^{-x}  and its reflection about the line y=x on the same axis, and give the x-intercept of the reflection. Prove that  a^x=e^{x lna} . [Suggestion: type  y=5(0.5^{-x})  {- 7 < x < 2}  {0 < y < 7} in desmos, and then type its inverse function.]
+
+I find the inverse function of y=5(0.5)^{-x}. To find the inverse function, solve the equation for y by replacing x and y, and so on.
+Calculation of
+y=5(0.5)^{-x}
+x=5(1/2)^{-y} Interchange x and y
+x/5=(1/2)^{-y} divide both sides by 5
+ln(x/5)=ln((1/2)^{-y}) Take the ordinary logarithm
+lnx-ln5=-y(ln1-ln2) Decompose the ordinary logarithm
+lnx-ln5=yln2
+y=(lnx-ln5)/ln2
+Therefore, I were able to find the inverse function of y=5(0.5)^{-x}. The graph is shown below.
+figure2
+The graph shows that the x-intercept is 5. Also, a^x=e^{x lna} can be proved by taking the ordinary logarithm of both sides.
+a^x=e^{x lna}
+ln(a^x)=ln(e^{x lna})
+xlna=xlna(lne)
+x=x
+
+
+First, I prove that K= \frac{ln0.5}{T}. In the decay equation, A(T)/A_0=0.5 holds because half of the matter decays in the half-life. Use this to organize the decay equation
+
+A(T)=A_0e^{KT}
+A(T)/A_0=e^{KT} Divide both sides by A_0
+0.5=e^{KT} Substitute A(T)/A_0=0.5
+of both sides
+ln(0.5)=KTlne
+K=ln(0.5)/T
+
+Thus K= \frac{ln0.5}{T} could be proved.
+Next, we will find the time required for 20% of uranium-235 to decay. From the text, we know that the half-life of uranium-235 is 703,800,000 years. In addition, since 20% decays, if the first sample has 1000 grams, we can find the time when 800 grams remain, so we perform the calculation.
+800=1000e^{Kt}
+0.8=e^{Kt}
+ln(0.8)=ln(e^{Kt})
+ln(0.8)=Ktlne
+t=ln(0.8)/K
+t=ln(0.8)*(703,800,000/ln(0.5)
+t=226572993
+Thus, the time it takes for 20% of the sample to decay is 226,572,993 YEARS.
