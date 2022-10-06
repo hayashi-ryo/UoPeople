@@ -18,7 +18,7 @@
 - [x] Read the Learning Guide and Reading Assignments
 - [x] Participate in the Discussion Assignment (post, comment, and rate in the Discussion Forum)
 - [x] Complete and submit the Programming Assignment
-- [ ] Complete an entry in the Learning Journal
+- [x] Complete an entry in the Learning Journal
 - [x] Take the Self-Quiz
 
 ## Reading Assignment
@@ -104,3 +104,23 @@ thisとsuperについて説明する前に、まず今回のunitのテーマで�
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットでは、クラスの継承と継承を行う際の特別な変数について学びました。これらの概念について、私の理解が学習を行うための作業を説明します。
+
+まず、クラスの継承についてです。一度設計したクラスに新たなメソッドを追加したり、変数を追加したい場合があります。このような場合、新たなクラスを0から作成するのではなく、継承と呼ばれる概念を利用することができます。この概念の理解には、テキストの以下の記載が役に経ちました。
+"Object-oriented programming allows classes to inherit commonly used state and behavior from other classes. In this example, Bicycle now becomes the superclass of MountainBike, RoadBike, and TandemBike."(Gallardo et al., 2016)
+この概念は、一度作成したクラスに実装されている内容を無駄にせず有効活用できる非常に便利な方法だと考えています。しかし、継承元と継承先をどのように分割するのか、という部分については非常に注意が必要な領域です。
+また、クラスの継承はポリモーフィズムと呼ばれる要素も持ちます。ポリモーフィズムを私の言葉で一番シンプルに説明すると、"同じ名前のメソッドが異なる挙動をする”ということです。たとえば、"図形"というクラスをスーパークラスとして、"三角形"と"四角形"をサブクラスとして定義する場面を考えます。ここで、"面積を求める"メソッドを定義する場合、同一メソッドがクラスによって異なる振る舞いをします。このような場合には、スーパークラスにて抽象的なメソッドを定義し、サブクラスにて具体的な処理を記載することで実装を行います。ポリモーフィズムは、振る舞いが異なるがメソッド名を統一したい場合に、便利に活用することができる概念です。
+
+次に、特殊変数"super"と"this”についてです。それぞれの変数を一言で説明した内容を以下に記載します。
+super:継承元クラスを参照する
+this:現在のインスタンス自体を参照する
+物事をオブジェクトとして定義し、継承を行うことでメソッドの実装を最小限に抑えるオブジェクト指向プログラミングでは、この二つの特殊変数は間違うことなく利用しなければならない概念です。
+
+これらの概念を学ぶために、昔使っていたJavaのテキストを利用して復習を行いまいた。非常に簡単なクラスで概念について理解を行った上で、具体的な利用方法について学ぶことができるため、今回のユニットの目標を達成することができたと考えています。
+
+最後に、先週のlearning journalにて目標としてあげた計画的な作業進行について、今週のユニットではうまく進めることができました。スケジュールの管理方針として学んだUNIV1001クラスの内容が生きていると感じることができ、非常に嬉しく思っています。
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
