@@ -13,6 +13,7 @@
 ## Task
 
 - [ ] Reading assignment
+- [ ] Peer assess
 - [ ] Discussion Forum
   - [ ] first post
   - [ ] reply classmates
