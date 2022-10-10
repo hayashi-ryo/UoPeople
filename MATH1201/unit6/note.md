@@ -20,8 +20,8 @@
   - [ ] reply classmates
 - [x] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
-- [ ] Take Graded-Quiz
+- [x] Take Self-Quiz
+- [x] Take Graded-Quiz
 
 ### Discussion Forum
 
