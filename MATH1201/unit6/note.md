@@ -13,8 +13,8 @@
 
 ## Task
 
-- [ ] Reading assignment
-- [ ] Peer assess Unit 5 Written Assignment
+- [x] Reading assignment
+- [x] Peer assess Unit 5 Written Assignment
 - [ ] Discussion Forum
   - [ ] first post
   - [ ] reply classmates
