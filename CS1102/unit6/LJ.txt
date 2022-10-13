@@ -1,0 +1,12 @@
+In this week's unit, I learned about the basics of GUI programming. I will explain my understanding of these concepts.
+
+In programming up to unit5, I have learned about the concepts of methods, instances, and inheritance as a way to process a given value. I feel that GUI programming, which I learned this week, is a completely different concept, even though it has these as the basis for processing.
+The most important concept of GUI programming is that it is "event-driven," as the text says. That is, user actions such as clicking a button, pressing a key on the keyboard, or flicking a smartphone generate events, and programs must be implemented to respond to and process these events.
+In this course, I used a toolkit called JavaFX to create programs for such event-driven programming techniques. By using this set of programs, I was able to make effective use of already existing assets to advance programs that would have been difficult to create from scratch.
+However, I do not believe that I have learned everything about GUI programming from this unit alone. I don't think the CS1102 course will cover GUI programming after this unit, but I would like to learn the basics of event-driven programming to improve my personal skills. I don't think the CS1102 course will cover GUI programming after this unit, but I would like to learn the basics of event-driven programming to improve my personal skills.
+I also had the most difficulty in creating the environment for this unit. At first, I configured the environment based on the text, but I was unable to get rid of the errors. Eventually, by using a completely different method to create the environment, I was able to create an environment that worked properly with JavaFX. In this way, I feel that building a development environment and installing a server is an area in which it is very easy to get tripped up. I would like to deal with such situations by searching the Internet for others who have had similar situations and seeing how they have dealt with them, as I did this time.
+Finally, this week's unit had a Graded-Quiz. I was not able to get a perfect score, although I was confident in my preparation to some extent, and I will continue to review in the remaining time of the unit so that I can get a perfect score in the Final-Quiz.
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
