@@ -1,0 +1,39 @@
+Reflect on the concepts of linear and non-linear systems. What concepts (only the names) did you need to accommodate the concept of linear and non-linear systems in your mind?
+
+I will explain my understanding of linear and non-linear systems that I learned about in this unit.
+
+1. Linear system
+It is represented by two linear equations, and only straight lines are represented as graphs. In this system, there can be at most one solution to the equations, i.e., one intersection point of the graph.
+
+2. Non-linear system
+Unlike linear systems, non-linear systems are those in which the highest order of the equations is quadratic or higher. In this system, the graph has a parabola or other shape, so there may be more than one intersection point on the graph.
+
+What are the simplest linear system and non-linear systems you can imagine?
+
+The simplest systems are described below.
+1. Linear system
+The simplest system is the one expressed by the following two equations with the origin as the intersection point.
+y=x
+y=-x
+This system not only intersects the origin but also intersects it at right angles.
+
+2. Non-linear system
+As a simple example, I considered the following equation
+y=(x-2)^2
+y=x
+This system presents a very basic system with x=1 and x=4 as the points of intersection.
+
+In your day to day, is there any occurring fact that can be interpreted as linear systems and non-linear systems?
+
+The following is an explanation of the examples around us.
+
+1. Linear system
+The formula for calculating profit and loss, using fixed and variable costs, is the most basic linear system around us. In the case of my company, the cost of the company office and electricity are fixed costs, and labor costs are variable costs. By adding how much profit can be made per person, I can calculate the break-even point or simple profit.
+
+2. Non-linear system
+Not a specific example, but a calculation that I know of that is a non-linear system. The energy of an object with a certain velocity is represented by a quadratic equation. In contrast, a system that imparts the energy that it originally had is non-linear.
+
+What strategy are you using to get the graph of linear systems and non-linear systems?
+
+One thing I learned in this unit is that getting a graph is not important in itself. What is important is what I can gain from the graph.
+For example, suppose that a non-linear system may have no intersections. This indicates that the two graphs are parallel, and both equations increase in equal proportions. Also, if a non-linear system has two intersections, an argument can likely be made that the value between the two intersections is a point that can be taken as the system, although it depends on how the system is set up.
