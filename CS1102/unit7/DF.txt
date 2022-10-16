@@ -1,0 +1,19 @@
+To answer this issue, I will explain the characteristics of each Array and ArrayList obtained from the text.
+Array:
+It is a "static" array whose number of elements cannot be changed after it is created.
+Parameters can hold all values.
+ArrayList: An ArrayList is a "static" array whose number of elements can be changed after it is created.
+A "dynamic" array whose number of elements can be changed after creation.
+It cannot hold primitives as parameters, but only Object type parameters.
+
+Because of this feature, primitive variables such as int and boolean cannot be used in ArrayList. In such cases, the wrapper class, which can handle them as objects, becomes useful. For example, an integer type for an int or a boolean type for a boolean can be treated as an object. As an example, we have created a program that stores integers from 1 to 3 in an ArrayList and outputs the sum of each value.
+
+Here, we take advantage of two Java features that are useful in dealing with ArrayList: autoboxing and unboxing.
+First, autoboxing is the ability to automatically convert between primitive types and their corresponding wrapper classes, as evidenced by the fact that ArrayList should only allow object types, but can store a three, which is an int type. If we check the class of each element, we can see that they are all converted to Integer type as shown below.
+Figure
+Unboxing is a function that performs the reverse conversion of autoboxing. In the sample program, it can be seen from the fact that the elements of type Integer can be added to the sum of type int.
+
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
