@@ -14,11 +14,11 @@
 
 ## Task
 
-- [ ] Reading assignment
-- [ ] Discussion Forum
-  - [ ] first post
+- [x] Reading assignment
+- [x] Discussion Forum
+  - [x] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
+- [x] Programming assignmet
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
