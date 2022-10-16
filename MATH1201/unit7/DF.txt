@@ -1,0 +1,23 @@
+Similar triangles have the following characteristics
+  The ratios of the lengths of corresponding sides are equal
+  Corresponding angles are equal in size
+Since the two triangles in this problem satisfy this relationship, we will use this feature in our calculations.
+For example, the relationship DE/AB=EF/BC=DF/AC holds for triangles ABC and DEF as shown below.
+Figure.
+In this case, by considering the smaller triangle as ABC and the unobservable larger triangle as DEF, we can find the lengths of all sides of the larger triangle DEF. The results of the calculations for each side are explained below.
+Example: If AB=3,BC=4,AC=5,DE=100, EF and DF can be calculated as follows respectively
+EF=DE/AB*BC
+=100/3*4
+=133.33
+DF=DE/AB*AC
+=100/3*5
+=166.67
+
+Next, we will review the relationship between the unit circle. According to the text, the unit circle is described as follows
+Such a circle, with a center at the origin and a radius of 1, is known as a unit circle.(Abramson, 2017)
+In such a unit circle, considering a right triangle, the sum of the interior angles of the triangle is 180, which means that the angle t at the center is in the range 0<t<90.
+Now, considering a general right triangle, it is clear that the condition for a non-right angle x is 0<x<90.
+Since the condition of similarity that the two angles are equal is satisfied, we see that the general right triangle and the right triangle created by the unit circle are similar. Thus, right triangles in the unit circle can represent all possible triangles in a similar form.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>
