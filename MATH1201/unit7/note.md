@@ -14,12 +14,12 @@
 ## Task
 
 - [x] Reading assignment
-- [ ] Discussion Forum
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
-- [ ] Programming assignmet
+  - [x] reply classmates
+- [x] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Reading Assignment
 
@@ -59,3 +59,39 @@ Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Re
 ### Learning Journal
 
 ### Programming Assignment
+
+1. Find the length of an arc in a circle of radius 10 centimeters subtended by the central angle of 50°. Show your work.
+弧の長さsは以下の式で求めることができる
+s=rθ
+r:半径
+θ:radians
+計算を行うため、50°はラジアン直す
+θ=50*π/180
+=5π/18
+よって弧の長さは
+s=rθ
+=10*5π/18
+=25π/9
+~8.72(centimeters)
+
+2. Graph  f(x)=x\ sin\ x  on [-4π, 4π] and verbalize how the graph varies from the graphs of  f(x)= \pm x  
+f(x)=xsinxとf(x)=+-xをグラフで表現すると以下のようになる
+図
+このグラフからは以下のことがわかる
+・f(x)はsinxを関数の内部で保持するため、2piを周期とする周期関数となっている
+・グラフの頂点となるx=pi/2や5pi/2において、y=+xと交点を持つことからf(x)の振幅を決定する要素としてxが与えられていることがわかる。y=-xについては、x=3pi/2や7pi/2で交点を持つ
+
+次にf(x)=sinx/xを考える。この関数の振幅は1/xが決定するため、グラフとしてf(x)=+-1/xを合わせて表現する。
+図
+このグラフから、以下のことがわかる
+・f(x)はsinxを関数の内部で保持するため、2piを周期とする周期関数となっている
+・グラフの頂点となるx=pi/2や5pi/2において、y=+1/xと交点を持つことからf(x)の振幅を決定する要素としてxが与えられていることがわかる。y=-1/xについては、x=3pi/2や7pi/2で交点を持つ
+
+3. A 23-ft ladder leans against a building so that the angle between the ground and the ladder is 80°. How high does the ladder reach up the side of the building? Show the steps of your reasoning.
+状況を図で表現すると以下のようになる。
+図
+よって、梯子が届いている高さはを求めるには、三角関数の関係を利用すると計算できる
+高さ(h)=梯子の長さ×sin(80°)
+=23*sin(80*pi/180)
+〜22.65(ft)
+よって梯子は22.65-ftの高さまで届いている。
