@@ -17,10 +17,10 @@
 - [x] Reading assignment
 - [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ## Reading Assignment
 
