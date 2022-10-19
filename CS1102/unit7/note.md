@@ -19,7 +19,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ## Reading Assignment
@@ -93,3 +93,22 @@ unboxingはautoboxingの逆変換を行う機能です。サンプルプログ�
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットでは、ArrayやArrayListといった配列という概念について学びました。この概念について私の理解を説明します。
+テキストによれば、配列は以下のように説明されます。
+An array is a data structure in which the items are arranged as a numbered sequence, so that each individual item can be referred to by its position number.(Gallardo et al., 2016)
+この配列という概念は、現実世界の大量の事象やものをデータとして扱うプログラムの世界では、非常に重要な概念です。Javaで扱う配列にはArrayとArrayList二つの種類があり、共通する事項やそれぞれの特徴について説明します。
+まず、両方に共通する概念として"同じ型のデータしか格納できない"というものがあります。これは、int型とdouble型、String型など複数のデータ型を一つの配列で扱うことができないことを示しています。もし、複数のデータ型を利用したい場合は、Object型としてデータを定義し、そのオブジェクト自体を配列に格納することで利用することが可能です。
+次に、Arrayという配列についてです。Arrayは私の理解では"静的な"配列です。特徴について以下に記載します。
+・扱うことのできるデータ型はプリミティブ型のみである。Stringなどのオブジェクト型は利用できない。
+・配列を作成した後で要素数を増減させることができない。増減させたい場合は新しい配列を再定義する必要がある。
+最後に、ArrayListという配列についてです。ArrayListはArrayと異なり、"動的な"配列だと理解しています。特徴を以下に記載します。
+・扱うことができるデータ型はオブジェクト型のみである。int型などのプリミティブな型は利用できない
+・配列の要素数は自由に増減させることができる。最初はNULLで定義した上で、途中で要素を随時追加することが可能である。
+・プリミティブなデータ型を利用したい場合は、intならばInteger型、booleanであればBoolean型といったラッパークラスを利用する。ラッパークラスは、プリミティブなクラスをオブジェクト型として扱うことができるようにあらかじめ定義されているクラスである。
+これらの配列には、ソートや探索など、プログラムを実装する上で有用に活用できるメソッドがあらかじめ用意されています。プログラムを行う際には、マニュアルを確認しながらどのようなメソッドが提供されているのか、見つける能力も重要だと感じています。
+私は以前、C言語やC++言語など、Javaよりもよりメモリ構造を意識する必要のあるプログラムを学んでいたため、ArrayとArrayyListがコンパイルの過程でどのように扱われるのかを意識することができたと考えています。プログラムのシンタックスは異なるものの、根本となるCPUやメモリに対して命令を行う、という点についてはほとんどのプログラムで共有の概念だと考えているため、今学んでいるJavaだけではなく、複数の言語を扱うことができるよう、学びを進めていきたいと思います。
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
