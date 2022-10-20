@@ -18,7 +18,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ### Reading Assignment
@@ -57,6 +57,26 @@ References:
 Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>
 
 ### Learning Journal
+
+Reflect on the concepts of trigonometry. What concepts (only the names) did you need to accommodate the concepts of trigonometry in your mind?
+今週のユニットで学んだ三角測量に関する概念について、私の理解を説明します。
+テキストでは、三角測量は、角度がわかっているが辺の長さを全て得ることができていない状況で力を発揮するとあり、この概念が三角測量において非常に重要なものとなります。なぜなら、直角三角形を考えた時に、斜辺の長さと角度から、隣接する辺の長さや反対側の辺の長さを求めることができるからです。この関係をsin,cos,tanといった関数の形で表現することができると理解することができました。
+
+What are the simplest trigonometry concepts you can imagine?
+シンプルな三角測量の例としては、花火までの距離を考えました。例えば、花火の発射地点から10kmの距離で花火を見ているときに、大体45°の高さまで花火が打ち上がっていることがわかれば、三角法によって花火は大体10kmほどの高さまで打ち上がっていることがわかります。このように、非常に大きなものの大きさや長さを測る際に非常に有用に活用できると思います。
+
+In your day to day, is there any occurring fact that can be interpreted as periodic patterns?
+身の回りのものについて、目に見えるものと見えないものの二つを考えました。
+まず、目に見えるものとして振り子時計を考えました。振り子時計は、振り子の重さと振り子自体の長さを調整することによって、特定の周期を得ることが可能です。この動きは、傾き0の地点を原点とすればf(x)=Asin(x)の形で表現することが可能です。
+次に目に見えない事象として、音や光、地震などを考えました。これらの現象は空気や地面を波として伝わる現象であり、その本質は周期的な関数として表現することが可能です。
+
+What strategy are you using to get the graphs of trigonometric functions?
+三角関数で表現されるものとして、sin/cos/tanがあります。それぞれについてグラフを得るための戦略を説明します。
+
+1. sin/cos
+sinやcosといった関数は、振幅と周期を得ることが非常に重要です。振幅は波の大きさであり、周期とはf(x)が開始時点と同じ値を取るxを指す。一般的に、f(x)=Asin(Bx)やf(x)=Acos(Bx)として表現されることが多いので、Aを振幅、Bを周期の係数をとして考えるとグラフの波形を得ることができます。
+2. tan
+tanはtanx=sinx/cosxで定義されます。cosxは0を取る可能性がある関数なので、tanxのグラフを得る上で非常に重要な戦略は、定義できない点がどこであるかをし流ことです。例えばf(x)=tanxでは、x=pi/2やx=3pi/2の地点で定義することができず、x=pi/2やx=3pi/2の直線に対して漸近線をとる必要があります。このように、tanxを考える上では、定義領域を明確にすることが重要です。
 
 ### Programming Assignment
 
