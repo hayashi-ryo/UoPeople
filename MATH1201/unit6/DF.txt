@@ -1,0 +1,94 @@
+I have created the following three equations
+2x+3y-z=-3
+-x+2y+2z=1
+x+y-z=-2
+These three equations are expressed in terms of an augmented matrix as follows.
+
+\left[\begin{array}{ccc|c}
+2 & 3 & -1& -3\\
+-1& 2 & 2 & 1 \\
+1 & 1 & -1 & -2
+\end{array}\right]
+
+
+When performing calculations by matrix operations, we aim to change to a form called the row-echelon form. the row-echelon form is shown in the following form according to the text.
+
+\left[\begin{array}{ccc|c}
+1 & A_1 & A_2& A_3 \\
+0 & 1 & B_1 & B_2\\
+0 & 0 & 1 & C_1
+\end{array}\right]
+
+
+The process for obtaining this format is described below:
+
+1. swap rows 1 and 3 to make the first row.
+
+R_1 + R_2 = R_2 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -1 & -2\\
+0 & 3 & 1 & -1 \\
+2 & 3 & -1& -3
+\end{array}\right]
+
+
+Set the first column of row 2 to 0 and the second column to 1.
+
+R_1 + R_2 = R_2 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -1 & -2\\
+0 & 3 & 1 & -1 \\
+2 & 3 & -1& -3
+\end{array}\right]
+
+
+R_2/3 = R_2 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -2 & -2\\
+0 & 1 & 1/3 & -1/3 \\
+2 & 3 & -1& -3
+\end{array}\right]
+
+
+Set row 3, column 1, and column 2 to 0. Then set row 3 column 3 to 1.
+
+-2R_1+R_3 = R_3 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -2 & -2\\
+0 & 1 & 1/3 & -1/3 \\
+0 & 1 & 1& 1
+\end{array}\right]
+
+-R_1+R_3 = R_3 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -2 & -2\\
+0 & 1 & 1/3 & -1/3 \\
+0 & 0 & 2/3& 4/3
+\end{array}\right]
+
+
+3/2*R_3 = R_3 \rightarrow
+\left[\begin{array}{ccc|c}
+1 & 1 & -2 & -2\\
+0 & 1 & 1/3 & -1/3 \\
+0 & 0 & 1& 2
+\end{array}\right]
+
+
+Therefore, z=2 was obtained. From this result, y and x can also be obtained, and the solution of the equation this time is (x,y,z)=(1,-1,2).
+A graphical representation of this equation is given below.
+
+figure1
+
+Observing the graph, we can see that the three planes intersect at one point.
+
+For the next question, I chose No. 2. The graph of the two functions I gave this time is as follows.
+
+figure2
+
+Observation of this graph shows that in some cases the graph is represented by one plane and one line instead of two planes.
+
+figure3
+
+This indicates that the solution to this equation passes through all points on this line segment, confirming the intersection of the planes studied in this unit.
+

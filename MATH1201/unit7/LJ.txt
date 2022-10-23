@@ -1,0 +1,26 @@
+Reflect on the concepts of trigonometry. What concepts (only the names) did you need to accommodate the concepts of trigonometry in your mind?
+
+I would like to explain my understanding of the concepts related to triangulation that I learned in this week's unit.
+The text says that triangulation is powerful in situations where the angles are known but the lengths of the sides are not all obtained, and this concept is very important in triangulation. This is because when I consider a right triangle, I can find the lengths of adjacent and opposite sides from the lengths and angles of the oblique sides. I now understand that this relationship can be expressed in the form of functions such as sin, cos, and tan.
+
+What are the simplest trigonometry concepts you can imagine?
+
+As an example of simple triangulation, I considered the distance to the fireworks. For example, if I am looking at fireworks at a distance of 10 km from their launch point, and I find that the fireworks are launched at a height of roughly 45°, I know that the fireworks are launched at a height of roughly 10 km by triangulation. In this way, it can be very useful in measuring the size and length of very large objects.
+
+In your day to day, is there any occurring fact that can be interpreted as periodic patterns?
+
+I considered two kinds of things around us: visible and invisible.
+First, I considered a pendulum clock as a visible object. By adjusting the weight of the pendulum and the length of the pendulum itself, it is possible to obtain a specific period. This motion can be expressed in form f(x)=Asin(x) if the point of zero tilt is the origin.
+Next, I considered invisible phenomena such as sound, light, and earthquakes. These phenomena are transmitted through the air or ground as waves, and their essence can be expressed as a periodic function.
+
+What strategy are you using to get the graphs of trigonometric functions?
+
+The trigonometric functions represented are sin/cos/tan. The following is a description of strategies for obtaining graphs for each.
+
+1. sin/cos
+For functions such as sin and cos, it is very important to obtain the amplitude and period. Amplitude is the size of the wave, and period is the x at which f(x) takes the same value as at the start. In general, it is often expressed as f(x)=Asin(Bx) or f(x)=Acos(Bx), so I can obtain the waveform of the graph by considering A as the amplitude and B as the coefficient of the period.
+2. tan
+tan is defined by tanx=sinx/cosx. cosx is a function that can take the value 0, so a very important strategy in obtaining a graph of tanx is to determine where the undefinable points are. For example, f(x)=tanx cannot be defined at x=pi/2 or x=3pi/2, and must be asymptotic to a line at x=pi/2 or x=3pi/2. Thus, in considering tanx, it is important to clarify the domain of the definition.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>

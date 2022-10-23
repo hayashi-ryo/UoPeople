@@ -1,0 +1,42 @@
+1. Find the length of an arc in a circle of radius 10 centimeters subtended by the central angle of 50°. Show your work.
+
+The length of the arc(s) can be obtained by the following equation:
+s=rθ
+r:radius
+θ:radians
+(Abramson, 2017)
+To perform the calculation, 50° is corrected to radians
+θ=50*π/180
+=5π/18
+Therefore, the length of the arc is
+s=rθ
+=10*5π/18
+=25π/9
+~8.72(centimeters)
+
+2. Graph  f(x)=x\ sin\ x  on [-4π, 4π] and verbalize how the graph varies from the graphs of  f(x)= \pm x  
+
+A graphical representation of f(x)=xsinx and f(x)=+-x is as follows
+Figure
+From this graph, I can see the following
+f(x) is a periodic function with a period of 2pi because sinx is kept inside the function.
+The graph has a point of intersection with y=+x at x=pi/2 and 5pi/2, which are the vertices of the graph, indicating that x is given as an element to determine the amplitude of f(x).　For y=-x, with intersection at x=3pi/2 or 7pi/2
+
+Next consider f(x)=sinx/x. Since 1/x determines the amplitude of this function, I represent f(x)=+-1/x together as a graph.
+Figure.
+From this graph, I can see the following
+f(x) is a periodic function with a period of 2pi because sinx is kept inside the function.
+The graph has a point of intersection with y=+1/x at x=pi/2 and 5pi/2, which are the vertices of the graph, indicating that x is given as the factor that determines the amplitude of f(x). y=-1/x has a point of intersection at x=3pi/2 and 7pi/2.
+
+3. A 23-ft ladder leans against a building so that the angle between the ground and the ladder is 80°. How high does the ladder reach up the side of the building? Show the steps of your reasoning.
+
+The situation is expressed in a diagram as follows
+Figure.
+Thus, the height reached by the ladder can be calculated by using the trigonometric relationship
+Height (h) = length of ladder x sin(80°)
+=23*sin(80*pi/180)
+~ 22.65(ft)
+Therefore, the ladder reaches a height of 22.65-ft.
+
+References:
+Abramson, J. (2017). Algebra and trigonometry. OpenStax, TX: Rice University. Retrieved from <https://openstax.org/details/books/algebra-and-trigonometry>
