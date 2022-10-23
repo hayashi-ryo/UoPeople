@@ -1,0 +1,23 @@
+
+Hello classmates, I would like to explain my views on this assignment.
+In section 6.3.3 "Dragging" of Eck (2019), I learned about a program that performs a drag operation on a displayed window to draw a line. In this program, the "drawing" operation is implemented in three major processes, so I will explain the premise and what is done in each process.
+
+assumption
+The program is to determine whether or not the instance parameter "dragging" is required at any time. This parameter is set to True when "drawing" should be done, and False otherwise.
+1. Detecting mouse clicks
+When a mouse click occurs in the canvas, the program detects the event with the event handler "setOnMousePressed". At this time, the program does several things
+   1. Change the parameter dragging=True (if it was originally true, the program will return without processing)
+   2. Acquisition of XY coordinates
+2. Detecting mouse dragging
+When a click event occurs followed by a drag operation, the event handler "setOnMouseDragged" detects the drag event and performs some processing. 1.
+   1. acquisition of the current coordinates. In this case, if the mouse is dragged outside of the window, it will be corrected. 2.
+   2. draw a line
+   3. drag the current coordinates down to prevX and prevY
+3. Detect the release of a click.
+When a drag ends, the event handler "setOnMouseReleased" detects the release event. Here, change the "dragging" parameter to false.
+
+Thus, GUI programming, such as drawing a ragged line, is a very complex task that requires the programmer to consider what events should trigger the implementation of the process.
+
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Retrieved form http://math.hws.edu/javanotes.

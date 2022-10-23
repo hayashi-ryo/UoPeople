@@ -1,0 +1,18 @@
+In this week's unit, I learned about the concept of arrays, such as Array and ArrayList. I will explain my understanding of this concept.
+According to the text, an array is described as follows:
+An array is a data structure in which the items are arranged as a numbered sequence so that each individual item can be referred to by its position number.(Gallardo et al., 2016)
+There are two types of arrays in Java, Array, and ArrayList, and I will explain the common features and characteristics of each.
+The first concept common to both types of arrays is that they can only store data of the same type. This means that multiple data types, such as int, double, and String, cannot be handled in a single array. If you want to use multiple data types, you can define data as an Object type and store the Object itself in an array.
+Next, let's talk about arrays, which, as I understand them, are "static" arrays. The characteristics are as follows.
+The only data types that can be handled are primitive types; object types such as String cannot be used.
+The number of elements cannot be increased or decreased after the array is created. If you want to increase or decrease the number of elements, you must redefine a new array.
+Finally, let's talk about ArrayList arrays, which, unlike Arrays, are understood to be "dynamic" arrays. The characteristics are as follows
+The only data type that can be handled is the object type; primitive types such as int cannot be used.
+The number of array elements can be freely increased or decreased. The number of elements in an array can be freely increased or decreased.
+If you want to use a primitive data type, use a wrapper class such as Integer for int or Boolean for boolean. Wrapper classes are predefined classes that allow primitive classes to be handled as object types.
+These arrays are pre-populated with methods that can be useful in implementing programs, such as sorting and searching. I feel it is also important to have the ability to find out what methods are provided by checking the manual when programming.
+I believe that because I previously studied programs such as C and C++ languages, which require more awareness of memory structures than Java, I was able to become aware of how Arrays and ArrayyLists are handled in the compilation process. Although the syntax of the programs is different, I believe that most programs share the same concept of giving commands to the CPU and memory, which is the fundamental point of the programs.
+
+References:
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle.
+Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
