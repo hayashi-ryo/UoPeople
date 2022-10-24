@@ -89,4 +89,38 @@ Z^{1/3}=2^{1/3}(cos(pi/9+4pi/3)+isin(pi/9+4pi/3))
 
 ### Learning Journal
 
+1. Evaluate the cube root of $z=27cis(240°)$. Then raise them to the cube. Show the steps of your reasoning.
+240°をラジアンにすると$θ=240* \pi/180=4 \pi /3$となる。cude rootとraise cubeをドモアブルの定理を利用して計算を行う。ドモアブルの定理はrootとpowerそれぞれ以下で与えられる
+$$power:z^n=r^ncis(n\theta)$$
+$$root:z^{1/n}=r^{1/n}[cis(\frac{\theta}{n}+\frac{2k\pi}{n})]$$
+cube rootの計算
+ドモアブルの定理に対して、n=3を与えると求めることができる。
+$$z^{1/3}=27^{1/3}[cis(\frac{4\pi/3}{3}+\frac{2k\pi}{3})]$$
+$$=3[cis(\frac{4\pi}{9}+\frac{2k\pi}{3})]$$
+k=0,1,2についての場合があるため、それぞれについて考える
+k=0の場合
+$$z^{1/3}=3[cis(\frac{4\pi}{9})]$$
+k=1の場合
+$$z^{1/3}=3[cis(\frac{4\pi}{9}+\frac{2\pi}{3})]$$
+$$=3[cis(\frac{10\pi}{9})]$$
+k=2の場合
+$$z^{1/3}=3[cis(\frac{4\pi}{9}+\frac{4\pi}{3})]$$
+$$z^{1/3}=3[cis(\frac{16\pi}{9})]$$
+よって、$z^{1/3}=3[cis(\frac{4\pi}{9})],3[cis(\frac{10\pi}{9})],3[cis(\frac{16\pi}{9})]$となる。次に、それぞれのraise cubeの計算を行う。
+$z^{1/3}=3[cis(\frac{4\pi}{9})]$の場合
+$$(z^{1/3})^3=3^3[cis(3*\frac{4\pi}{9}))]$$
+$$=27[cis(\frac{4\pi}{3}))]$$
+$z^{1/3}=3[cis(\frac{10\pi}{9})]$の場合
+$$(z^{1/3})^3=3^3[cis(3*\frac{10\pi}{9}))]$$
+$$=27[cis(\frac{10\pi}{3})]$$
+$=27[cis(\frac{4\pi}{3})]$ $:2\piをマイナスする$
+
+$z^{1/3}=3[cis(\frac{16\pi}{9})]$の場合
+$$(z^{1/3})^3=3^3[cis(3*\frac{16\pi}{9}))]$$
+$$=27[cis(\frac{16\pi}{3}))]$$
+$=27[cis(\frac{4\pi}{3}))]$ $:4\piをマイナスする$
+よって、全ての値が同じ値を取ることがわかる。
+
+2. Evaluate$\sqrt[5]{[\frac{\sqrt(5)}{}}]}$
+
 ### Programming Assignment
