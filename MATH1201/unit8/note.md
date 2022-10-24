@@ -121,6 +121,9 @@ $$=27[cis(\frac{16\pi}{3}))]$$
 $=27[cis(\frac{4\pi}{3}))]$ $:4\piをマイナスする$
 よって、全ての値が同じ値を取ることがわかる。
 
-2. Evaluate$\sqrt[5]{[\frac{\sqrt(5)}{}}]}$
+2. Evaluate$[\sqrt[5]{3}({\frac{\sqrt3}{2}+\frac{i}{2}})]^{10}$
+$z=\sqrt[5]{3}({\frac{\sqrt3}{2}+\frac{i}{2}})$は極座標で表すと、$z=\sqrt[5]{3}cis\frac{\pi}{6}$となる。このzに対してドモアブルの定理を利用する。
+$$z^{10}=(\sqrt[5]{3})^{10}(cis\frac{10*\pi}{6})$$
+$$=9[cis(\frac{5\pi}{3}))]$$
 
 ### Programming Assignment
