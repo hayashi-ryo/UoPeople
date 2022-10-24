@@ -12,7 +12,7 @@
 
 ## Task
 
-- [ ] Peer assess Unit 7 Written Assignment
+- [x] Peer assess Unit 7 Written Assignment
 - [ ] Reading assignment
 - [ ] Discussion Forum
   - [ ] first post
@@ -20,6 +20,15 @@
 - [ ] Programming assignmet
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
+
+### Reading Assignment
+
+- Section 9.1 Solving Trigonometric Equations with Identities
+- Section 9.2 Sum and Difference Identities
+- Section 9.3 Double-Angle, Half-Angle, and Reduction Formulas
+- Section 10.3 Polar Coordinates
+- Section 10.4 Polar Coordinates: Graphs
+  - Section 10.5 Polar Form of Complex Numbers
 
 ### Discussion Forum
 
