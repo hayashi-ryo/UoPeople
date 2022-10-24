@@ -1,0 +1,54 @@
+As a prerequisite to the question, I will deal with the complex plane. In the previous units, I have studied the x-y plane, where a point (x,y) can be plotted, and besides the x-y plane, two other planes can represent parameters of that point: the polar coordinate form and the complex plane. Let us consider a point z=z+iy in the complex plane. Conversion to polar coordinate form can be done by using the following relation
+x=rcosθ
+y=rsinθ
+r=sqrt(x^2+y^2)
+Thus, any point z can be expressed in polar coordinate form as z=r(cosθ+isinθ). I can also obtain two polar coordinate relations from the text.
+𝑧1𝑧2=𝑟1𝑟2[cos(𝜃1+𝜃2)+𝑖sin(𝜃1+𝜃2)]
+ 𝑧1/𝑧2=𝑟1/𝑟2[cos(𝜃1-𝜃2)+𝑖sin(𝜃1-𝜃2)]
+This relationship, called De Moivre's theorem, can be used to obtain the following relationship
+If 𝑧=𝑟(cos𝜃+𝑖sin𝜃) is a complex number, then
+𝑧𝑛=𝑟𝑛[cos(𝑛𝜃)+𝑖sin(𝑛𝜃)]
+n is a positive integer
+The above relationship allows for easy computation of powers of complex numbers. In the case of power roots, the following relation can be obtained
+To find the 𝑛th root of a complex number in polar form, use the formula given as
+ 𝑧1𝑛=𝑟1𝑛[cos(𝜃𝑛+2𝑘𝜋𝑛)+𝑖sin(𝜃𝑛+2𝑘𝜋𝑛)]
+where 𝑘=0,1,2,3,...,𝑛-1. ,𝑛-1. I add 2𝑘𝜋𝑛 to 𝜃𝑛 to obtain the periodic roots.
+This relation allows us to easily perform K-san on the roots of complex numbers.
+I believe that the biggest learning in this unit is that by representing and formalizing complex numbers in a polar coordinate system, the computation of products, quotients, powers, and roots can be easily performed.
+This relationship makes it easy to perform products, quotients, powers, and roots of complex numbers. Also, as noted in the calculation process, these z-relationships hold at all points on any complex plane.
+In the following, I will consider some specific examples.
+
+Power
+For Z=2(cos(pi/3+isincpi/3)) for n=2
+Z^{2}=2*2(cos(pi/3*2)+isinc(pi/3*2))
+=4(cos(2pi/3)+isin(2pi/3))
+=4(-1/2+isqrt(3)/2)
+=-2+2isqrt(3)
+For n=6 for Z=2(cospi/6+isincpi/6)
+Z^{6}=2*6(cos(pi/6*6)+isinc(pi/6*6))
+=12(cos(pi)+isinc(pi))
+=12(-1+i*0)
+=-12
+Power root
+Square root of Z=2(cos(pi/3)+isin(pi/3))
+Z^{1/2}=2^{1/2}(cos(pi/(3*2)+2kpi/2)+isin(pi/(3*2)+2kpi/2))
+=sqrt(2)(cos(pi/6+kpi)+isin(pi/6+kpi))
+For k=0
+Z^{1/2}=sqrt(2)(cos(pi/6)+isin(pi/6))
+=sqrt(2)(sqrt(3)/2+i/2)
+=sqrt(6)/2+sqrt(2)i/2
+For k01
+Z^{1/2}=sqrt(2)(cos(pi/6+pi)+isin(pi/6+pi))
+=sqrt(2)(cos(7pi/6)+isin(7pi/6))
+=sqrt(2)(-sqrt(3)/2-i/2)
+Cube root of Z=2(cos(pi/3)+isin(pi/3))
+Z^{1/3}=2^{1/3}(cos(pi/(3*3)+2kpi/3)+isin(pi/(3*3)+2kpi/3))
+=2^{1/3}(cos(pi/9+2kpi/3)+isin(pi/9+2kpi/3))
+For k=0
+Z^{1/3}=2^{1/3}(cos(pi/9)+isin(pi/9))
+In the case of k=1
+Z^{1/3}=2^{1/3}(cos(pi/9+2pi/3)+isin(pi/9+2pi/3))
+=2^{1/3}(cos(5pi/9)+isin(5pi/9))
+For k=2
+Z^{1/3}=2^{1/3}(cos(pi/9+4pi/3)+isin(pi/9+4pi/3))
+=2^{1/3}(cos(13pi/9)+isin(13pi/9))
