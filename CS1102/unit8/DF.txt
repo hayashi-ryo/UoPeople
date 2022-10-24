@@ -1,0 +1,17 @@
+Quiz.java has undergone significant changes from its submission in unit2 to its submission in unit7. I will explain how the general idea of object-oriented programming is used to explain these changes.
+Originally, Quiz.java had a "method" implemented to display the answers to multiple questions on the screen. However, the Quiz.java submitted in unit7 only holds the questions and their answers and calls a specific method. This was made possible by the object-oriented approach, which allowed us to combine the "process of judging answers," "process of displaying answers," and "process of recording the number of correct answers. Several concepts were necessary to achieve this, and we will explain each of them below.
+
+Instance Variables
+Instance variables are variables that belong to each instance; in the Quiz program, each question was generated as an instance, so the question text itself and its answers were held as instance variables.
+Class Variables
+In the Quiz program, the "number of questions" and the "number of correct answers" are defined as class variables because they are information that should be shared by all instances.
+Inheritance
+In the quiz program, two patterns were implemented: one that requires the user to answer a question with a T/F and the other that requires the user to select a correct answer from among five choices. Since these two programs have in common the requirement to "output the current number of questions and the number of correct answers" and to "initialize with specific field information," we implemented these functions in Question.java, and then added the following functions to MultipleChoiceQuestion.java and TrueFalseQuestion.java. By implementing these functions in Question.java and inheriting them from MultipleChoiceQuestion.java and TrueFalseQuestion.java, we were able to avoid implementing the same machine multiple times.
+Polymorphism, Abstract Classes
+In the Quiz program, the process of adding choices and questions to the window displayed on the screen behaves differently in MultipleChoiceQuestion.java and TrueFalseQuestion.java. If you want to have different behavior in inherited classes, you can use the concept of polymorphism and implement it concretely in the subclass side. In this case, the parent class must be declared as an abstract class.
+this, super
+Classes that inherit can also access fields in the parent class. In the Quiz program, super was used to execute the constructor of the parent class, and this was used to declare that it is an instance variable of itself. This is used to declare that it is an instance variable of itself.
+Interfaces
+Multiple inheritances are not allowed in Java. Therefore, in QuestionDialog.java, the class JDialog is inherited and Actionlisner is added as an interface. Thus, if you want to use implementations from multiple classes, it is important to use parent classes and interfaces for implementation.
+Event Listeners
+The Quiz program must listen for screen operations from the user. Specifically, a button press on a window. The program can detect events such as this button press as events. In QuestionDialog.java, the implementation of the actionPerformed method defines a listener that detects screen selection events.
