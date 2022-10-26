@@ -14,12 +14,12 @@
 
 - [x] Peer assess Unit 7 Written Assignment
 - [x] Reading assignment
-- [ ] Discussion Forum
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ### Reading Assignment
 
@@ -125,5 +125,15 @@ $=27[cis(\frac{4\pi}{3}))]$ $:4\piをマイナスする$
 $z=\sqrt[5]{3}({\frac{\sqrt3}{2}+\frac{i}{2}})$は極座標で表すと、$z=\sqrt[5]{3}cis\frac{\pi}{6}$となる。このzに対してドモアブルの定理を利用する。
 $$z^{10}=(\sqrt[5]{3})^{10}(cis\frac{10*\pi}{6})$$
 $$=9[cis(\frac{5\pi}{3}))]$$
+
+3. Find $\frac{z_1}{z_2}$
+$z_1=21cis(135°)$ $z_2=3cis(75°)$
+
+$$\frac{z_1}{z_2}=\frac{21}{3}[cis(135°-75°)]$$
+$$=7cis(60°)$$
+$60°=\pi/3$なので、
+$$\frac{z_1}{z_2}=7cis(\pi/3)$$
+$$=7[cos(\pi/3)+isin(\pi/3)]$$
+$$=7(1/2+i\sqrt{3}/2)$$
 
 ### Programming Assignment
