@@ -22,13 +22,13 @@
 ## Task
 
 - [x] Read the assigned material in the textbook.
-- [ ] Try to do as many of the exercises in Chapter 8 of the textbook as possible in order to reinforce your knowledge.
-- [ ] Also, do the non-graded exercise that appears at the end of this Learning Guide and post your solutions to the Learning Journal.
-- [ ] Perform Labs 1 and 2.
-- [ ] Post your answer to the question in the Discussion Forum and follow it up with approximately 3-4 comments to other students' posts. Rate other students’ posts.
-- [ ] Submit your Assignment.
-- [ ] Post your activities throughout the week in the Learning Journal.
-- [ ] Test yourself by taking the self-quiz.
+- [x] Try to do as many of the exercises in Chapter 8 of the textbook as possible in order to reinforce your knowledge.
+- [x] Also, do the non-graded exercise that appears at the end of this Learning Guide and post your solutions to the Learning Journal.
+- [x] Perform Labs 1 and 2.
+- [x] Post your answer to the question in the Discussion Forum and follow it up with approximately 3-4 comments to other students' posts. Rate other students’ posts.
+- [x] Submit your Assignment.
+- [x] Post your activities throughout the week in the Learning Journal.
+- [x] Test yourself by taking the self-quiz.
 
 ## Reading Assignment
 
@@ -59,3 +59,9 @@
 ## Written Assignment
 
 ## Learning Journal
+
+unit1では、まずCS1102で学習した内容について振り返りを行った上で、いくつかの新しい事項について学習しました。それは、switchとtry-catchについてです。それぞれの内容について私の理解を説明します。
+まず、switch句についてです。これは、メニュー選択など、特定の項目から一定の値をユーザやプログラムに選択させる場合に便利に活用することができます。同様の操作はif-elseの構文でも実現することは可能ですが、if statementとの重要な違いは、計算量です。例えば、x個の項目についてif分で判断するブログラムを実装した場合、その計算量はオーダー記法を利用したO(x/2)で表現することが可能です。しかし、switch statementであれば、O(1)で計算を行うことができるので、非常に高速な演算を行うことができます。それぞれのメソッドについて、メリットやデメリットが存在するため、状況に応じて適切な構文を利用することが重要であると今回のユニットで学習することができました。
+次に、try-catch構文についてです。この構文は、あるstatementの実行に際して、例外事象の発生をプログラムでハンドリングするために利用することができます。このtry-catchの構文は、プログラムを行う上で非常に重要な考えであると私は感じています。なぜなら、例外処理を全てif statementで実装した場合、プログラムが冗長で、メンテナンス性に欠けるものとなってしまうためです。もちろん、処理の根幹的な部分はif statementで実装を行うべきですが、ファイルオープンエラーやプロセスハンドリングなど、プログラムの内容以外に関する部分に関する例外処理は、積極的に例外処理を利用したプログラムの実装を行うべきであると感じています。私自身の体験として、今働いている会社のソースコードは、例外処理を適切に利用したものが明快で、非常に可読性に優れている内容であると確信しています。
+また、CS1102のコースと比較した際に、Written Assignmentの難易度に違いを感じました。CS1102のコースでは、正直なところ内容について十分な理解ができていない状態であっても、提供された手順に基づいて確認を行えば、成果物の作成ができていました。しかし、CS1103のコースに入り、unitの内容について十分に理解した上で、要件を明確化し、その内容を実装するスキルをさらに求められていると感じています。この取り組みは、私にとって非常にプラスなものとなると確信しているため、わからないことがあればフォーラムで確認しながら、自分自身の理解を深めていきたいと考えています。
+最後に、このコースを通じてCS1102の内容をさらに高度にしたものを、自分自身のスキルとするために、定型的なスケジュールや能動的な学習スキルといった自発的学習の能力をしっかりと実践していきたいと考えています。unit1の時点で、わからないことがあれば積極的に確認するべきであるということは感じているので、期限の直前で成果物を提出するのではなく、計画的に学習を実施していきます。
