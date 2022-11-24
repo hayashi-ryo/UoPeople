@@ -1,0 +1,19 @@
+Hello classmates, I would like to explain my opinion on the topic of this discussion, recursive algorithms.
+First of all, a recursive algorithm is a method of processing a function or other process by calling its own function. According to the text, in order to eliminate the possibility of infinite recursion, a recursive algorithm requires two conditions
+- One or more base cases exist.
+- The problem to be treated as a recurrence must be a smaller case than the original problem.
+From these conditions, I will explain what I consider to be the advantages and disadvantages of recursive functions.
+Advantages
+The advantage of recursive algorithms is that it is possible to implement a process that returns a result according to an arbitrary argument with a small amount of code. For example, a program to find the power of a number from 1 to n can be implemented as follows:
+
+code
+
+Of course, a for-loop implementation is also possible, but it is a very readable program.
+Disadvantages
+Since the problem is divided into smaller cases and calculations are performed, there is a possibility that unnecessary calculations may be performed depending on the calculation pattern. The Fibonacci sequence, which is the exercise in this unit, is a typical example. When the Fibonacci numbers are computed with a recursive algorithm, the computation takes the form shown in the figure below.
+
+figure
+In this figure, there are cases where multiple operations occur due to splitting the problem into f(2), f(3), and so on. We believe that the possibility of performing unnecessary calculations in such a simple implementation is a very big disadvantage.
+
+References
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
