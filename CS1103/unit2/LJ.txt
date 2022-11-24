@@ -1,0 +1,20 @@
+In this week's unit, I learned about recursive algorithms and a data structure called a link. I will explain my understanding of each of these.
+First, a recursive algorithm is a method of processing a function or other process by calling its function. According to the text, to eliminate the possibility of infinite recursion, a recursive algorithm requires the following two conditions
+There must be at least one basic case.
+The problem to be treated as recursion must be a smaller case than the original problem.
+In this unit's discussion, I discussed the advantages and disadvantages of recursive algorithms. I gave examples of each of the advantages and disadvantages and provided code and samples to support my rationale, but when I saw my classmates' contributions, I felt that I should have thought about recursion more carefully. I feel that I need to think more deeply about it and that by thinking about it, I can further deepen my understanding. I would like to think about it from a bird's eye view.
+Next, let's look at the link structure. I understand that the link structure is like an extension of the objects I learned in CS1102. An object does not have actual values but is only a territory in which actual data is stored. The link structure is a data structure when such a reference structure refers to other objects instead of real data. I have considered the advantages and disadvantages of this kind of structure.
+Advantages
+The number of elements is not so large that only memory space is needed to be reserved.
+Data can be added to and deleted from the top at high speed.
+Disadvantages
+Random access is not possible.
+The only way to access any value is to access it in order from the top, and accessing any value requires O(n) amount of calculations.
+This feature makes the structure very suitable for LIFO (Last In First Out) operations, which are called stacks. However, for operations other than stacks, its disadvantages are conspicuous, and there may be few examples of its use. It may be useful in fields where smaller calculations are performed, such as embedded devices.
+One of the difficulties I am facing in this entire unit is that it takes time to understand the application examples of the algorithms and data structures that I am learning. In unit 3 and onward, after learning about general methods, I would like to have more time to understand the concrete implementation of the methods. I would like to spend more time understanding concrete implementation images after learning general methods. As for my learning attitude, I believe that having concrete images will help me understand more.
+Finally, although I declared in the Unit 1 Learning Journal that I would have a concrete learning plan, I was a bit lax in my estimates for this unit, as I believe that there is often a gap between the volume I expected at the start of the unit and the volume I need to understand the material. I will try to check how much learning is left at each specific break, such as after reading the text, after performing the Lab assignment, etc.
+
+Word-Count:530
+
+References
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
