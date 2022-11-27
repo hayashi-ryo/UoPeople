@@ -19,11 +19,16 @@
   - [ ] first post
   - [ ] reply classmates
 - [ ] Programming assignmet
+  - [x] peer assessment
+  - [ ] submit unit3
 - [ ] Take Self-Quiz
 - [ ] Take Graded-Quiz
 - [ ] Learning Journal
 
 ## Reading Assignment
+
+- Section 9.3: Stacks, Queues and ADTs
+- Section 9.4: Binary Trees
 
 ## Discussion Forum
 
