@@ -1,0 +1,13 @@
+Hello classmates, I would like to explain my views on this topic.
+To think about this subject, I need to first discuss modularity. According to the Java Documentation, there are two advantages of modularity.
+∙ The source code of a particular object can be managed independently of other objects.
+∙ Once an object is created, it can be easily moved around within the system. (Gallardo et al., 2016)
+This concept is the very concept of object-oriented programming that I learned in the CS1102 course, which allows for the separation of the logic implementation part from its users and the convenient reuse of methods. With this premise in mind, let us consider ADTs.
+ADTs (abstract data types) are described in the text as follows
+ADT(abstract data types)は、テキストで以下のように説明されます。
+The term abstract data type, or ADT, refers to a set of possible values and a set of operations on those values, without any specification of how the values are to be represented or how the operations are to be implemented. (Eck, D. J. 2019)
+For example, "an operation that returns a set of numbers and their average value" or "an operation that sorts an array in ascending order," etc. These are considered to be concepts that combine class (data) and method (operation) in object-oriented programming. By using this concept of ADTs, the user only needs to know the definition of data and the interface of operations. If stack operations are implemented without using ADTs, it is necessary to define the stack operations and data types to be used in every place where they are used, resulting in very redundant code with duplicate programming.
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
+Gallardo, R., Hommel, S., Kannan, S., Gordon, J., and Zakhour, S.B. (2016). The Java tutorials. Oracle. Retrieved from https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
