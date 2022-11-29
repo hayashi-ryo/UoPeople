@@ -21,8 +21,8 @@
 - [x] Programming assignmet
   - [x] peer assessment
   - [x] submit unit3
-- [ ] Take Self-Quiz
-- [ ] Take Graded-Quiz
+- [x] Take Self-Quiz
+- [x] Take Graded-Quiz
 - [ ] Learning Journal
 
 ## Reading Assignment
