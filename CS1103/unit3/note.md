@@ -18,9 +18,9 @@
 - [ ] Discussion Forum
   - [x] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
+- [x] Programming assignmet
   - [x] peer assessment
-  - [ ] submit unit3
+  - [x] submit unit3
 - [ ] Take Self-Quiz
 - [ ] Take Graded-Quiz
 - [ ] Learning Journal
