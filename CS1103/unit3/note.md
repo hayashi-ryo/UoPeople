@@ -14,10 +14,10 @@
 
 ## Task
 
-- [ ] Reading assignment
-- [ ] Discussion Forum
+- [x] Reading assignment
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
   - [x] peer assessment
   - [x] submit unit3
