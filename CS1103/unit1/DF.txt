@@ -1,0 +1,17 @@
+I believe that the handling of exceptions should basically be the responsibility of the computer program to handle. I will explain two reasons for this.
+The first reason is that a computer can detect the occurrence of an exception itself, but it cannot handle it. It is the responsibility of the computer program to clearly state how exceptions are to be handled. If the program does not specify how the exception is to be handled, a crash will occur and the program will not be able to continue to operate.
+Second, the use of proper exception handling has the effect of making the program itself clear and easy to understand. For example, consider the case of implementing a program that outputs the result of an operation on an input. If no exception handling is used, the following checks must be made on the input in order to perform the appropriate operation.
+  Input must be numeric
+  The number of digits must be appropriate
+  No division by zero
+  The number of input arguments is correct
+  The operator must be appropriate
+Collectively, this is expressed in the text as follows
+
+Furthermore, trying to anticipate all the possible problems can turn what would otherwise be a straightforward algorithm into a messy tangle of if statements. (Eck, D. J. 2019)
+
+If the above is implemented in exception handling, it will be possible to focus only on those parts of the operation that are inherently important and minimize the consideration of other parts.
+For these reasons, I believe that exception handling should be implemented programmatically and that proper and efficient implementation of exceptions is a very important factor.
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
