@@ -84,4 +84,20 @@ public class Cell {
 
 ## Written Assignment
 
+BuggySearchAndSort.javaのデバッグ過程と、修正したプログラムを提出します。
+
+- bubbleSort
+  - 何もしない状態での出力がおこなわれなかったため、無限ループに陥っている可能性が高いと考えならデバッグ確認を行いました。変数の状態を確認すると、jをインクリメントすべきところでiをインクリメントしていることがわかったため修正しました。
+- Selection Sort
+  - 出力が「Sorted by Selection Sort:  2 10 9 5 6 3 5 3 8 3」となってしまっているため、処理が正しく行われていないことがわかりました。デバッグ確認を行なったところarray[1]が更新され続けていることがわかったためプログラムを確認したところ、array[i]と定義すべきところでarray[1]と定義されていることがわかったため修正しました。
+- insertionSort
+  - 出力が「Sorted by Insertion Sort:  2 10 10 10 10 10 10 10 10 10」となってしまっているため、処理が正しく行われていないことがわかりました。デバッグしたところ、array[0]の更新が行われていないことがわかったたためwhile-loop処理の条件を修正しました。その後インデックスエラーに対処するため116行目を修正したところ出力が正しくなったことが確認できました。
+
+- BubbleSort
+  - Since there was no output in the "do nothing" state, I thought it was likely that I was stuck in an infinite loop, so I did a debug check. After checking the variable status, I found that i was being incremented when j should have been incremented, so I fixed it.
+- Selection Sort
+  - The output was "Sorted by Selection Sort: 2 10 9 5 6 3 5 3 8 3", which indicated that the process was not working correctly. Debugging showed that array[1] kept being updated, so I checked the program and found that array[1] was defined as array[i] when it should have been array[1].
+- insertionSort
+   Debugging revealed that array[0] was not being updated, so the condition for the while-loop operation was corrected. Then I modified line 116 to address the index error and found that the output is now correct.
+
 ## Learning Journal
