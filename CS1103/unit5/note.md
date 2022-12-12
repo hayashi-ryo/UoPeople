@@ -18,6 +18,8 @@
   - [x] first post
   - [ ] reply classmates
 - [ ] Programming assignmet
+  - [x] PeerAssess
+  - [ ] Lab
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
