@@ -1,0 +1,9 @@
+According to the text, sockets are used by programs to communicate with other programs; in java, they are provided as the java.net.Socket class and can be managed as objects. This section explains this concept.
+To communicate using sockets, it is important to establish a network connection. To do so, one program creates a socket that passively waits for communication from another socket. When another program communicates with this socket, a connection is established. The socket that waits for communication is called the server socket, and the socket that communicates is called the client socket. A program waiting for communication may be accessed by multiple clients. To prepare for such cases, Java facilitates the use of ServerSocket and Socket objects. The following is an explanation of how each is used.
+First, ServerSocket creates a socket that is passively waiting on the server. When it receives a request, it creates a socket and creates an endpoint between the server and the client. Then the ServerSocket continues to wait for other requests. Thus, by separating the object that waits for communication from the object that performs the established communication, it is possible to design the system to handle multiple requests.
+Finally, let us summarize.
+ServerSocket: Waits connection requests from clients on the server. When actual communication occurs, a Socket object is created on the server side so that actual communication can take place.
+Socket: Indicates the endpoint of communication between the server and the client. An object is generated on each of the client applications and server side for established communication.
+
+References:
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes
