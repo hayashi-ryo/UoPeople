@@ -13,10 +13,10 @@
 ## Task
 
 - [x] Reading assignment
-- [ ] Discussion Forum
+- [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
-- [ ] Programming assignmet
+  - [x] reply classmates
+- [x] Programming assignmet
 - [ ] Learning Journal
 - [x] Take Self-Quiz
 - [x] Take Graded-Quiz
