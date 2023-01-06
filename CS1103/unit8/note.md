@@ -13,11 +13,11 @@ There is a single learning objective of Unit 8: to review and put into practice 
 - [x] Reading assignment
 - [x] Discussion Forum
   - [x] first post
-  - [ ] reply classmates
+  - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
-- [ ] Take Self-Quiz
-- [ ] Peer Aseessment
+- [x] Learning Journal
+- [x] Take Self-Quiz
+- [x] Peer Aseessment
 
 ## Reading Assignment
 
