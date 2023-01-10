@@ -1,0 +1,24 @@
+
+Hello classmates, I would like to explain my views on this topic.
+There are many ways to represent things in the real world as data structures in programs, and Java provides List, Set, and Map as common data structures. Since each data structure has areas that it is good at processing and areas that it is not good at processing, knowing the features provided by each data structure is a necessary element in selecting a Java collection. The following is a summary of the features of each data structure from the text.
+
+List
+
+The text explains that a list is "A list consists of a sequence of items arranged in a linear order. a list has a definite order, but is not necessarily sorted." (Eck, D. J. 2019) A list serves to arrange elements and is utilized when managing ordered (indexed) data.
+
+Set
+
+According to the text, "A set is a collection that has no duplicate entries. the elements of a set might or might not be arranged into some definite order" (Eck, D. J. 2019) explains that a Set is responsible for determining whether an element is included or not.
+
+Map
+
+According to the text, a Map is described as "In a map, an object that serves as an "index" is called a key. the object that is associated with a key is called a value."(Eck, D. J. 2019).  The most important feature is the ability to manage subscripts in arrays as objects. Another feature is that it does not inherit from the Collections class.
+
+Based on these characteristics, I believe the guidelines for collection class selection are as follows
+When you want to manage and access elements by index, such as pages of a book: List
+When you only want to confirm the existence of elements without considering the order of elements, such as reversing duplicate user IDs: Set
+To link values to key items managed as objects, such as class names: Map
+
+
+References
+Eck, D. J. (2019). Introduction to programming using Java, version 8.1. Hobart and William Smith Colleges. http://math.hws.edu/javanotes

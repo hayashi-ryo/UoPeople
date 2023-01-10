@@ -1,0 +1,9 @@
+Hello to all my classmates, I would like to explain my understanding of this topic.
+
+Look and Feel refers to the overall look and feel of the software and the impression it gives to the user. Java provides methods to change the look and feel of the UI, and these methods can be used to easily update the look and feel of the UI. A sample program and output are described below.
+
+output
+
+button, it is possible to update the entire GUI to the LookAndFeel corresponding to the content of the button. In this example, I allowed the user to update his/her UI, but the following are possible concrete uses
+  If you want to change the UI for each OS of the terminal where the user logs in (e.g., Windows and iOS), you can unify the impression of the GUI for each usage environment by adding a process to acquire user login information and a process to change the display according to the results.
+Using this method, it is not only possible to unify the impression of the GUI, but also to design a more user-friendly GUI that takes into account what exists or does not exist in each user environment.
