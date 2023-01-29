@@ -13,12 +13,12 @@
 
 ## Task
 
-- [ ] Complete reading assignments
-- [ ] Download and install the Hardware Simulator on your computer
-- [ ] Optionally watch Video Lectures
+- [x] Complete reading assignments
+- [x] Download and install the Hardware Simulator on your computer
+- [x] Optionally watch Video Lectures
 - [ ] Complete the Unit 1 Exercise
 - [ ] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts
-- [ ] Take the Self-Quiz
+- [x] Take the Self-Quiz
 - [ ] Post your activities throughout the week in the Learning Journal
 
 ## Reading Assignment
@@ -77,6 +77,18 @@ Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. 
 - マルチプレクサとデマルチプレクサについて説明してください。選択ビットとデータビットを使用することの重要性は何ですか？
 
 Since computer hardware is based on the representation and manipulation of binary values, Boolean functions play a central role in the specification, construction, and optimization of hardware architectures.()
+
+クラスメイトの皆さんこんにちは。今回のテーマに対する私の理解を説明します。
+
+1. Why do Boolean functions play a central role in hardware architectures?
+私たちが扱う世界では10進数やアルファベットを利用して意思の疎通を行いますが、コンピュータのハードウェアは2進数の値の表現に基づいて行われるため、ハードウェアアーキテクチャを設計する上で非常に重要な役割を担います。
+2. Describe Composite Gates.
+コンポジットゲートについて扱う前に、対となるプリミティブゲートについて議論する必要があります。プリミティブゲートとは、AND/OR/NOTの非常に基本的な回路のことを指します。全ての論理回路を分解するとこれら三つのプリミティブ回路へ必ず行きつきます。その上でコンポジットゲートの具体例を以下に二つ記載します。
+3つの入力に対して、全ての入力が1であれば出力を1とするゲート
+4つの入力から、出力する文字の桁数と大きさを出力するゲート
+上記のような例は、利用者からすると一つの論理回路のように見えます。しかし、内部について分解していくとかならずプリミティブゲートの集合であることがわかります。このように、プリミティブゲートの組み合わせによって得られる論理的なアルゴリズムのことをコンポジットゲートと呼びます。
+3. Describe Multiplexors and Demultiplexors? What is the importance of the use of the selection bit and the data bits?
+マルチプレクサとは「選択ビット」と呼ばれる入力の値に応じて、複数の入力から「データビット」と呼ばれる出力を決定する仕組みです。Demultiplexorは、一つの「データビット」をどの出力に行うか「選択ビット」の値に応じて決定する仕組みです。これらの仕組みは、コンピュータアーキテクチャを検討する上で非常に重要である「入力信号から必要なものと選別して出力する」「入力信号を必要な箇所へ出力する」機能を実装しています。
 
 ## Written Assignment
 
