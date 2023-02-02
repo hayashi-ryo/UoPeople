@@ -16,8 +16,8 @@
 - [x] Complete reading assignments
 - [x] Download and install the Hardware Simulator on your computer
 - [x] Optionally watch Video Lectures
-- [ ] Complete the Unit 1 Exercise
-- [ ] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts
+- [x] Complete the Unit 1 Exercise
+- [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts
 - [x] Take the Self-Quiz
 - [ ] Post your activities throughout the week in the Learning Journal
 
@@ -93,3 +93,11 @@ Since computer hardware is based on the representation and manipulation of binar
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットはコースの最初ということもあり、内容として難しいものではなく、コース全体をイメージすることと、新しいツールを利用した学習という大きく二つの内容を実施しました。
+一つ目は、CS1104というコース全体で学ぶ概要をイメージすることです。このコースで学ぶことはシラバスによると以下となる。
+This course is an introduction to computer systems. In this course, we will begin by exploring the internal design and functionality of the most basic computer components. From there, we will use an online hardware simulator to actually “build” a computer and develop an assembler from the ground using concepts we will learn in the class. In the process, we will cover the ideas and techniques used in the design of modern computer hardware and discuss major trade-offs involved in system design as well as future trends in computer architecture and how those trends might affect tomorrow’s computers.
+この学習目標に対して、一つ一つのユニットで学習している事項がどのようなつながりを持つのか、今学んでいている内容がどのようなついながりを持つのかをイメージすることは、私自身が8週間という期間同じテーマを学習するに当たって、能動的な学習を進めるために非常に重要な要素となります。シラバスから学習計画を立てたところ、やはり後半のユニットの方が難しい内容であると見受けられるため、より計画的かつ事前準備を実施する必要があることを把握することができました。
+次に、このコースで実際に学習した内容について振り返ります。unit1では、全ての論理回路の基本となるAND/OR/NOなどのプリミティブゲートについて学習を行いました。それぞれのゲートがどのような処理をするのかや、ゲートがどのような出力を出すのかについては以前学習したことがあったため、理解を早く進めることができました。しかし、実際に論理回路の設計とシミュレーションをする過程を踏んだことは経験したことがなかったため、実際の手を動かす工程により私自身理解をさらに深めることができたと感じています。論理回路の設計を行うことは今後3ユニットほど継続して実施していくテーマとなるので、今週のユニットで簡単なテーマに対して手を動かして実装することができたことは、非常にためになったと感じています。
+また、CSのユニットを進めていく上でクラスメイトのレベルが上がっていることを感じています。イントロダクションとなるクラスから数えると4クラス目となる本コースは、ある程度本気でやりたい人だけが残って学習を進めていけているのだということを実感しました。私自身の目的のためにもクラスメイトの知見やディスカッションの投稿を吸収し、より学習効果を上げていきたいと思います。
+最後に、このクラス全体を進める上での私自身の目標を宣言したいと思います。一つ前のCS1103では、仕事とのスケジュール調整がうまくできず1ユニット十分な結果を残すことができない状態となってしまいました。今回のクラスではそのような状況を引き起こさないよう、より計画的に、また計画を進める上で必要な要素を整理しながら学習を進めたいと思います。
