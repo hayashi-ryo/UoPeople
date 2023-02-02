@@ -44,8 +44,6 @@ Tarnoff, D. (2007). Computer organization and design fundamentals. <http://facul
   - このような問題に対してデジタル回路を式で表現する学問がある。
 
 - 回路図
-    -
-
   - 真理値表
 
 Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. <http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf>
