@@ -16,7 +16,7 @@
 - [x] Complete Reading Assignments
   - [x] Chapter 3 Binary Math and Number Representations  (Tarnoff).
   - [x] Chapter 2 Boolean Arithmetic (Nisan and Schocken)
-- [ ] Complete and submit Unit 2 Assignment.
+- [x] Complete and submit Unit 2 Assignment.
 - [ ] Post your answer to the question in your discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts.
 - [x] Take the Self-Quiz.
 - [x] Watch Optional Video Lectures
