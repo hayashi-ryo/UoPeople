@@ -17,10 +17,10 @@
   - [x] Chapter 3 Binary Math and Number Representations  (Tarnoff).
   - [x] Chapter 2 Boolean Arithmetic (Nisan and Schocken)
 - [x] Complete and submit Unit 2 Assignment.
-- [ ] Post your answer to the question in your discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts.
+- [x] Post your answer to the question in your discussion Forum and follow it up with approximately 3-4 comments to other students’ posts. Rate other student’s posts.
 - [x] Take the Self-Quiz.
 - [x] Watch Optional Video Lectures
-- [ ] Post your activities throughout the week in the Learning Journal and complete the learning journal assignment.
+- [x] Post your activities throughout the week in the Learning Journal and complete the learning journal assignment.
 
 ## Reading Assignment
 
@@ -53,3 +53,12 @@
 ## Written Assignment
 
 ## Learning Journal
+
+今週のユニットでは、ユニット1で学習した2進数表現の拡張とそれを回路として実装することを実施しました。まずはそれらに対する私の理解を説明します。
+まず、2進数表現はunit1で学習したようにハードウェアに対して入力を与えたりハードウェアからの出力を受け取るために必須の表現です。今週のユニットでは、補数という概念を学びました。これは、普段使っている10進数の形で何気なく利用している負の数をより効率的に、かつ演算しやすい表現とするために考案された方法です。この方法を学んだ際、特に2の補数表現は非常に感動を覚えました。それは以下のような要素からです。
+・大量の数をより少ないビット数で表現することができる
+・ビット演算の結果をそのまま利用することができる
+上記の要素は、2新数の値を利用する上で非常に重要で、開発を発展させる要素であったのではないかと感じています。
+次に、いくつかの加算回路について学びました。私は今までの人生で桁上がりの概念を自然に理解することができています。しかし、2進数でそのような演算をどのように考慮するのか、またそれをどのような回路形式で実装するのかをイメージすることはできていませんでした。今回のユニットでそれらの内容についてより深くイメージをすることができました。利用するために重要だったことは、桁を上げるcビットと合計を表すsビットがどのような出力になるのか、真理値表を利用して実際の値をイメージすることです。私自身の理解を深める要素として、イメージと実践をつなげていく作業が非常に大事なものなので、今回のユニットで行ったこの作業は非常に有意義なものとすることができました。
+次に、今回のディスカッションについてです。私は、与えられたテーマに対して回路図と真理値表を実際に利用した形でポストを行いました。すると、クラスメイトからは比較的良い評価をもらうことができました。unit1のポストでは具体的な回路イメージや真理値表を載せることをしていなかったことにコメントをもらう場面もあったので、その対策として実施したものでした。結果としてよりわかりやすい投稿を実施することができたと個人的にも、クラスメイトの評価的にも考えることができています。来週以降のユニットでも、質問に対する回答をより具体的な形で表現し、それを含めた説明とすることを意識していきたいと思います。また、具体的なイメージを含めるにはlogisimを含めた各種ツールの扱いに慣れていなければならないため、エクササイズ等の実践等を通してツールへの理解を深める作業を並行して進めていきます。
+最後に、unit3はGraded-Quizのある週です。unit2終了の段階では、Self-Quizやテキストのエクササイズに関して十分な理解をすることができているのではないかと考えています。よりよい結果を出すためにもunit3のコース内容の学習・振り返りと、unit1~2の振り返りを計画的に実施し、日曜日時点でGraded-Quizを受けたいと思います。今回のコースはAおよびA+を個人的な目標としているので、その目標のために必要なことは今後も継続して実施していきます。
