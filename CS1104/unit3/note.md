@@ -22,7 +22,7 @@
 - [ ] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
 - [ ] Rate other student’s posts.
 - [ ] Watch Optional Video Lectures
-- [ ] Take the Graded Quiz.
+- [x] Take the Graded Quiz.
 - [ ] Post your activities throughout the week in the Learning Journal.
 
 ## Reading Assignment
