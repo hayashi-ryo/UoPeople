@@ -15,9 +15,9 @@
 
 ## Task
 
-- [ ] Peer Assess Unit 2 Assignment.
-- [ ] Complete Reading Assignments
-  - [ ] Chapter 8:  Combinational Logic Circuits (Tarnoff)
+- [x] Peer Assess Unit 2 Assignment.
+- [x] Complete Reading Assignments
+  - [x] Chapter 8:  Combinational Logic Circuits (Tarnoff)
 - [ ] Complete and submit Unit 3 Assignment.
 - [ ] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
 - [ ] Rate other student’s posts.
