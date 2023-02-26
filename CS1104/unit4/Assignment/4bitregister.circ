@@ -103,6 +103,11 @@
       <a name="label" val="Q3"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="0" loc="(670,400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="4" loc="(160,170)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
