@@ -21,8 +21,8 @@
 - [ ] Complete and submit Unit 5 Assignment.
 - [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
 - [ ] Rate other student’s posts.
-- [ ] Take the Self-Quiz.
-- [ ] Watch the Optional Video Lectures
+- [x] Take the Self-Quiz.
+- [x] Watch the Optional Video Lectures
 - [ ] Post your activities throughout the week in the Learning Journal.
 
 ## Reading Assignment
