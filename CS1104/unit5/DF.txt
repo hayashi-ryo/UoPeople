@@ -1,0 +1,30 @@
+I will explain my views on this topic.
+
+1. The Hack architecture partitions the address space, and does not allow both data and instructions to be stored in the same space. What are the implications of this architecture?
+
+Three advantages of separating instruction memory and data memory are described.
+
+1. the CPU can read instructions and perform data operations in parallel
+  The Hack architecture requires time to acquire data and store it in memory for processing. If instruction memory and data memory are managed separately, data must be fetched each time an instruction is executed, resulting in a large processing overhead. Separating instruction memory and data memory makes it possible to process data sequentially once acquired.
+2. Efficient management of programs and data
+  Stored-in instruction memory is the program that determines how to process the given data. Programs may need to be replaced as functions are added or modified. In these cases, having an independent instruction memory makes it possible to replace the program without depending on the state of the data. Similarly, it is also possible to change the state of data memory without depending on the state of the program.
+3. Prevention of CPU abuse
+  If an illegal instruction is stored in data, it may be executed if the instruction memory and data memory are not separated. However, by making the instruction memory and data memory independent, it is possible to prevent the execution of illegal instructions even if they are mixed together.
+
+2. Discuss is the difference between RISC and CISC architecture. What are the advantages and disadvantages of each architecture?
+
+RISC (Reduced Instruction Set Computing), as the name suggests, aims to simplify CPU design and reduce power consumption by reducing the number of CPU instructions. CISC (Complex Instruction Set Computing) is a sound implementation of more complex CPU instructions that allows multiple instructions to be executed with a single instruction, resulting in shorter programs. The table below summarizes the features of each.
+
+|Features|RISC|CISC|
+|--|--||--|
+|Instruction Set|Smaller||Larger||
+|Number of implemented instructions|Less|More|
+|Power Consumption|Less|More
+|Execution speed|slow|fast|
+|Memory accesses|More|Less
+|Low|High|CPU design cost
+
+Based on the above, it is necessary to make a choice between RISC architecture and CISC architecture for each situation, such as adopting RISC architecture for mobile devices where mass production and low power consumption are required, and adopting CISC architecture for server CPUs to perform faster processing.
+
+References
+Berger, A. S. (2006). Hardware and computer organization: The software perspective. Elsevier/Newnes. Retrived from http://ebookcentral.proquest.com/lib/univ-people-ebooks/detail.action?docID=234972.
