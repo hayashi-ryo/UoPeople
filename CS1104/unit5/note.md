@@ -14,7 +14,7 @@
 
 ## Task
 
-- [ ] Peer Assess Unit 4 Assignment.
+- [x] Peer Assess Unit 4 Assignment.
 - [x] Complete Reading Assignment
   - [x] Chapter 5:  Computer Architecture (Nisan and Schocken)
   - [x] Chapter 15:  Introduction to Processor Architecture (Tarnoff).
