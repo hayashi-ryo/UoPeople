@@ -92,4 +92,22 @@ RISC(Reduced Instruction Set Computing)はその名の通り、CPU命令の数�
 
 ## Written Assignment
 
+CPUはメモリ上に格納されたデータに対して、命令を与えることで処理を行うものです。処理を行うためにはいくつかのステップや要素が必要になるのでそれらについて説明します。
+
+1. ALU (Arithmetic Logic Unit)
+  The ALU is a collection of logic circuits designed to perform arithmetic (addition, subtraction, multiplication, and division) and logical operations (not, and, or, and exclusive-or). "(Tarnoff, 2007)と説明されるように、ALUはCPUの最も基本的な要素です。求めたい結果を演算する方法を決定したら値やコマンドをALUに送ることで処理を行います。
+
+2. Instruction Decoder
+  ALUで処理を実行するためには、どの回路でどのような動作をすればいいかを決定する必要があります。この時に送る信号は、人間に解釈することが難しい機械語であるため機械語に変換し、適切な回路を選択するコンポートネントが必要になります。それがInstruction Decoderです。Instruction Decoderはメモリから読み取った命令を解釈しALUに制御信号を指示します。最後に、処理結果をメモリ上に格納して一連の流れが終了します。
+
+3. Clock and Program Counter
+  コンピュータ内部のあらゆる処理は一定の間隔で同期をとって実施されます。クロックはこの同期信号を送信するコンポーネントです。例えば、1クロック目で命令を読み込み、2クロック目で命令を解読、3クロック目で処理を実行し、4クロック目で結果の書き込みを行う、といった形です。もちろん1クロックで処理できる量は決まっているため例のように単純な形式ではありませんが、基本的にクロック信号をベースとして処理を行います。
+  また、命令はメモリ上に格納されているため、取得する命令を選択させるコンポートネントが必要です"The PC is the register that contains the address of the next instruction to be fetched."(Nisan, N., & Schocken, S. (2005))と説明されるように、プログラムカウンタは次に実行すべき命令のメモリアドレスを指します。分岐動作の場合は分岐条件が決定したあと、プログラムカウンタが分岐先の命令を取得するよう更新されます。
+
+4. Control Codes
+  ALUは様々な演算を行うことができるよう設計されています。そのため今回の処理ではどのような演算回路を利用するかを決定させる必要があります。そのために送る信号がControl Codesです。例えばALUに8つの命令が実装されている場合、演算を切り替えるために3bitの制御信号を与える必要があります。
+
+5. Control Unit
+  "The control unit is the main component that directs the system operations by sending control signals to the datapath. These signals control the ﬂow of data within the CPU and between the CPU and external units such as memory and I / O. Control buses generally carry signals between the control unit and other computer components in a clock-driven manner."(Berger, A. S. (2006))と説明されるように、コントロールユニットはCPU内部のデータの流れを統括するコンポーネントです。クロックにより制御された処理のタイミングは、何かのコンポーネントで統括して管理する必要があります。そのためにControl Unitは制御信号を送信し、処理のタイミングを制御します。
+  
 ## Learning Journal
