@@ -111,3 +111,20 @@ CPUはメモリ上に格納されたデータに対して、命令を与える�
   "The control unit is the main component that directs the system operations by sending control signals to the datapath. These signals control the ﬂow of data within the CPU and between the CPU and external units such as memory and I / O. Control buses generally carry signals between the control unit and other computer components in a clock-driven manner."(Berger, A. S. (2006))と説明されるように、コントロールユニットはCPU内部のデータの流れを統括するコンポーネントです。クロックにより制御された処理のタイミングは、何かのコンポーネントで統括して管理する必要があります。そのためにControl Unitは制御信号を送信し、処理のタイミングを制御します。
   
 ## Learning Journal
+
+今週のユニットでは、基本的なコンピュータアーキテクチャとその内部コンポーネントの役割について学習を行いました。それらに関する私の理解を説明します。
+CPUは、命令を実行するためにいくつかのコンポーネントから成り立っています。それは、ALU/Instruction Decoder/Clock and Program Counter/Control Codes/Control Unitです。それぞれの役割について簡単に触れます。
+ALU
+  演算を行う最も基本的なコンポーネント。与えられた命令をに応じてデータを処理する機能を持つ
+Instruction Decoder
+  ALUに命令信号を出すために、適切な回路の選択や機械語への変換を行うコンポーネント。メモリ上に格納されたデータと命令を制御して一覧の処理を行う。
+Clock
+  コンピュータの内部コンポーネントの動機を測るためのコンポーネント。全てのコンポーネント、処理はクロックの周波数に応じて実行される。
+Program Counter
+  命令はメモリ上に格納されているため、次にどの命令を取得するかを管理する必要がある。次のどの命令を取得するか、分岐処理が発生した場合はどのように処理を行うかを決定するコンポーネント。
+Control Codes
+  ALUには様々な演算回路が実装されているため、どの演算機能を利用するかを決定するコンポーネント。
+Control Unit
+  クロックで説明を行ったように、CPU内部の全てのコンポーネントは同期をとって処理が行われる。それらの同期のとりかたや停止時間など、すべてのコンポーネントの流れを統括して管理するためのコンポーネント
+テキストの中では上記のような基本的なコンポーネントについて触れた上で、簡単な演算がどのような流れで処理を行うのか学習を行いました。この学習により、非常に簡単だと思われる処理であってもCPUの内部で複数のコンポーネントが協調して、さまざまな処理を行なっているため、今私自身が感じているほど簡単なものではないと考えることができました。
+また、今週のディスカッションやアサインメントではこのコースではじめて外部文献を利用した成果物の作成、提出を行いました。ディスカッションのテーマであったRISCとCISCの比較については、それぞれのアーキテクチャの概要に触れた上でメリット、デメリットを説明しやすくできる文献を探す必要があり、ある程度の時間をかけて調査を行いました。結果として納得できる成果物を提出することができたと思います。

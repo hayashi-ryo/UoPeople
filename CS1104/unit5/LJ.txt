@@ -1,0 +1,16 @@
+In this week's unit, I learned about basic computer architecture and the role of its internal components. I will explain my understanding of them.
+A CPU consists of several components to execute instructions. They are the ALU/Instruction Decoder/Clock and Program Counter/Control Codes/Control Unit. I will briefly touch on the role of each.
+ALU
+  The most basic component that performs arithmetic operations. It has the function of processing data according to a given instruction.
+Instruction Decoder
+  A component that selects the appropriate circuitry and converts it to machine language in order to signal instructions to the ALU. It controls the data and instructions stored in memory and processes the list.
+Clock
+  A component that measures the motive power of a computer's internal components. All components and processes are executed according to the clock frequency.
+Program Counter
+  Since instructions are stored in memory, it is necessary to control which instruction to retrieve next. This component determines which instruction to acquire next and how to process it when a branching process occurs.
+Control Codes
+  A component that determines which arithmetic functions to use since various arithmetic circuits are implemented in the ALU.
+Control Unit
+  As explained in the Clock section, all components inside the CPU are synchronized for processing. This component manages the flow of all components, including how they are synchronized and when they are stopped.
+In the textbook, I touched on the above basic components and learned how simple arithmetic operations are processed. Through this study, I was able to think that even a process that seems very simple is not as simple as I feel now because multiple components cooperate inside the CPU to perform various processes.
+Also, this week's discussions and assignments were the first time in this course that I had to create and submit a deliverable using external literature. For the comparison between RISC and CISC, which was the theme of the discussion, I needed to find literature that could easily explain the advantages and disadvantages of each architecture after mentioning an overview of each architecture, and I spent some time researching the literature. As a result, I think I was able to submit a convincing deliverable.
