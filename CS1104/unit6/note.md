@@ -15,7 +15,7 @@
 
 ## Task
 
-- [ ] Peer Assess Unit 5 Assignment.
+- [x] Peer Assess Unit 5 Assignment.
 - [x] Complete Reading Assignment
 - [ ] Complete and submit Unit 6 Assignment.
 - [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
