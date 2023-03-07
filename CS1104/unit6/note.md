@@ -20,7 +20,7 @@
 - [ ] Complete and submit Unit 6 Assignment.
 - [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
 - [ ] Rate other student’s posts.
-- [ ] Take the Graded Quiz.
+- [x] Take the Graded Quiz.
 - [x] Watch the Optional Video Lectures
 - [ ] Post your activities throughout the week in the Learning Journal and complete the Learning Journal.
 
