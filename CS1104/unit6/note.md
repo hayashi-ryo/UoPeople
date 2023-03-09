@@ -17,7 +17,7 @@
 
 - [x] Peer Assess Unit 5 Assignment.
 - [x] Complete Reading Assignment
-- [ ] Complete and submit Unit 6 Assignment.
+- [x] Complete and submit Unit 6 Assignment.
 - [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
 - [ ] Rate other student’s posts.
 - [x] Take the Graded Quiz.
@@ -73,5 +73,33 @@ FYI, The Z80 8 bit microprocessor has been in production for forty years. Knowle
 <https://edu.isc.chubu.ac.jp/naga/Z80/Z802c.html#1>
 
 ## Written Assignment
+
+Program1
+定数2+3の結果をR0にロードするプログラムです。この結果を得るためにHack機械語は以下のような操作を行なっています。
+@2 //set value=2
+D=A // load value to D
+@3 //set value=3
+D=D+A // add D and value
+@0 // set value=2
+M=D //load value(2+3) to M
+
+Program2
+R0とR1の値を比較して、大きい方をR2にロードするプログラムです。この結果を得るためにHack機械語は以下のような操作を行なっています。
+@0 //set value=0
+D=M //load value of R0
+@1 //set value=1
+D=D-M //Subtract R1 from R0
+@10 //set value=10
+D;JGT // if(R0-R1)>0 goto END
+@1 // Processing after the jump thereafter
+D=M
+@12
+0;JMP
+@0
+D=M
+@2
+M=D
+@14
+0;JMP
 
 ## Learning Journal
