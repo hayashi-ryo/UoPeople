@@ -1,0 +1,39 @@
+The Hack assembler is a two-pass assembler. Explain why there is a need for going twice over the code.
+
+The Hack language can contain symbols (variables). Symbols are references to actual addresses, and store actual values in memory:
+  Read the symbols in the program
+  and associate them with addresses in RAM and ROM.
+The process of reading the symbols in the program and mapping them to addresses in RAM and ROM must be performed. To perform such a process, the Hack language parses the code twice.
+
+There is a method named backpatching that solves this issue with one pass only. Describe this method.
+
+There is a method called backpatching that can be used to analyze code in a single step. The following is an explanation of the backpatching process, using a text code as an example.
+// Computes sum=1+...+100
+i=1
+sum=0
+loop:
+  if i=101 goto end
+  sum=sum+i
+  i=i+1
+  goto loop
+end:
+  goto end
+
+When performing code analysis of code with symbols, the "goto end" part is not clear where in the memory space should be indicated. If this is the case, it is necessary to decide where to jump to the memory address where the code analysis will be performed after this. Here, the method is to register your memory address once, such as goto 2, and then update it with 2 right 6 at the time when you know the address to jump to. In this way, a temporary address is inserted and later updated to the correct address.
+
+What are the pros and cons for one pass assembly vs. two pass assembly?
+
+one-pass assembly
+  advantages:
+    Faster than two-pass assembly
+  diadvantages:
+    May not be able to back-patch if variable definitions are done in the forward direction.
+two-pass assembly
+  advantages:
+    Can solve the problem of references including forward references
+    simplifies design because each path has a clear problem to be solved
+  diadvantages:
+    Slower than one-pass assembly
+
+    References:
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. 
