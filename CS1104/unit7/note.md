@@ -15,12 +15,12 @@
 - [x] Peer Assess Unit 6 Assignment.
 - [x] Complete Reading Assignment
   - [x] Chapter 6: Assembler (Nisan and Schocken).
-- [ ] Complete and submit Unit 7 Assignment.
+- [x] Complete and submit Unit 7 Assignment.
 - [x] Post your answer to the question in your Discussion Forum and follow it up with approximately 3-4 comments to other students’ posts.
-- [ ] Rate other student’s posts.
+- [x] Rate other student’s posts.
 - [x] Take the Self- Quiz.
 - [x] Watch the optional Video Lectures
-- [ ] Post your activities throughout the week in the Learning Journal.
+- [x] Post your activities throughout the week in the Learning Journal.
 
 ## Reading Assignment
 
@@ -76,3 +76,36 @@
 ## Written Assignment
 
 ## Learning Journal
+
+今回のユニットでは、unit6で学習した内容を踏まえて、様々なアセンブリプログラムの実装やテストを実装しました。まずは、前回のユニットと比較して新たに学んだシンボルという概念について説明します。
+シンボルとは、参照型の変数やIF分岐におけるジャンプ先など、実際のメモリアドレスではなく人間がより理解しやすい形式で表現を行うための技法です。今回のユニットでは、シンボルと使って例えば以下のようなアセンブリの実装を行いました。
+
+D=A
+@j
+M=D // initiarize i=1
+@i
+M=1
+(LOOP)
+@i
+D=M
+@5
+D=D-A
+@END
+D;JGT // if(5-i)<=0 goto end
+@i
+D=M
+@j
+M=M-1
+@i
+M=M+1
+@LOOP
+0;JMP
+@END
+(END)
+0;JMP
+
+このプログラムではiを1から5まで増加するループ処理を行う必要があり、@LOOPという場所から(LOOP)という場所はジャンプする必要があります。実際のPCを意識した上で実装する場合はPC=5へ戻る処理を行うなどの必要がありますが、固定のプログラムカウンタを示すアドレスを指定すると拡張性に乏しく、処理をイメージすることが難しくなります。このような場合にシンボル形式が役に立つのです。
+また、シンボル形式のアセンブリをアセンブルするための手法としてtwo-pass方式について知りました。シンボルを利用する形で実装を行なっている場合は、シンボルと実際のメモリアドレスを紐づけるテーブルを作成しその後プログラム全体のアセンブルを行なっていきます。この手法をとることによってシンボル形式など参照型の実装が許容できることがわかりました。
+また、私は仕事を行う中でC言語やCOBOL言語を扱うことがあるのですが、今回のユニットの学びによって仕事で扱うプログラムに起こっていることが少し理解できました。C言語は参照型の変数を宣言していないとエラーが出るのですが、これはシンボルテーブルに作成されていない変数を扱おうとするためにコンパイラがエラーを出力していると考えています。他にもforループの終了位置の指定や構文エラーなど何気なくみているコンパイルエラーがどのような仕組みで引き起こされているのかイメージすることができました。
+また、COBOLソースを実装する場合は一番左に000100のような6桁の周知を100刻みで付与していたのですが、PCを擬似的に表していた時の名残であるとイメージできました。
+このように今まで理解できていなかったことをより詳細に意識することができるようになってきたため、今後も引き続き学習を進めていきたいと思います。
