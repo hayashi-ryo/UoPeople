@@ -1,0 +1,27 @@
+In this week's unit, I learned basic machine language and used the Hack language as a concrete example, implementing it in binary and symbolic forms. Let me explain my understanding of what I learned in this unit.
+First, let's talk about machine language. In a nutshell, a machine language is "a set of instruction codes that can be directly executed by a processor. For example, it is expressed in binary form as follows
+0000000000000010
+1110110000010000
+0000000000000011
+1110000010010000
+0000000000000000
+1110001100001000
+This example is a Hack machine language that performs the loading of the result of 2+3 into memory R0. It is capable of handling a variety of operations depending on the value of the 16-bit binary. However, it is very difficult to implement with an understanding of binary languages. Therefore, the following steps are usually taken to create a machine language
+
+1. assembly language implementation
+It is very difficult for humans to implement a program with an understanding of the instruction number itself. For this reason, there is a method of writing programs using alphabetic sequences and correspondences that are easy to analogize to the meaning of each instruction number. This method is called assembly language, which can control hardware more directly than languages such as C or Python, but it is not suitable for implementing complex programs or for large groups of people working together. It is often used in programs that require direct hardware control, such as operating systems and device drivers.
+The process of loading the result of 2+3 into R0 is expressed in assembly language (Hack language) in the following format.
+@2 // value=2
+D=A // D=A(A=value)
+@3 // value=3
+D=D+A // D=D+A
+@0 //value=0
+M=D // R0=D
+This format gives a better picture of the processing scheme than the binary format.
+2. assembly
+The conversion of assembly language into binary form (also called compilation) is called assembly. By performing this process, it is possible to generate code from assembly language in a binary format that can be recognized by a processor.
+
+In learning this kind of machine language, I implemented a few other processes.
+program.asm
+This process multiplies R0 and R1 and stores the result in R2. By implementing this program, I implemented a process in the form of an increment, as I did not implement a process using increments in Assignment Unit 6. This experience gave us a clearer picture of what kind of operations the C language processes that I had implemented before were performing on the processor. On the other hand, languages such as python do not have the concept of memory management on the programmer's side, so I was able to reaffirm that everything is handled within the language's processing system.
+Finally, this week's unit included a Graded-Quiz. Since I was aware of the problem of not getting a perfect score on the previous Quiz, I focused on deepening my own understanding by repeating the Self-Quiz and exercises from the textbook in order to get a perfect score on this test. In addition, I not only input the keywords but also tried to visualize y-loy clearly how each keyword is connected and for what purpose, and what kind of processing it is used. As a result, I was able to get a perfect score on this test and I am very satisfied. I would like to continue my study at this pace for the remaining three units to build my own knowledge attachment.
