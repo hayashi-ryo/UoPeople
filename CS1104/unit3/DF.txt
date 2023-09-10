@@ -1,0 +1,12 @@
+My response to this topic is as follows.
+To consider a concrete example, let's take a 4-bit binary number as an example. 4 bits can be expressed in 2's complement representation in the range of -8~7.
+
+1) Additive method
+Consider 5+6
+0101+0110=1101
+I can see that the result is not correct because 1101 in 2's complement representation represents -3, indicating that an overflow has occurred.
+2) Subtraction
+Consider -3-9
+1101-0110=0001
+In the two's complement representation, 0001 represents 1, which is not a correct result, indicating that an overflow has occurred.
+From these results, I consider how to detect carryover when performing addition and subtraction. Since the largest bit in the two's complement representation indicates the sign, I can conclude that a carryover has occurred when the bits are inverted in the additive and subtractive operations.

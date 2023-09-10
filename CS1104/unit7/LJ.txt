@@ -1,0 +1,33 @@
+
+In this unit, I implemented various assembly programs and tests based on what I learned in unit 6. First, let me explain the concept of symbols, which was newly learned compared to the previous unit.
+Symbols are a technique for expressing reference-type variables, jump destinations in IF branches, etc., in a format that is more easily understood by humans rather than actual memory addresses. In this unit, I used symbols to implement, for example, the following assembly
+
+D=A
+@j
+M=D // initialize i=1
+@i
+M=1
+(LOOP)
+@i
+D=M
+@5
+D=D-A
+@END
+D;JGT // if(5-i)<=0 goto end
+@i
+D=M
+@j
+M=M-1
+@i
+M=M+1
+@LOOP
+0;JMP
+@END
+(END)
+0;JMP
+
+In this program, it is necessary to perform loop processing to increase i from 1 to 5, and it is necessary to jump from the place called @LOOP to the place called (LOOP). If implemented with an actual PC in mind, it is necessary to perform processing such as returning to PC=5, but specifying an address indicating a fixed program counter lacks extensibility and makes it difficult to imagine the processing. In such cases, the symbol format is useful.
+I also learned about the two-pass method as a technique for assembling symbolic assembly. When symbols are used in the implementation, a table is created to link the symbols to the actual memory addresses, and then the entire program is assembled. I found that this method allows for symbolic and other reference-type implementations.
+I also learned that C and COBOL languages are sometimes used in my work, and what I learned in this unit helped me to understand what is happening in the programs I use in my work. I believe that the compiler is outputting the error because it is trying to handle a variable that is not created in the symbol table. I was also able to visualize how compile errors, such as the specification of the end position of a for loop and syntax errors, which I see without thinking, are caused by the compiler.
+When implementing COBOL source code, I used to add a six-digit well-known number like 000100 in increments of 100 at the leftmost position, and I could imagine that this was a remnant from the time when PCs were represented in a pseudo way.
+Thus, I am now more aware of details that I did not understand before, and I will continue to learn more.

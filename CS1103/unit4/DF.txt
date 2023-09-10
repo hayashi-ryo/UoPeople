@@ -1,0 +1,11 @@
+
+I will explain my views on this issue.
+Advantages
+Comparison operations can be performed intuitively and straightforwardly. When the equals operator == is applied to object comparisons, it does not determine whether the contents of two objects match, but whether they point to the same thing in memory space, which is not the expected behavior. However, when using the equals method, the comparison of object contents can be performed, making the program very intuitive. A sample program is provided.
+
+code
+
+This program outputs true only for the equals() method.
+
+Disadvantages
+Because equals() is a function implemented only in the base object class, users must design their classes by overriding the equals method. This is one of the factors that complicates comparing objects. A sample program is provided.

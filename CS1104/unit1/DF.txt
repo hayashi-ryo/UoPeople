@@ -1,0 +1,20 @@
+Hello classmates. I would like to explain my understanding of this topic.
+
+1. Why do Boolean functions play a central role in hardware architectures?
+In the world we deal with, we communicate using decimal numbers and alphabets, but computer hardware is based on the representation of binary values, which plays a very important role in designing hardware architecture.
+
+2. Describe Composite Gates.
+Before dealing with composite gates, we need to discuss their counterpart, primitive gates. Primitive gates are the very basic AND/OR/NOT circuits. If you break down all logic circuits, you will always end up with these three primitive circuits. Two concrete examples of composite gates are given below.
+- A gate with three inputs that produces an output of 1 if all inputs are 1's.
+- A gate that outputs the number of digits and size of the character to be output from four inputs
+To the user, the above example looks like a single logic circuit. However, when the internals are broken down, it is clear that it is a set of primitive gates. Thus, a logical algorithm obtained by combining primitive gates is called a composite gate.
+
+3. Describe Multiplexors and Demultiplexers? What is the importance of the use of the selection bit and the data bits?
+A multiplexer is a mechanism that determines which output, called a "data bit," is to be made from multiple inputs according to the value of an input called a "selection bit". A demultiplexer is a mechanism that determines which output to use for a single "data bit" according to the value of the "selection bit. These mechanisms implement the functions of "selecting and outputting from input signals what is necessary" and "outputting input signals to where they are needed," which are very important when examining computer architecture.
+
+References
+Tarnoff, D. (2007). Computer organization and design fundamentals. http://faculty.etsu.edu/tarnoff/138292/
+
+Nisan, N., & Schocken, S. (2005). The elements of computing systems. MIT Press. http://f.javier.io/rep/books/The%20Elements%20of%20Computing%20Systems.pdf
+
+
