@@ -20,7 +20,7 @@
   - [ ] reply classmates
 - [ ] Programming assignmet
 - [ ] Learning Journal
-- [ ] Take Self-Quiz
+- [x] Take Self-Quiz
 
 ## Reading Assignment
 
