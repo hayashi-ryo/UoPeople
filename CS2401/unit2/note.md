@@ -92,3 +92,8 @@ Consider the following nonfunctional requirements and determine which of them ca
   Verification is not feasible. In many cases, it is difficult to measure system recovery time and data loss by causing failures that are assumed to occur in actual systems. If this is done, it is assumed that it will be done as a simulation based on design information.
 
 ## Learning Journal
+
+今週のユニットでは、要求分析フェーズにおけるタスクやソフトウェアアーキテクチャに関する事項について学んだ。特に重要な学びがあった要求分析について私の理解を説明します。
+要求分析では、解決したい課題・問題を解決するための方法を具体化するために、「どのようなアーキテクチャを実装するか」「機能としてどのようなものを具備するか」などを詳細化します。このフェーズで重要なのは「ユーザ」と「開発者」という二つのステークホルダーが存在することです。このようなステークホルダーが存在することで、現実の問題を解決するためのシステムの仕様を決めることができます。
+しかし、ユーザと開発者はそれぞれできる一番気にする部分が違います。そのため、システム開発を
+円滑に行うために適切なコミュニケーションが必要です。
