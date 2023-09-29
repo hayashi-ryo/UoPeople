@@ -19,7 +19,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Programming assignmet
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ## Reading Assignment

@@ -1,0 +1,11 @@
+a. Identify the actors for the system and their goals
+
+b. Derive only the use cases relevant to the system objective and write brief or casual text description of each
+
+c. Draw the use case diagram for the system
+
+d. For the use case that deals with the remote-controlled garage door opening, write a fully dressed description
+
+e. Draw the system sequence diagram(s) for the use case selected in (d)
+
+f. Show the operation contracts for the operations of the use case selected in (d)

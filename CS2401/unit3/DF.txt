@@ -1,0 +1,7 @@
+Hello classmates. I would like to explain my view on this topic as I understand it after reading the text.
+According to Marsic, a use case is a description of how a user plans to use a system to accomplish a business. In other words, it is a statement of the work to be done to solve the problem to be solved by developing the target system.
+A scenario, on the other hand, refers to a specific action. It shows step-by-step how the system will react to a specific action and what changes will be made.
+As an example, consider shopping on an e-commerce site: when purchasing a product on an e-commerce site, two use cases occur: "selecting a product and adding it to the cart" and "making a payment. In this scenario, one of the actions is to "select the color," "select the quantity," and "click the Add to Cart button" for a particular product. For this use case, scenarios may occur depending on the product, such as trying to add the product to the cart beyond the maximum limit, selecting the size, etc.
+
+References：
+Marsic, I. (2012). Software engineering. Rutgers Unversity. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf

@@ -1,0 +1,2 @@
+
+In this week's unit, I learned about the basic concepts of use cases and UNL, with emphasis on the specific types of use cases and the phases of use. Throughout the content of the unit, what I personally found most difficult was the process of creating "scenarios" or "use cases" from the envisioned system usage. In this process, I need to be aware of the components of the system, the stakeholders, and how they interact with each other. I will be aware of this as a review item before next week's unit and will look forward to the Graded Test in perfect condition.
