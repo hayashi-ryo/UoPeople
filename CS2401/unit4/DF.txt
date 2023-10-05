@@ -1,0 +1,11 @@
+Hi classmate, I will explain my views on this topic.
+
+Modeling the system context helps software developers identify how the system interdependencies among the external environment and internal elements, and helps clarify the system requirements. As a result, the design can proceed to ensure that the system under development meets the requirements it must fulfill and operates within the constraints of its external environment.
+The following are examples of errors that may occur if the system is not contextualized
+
+1. not all requirements of the system can be met
+Not all requirements for system development are easy for developers to understand. Many cases can be clarified by modeling the context of the system. If requirements are missed during design and production, it may be impossible to develop a system that adequately solves the business, resulting in increased man-hours and difficulty meeting deadlines. 2.
+2. inability to design a system based on environmental constraints
+If you are only conscious of the scope of the system development, there is a high possibility that you will end up with a system that is not optimal for the entire business used by the customer. For example, there will be events where other systems already in use are not compatible, or where the scope of the system is already systematized and then re-systematized.
+
+In conclusion, context modeling is essential to develop a system that is aware of the entire business, including the external environment and constraints, and without modeling, you may end up developing a system that cannot properly solve your business.
