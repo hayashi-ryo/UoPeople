@@ -1,0 +1,9 @@
+In general, it is difficult to verify the relationship between internal product attributes and external attributes. This is because internal attributes such as cyclomatic complexity are information about code, structure, etc., and there are complex causal relationships between them and external attributes that are directly experienced by users and maintainers.
+As an example, consider the relationship between cyclomatic complexity and external attributes. Cyclomatic complexity is a value calculated based on the number of nodes and branches in a directed graph representation of the complexity of the internal process for each function (Marsic, 2012). While it is easy to simply examine cyclomatic complexity alone, it is necessary to consider all the factors that arise when implementing the code to consider the relationship with external attributes. The following is a list of possible environmental factors.
+The team's development process: What is the code review structure and how detailed is the design?
+The skill level of the development team members: Have they implemented similar functionality before?
+The state of the project requirements: Are the system requirements clearly defined?
+To examine the relationship between internal product attributes and external attributes based on these environmental factors, it is necessary to collect and analyze a variety of data, including data from similar development cases and past experiences of development members. However, such an analysis process is very difficult, so it is basically difficult to verify the relationship between internal product attributes and external attributes.
+
+References
+Marsic, I. (2012). Software engineering. Rutgers Unversity. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf

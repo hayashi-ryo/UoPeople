@@ -69,3 +69,10 @@
     - Bentley, J. E. (n.d.). Software testing fundamentals—Concepts, roles, and terminology. SAS Institute Inc. <http://www2.sas.com/proceedings/sugi30/141-30.pdf>
     - Jackson, M. (2004, September 12). Problem frames and software engineering.  The Open University. <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.8841&rep=rep1&type=pdf>
     - Jackson, M. (2006, March 6). Problem Frames - A Lecture [Presentation slides]. Massachusetts Institute of Technology. <http://people.csail.mit.edu/dnj/teaching/6898/lecture-notes/session8/slides/mj-problem-frames.pdf>
+- Unit6
+  - Additional Reading
+    - Coupling and Cohesion. (2014, November 29). wiki.C2.Com. <http://wiki.c2.com/?CouplingAndCohesion>
+    - McCabe, T.. (1976, December). A complexity  measure. IEEE Transactions on Software Engineering. 2(4). 308-320. <http://www.literateprogramming.com/mccabe.pdf>
+    - Sommerville, I. (2004). Chapter. 26 Software Cost Estimation. In Software Engineering 7, pp. 612 - 640. Pearson Education Ltd. <https://ifs.host.cs.st-andrews.ac.uk/Books/SE7/SampleChapters/ch26.pdf>
+    - Watson, A. H., & McCabe, T. J. (1996, September). Structured testing: A testing methodology using the cyclomatic complexity metric. In D. Wallace (Ed.), NIST Special Publication 500-235. McCabe Software. <www.mccabe.com/pdf/mccabe-nist235r.pdf>
+    - Živadinović, J., Medić, Z., Maksimović, D., Damnjanovi, A., & Vujčić, S. (2011, June 24-25). Methods of effort estimation in software engineering. I International Symposium Engineering Management And Competitiveness 2011, p 417- 422. <http://www.tfzr.uns.ac.rs/emc/emc2011/Files/F%2003.pdf>
