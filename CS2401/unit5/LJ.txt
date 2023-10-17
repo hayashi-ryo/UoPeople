@@ -1,0 +1,6 @@
+In this week's unit, I mainly learned about test design methods. I will summarize my understanding of the design method for conducting unit testing, as I believe it will be helpful in many situations where it will live on at work.
+First of all, when testing, the entire system is not tested immediately but is divided into its components. This approach is the exact opposite of the process when implementing a system. (In the case of implementation, the project progresses in detail from the system outline to the detailed parts.
+Also, the purpose of testing is to find defects (Marsic, 2012), but in my experience, more than 90% of test cases fail to detect defects. This does not mean that the test cases are bad, but rather that the sections that occur in the test cases are implementation-critical and are implemented to take care of them as the program is implemented. I could feel that the test case design method that I learned this time is not only for test case implementation but also for the design of the program.
+
+References:
+Marsic, I. (2012). Software engineering. Rutgers Unversity. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf

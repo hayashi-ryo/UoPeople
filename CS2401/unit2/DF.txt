@@ -1,0 +1,22 @@
+Hello classmates. I would like to explain my view on this topic as I understand it after reading the text.
+The advantages and disadvantages of users and developers in requirements elicitation activities will be explained. The positions of users and developers are also clarified in the explanation.
+User
+A person who directly uses the system and performs some tasks to create value for the business.
+Strengths
+  The person who has the best understanding of the problem to be solved
+  Understands the feasibility and ease of use of the system when it is actually used and is able to propose modifications.
+  Has knowledge not only of the domain the system is intended to solve but also of the environment as a whole
+Weaknesses
+  Weak technical understanding
+  Weaknesses in technical understanding Weaknesses in setting clear goals for systemization regarding the goals to be achieved
+  May have prejudices against the system depending on the users and the tasks they are in charge of
+Developers
+A developer is a person who understands the problems that users want to solve through dialogue and develops systems and software.
+  Strengths
+    Has a deep technical understanding and can have conversations about the feasibility and implementation of the system
+    Able to analyze requirements and determine if the system is a technical liability
+    Able to propose alternative solutions to requirements
+  Weaknesses
+    Limited domain knowledge
+    May focus too much on technical feasibility
+    May not be able to communicate well with users and may overlook or misalign important requirements

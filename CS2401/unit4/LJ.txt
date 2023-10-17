@@ -1,0 +1,63 @@
+The assignment contains two parts (a) and (b); and you are required to answer both the parts.
+
+a) Discuss the key points from GRASP patterns to assign responsibilities in designs.   
+b) Explain the concepts of Coupling and Cohesion with the help of a suitable example. Discuss the following items in your response: 
+What is the ideal combination of coupling and cohesion? Low Cohesion and High Coupling, High Cohesion and Low Coupling or High Cohesion and High Coupling?
+Give reason for your choice with detailed explanation and example.
+Support your arguments with sources and evidence. 
+
+
+a) Discuss the key points from GRASP patterns to assign responsibilities in designs.
+システムの設計を行う際には、設計目標として4つのポイントがある。
+変更が容易である
+理解しやすい
+分業しやすい
+再利用しやすい
+の4点だ。これらの目標を達成するべく、オブジェクト指向設計に向けたオブジェクトの責任割り当てに関する9つ原則のことをGRASP(GeneralResponsibilityAssignment Software Patterns)と呼ぶ。(Aldrich and Garrod,2015)
+以下に、GRASPパターンにおいて責任を割り当てるための主要なポイントを記載します。
+Infomation expert
+  オブジェクトに責任を割り当てる際には、原則として必要な情報を喪pつオブジェクトに割り当てるべき、という原則がある。情報エキスパートは、タスクを実行することに最も適したオブジェクトに割立てるための役割を果たす。
+Low Coupling
+  クラス間の依存が大きいと変更が容易ではなく、理解が難しいものになる。そのため、モジュールはできるだけ他のモジュールに依存しないようにすべきという原則だ。
+High Cohesion
+  タスクを実行する際に必要な情報は一つのオブジェクトに集約しているべきという原則だ
+Controller
+  ユーザインタフェースでないオブジェクトに対してタスクを実行する責任を割り当てる場合には、インターフェースからの情報受け渡しが必要になる。コントローラはオブジェクトごとの入出力イベントを管理し、適切なオブジェクトに対して依頼を実施する。
+Creator
+  オブジェクトは必ず生成することが必要になる。そのため、新しいオブジェクトAを生成するオブジェクトBは以下の原則によって生成される。(Aldrich and Garrod,2015)
+    B aggregates A objects
+    B contains A objects
+    B records instances of A objects
+    B closely uses A objects
+    B has the initializing data for creating A objects
+Indirection
+  オブジェクト同士の密結合を防ぎ、疎結合な設計を行うためには、中間オブジェクトを用意してそのオブジェクトに責任を割り当てるべきである。
+Polymorphism
+  多様性を確保するクラスを設計するためには、オブジェクトの異なる動作の受け皿となる方を用意するべきである。
+Protected Variations
+  変更する可能性がある箇所を明確にし、実際に変更が行われても問題なく動作するインターフェースを用意するべきである。
+Pure Fabrication
+  問題領域に存在する概念を表すクラスではなく、疎結合や高凝集性、再利用可能性を実現するために作られるクラスのこと
+
+責任分担を行う際に重要なポイントは、Infomation expert,Low Coupling,High Cohesion,Creatorの4点であり、これらの原則を考慮して設計を行うことが重要である
+
+
+b) Explain the concepts of Coupling and Cohesion with the help of a suitable example. Discuss the following items in your response: 
+What is the ideal combination of coupling and cohesion? Low Cohesion and High Coupling, High Cohesion and Low Coupling or High Cohesion and High Coupling?
+Give reason for your choice with detailed explanation and example.
+Support your arguments with sources and evidence. 
+オブジェクトの責任分担を
+
+結合と凝集の理想的な組み合わせは？低結合と高結合、高結合と低結合、それとも高結合と高結合？
+詳細な説明と例を挙げて、選択の理由を述べなさい。
+また、出典や証拠を用いて、あなたの主張を支持しなさい。
+
+基本的なシステム開発であれば、High Cohesion and Low Couplingが適切であると考える。理由についてCohesionとCouplingの概念ごとに考える。
+Cohesion
+要素の責任がどの程度強く関係し、収束されている火を示す尺度のことである。そのため、Cohesionが低い、ということは関係のないタスクを実行したり、オブジェクトに割り当てられるタスクが過剰な状態に陥ることになる。
+Coupling
+Couplingとは、一つの要素が他の要素に対してどの程度依存するかを示す尺度である。もし、Couplingが高いオブジェクトを設計した場合、変更容易性や理解のしやすさが失われ、保守性の乏しいコードが生まれてしまう。
+
+ただし、プロジェクトの状況によっては凝集性が低い設計や結合が密なパターンが存在することもある。それは、特定のドメイン知識を持つ担当者がごく少数であり、コードや責任をまとめるために実施する場合がある場合も存在するだろう。
+
+Aldrich, J.I., & Garrod, C. (2015). Assigning Responsibilities [Presentation slides]. In Principles of Software construction: Objects, design and concurrency. Institute for Software Research. https://www.cs.cmu.edu/~charlie/courses/15-214/2015-fall/slides/03b-assigning-responsibilities.pdf 

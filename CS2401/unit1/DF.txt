@@ -1,0 +1,11 @@
+Hello classmates. I would like to explain my view on this topic as I understand it after reading the text.
+There are two differences between development in aircraft, bridge, and word processor development.
+  The developer is not an expert in the development area.
+  In aircraft and bridge development, the developer is an expert in architectural engineering and strives to minimize the unknowns that arise in the development process. In software development, however, developers are often not experts in the goals they want to achieve (e.g., document creation and organization in word processing). Because software development requires an understanding of the goals that the customer wants to achieve before implementation, problems that were not anticipated during development implementation or actual use may occur.
+  Software must clearly define inputs and outputs
+  Basically, a system needs to clearly define its inputs and outputs. However, it is often difficult to clearly define the area in which development is to take place, and unexpected patterns may occur. It is necessary to clarify, for example, to what extent patterns should be covered before proceeding to subsequent processes.
+These two points can be considered as factors that make software development difficult.
+
+References:
+
+Marsic, I. (2012). Software engineering. Rutgers Unversity. http://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf. 

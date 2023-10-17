@@ -1,0 +1,4 @@
+In this week's unit, I learned about tasks and matters related to software architecture during the requirements analysis phase. I will explain my understanding of requirements analysis, which was a particularly important learning experience.
+In requirements analysis, I detail "what architecture to implement" and "what features to include as functionality" to concretize how to solve the issue or problem I want to solve. What is important in this phase is that there are two stakeholders: "users" and "developers. The existence of these stakeholders allows the specification of a system to solve a real-world problem.
+However, users and developers differ in what they care about most that they can do. Therefore, it is important to ensure that the system development
+appropriate communication is necessary to ensure smooth system development.
