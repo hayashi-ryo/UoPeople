@@ -1,0 +1,9 @@
+In this week's unit, I learned about ideas for measuring the characteristics of the software I develop. In particular, I will summarize my understanding of how to order cyclomatic complexity and cohesiveness, two measures of software complexity, because I think they are very important.
+First: Cyclomatic Complexity
+  Cyclomatic complexity is a measure of the complexity of the code to be executed. It measures the degree to which processing, branches, loops, etc. are each considered a branch and used in the software. The higher this value is, the more difficult it is for a maintainer to maintain the software, and the lower the maintainability of the software. In my experience, I have found programs with nested implementations of if statements and for loops to be difficult to understand, so I felt that this was a close rule of thumb to what I have experienced so far.
+Second: Cohesive ordering
+  Cohesive ordering is a measure of how much functionality is provided in a piece of software and how much functionality is related to each other. One of the most important things I learned in this study was that even a seemingly cohesive program can be a low-maintenance piece of code with no related content. Such programs are sometimes called "coincidental cohesion" or "logical cohesion. (Marsic, 2012)
+  In future software development, I should try to implement highly maintainable code while observing the trade-off between cohesion and coupling.
+  
+References:.
+Marsic, I. (2012). Software engineering: Rutgers Unversity. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf>¥
