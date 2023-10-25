@@ -1,0 +1,20 @@
+Two possible messages are required at an auction:
+Notify sellers of new bids.
+Notify the buyer of the status of the auction in which he/she has placed a bid.
+Thus, according to Marsic, the premise of the publisher is explained as follows (Marsic, 2012)
+Knows event source(s)
+Knows interested obj’s (subscribers) Doing Responsibilities:
+Registers/Unregisters subscribers • Notifies the subscribers of events
+
+The above conditions describe two classes that implement the publisher interface and the subscriber interface
+
+ItemInfo(Publisher)→BuyerInfo(Subscriber)
+When the isReserved flag of the ItemInfo class becomes true, a message is issued to the subscriber. The message is received by the BuyerInfo class, which confirms that the seller has received a new bid.
+BidsList(Publisher)->SellerInfo(Subscriber)
+The BidsList class emits a message when a new Bid object is added to the list. The SellerInfo class receives the issued message and notifies the buyer of the product of the auction status information.
+
+The current implementation does not support changes to the product description or time period, but this interface implementation will be able to handle such additional functions without problems.
+
+
+References:
+Marsic, I. (2012). Software engineering. Rutgers Unversity. https://www.ece.rutgers.edu/~marsic/books/SE/book-SE_marsic.pdf
