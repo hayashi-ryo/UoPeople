@@ -1,0 +1,35 @@
+1.
+(a) \(A \cap B\) represents the set of individuals who have joined the company and specifically joined the IT department. In other words, it refers to set A.
+(b) \(A \cup B\) Since \(A \subseteq B\), this result refers to set B.
+(c) \(A - B\) Since \(A \subseteq B\), performing this operation requires removing all elements of A, which is represented by Ø.
+(d) \(B - A\) represents the set of individuals who have joined the company but not in the IT department.
+
+2. 
+(a) The set of people living in the USA and having a house in Canada:
+\[A \cap B\]
+
+(b) The set of people living in the USA who are not having a house in Canada:
+\[A - (A \cap B)\]
+This can also be expressed as \(A \cap B'\), where \(B'\) represents the complement of set B.
+
+(c) The set of people who either live in the USA or have a house in Canada:
+\[A \cup B\]
+
+(d) The set of people who are either non-US residents or do not own a house in Canada:
+\[(A') \cup (B')\]
+This set represents the union of the complement of set A (non-US residents) and the complement of set B (people who do not own a house in Canada).
+
+3.
+Using the principles of inclusion and exclusion, we will calculate the number of employees in the company. First, we organize the number of employees receiving each benefit.
+Number of employees receiving taxi benefits: 750 ...(a)
+Number of employees receiving breakfast benefits: 900 ...(b)
+Number of employees receiving both benefits: 530 ...(c)
+Number of employees receiving none of the benefits: 60 ...(d)
+Using this information and the principles of inclusion and exclusion, we calculate the total number of employees.
+
+Total number of employees = Taxi benefit count(a) + Breakfast benefit count(b) - Both benefits count(c) + Number of employees receiving neither(d)
+→
+Total number of employees = 750 + 900 - 530 + 60
+= 1180
+
+Therefore, the total number of employees in this company is 1180.

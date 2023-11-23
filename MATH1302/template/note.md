@@ -8,7 +8,7 @@
 - [ ] Discussion Forum
   - [ ] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
+- [ ] Math Assignment
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
