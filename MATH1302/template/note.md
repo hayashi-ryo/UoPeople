@@ -9,13 +9,12 @@
   - [ ] first post
   - [ ] reply classmates
 - [ ] Math Assignment
-- [ ] Learning Journal
 - [ ] Take Self-Quiz
 
 ## Reading Assignment
 
 ## Discussion Forum
 
-## Written Assignment
+## Math Assignment
 
 ## Learning Journal
