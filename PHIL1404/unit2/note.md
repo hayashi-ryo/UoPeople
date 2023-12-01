@@ -36,7 +36,7 @@
   - [x] first post
   - [x] reply classmates
 - [x] Take Self-Quiz
-- [ ] Learning Journal
+- [x] Learning Journal
 
 ## Reading Assignment
 
@@ -99,3 +99,22 @@ Please read the reading materials from Chapter 2 of the Corporate Social Respons
 1. Are there companies you can name whose social responsibility actions you admire and trust? What do they do that inspires you?
 2. Are there companies you can name whose social responsibility actions you would not trust, or even doubt? Which companies are they, and why do they fail to convince you?
 3. Would you like to work in the field of corporate social responsibility? Why or why not?
+
+Introduction
+今回の設問について考えるに当たって、私は身の回りの会社の立ち振る舞いについて再度考えることができました。どのような活動をしているために倫理的でないと言えるのか、CSRを遵守している会社とはどのような会社か、今まで考えてこなかったポイントであったため設問を通じて再度考えさせられることになりました。今後私が商品やサービスを選択する際には、今回のCSRに関する調査で行ったようなことは実施していきたいと思います。
+
+1. Are there companies you can name whose social responsibility actions you admire and trust? What do they do that inspires you?
+任天堂は私が社会的責任を果たしていると考える会社の一つです。任天堂はゲームメーカーとして発展を遂げていますが、公式サイトによれば、顧客・取引先・社員・次世代・地域社会などステークホルダーごとのコンセプトに合わせたCSR活動を行っています。(Nintendo, n.d.)
+例えば、顧客に対しては「常に楽しく安全な製品づくり」を基本として、高品質な商品開発はもちろん、相談窓口や商品の修理窓口の充実など顧客が楽しむことができるよう活動を行なっています。
+また、次世代に関する取り組みでは、より良い地球環境の構築をテーマとして活動をおこなています。例えば、部品などの調達に環境保護意識の高い企業を優先するグリーン調達の導入や、環境マネジメントに関する国際規格である「ISO14001認証」の取得があります。
+このように、すべての顧客を安心に楽しませることをテーマとしている会社について、私は非常に感銘を受けました。
+2. Are there companies you can name whose social responsibility actions you would not trust, or even doubt? Which companies are they, and why do they fail to convince you?
+社会的責任をあまり信じられない会社の特徴を考えたところ、私の中で一番大切なポイントは「資材・商品調達の方法」でした。私の国では、資材の調達や商品加工が非人道的な方法で行われていると疑われている企業が存在します。株式会社であるためより利益を上げていこうとすることはもちろん理解できるのですが、その中で非人道的な行いをしては一部のステークホルダーを軽んじてしまっています。資材・商品調達先も含めた関連者に対してある一定の倫理的活動を行うことが社会的責任を果たすということになると思います。
+3. Would you like to work in the field of corporate social responsibility? Why or why not?
+企業の社会的責任に関する仕事は非常に重要なものであり、社会へ好影響を与える機会が増えています。しかし、私自身のキャリアとしては、社会的責任に関わる部署で全社的な貢献をするのではなく、一つの担当部署で仕事をしながら、倫理的な誠実さを守っていきたいと考えています。
+
+Conclusion
+今回のLearning　Journalでは身の回りの会社の社会的責任の果たし方について知るきっかけになりました。商品やサービスを選択する際の一つの指針として挙げていくべき項目であると考えているため、さらにCSR活動について知っていきたいと思います。
+
+References
+Nintendo, (2023). CSR Information. Retrived fron <https://www.nintendo.co.jp/csr/index.html>
