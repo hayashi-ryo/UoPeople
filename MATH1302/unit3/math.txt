@@ -1,0 +1,40 @@
+1. Since the English course is a required subject, you need to choose the remaining two courses from the 10-1=9 available courses. As the order of selection does not matter, you can calculate it using the combination concept.
+\[ \binom{10}{2} = \frac{10 \times 9}{2 \times 1} = 45 \]
+Therefore, among the course combinations that cover the scholarship, there are 45 patterns where English is a required subject.
+
+2. Consider two sets, A and B, as follows:
+\[ A = \{1,2,3,4\} \]
+\[ B = \{a,b,c\} \]
+First, consider an injection (one-to-one function) from A to B. Since an injection must use all elements of A, but not necessarily all elements of B, the number of injection functions in this scenario is:
+\[ 3^4 = 81 \]
+Next, consider a surjection (onto function). In a surjection, all elements of B must be assigned as outputs. Therefore, the number of surjection functions in this scenario is the number of combinations to assign elements from A to each element of B:
+\[ 4^3 = 64 \]
+
+3. Perform calculations using the binomial theorem, organized by terms.
+(i) \( x^{3}(x+2)^{10} \)
+Since we need to multiply by \( x^{3} \), we only need to calculate the terms related to \( x^4 \) in \( (x+2)^{10} \).
+\[ \binom{10}{6} \times 2^6 = 210 \times 64 = 13,440 \]
+(ii) Since there is no term to multiply, use the binomial theorem directly.
+\[ \binom{7}{0} \times x^7 \times 5^0 = 1 \]
+Add (i) and (ii) to get the answer, which is 13,441.
+
+4. Since order does not matter in this problem, you can use the concept of combinations. Consider cases with and without choosing the treasurer.
+(i) To choose 7 people out of 30, calculate:
+\[ \binom{30}{7} = 2,035,800 \]
+(ii) As the treasurer is already chosen, consider choosing 6 people from the remaining 29. Therefore,
+\[ \binom{29}{6} = 475,020 \]
+
+5.1. A bit string is a representation of information using 0s and 1s. It is primarily used in computing, where each 0 and 1 is referred to as a bit. In computer systems, combinations of 0s and 1s are commonly used to represent data and instructions.
+5.2. Consider a bit string with a weight of 3 for 8 digits as an example. Since the weight is 3, there must be 3 ones, and this can be calculated using combinations. For this example,
+\[ \binom{8}{3} = 56 \]
+So, there are 56 possible bit strings.
+5.3. Consider a 3-digit number, such as 725. There are 3! = 6 permutations of these digits, but we want to find the number of transpositions where no element remains in its original position. This can be calculated using the inclusion-exclusion principle.
+(i) Total number of 3-digit numbers: 6
+(ii) At least one digit in its original position: 2 * 3 = 6
+(iii) At least two digits in their original positions: 1 * 3 = 3
+(iv) All digits in their original positions: 1
+Calculate using the inclusion-exclusion principle: \(6 - 6 + 3 - 1 = 2\). Therefore, there are 2 transpositions of 725.
+5.4.1. Since repetition is not allowed, consider choosing 4 numbers from 10 as a permutation. Since order matters for password requirements, use permutations:
+\[ \text{10P4} = 5,040 \] possible passwords.
+5.4.2. Since repetition is allowed, each of the 4 digits can be any of the 10 options. Therefore,
+\[ 10^4 = 10,000 \] possible passwords.

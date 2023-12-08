@@ -1,0 +1,27 @@
+Hello, classmates. I will explain my perspective on the theme for this time.
+
+1. In a competition with n participants, you can determine the number of patterns for the 1st, 2nd, and 3rd places by multiplying the possibilities for each position. Let's check each position:
+   - 1st place: There are n participants, so there are n ways to choose a player.
+   - 2nd place: Since the player for the 1st place has been chosen, I need to choose from the remaining n-1 players.
+   - 3rd place: I need to choose from the players other than those chosen for the 1st and 2nd places, so there are n-2 ways.
+   Therefore, the total number of patterns to award scholarships can be calculated by multiplying the patterns from 1st to 3rd place:
+   Number of patterns = n × (n−1) × (n−2)
+   For example, if there are 50 participants, the number of scholarship award patterns would be 50 × (50−1) × (50−2) = 117,600.
+
+   This approach is called permutation, calculating combinations where the order matters. According to Applied Discrete Structures, the number of permutations is given by $nPk = n!/(n-k)!$. Let's check if it matches the example. Substituting n=50, k=3:
+   $50P3 = 50!/47! = 117600$
+   Thus, the result is calculated by arranging in order matches.
+
+2. In this question, the order doesn't matter. Therefore, I can use the Binomial Coefficient Formula for calculation.
+   (i) I need to choose 9 schools out of n schools, so I can calculate it using the formula. Let's consider n=20:
+   $20C9 = 20!/{9!11!} = 125,960$
+   Therefore, the number of ways to choose 9 schools out of 20 for funding is 125,960.
+   (ii) If our school is already chosen, I just need to find patterns of choosing 8 schools from the remaining 19 schools. Using the Binomial Coefficient Formula:
+   $19C8 = 19!/{8!11!} = 5,005$
+   Thus, if our school is selected, there are 5,005 ways to choose other schools.
+
+In this question, I utilized the concepts of permutations and combinations learned in this week's unit to perform the calculations. The reason for the selection was explained during the calculation process, but the crucial point is whether "order matters."
+Moreover, these combinatorial concepts find applications in various real-life situations, such as building teams with specific skill sets or calculating relationships between components and products.
+
+References
+Levin, O. (2021). Discrete mathematics: An open introduction (3rd ed.). licensed under CC 4.0
