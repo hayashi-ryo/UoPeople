@@ -1,0 +1,25 @@
+Hello classmates.
+I will explain my answer to this question.
+
+1. First, let's review the definitions of equivalence relation and partial order relation.
+According to Doerr and Levasseur, equivalence relations are relations that satisfy the following three properties
+Reflexivity: for every element x, x is related to itself. (xRx)
+Symmetry: for any element x,y, if x is related to y, then y is also related to x (if xRy, then yRx)
+Transitivity: For any element x,y,z, if x is related g to y and y is related to z, then x is also related to z. (If xRy and yRz, then xRz)
+Next, a partially ordered relation is a relation that satisfies all three of the following properties
+Reflexivity and transitivity: same properties as equivalence relations
+Antisymmetry: for any elements x and y, if x is related to y and y is also related to x, then x and y are equal (if xRy and yRx, then x=y)
+In this case, reflexivity exists because the British biweekly is also connected by road to its own state. Symmetry is also satisfied because if there is a road from one state to another, then of course the reverse exists. Furthermore, if there is a road from one state A to state B and from state B to state C, transitivity is also satisfied because there is an indirect road from state A to state C.
+Therefore, this relationship is an equivalence relationship. As for antisymmetry, which is a property of partial order relations, it can be seen that if State A and State B are related, then State B and State A are also related, but State A and State B are different and therefore do not satisfy them.
+
+2. A congruence with n as a law is a kind of equivalence relation in number theory. Two integers a and b are congruent for positive integers n if the difference between a and b is a multiple of n. Mathematically, it is expressed as a ≡ b (mod n). I will illustrate this relationship with two examples.
+Example 1: n=5
+Consider the integers 7 and 17; the difference between 7 and 17 is 10, which is a multiple of 5. Therefore, 7 ≡ 17 (mod 5),
+Similarly, for different integers 3 and 8, the difference is 5, so 3 ≡ 8 (mod 5).
+Example 2: n=3
+Consider the integers 10 and 1. The difference between 10 and 1 is 9, which is a multiple of 3. Therefore, 10 ≡ 1 (mod 3).
+Now consider whether the congruence is a partial order. The properties of partial order must satisfy reflexivity, transitivity, and antisymmetry.
+Reflexivity (for any integer a, a ≡ a (mod n)) and transitivity (if a ≡ b (mod n) and b ≡ c (mod n), then a ≡ c (mod n)) are satisfied, but antisymmetry is not. For example, 7 ≡ 12 (mod 5) and 12 ≡ 7 (mod 5), but 7 and 12 are different integers. Therefore, the congruence relation is classified as an equivalence relation, not a partial order.
+
+References
+Doerr, A., & Levasseur, K. (2022). Applied discrete structures (3rd ed.).

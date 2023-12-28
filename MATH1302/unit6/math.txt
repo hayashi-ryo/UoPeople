@@ -1,0 +1,61 @@
+
+1. According to Doerr and Levasseur, a partial order relation is a relation that satisfies the following three properties:
+Reflexivity: For every element x, x is related to itself. (xRx)
+Antisymmetry: For any elements x and y, if x is related to y and y is related to x, then x and y are equal (if xRy and yRx, then x=y)
+Transitivity: For any elements x, y, and z, if x is related to y and y is related to z, then x is also related to z. (if xRy and yRz, then xRz)
+In this case, I consider the relation (\leq) as an example. When the set is {1,2,3}, I consider the properties of the partial order relation.
+Reflexivity: 1≤1, 2≤2, 3≤3, thus satisfying reflexivity.
+Antisymmetry: For any elements x and y, x≤y and y≤x hold only when x=y, which satisfies the property of antisymmetry.
+Transitivity: If 1≤2 and 2≤3, then 1≤3, thus satisfying transitivity.
+Therefore, the relation (\leq) is a partial order relation.
+Next, I consider the Hasse diagram. A Hasse diagram is a tool for visually representing the order relations between elements in a partially ordered set. The Hasse diagram for the set {1,2,3} considered in this example is as follows.
+
+Question1 HAsse diagram
+
+2. (i) The transitive closure represents the smallest relation that satisfies transitivity for a given relation R.
+Example: Define a set A={1,2,3} and a relation R={(1,2),(2,3)}. Here, R does not include the relation 1≤3 and thus does not satisfy transitivity. The transitive closure R' adds the missing element (1,3), resulting in R'={(1,2),(2,3),(1,3)}.
+(ii) To demonstrate that R is an equivalence relation, it must satisfy three properties: reflexivity, symmetry, and transitivity. I confirm each of these.
+Reflexivity: For any integer x, x-x=0 is a multiple of 11, so (x,x) satisfies reflexivity.
+Symmetry: If (x-y) satisfies relation R, then y-x=-(x-y) also satisfies R. This fulfills symmetry.
+Transitivity: If (x, y) ∈ R and (y, z) ∈ R, then x - y and y - z are multiples of 11. In this case, x - z = (x - y) + (y - z) is also a multiple of 11. Thus, it satisfies transitivity.
+Since these conditions are met, R is an equivalence relation.
+(a) The equivalence class of 0 is the set of all elements equivalent to 0 in R, namely {y ∈ ℤ | (0, y) ∈ R}. 0 - y must be a multiple of 11, which applies when y is a multiple of 11. Therefore, the equivalence class of 0 is 11ℤ (the set of all multiples of 11).
+(b) The number of equivalence classes on the set of integers is 11. This is because each equivalence class is based on the remainder when divided by 11, so there are equivalence classes corresponding to each remainder from 0 to 10.
+
+
+3. First, consider the proposition for the case n=1. In this case, 5^1 > 4^1, namely 5 > 4. This is true.
+Next, assume that 5^k > 4^k holds for some natural number k. I now demonstrate that 5^{k+1} > 4^{k+1} is also true.
+5^k > 4^k... (Assumption)
+5^k × 5 > 4^k × 5... (Multiplying both sides by 5)
+5^{k+1} > 4^k × 4 + 4^k... (Splitting 5 into 4 + 1)
+5^{k+1} > 4^{k+1} + 4^k
+Here, the right side 4^{k+1} + 4^k is obviously greater than 4^{k+1}. Therefore,
+5^{k+1} > 4^{k+1}
+From the above, the proposition is true for the case n=1, and if it holds for any k, then it is also demonstrated to be true for k+1. Therefore, by mathematical induction, for all positive integers n, 5^n > 4^n is true.
+
+4. Consider the set A={2,3,5,7,11}.
+(i) Graphical Representation:
+In a graphical representation, each element is represented as a node, and relationships are connected with lines. The graphical representation of this relationship for set A is as follows.
+
+Question4(i) Graphical Representation
+
+(ii) Adjacency Matrix:
+An adjacency matrix represents the relationships between elements in the form of a matrix. Since there are five elements, I create a 5x5 matrix, and if an element of A is greater than or equal to another element, I place a 1 in that cell. The adjacency matrix for set A is as follows:
+\[
+\begin{array}{cccccc}
+ & 2 & 3 & 5 & 7 & 11 \\
+2 & 1 & 0 & 0 & 0 & 0 \\
+3 & 1 & 1 & 0 & 0 & 0 \\
+5 & 1 & 1 & 1 & 0 & 0 \\
+7 & 1 & 1 & 1 & 1 & 0 \\
+11 & 1 & 1 & 1 & 1 & 1 \\
+\end{array}
+\]
+
+(iii) Hasse Diagram:
+As answered in the first question, in a Hasse diagram, smaller elements are placed lower, and larger elements are placed higher. The Hasse diagram for set A would be as follows.
+
+Question4(iii) Hasse diagram
+
+References
+Doerr, A., & Levasseur, K. (2022). Applied discrete structures (3rd ed.).
