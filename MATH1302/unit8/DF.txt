@@ -1,0 +1,17 @@
+Hello classmates,
+I would like to explain my response to this question.
+
+First, let's start with the definition of an Abelian group. An Abelian group is a group with the following characteristics:
+- It is closed.
+- It satisfies the associative and commutative laws.
+- Every element has an inverse element.
+Considering these properties, I will explain using subtraction as an example.
+The reason I chose subtraction is that it is a very common operation. Additionally, subtraction is often understood as the inverse operation of addition, so studying it about addition can lead to a deeper understanding of the concept of groups.
+Now, I will explain examples and counter-examples of Abelian groups concerning the operation of subtraction.
+Examples and Counter-Examples of Abelian Groups
+In conclusion, subtraction does not form an Abelian group for any group. This is because subtraction does not satisfy several definitions of an Abelian group.
+Closure: The operation of a group must be closed within the set. However, subtraction is not closed for certain sets of numbers (for example, natural numbers). For instance, an operation like 5-7 in the set of natural numbers falls outside the range of natural numbers.
+Associativity: When operating on three elements, the result must be the same regardless of the order of operations. Subtraction does not follow the associative law. For example, (7-5)-3 ≠ 7-(5-3).
+Existence of Identity Element: For any element a, there must be an element e (identity element) such that the operation of a and e results in a itself. Subtraction does not have such an identity element.
+Existence of Inverse Elements: For any element a, there must be an element b such that the operation of a and b results in the identity element. Subtraction does not allow for the definition of such inverse elements.
+Commutative Law: For any two elements a and b, the result of the operation of a and b must be the same as the operation of b and a. Subtraction does not follow the commutative law (example: 5-3 ≠ 3-5).
