@@ -1,0 +1,36 @@
+Hello, classmates.
+I will explain my understanding for each question.
+
+(i)
+I will consider the following as two sets and discuss whether it is a function or not:
+\[ A = \{-1, 0, 1, 4, 10\} \]
+\[ B = \{-2, 0, 2, 8, 20\} \]
+\( f=\begin{pmatrix} -1 & 0 & 1 & 4 & 10\\ -2 & 0 & 2 & 8 & 20 \\ \end{pmatrix} \)
+According to Levin, a function refers to a rule that assigns each input to a single output. In this example, since the input set A corresponds to each element of set B, we can conclude that it is a function. Furthermore, the function associates different elements of A with different elements of B without duplication. Therefore, this function can be described as a one-to-one correspondence (injective). Additionally, being injective implies the existence of an inverse function. For the example I considered, the inverse function \(f^{-1}\) is as follows:
+\( f^-1=\begin{pmatrix} -2 & 0 & 2 & 8 & 20 \\ -1 & 0 & 1 & 4 & 10\\ \end{pmatrix} \)
+
+(ii)
+Let me explain each point.
+1. **Function:**
+Concept: As explained in (i), a function is a relationship where each element of set A corresponds to exactly one element of set B when sets A and B are given.
+Example: \(f: \mathbb{R} \to \mathbb{R}\), \(f(x) = x^2\). A function that returns the square of each real number.
+Counterexample: \(g: \mathbb{R} \to \mathbb{R}\), \(g(x) = \pm \sqrt{x}\). This function is not defined for negative real numbers, so it is not a function.
+
+2. **Injective Function:**
+Concept: A function where different elements correspond to different elements. In other words, different elements of A correspond to different elements of B.
+Example: \(h: \mathbb{R} \to \mathbb{R}\), \(h(x) = 2x\). Different real numbers correspond to different real numbers.
+Counterexample: \(k: \mathbb{R} \to \mathbb{R}\), \(k(x) = x^2\). This function associates the same real number with different real numbers.
+
+3. **Surjective Function:**
+Concept: A function where every element of B corresponds to some element of A.
+Example: \(p: \mathbb{R} \to \mathbb{R}\), \(p(x) = x^3\). For any real number, its cube corresponds to it.
+Counterexample: \(q: \mathbb{R} \to \mathbb{R}\), \(q(x) = e^x\). This function does not have elements corresponding to negative real numbers, so it is not surjective.
+
+4. **Bijective Function:**
+Concept: A function that is both injective and surjective. Different elements of A correspond to different elements of B, and every element of B corresponds to some element of A.
+Example: \(f: \mathbb{R} \to \mathbb{R}\), \(f(x) = 2x\). Different real numbers correspond to different real numbers, and it is surjective.
+Counterexample: \(g: \mathbb{R} \to \mathbb{R}\), \(g(x) = x^2\). It is injective but not surjective.
+
+References
+
+Levin, O. (2021). Discrete mathematics: An open introduction (3rd ed.). licensed under CC 4.0

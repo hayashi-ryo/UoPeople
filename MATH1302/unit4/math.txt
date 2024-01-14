@@ -1,0 +1,60 @@
+1. A recursive function is a function defined by calling itself. A typical example is a recursive function that calculates factorial. Factorial, denoted as n! for a non-negative integer n, is the product of all integers from 1 to n.
+Here's the definition of the factorial recursive function:
+
+\[ f(n) = n \times f(n-1) \]
+\[ f(0) = 1 \]
+
+In this recursive function, the base case (when n is 0) and the recursive step (when n is not 0) are defined. The base case serves as the condition to end the recursion, and the recursive step is the part where the function calls itself.
+For example, calculating `f(5)` proceeds as follows:
+
+\[ f(5) = 5 \times f(4) \]
+\[ f(5) = 5 \times 4 \times f(3) \]
+\[ f(5) = 5 \times 4 \times 3 \times f(2) \]
+\[ f(5) = 5 \times 4 \times 3 \times 2 \times f(1) \]
+\[ f(5) = 5 \times 4 \times 3 \times 2 \times 1 \times f(0) \]
+\[ f(5) = 5 \times 4 \times 3 \times 2 \times 1 \times 1 \]
+This demonstrates how factorials are calculated recursively, breaking the problem into smaller subproblems and solving them.
+
+2. 
+a) The recursive relation representing the number of washing machines manufactured by a company in the first n months is as follows:
+\[ a_n = a_{n-1} + n \]
+Here, \( a_n \) represents the number of washing machines produced in the nth month.
+
+b) The total number of washing machines manufactured by the company in the first year is obtained by summing the numbers for the first 12 months. Mathematically, it is expressed as:
+\[ a_{\text{year}} = a_1 + a_2 + \ldots + a_{12} \]
+Calculating this sum gives the answer, which is 78.
+
+c) The explicit formula for the number of washing machines produced by the company in the first n months can be derived by solving the recursive relation mentioned earlier. The specific steps are as follows:
+
+The original recursive relation is as follows:
+
+\[ a_n = a_{n-1} + n \]
+
+Here, the initial condition is \( a_1 = 1 \).
+
+Steps:
+
+1. **Substitute the Initial Condition**: For the case when \( n = 1 \), substitute the initial condition \( a_1 = 1 \).
+   \[ a_1 = 1 \]
+
+2. **Apply the Recursive Relation**: Apply the recursive relation \( a_n = a_{n-1} + n \).
+   \[ a_2 = a_1 + 2 \]
+   \[ a_3 = a_2 + 3 \]
+   \[ \vdots \]
+   \[ a_n = a_{n-1} + n \]
+
+3. **Simplify the Expression**: Simplify these expressions by combining some terms.
+   \[ a_2 = 1 + 2 \]
+   \[ a_3 = (1 + 2) + 3 \]
+   \[ a_4 = ((1 + 2) + 3) + 4 \]
+   \[ \vdots \]
+   In concise form, this can be expressed as:
+   \[ a_n = 1 + 2 + 3 + \ldots + n \]
+
+4. **Apply the Formula for the Sum of an Arithmetic Series**: The sum of such a series can be calculated using the formula for the sum of an arithmetic series, which is:
+   \[ S = \frac{n}{2}(a_1 + a_n) \]
+   Here, \( S \) is the sum, \( n \) is the number of terms, \( a_1 \) is the first term, and \( a_n \) is the last term.
+   In this case, \( a_1 = 1 \) and \( a_n = n \), so
+   \[ a_n = \frac{n}{2}(1 + n) \]
+
+This yields the explicit formula representing the number of washing machines produced by the company in the first n months.

@@ -1,0 +1,30 @@
+Hello, classmates. I explain my perspective on the theme.
+
+1. The term "recursive relation" refers to a sequence or mathematical relationship in which a term depends on its preceding terms. The primary features of a recursive relation include initial conditions and recursive rules. Initial conditions provide values for the first terms of the sequence or relationship, while recursive rules define how subsequent terms are calculated. Recursive relations typically take the form:
+\[ a_n = f(a_{n-1}, a_{n-2}, \ldots, a_1, a_0) \]
+Here, \( a_n \) represents the nth term of the sequence or relationship, and the function \( f \) represents the recursive rule. When initial conditions and recursive rules are satisfied, the entire sequence or relationship is defined. For example, the Fibonacci sequence is a typical example of a recursive relation with initial conditions \( F_0 = 0 \) and \( F_1 = 1 \), and a recursive rule \( F_n = F_{n-1} + F_{n-2} \). Another example is the recursive relation for factorial, with initial conditions \( 0! = 1 \) and \( n! = n \times (n-1)! \). These examples illustrate how recursive relations are constructed and how sequences or relationships progress.
+
+2. The main difference between homogeneous recursive relations and non-homogeneous recursive relations lies in the presence of non-homogeneous terms in non-homogeneous recursive relations. The features of each type are explained below with examples.
+Homogeneous Recursive Relation
+  Feature: Non-homogeneous terms are absent in recursive rules. Thus, the recursive relation is composed only of homogeneous terms.
+  Example: The recursive relation for the Fibonacci sequence \( F_n = F_{n-1} + F_{n-2} \) is an example of a homogeneous recursive relation.
+
+Non-homogeneous Recursive Relation
+  Feature: Non-homogeneous terms are involved in recursive rules, meaning terms other than the immediate preceding term are part of the relationship.
+  Example: The linear non-homogeneous recursive relation \( a_n = 2a_{n-1} + 3 \) is an example of a non-homogeneous recursive relation, where the non-homogeneous term is the constant term 3.
+
+3. When calculating the number of paths through a maze, homogeneous recursive relations are considered easier to solve. We will discuss points related to locations and specific methods.
+Advantages of Homogeneous Recursive Relations:
+  Since there are no non-homogeneous terms, calculations can be simplified. Predictions also become easier as terms depend only on their immediate predecessors.
+Challenges of Non-homogeneous Recursive Relations:
+  The presence of non-homogeneous terms complicates calculations, making them more intricate. Mathematical methods may find it challenging to handle such complexity.
+Considering specific methods, each cell in the maze can move up, down, left, or right. Utilizing homogeneous recursive relations, calculations can be performed by adding the number of conditions required to reach the immediately preceding cell.
+
+4. Solving a recurrence relation involves determining the terms of a sequence or numeric values in a mathematical relationship. This process allows obtaining specific values from the mathematical structure defined by the recursive relation. Here are some representative methods:
+(i) Substitution Method:
+By substituting known information about terms determined by the recurrence relation, simplify and solve the recursive relation.
+(ii) Characteristic Equation:
+Identify the characteristic equation of the recursive relation and solve for its roots to find the solution.
+(iii) Dynamic Programming:
+Efficiently find the solution by memoizing the results of subproblems to avoid recursive calculations.
+These methods are chosen based on the characteristics and structure of the recurrence relation. For instance, dynamic programming (iii) is effective when calculating the number of paths.

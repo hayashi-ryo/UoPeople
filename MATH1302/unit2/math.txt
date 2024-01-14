@@ -1,0 +1,101 @@
+1. Confirming Injectivity, Surjectivity, and Inverse Functions
+(i) Injectivity
+For a function to be injective, it means that different elements in the domain map to different elements in the codomain. Consider different odd values, \(a\) and \(b\), for the given function:
+\[ f(a) = a + 3, \quad f(b) = b + 3 \]
+Since \(a\) and \(b\) are distinct values, it is evident that the outputs \(f(a)\) and \(f(b)\) are also different. This holds for even numbers as well. Therefore, the given function is injective.
+(ii) Surjectivity
+For a function to be surjective, every element in the codomain must be the output of some element in the domain. Consider any value \(y\). If \(y\) is odd, there exists an odd \(x\) such that \(y = x + 3\). If \(y\) is even, there exists an even \(x\) such that \(y = x - 5\). Thus, any value \(y\) is output by some element in the domain. Therefore, the given function is surjective.
+(iii) Inverse Function
+For an inverse function to exist for a given function, there must be exactly one \(x\) for every output \(y\). Since the given function satisfies the conditions of being injective and surjective, I can conclude that an inverse function exists.
+To find the inverse function \(g(x)\), I can swap the roles of input and output, leading to the following expression:
+\[ g(n) = \begin{cases} n - 3 & \text{if } n \text{ is odd} \\ n + 5 & \text{if } n \text{ is even} \end{cases} \]
+
+2. Consider three sets, A, B, and C, each containing three elements. Define the sets A, B, and C as follows:
+\[ A = \{a_1, a_2, a_3\} \]
+\[ B = \{b_1, b_2, b_3\} \]
+\[ C = \{c_1, c_2, c_3\} \]
+Define the function \( f: A \rightarrow B \) as follows:
+\[ f(a_1) = b_1, \quad f(a_2) = b_2, \quad f(a_3) = b_3 \]
+Define the function \( g: B \rightarrow C \) as follows:
+\[ g(b_1) = c_1, \quad g(b_2) = c_2, \quad g(b_3) = c_3 \]
+Now, let's discuss the composition of functions \( fog \) and \( gof \).
+- fog (composite of g and f):
+   \[ (fog)(a) = g(f(a)) \]
+   \[ (fog)(a_1) = g(f(a_1)) = g(b_1) = c_1 \]
+   \[ (fog)(a_2) = g(f(a_2)) = g(b_2) = c_2 \]
+   \[ (fog)(a_3) = g(f(a_3)) = g(b_3) = c_3 \]
+- gof (composite of f and g):
+   \[ (gof)(a) = f(g(a)) \]
+   \[ (gof)(b_1) = f(g(b_1)) = f(c_1) \]
+   \[ (gof)(b_2) = f(g(b_2)) = f(c_2) \]
+   \[ (gof)(b_3) = f(g(b_3)) = f(c_3) \]
+I will check if these compositions are equal:
+\[ (fog)(a_i) = c_i \]
+\[ (gof)(b_i) = f(c_i) \]
+If for all \( i = 1, 2, 3 \), \( f(c_i) = c_i \), then \( fog \) and \( gof \) are equal. Otherwise, they are not equal. To satisfy this condition, f must have an inverse function from C.
+
+3. I define mappings from students to scores and from scores to grades:
+- Mapping from students to scores \( S \):
+   \[ S(\text{Ani}) = 75, \quad S(\text{Leon}) = 60, \quad S(\text{Linh}) = 85, \]
+   \[ S(\text{Liam}) = 95, \quad S(\text{Abdul}) = 60 \]
+- Mapping from scores to grades \( M \):
+   \[ M(75) = \text{B}, \quad M(60) = \text{C}, \quad M(85) = \text{B+}, \]
+   \[ M(95) = \text{A}, \quad M(60) = \text{C} \]
+Now, let's consider the domain and range of these functions:
+- Domain of \( S \): \(\{\text{Ani}, \text{Leon}, \text{Linh}, \text{Liam}, \text{Abdul}\}\)
+- Range of \( S \): \(\{75, 60, 85, 95\}\)
+- Domain of \( M \): \(\{75, 60, 85, 95\}\)
+- Range of \( M \): \(\{\text{B}, \text{C}, \text{B+}, \text{A}\}\)
+Next, using these functions, I create composite functions.
+The composite function \( M \circ S \) is a mapping from students to grades:
+\[ (M \circ S)(\text{Ani}) = M(S(\text{Ani})) = M(75) = \text{B} \]
+Similarly, I can compute this for other students.
+Next, let's consider the composite function \( S \circ M \):
+\[ (S \circ M)(75) = S(M(75)) = S(\text{B}) \]
+Similarly, I can compute this for other grades.
+While both composite functions are defined, since the order of composition is different, I need to check if \( M \circ S \) and \( S \circ M \) are equal.
+For \( M \circ S \):
+\[ (M \circ S)(\text{Ani}) = \text{B}, \quad (M \circ S)(\text{Leon}) = \text{C}, \]
+\[ (M \circ S)(\text{Linh}) = \text{B+}, \quad (M \circ S)(\text{Liam}) = \text{A}, \quad (M \circ S)(\text{Abdul}) = \text{C} \]
+For \( S \circ M \):
+\[ (S \circ M)(75) = \text{Ani}, \quad (S \circ M)(60) = \text{Leon}, \]
+\[ (S \circ M)(85) = \text{Linh}, \quad (S \circ M)(95) = \text{Liam}, \quad (S \circ M)(60) = \text{Abdul} \]
+Since \( M \circ S \) and \( S \circ M \) yield different results, the composition is not commutative. This is because the functions \( S \) and \( M \) perform different mappings in each order.
+
+4. I will explain my understanding of each concept.
+Sequence:
+- A sequence is an ordered list of numbers. For example, the Fibonacci sequence is a typical instance.
+- Example: Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, ...)
+Recursive Function:
+- A recursive function is a function defined by having the function call itself. The factorial function is an example of recursion.
+- Example: Factorial function
+     \[ n! = n \times (n-1)! \]
+     In this expression, the \( (n-1)! \) part calls the same function recursively.
+Closed Formula for the Sequence:
+- A closed formula is an expression to calculate any term of a sequence. Let's consider a closed formula for the Fibonacci sequence.
+- Example: Closed formula for the Fibonacci sequence
+     \[ F_n = \frac{{\phi^n - (1 - \phi)^n}}{{\sqrt{5}}} \]
+     Here, \(\phi\) is the golden ratio.
+Arithmetic Sequence:
+- An arithmetic sequence is a sequence where each term is generated by adding a constant difference to the previous term. Let's consider an arithmetic sequence with an initial term of 3 and a common difference of 4.
+- Example: Arithmetic sequence (3, 7, 11, 15, ...)
+
+Geometric Sequence:
+- A geometric sequence is a sequence where each term is generated by multiplying the previous term by a constant ratio. Let's consider a geometric sequence with an initial term of 2 and a common ratio of 3.
+- Example: Geometric sequence (2, 6, 18, 54, ...)
+
+5. 
+i. 
+- The given sequence is generated by increasing numbers in the order corresponding to \(n/2\) when \(n\) is even and \((n+1)/2\) when \(n\) is odd.
+- Closed formula: \(a_n = \frac{n + (-1)^n}{2}\)
+- Next 4 terms: \(13, 14, 14, 15\)
+ii. 
+- The given series is a geometric sequence with an initial term of 6 and a common ratio of 6.
+- Closed formula: \(a_n = 6^n\)
+- Next 3 terms: \(6^5, 6^6, 6^7\)
+- Formula for the sum of the first n terms: \(S_n = \frac{6(6^n - 1)}{5}\)
+iii. 
+- The given series is an arithmetic sequence with an initial term of 21 and a common difference of 3.
+- Closed formula: \(a_n = 21 + 3(n-1)\)
+- Next 3 terms: \(30, 33, 36\)
+- Formula for the sum of the first n terms: \(S_n = \frac{n}{2}(2a_1 + (n-1)d)\)

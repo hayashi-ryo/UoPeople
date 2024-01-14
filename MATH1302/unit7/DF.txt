@@ -1,0 +1,49 @@
+Hello classmates.
+I would like to explain my response to this topic.
+
+1. Explain the concept of isomorphism in discrete mathematics.
+In discrete mathematics, two graphs are isomorphic if there exists a correspondence between their vertices and edges that preserves the adjacency and non-r-node relations that exist between them. Simply put, it is when one can be transformed into the other simply by changing the names of the vertices. There are several properties of isomorphic graphs. They are described below.
+The number of vertices and edges: A homomorphic graph must have the same number of vertices and edges.
+Vertex correspondence: There must be a one-to-one mapping between the vertices of two graphs. Each vertex in one graph must map to a vertex in the other graph.
+Edge Preservation: If two vertices are connected by an edge in one graph, then the corresponding vertices must also be connected in the other graph.
+Sequence of degrees: The sequence of degrees (number of edges connected to each vertex) of the vertices in each graph must be the same.
+
+
+2. Answer the following for the above two graphs.
+a. Explain in detail how you check isomorphism for the two graphs.
+
+The following steps can be used to check if two graphs are isomorphic:
+1. Check the number of vertices and edges: Check whether the number of vertices and edges in each graph are equal. If they are different, the two graphs are not isomorphic.
+2. Compare degree sequences: List the degree of all vertices (the number of edges connected to each vertex) in each graph and check if they are equal. If the sequences do not match, the graphs are not isomorphic.
+3. Mapping the structure: Once the degree sequences are matched, I attempt to map the vertices of one graph to the vertices of the other graph on a one-to-one basis. If the mappings match in terms of edge connection patterns, subgraph structure, self-loops, and other structural properties of the graph, then the graph is isomorphic.
+
+b. Discuss the conditions of isomorphism for the two graphs in detail.
+From the discussion in 2.a., I can list the isomorphic conditions. The conditions listed are:
+1. Vertex number identity: The number of vertices in each graph is identical.
+2. Number of edges match: The number of edges in each graph matches.
+3. Degree sequence match: all vertices in each graph have the same degree.
+4. structural match: If a path exists from any vertex to another vertex in one graph, then a similar path exists between corresponding vertices in the other graph
+5. Subgraph correspondence: any subgraph of one graph exists in the other graph.
+6. Self-loops and multiple edges: If one graph contains self-loops or multiple edges, they are also present in the other graph.
+
+c. Are these two graphs G1 and G2 isomorphic?
+  i. If yes, explain.
+  ii. If you have to try to make them isomorphic then what chance do you try first?
+I will use the above discussion to determine whether the two graphs G1 and G2 are isomorphic this time. The graphs can be expressed in the following formulas.
+
+V1={1,2,3,4,5}, E1={{1,2},{1,3},{1,4}.{2,3},{2,5},{3,4},{3,5},{4,5}}
+V2={A,B,C,D,E}, E2={{A,B},{A,C},{A,E},{B,D},{B,E},{C,D},{C,E},{D,E}}
+
+1. check the number of vertices and edges.
+Each graph has 5 vertices and 8 edges.
+2. Check the degree sequence.
+Create the degree sequence for each graph and you will see that they match.
+G1:(4,3,3,3,3,3)
+G2:(4,3,3,3,3,3,3)
+3. mapping the structure
+Since the edges of degree 4 are (3) and E, respectively, they must correspond. Then, the following mapping can be performed to obtain a graph of the same type.
+1->A
+2->C
+3->E
+4->B
+5->D

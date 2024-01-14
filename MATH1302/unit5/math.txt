@@ -1,0 +1,35 @@
+1. I will proceed step by step from the given premises.
+
+Premises:
+a. A → B
+b. A v C
+c. C → ¬B
+d. D → B
+e. ¬C Λ D
+
+Proof Steps:
+1. From premise b, either A or C is true.
+2. Using step 1 and premise a, if A is true, then B is true (Modus Ponens).
+3. Using step 1, premise c, and premise e, (C → ¬B) Λ ¬C, so B is true (Modus Ponens).
+4. Using premise d and premise e, (D → B) Λ D, so B is true.
+5. Therefore, B is true, and ¬C is true. This is the desired conclusion (B Λ ¬C).
+
+Thus, the conclusion (B Λ ¬C) is logically derived from the premises, demonstrating the validity of this argument.
+
+2. I will explain quantifiers and their types.
+Quantifiers are used in predicate logic to specify the scope of propositions. The main types of quantifiers are universal quantifiers (∀) and existential quantifiers (∃).
+Universal Quantifier (∀): It means "for all" and asserts that a predicate is true for all elements.
+Existential Quantifier (∃): It means "there exists" and asserts that a predicate is true for at least one element.
+
+Example 1: Universal quantifier example
+Proposition: "All cats are animals"
+Symbolization: Let \(P(x)\) be "x is a cat" and \(Q(x)\) be "x is an animal," then \(\forall x (P(x) \rightarrow Q(x))\). This proposition asserts that every x being a cat implies that it is an animal.
+
+Example 2: Existential quantifier example
+Proposition: "At least one student likes mathematics"
+Symbolization: Let \(P(x)\) be "x is a student" and \(Q(x)\) be "x likes mathematics," then \(\exists x (P(x) \land Q(x))\). This proposition asserts that there exists at least one student who likes mathematics.
+
+The truth of predicates depends on the assertion of propositions. For example, the proposition "All cats are animals" is considered true in general, but its truth may vary based on specific situations. Similarly, the proposition "At least one student likes mathematics" depends on the context to determine its truth in specific situations.
+
+References
+Doerr, A., & Levasseur, K. (2022). Applied discrete structures (3rd ed.). licensed under CC BY-NC-SA

@@ -1,0 +1,31 @@
+1. Choose a pair of two-digit numbers and find their greatest common divisor. Show the steps.
+The greatest common divisor is the largest divisor that two numbers have in common. For this example, we will choose "24" and "60" to find the greatest common divisor. For the procedure, we used Euclid's reciprocal division method. Here is the procedure.
+Divide 60 by 24: 60 ÷ 24 = 2 remainder 12
+Next, divide 24 by the remainder of 12. 24 ÷ 12 = 2 remainder 0
+When the remainder reaches 0, the last divisor (in this case 12) becomes the greatest common divisor of 24 and 60.
+
+2. Choose any one modular arithmetic operation (addition modulo  +_n   or multiplication modulo n X_n  ) from the set of positive integers ℤ (for example, ℤ5= {0,1,2,3,4} do not use the same example with your choice of n. Find the identities and inverses of all elements with respect to the operation you choose. If they do not exist, explain why. You can use an operation table to explain your reasoning. (The table can be drawn using MS Word.)
+Choose an additive modulo 7 and find the identity element and the inverse of each element. In this case, the set of positive integers is ℤ7 = {0, 1, 2, 3, 4, 5, 6}.
+Identifying the identity source:
+The identity source in additive modulo 7 is 0. This is because for any element a, a + 0 ≡ a (mod 7). Identifying the inverse: The inverse of 0 is 0 itself. The inverse of 0 is 0 itself (0 + 0 ≡ 0 (mod 7))
+The inverse of 1 is 6 (1 + 6 ≡ 0 (mod 7))
+The inverse of 2 is 5 (2 + 5 ≡ 0 (mod 7))
+The inverse of 3 is 4 (3 + 4 ≡ 0 (mod 7))
+The inverse of 4 is 3 (4 + 3 ≡ 0 (mod 7))
+The inverse of 5 is 2 (5 + 2 ≡ 0 (mod 7))
+The inverse of 6 is 1 (6 + 1 ≡ 0 (mod 7))
+
+3. Find and explain solution for the equation x2+ 5x +1 = 0 in ℤ3, the integers modulo 3.
+ℤ3 is the set of {0, 1, 2}.
+In this problem, we consider the remainder of each term in the equation divided by 3. Applying the equation modulo 3, we have x^2 + 5x + 1 ≡ 0 (mod 3). Since 5 ≡ 2 (mod 3), the equation can be simplified to x^2 + 2x + 1 ≡ 0 (mod 3).
+Next, we substitute each element (0, 1, 2) of ℤ3 into the equation and see which one satisfies the equation.For x = 0:0^2 + 2×0 + 1 ≡ 1 (mod 3)1 ≢ 0 (mod 3)
+Thus x = 0 is not a solution.
+If x = 1:
+1^2 + 2×1 + 1 ≡ 4 ≡ 1 (mod 3)
+1 ≢ 0 (mod 3)
+Thus, x = 1 is not a solution either.
+If x = 2:
+2^2 + 2×2 + 1 ≡ 9 ≡ 0 (mod 3)
+0 ≡ 0 (mod 3)
+Since this satisfies the equation, x = 2 is a solution.
+Consequently, the solution to the equation x^2 + 5x + 1 = 0 in ℤ3 is x = 2.

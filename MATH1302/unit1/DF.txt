@@ -1,0 +1,58 @@
+Hello, classmates.
+For this question, I was conscious of adding duplicate elements to the created set because various operations on sets were required. Here is my example for this time:
+\[A = \{10,100,1000,10000\}\]
+\[B = \{100,200,1000,2000\}\]
+\[U = \{10,100,1000,10000,100,200,1000,2000,abc,def,ghi\}\]
+
+I will answer each question.
+
+i. \(A \cup B\)
+\[A \cup B = \{10,100,1000,10000,200,2000\}\]
+
+ii. \(A \cap B\)
+\[A \cap B = \{100, 1000\}\]
+
+iii. \((A \cap B) \cup U\)
+\[(A \cap B) \cup U = \{10,100,1000,10000,100,200,1000,2000,abc,def,ghi\}\]
+
+iv. The Power set of \(A\).
+The power set of a set includes all subsets of the set. If the original set has n elements, there are \(2^n\) subsets. In my example, since the number of elements is 4, there are \(2^4 = 16\) subsets.
+\[P(A) = \{\},\{10\},\{100\},\{1000\},\{10000\},\{10,100\},\{10,1000\},\{10,10000\},\{100,1000\},\{100,10000\},\{1000,10000\},\{10,100,1000\},\{10,100,10000\},\{10,1000,10000\},\{100,1000,10000\},\{10,100,1000,10000\}\]
+
+v. \(A'\)
+\[A'\] is the complement of \(A\) taken from the universal set \(U\).
+\[A' = U - A = \{200,2000,abc,def,ghi\}\]
+
+vi. \(\emptyset \cap B\)
+\(\emptyset\) is the symbol representing the empty set. Since the empty set does not contain any elements, the intersection operation with any set results in the empty set.
+\(\emptyset \cap B = \emptyset\)
+
+vii. \(A \times B\)
+The Cartesian product of sets includes all possible combinations of elements from each set. The result is as follows:
+\[A \times B = \{(10,100),(10,200),(10,1000),(10,2000),(100,100),(100,200),(100,1000),(100,2000),(1000,100),(1000,200),(1000,1000),(1000,2000),(10000,100),(10000,200),(10000,1000),(10000,2000)\}\]
+
+viii. \(A - B\)
+The operation of removing elements of \(B\) from \(A\) results in the following:
+\[A - B = \{10,10000\}\]
+
+ix. \((A - B) \cup (B - A)\)
+Since \(A - B = \{10,10000\}\) and \(B - A = \{200,2000\}\), the union is \(\{10, 200, 2000, 10000\}\).
+
+x. Prove any one De Morgan identity for \(A\) and \(B\).
+De Morgan's laws for sets are rules regarding complements. Specifically, for two sets \(A\) and \(B\), the laws are as follows:
+\[(A \cup B)' = A' \cap B'\]
+\[(A \cap B)' = A' \cup B'\]
+Let's prove the first law for this example.
+First, calculate \(A \cup B\):
+\[A \cup B = \{10,100,1000,10000,200,2000\}\]
+Take the complement:
+\[(A \cup B)' = U - (A \cup B) = \{abc,def,ghi\}\] ...(1)
+Next, consider the complements of sets \(A\) and \(B\):
+\[A' = \{200,2000,abc,def,ghi\}\]
+\[B' = \{10,10000,abc,def,ghi\}\]
+Calculate \(A' \cap B'\):
+\[A' \cap B' = \{abc,def,ghi\}\] ...(2)
+The equality of (1) and (2) has been proven.
+
+References:
+Doerr, A., & Levasseur, K. (2022). Applied discrete structures (3rd ed.). licensed under CC BY-NC-SA
