@@ -8,9 +8,9 @@
 - [ ] Discussion Forum
   - [ ] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
-- [ ] Learning Journal
+- [ ] Written assignmet
 - [ ] Take Self-Quiz
+- [ ] Learning Journal
 
 ## Reading Assignment
 
