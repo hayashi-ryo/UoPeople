@@ -1,0 +1,4 @@
+
+We will address "addressing" and "flow control" as design issues that need to be addressed when defining protocols.
+Concerning addressing, devices must have unique addresses to identify and communicate with each other in a network. If addressing is not properly designed, data packets may be sent to the wrong destination, reducing network efficiency and potentially resulting in communication delays and data loss.
+As for flow control, it is important to coordinate the rate of data transfer between sender and receiver to prevent network congestion and minimize data loss. If flow control is not handled properly, the network can become overloaded, resulting in significant performance degradation. This is especially true when data is transmitted faster than it is received by the receiver.
