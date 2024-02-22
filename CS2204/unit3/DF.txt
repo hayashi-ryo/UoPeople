@@ -1,0 +1,22 @@
+Hello classmates. Let me explain my response to this topic.
+Cellular communications technology has evolved over the past several decades. Each generation represents a major or quantum leap in communication technology, such as increased speed, reduced latency, and improved connectivity. Below is a comparison of the standards and features of each generation.
+
+1G
+Technology: Analog communication
+Features: 1G was the first cellular phone system introduced in the 1980s, offering only analog voice calls. Data services did not exist and voice call quality was poor by today's standards.
+Speed: approx. 2.4 kbps
+
+2G
+Technology: Digital communication (GSM, CDMA)
+Characteristics: Introduced in the 1990s, 2G technology represents an important shift from analog to digital. It enabled the sending of text messages (SMS) and picture messages (MMS) and improved the quality of voice calls.
+Speed: Up to 64 kbps
+
+3G
+Technology: UMTS, CDMA2000
+Features: Introduced in the early 2000s, 3G offered data transmission services such as mobile Internet access, video calling, and mobile TV. This led to the increased use of smartphones.
+Speed: Up to several Mbps (theoretically up to 21 Mbps)
+
+4G
+Technologies: LTE, WiMAX
+Features: Introduced around 2010, 4G focused primarily on improving data transmission speeds, enabling HD video streaming, high-speed Internet access, and advanced gaming experiences.
+Speed: 100Mbps to 1Gbps

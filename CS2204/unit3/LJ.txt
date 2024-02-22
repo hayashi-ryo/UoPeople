@@ -1,0 +1,5 @@
+There are several reasons for using error correcting codes instead of error detection and retransmission, the two main reasons being
+
+1. Efficiency: Error-correcting codes eliminate the need to retransmit data when an error is detected. This reduces communication latency and improves network efficiency, especially in latency-critical applications or where the overhead of retransmissions is unacceptable (e.g., real-time communications or bandwidth-limited environments). 2.
+
+2. Reliability: Certain types of error-correcting codes can accurately correct multiple errors, making communications more reliable than using error detection and retransmission alone. This is especially true when errors occur frequently in
