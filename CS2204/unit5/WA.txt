@@ -1,0 +1,66 @@
+Q1
+To find out the router's destination, it is necessary to check the address range from the one with the largest number of bits indicating the network address.
+
+Address/Mask
+Next Hop
+Address Range
+135.46.56.0/22
+Interface 0
+135.46.56.1～135.46.59.254
+135.46.60.0/22
+Interface 1
+135.46.60.1～135.46.63.254
+192.53.40.0/23
+Router 1
+192.53.40.1～192.53.41.254
+Default
+Router 2
+-
+
+
+Use this result to see where each address can be reached:
+1. 135.46.63.10
+It is included in the address range of 135.46.60.0/22, so it reaches Interface 1. 2.
+2. 135.46.57.14
+It is included in the address range of 135.46.56.0/22, so Interface 0 is reached. 3.
+3. 135.46.52.2
+It is not included in any address range, so it reaches Router 2, which is Default. 4.
+4. 192.53.40.7
+It is included in the address range of 192.53.40.0/23, so it reaches Router 1. 5.
+5. 192.53.56.7
+It is not included in any address range, so it reaches Router 2, which is Default.
+
+Q2
+
+IP addresses are assigned in blocks of powers of two. Therefore, the four organizations are assigned IP addresses A: 4,096, B: 2,048, C: 4,096, and D: 8,192. Using this condition, the corresponding answers for each organization are as follows
+
+Organization A
+First IP address: 198.16.0.0
+Last IP address: 198.16.15.255
+Mask address: 198.16.0.0/20
+Organization B
+First IP address: 198.16.16.0
+Last IP address: 198.16.23.255
+Mask address: 198.16.16.0/21
+Organization C
+First IP address: 198.16.24.0
+Last IP address: 198.16.31.255
+Mask address: 198.16.24.0/20
+Organization D
+First IP address: 198.16.32.0
+Last IP address: 198.16.63.255
+Mask address: 198.16.32.0/19
+
+Q3
+The router creates a new distance vector table from the report received from R1. To calculate the new cost to each destination, add the link cost from R to R1 to the cost to each destination provided in the report from R1. Since the cost of the R-R1 link is 1, the new cost to each destination based on the report from R1 is as follows
+New cost to A: 1 + 1 = 2
+New cost to B: 1 + 1 = 2
+New cost to C: 4 + 1 = 5
+New cost to D: 4 + 1 = 5
+Next, these new costs are compared to the costs in the existing distance vector table.
+The cost to A remains the same: 2. The next hop remains R1.
+The cost to B has been updated from 3 to 2, a lower cost. The next hop is updated to R1.
+The cost to C remains unchanged at 4 after the update, and the next hop remains R1.
+The cost to D is updated from 5 to 5 and remains the same, but the next hop may be changed to R1 because there is a route through R1 according to the report, in this case, there are no specific instructions, so the default routing policy is followed.
+In conclusion, the distance vector table for R is updated as follows (only changes are noted)
+The cost of B is updated from 3 to 2 and the next hop is changed to R1.
