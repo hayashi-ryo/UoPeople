@@ -1,0 +1,13 @@
+The state transition of each node in a situation where simultaneous connection termination requests are sent is described with reference to what is described in RFC 793 "Transmission Control Protocol".
+
+1. Node A and Node B each send a FIN packet to the other at approximately the same time to terminate the connection.
+2. after sending the FIN packet, Node A and Node B move themselves to the FIN_WAIT_1 state.
+3. Node A and Node B each receive a FIN packet from the other node; when they confirm that they have received a FIN packet, they send back an ACK packet. At this point, both nodes enter the FIN_WAIT_2 state.
+4. After receiving the ACK packet, each node moves to the TIME_WAIT state, which is used to wait for all packets that may be delayed on the network to be processed. This state typically lasts for twice the Maximum Segment Lifetime (MSL) time.
+5. Transition to CLOSED.
+
+The ladder diagram can be expressed as follows:
+
+
+References:
+Internet Engineering Task Force. (1981). Transmission Control Protocol. RFC 793. https://www.rfc-editor.org/rfc/rfc793.txt

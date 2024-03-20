@@ -1,0 +1,7 @@
+
+Question: What TCP message will be generated for an incoming SYN request for which there is no matching LISTENING port? What error will be given to the application that requested the connection?
+
+If there is no LISTENING port matching the received SYN request, TCP issues an RST (reset) message to inform the sender that the connection has been rejected. This makes the attempted connection aware that the port is not free or that a LISTEN has not been made on that port.
+Applications that request a connection and are refused will typically receive a message such as 'Connection refused'. This error indicates that the application has attempted to connect to a specific port on the remote server, but that port is not actively LISTEN.
+
+Word-Count: 92

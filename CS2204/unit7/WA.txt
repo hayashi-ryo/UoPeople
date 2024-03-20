@@ -1,0 +1,17 @@
+1. Why does the maximum packet lifetime have to be large enough to ensure that not only the packet but also its acknowledgments have disappeared?
+The maximum packet lifetime needs to be set long enough to ensure that not only the packet is lost, but also its acknowledgment (ACK) is gone from the network. This prevents duplication and delay of packets that may remain in the network until the packet reaches its destination and is confirmed to have been successfully processed.
+
+2. Give one potential disadvantage when Nagle's algorithm is used on a badly congested network.
+The Nagle algorithm is intended to reduce network overhead by combining several small messages into one large packet (Dordal, 2019). However, using the Nagle algorithm in mixed networks can increase network latency as small packets are sent as large packets, which can degrade the performance of applications that require real-time.
+
+3. Give two examples of cases where TCP sends data-less packets on an established connection (which is not being torn down).
+Examples of TCP sending packets without data are (a) sending acknowledgment (ACK) packets and (b) sending window update packets. These are sent for connection maintenance, flow control, and congestion control, even when no data transfer is taking place.
+
+4. Exercise 5.0 from section 12.24 of the textbook:
+1. Suppose you see multiple TCP connections on your workstation in state FIN_WAIT_1. What is likely going on? Whose fault is it?
+If a TCP connection is in the FIN_WAIT_1 state, the situation may be that the workstation has notified the other party that the connection is closed and is waiting for an acknowledgment. If this condition exists in large numbers in the network, the peer may be delaying the ACK or there may be packet loss on the network.
+
+2. What might be going on if you see connections languishing in state FIN_WAIT_2?
+If a TCP connection is in the FIN_WAIT_2 state, the workstation is waiting for the peer to inform it that the connection is finished. This situation indicates that the peer is for some reason unable to successfully terminate the connection or that there is a delay on the network that is causing a delay in the termination notification.
+
+Word-Count: 266
