@@ -1,0 +1,3 @@
+# PrinciplesOfManagement
+
+PrinciplesOfManagementコースで学習した内容を記録する
