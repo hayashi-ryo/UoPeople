@@ -1,0 +1,11 @@
+
+Hello classmates. Let me explain my understanding of this topic.
+The various problems that can occur when consecutive 0s or 1s are transmitted in Non-Return to Zoro (NRZ) encoding are as follows
+
+Loss of Synchronization: In NRZ, a long stream of consecutive identical bit values can cause the receiver to lose the ability to accurately identify bit boundaries. This can result in a loss of synchronization of the data stream.
+Clock recovery problems: It becomes difficult to recover the clock signal from the data being transmitted, making it impossible for the receiver to accurately synchronize the transmitter's timing.
+Increased power consumption: If one is transmitted continuously, the voltage level on the line may remain continuously high, which can increase power consumption.
+Baseline Wonder: If only one signal level is maintained for an extended period of time, the receiver's reference voltage level may fluctuate, causing incorrect bit judgments.
+Degradation of signal quality: Long sequences of 0s or 1s can degrade signal quality and result in increased bit error rates.
+
+These issues suggest that additional techniques (e.g., inserting periodic synchronization signals into the data stream, using differential coding, etc.) should be implemented to mitigate the problem when NRZ encoding is employed in a real communication system.

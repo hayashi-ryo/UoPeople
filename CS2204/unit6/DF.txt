@@ -1,0 +1,9 @@
+In the stop-and-wait protocol, an acknowledgment (ACK) is sent from the receiver to the sender to confirm that the data packet has been successfully received. Here, if either the client or server crashes, the following problems may occur.
+
+1. The server crashes: the client will not be able to retrieve the remaining packets of the file. When the server recovers, it will not be able to resume the transfer of the file, as information about the transmission status between the client and server will be lost.
+2. The client crashes: the server will not receive any response from the client and the transmission process may stop. Even if the client restarts, it cannot check which data packets have been successfully received or which need to be sent.
+Common to both cases is the failure to define a method regarding crashing and restarting the process. To make the process complete, measures regarding process crashes need to be considered.
+
+References
+Dordal, P. (2019). An introduction to computer networks.
+(n.d.). Computer networks.

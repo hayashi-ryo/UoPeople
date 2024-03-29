@@ -1,0 +1,67 @@
+Introduction
+Modern communications networks are built using a combination of different technologies and approaches. These networks may be designed based on geographic coverage, technology used, specific user groups, or specific applications. In understanding communication networks, it is important to note that they can be divided into two broad categories: connection-oriented networks and disconnection-oriented networks. These categories differ fundamentally in their basic philosophies of data transmission and networking. Connection-oriented networks establish a clear connection path before communication begins. On the other hand, in a non-connection-oriented network, data packets are independent and are transmitted without a pre-defined path. This document compares the advantages and disadvantages and design issues of these two categories and presents personal preferences for unconnected-oriented networks and suggestions for solving their design-related problems.
+
+**1. Point by point comparison of their advantages and disadvantages (at least 3 advantages and 3 disadvantages)**
+
+Connection Oriented Network
+Advantages
+Reliability: Connection-oriented networks establish a communication path before data reaches its destination. This provides high reliability because data is kept in sequence and cannot be lost.
+Error control: In the event of transmission errors, retransmission and error correction mechanisms can be easily implemented to minimize the impact of errors.
+Flow control: Coordinates the flow of data between sender and receiver, preventing overflow with more data than the receiver can handle.
+Disadvantages
+Latency: Connection must be established before communication can begin, which can cause delays.
+Overhead: Establishing, maintaining, and terminating a connection incurs additional overhead and can be inefficient, especially when sending small data packets.
+Lack of flexibility: Once established, the connection path is fixed, which can make it difficult to accommodate network changes or failures.
+
+Unconnected Oriented Network
+Advantages
+Flexibility: Data packets are independent and can dynamically choose the best path, allowing flexibility to adapt to network changes or failures.
+Efficiency: Suitable for sending small data packets because there is no overhead in establishing and maintaining connections.
+Scalability: No need to manage connections improves the ability to handle large numbers of data packets efficiently.
+Disadvantages
+Unreliability: Data packets are independent and not guaranteed to be in order, making them unsuitable for applications that require high reliability.
+Error and flow control complexity: Because each packet is independent, implementing error and flow control is more complex.
+Data ordering: Because packets are sent over different paths, they may require reassembly and ordering at the receiving end, which requires additional processing.
+
+From these comparisons, it can be seen that each network type has advantages and disadvantages for different applications and user needs.
+
+**2. Point by point comparison of the design issues for both**
+
+Design Issues for Connection-Oriented Networks
+Scalability: Connection-oriented networks require resources associated with establishing, maintaining, and terminating connections. In large systems, these resource demands can increase rapidly and impact scalability.
+Resource Allocation: Allocating the appropriate amount of bandwidth and processing power to each connection has a direct impact on network performance and efficiency. Managing these resources dynamically is complex, and improper management can lead to network congestion and poor performance.
+Establishing and Maintaining Connections: Establishing connections can be time-consuming and can affect network latency. Also, maintaining connections requires continuous heartbeats and state checks, which create additional overhead.
+
+Design Issues for Non-Connection-Oriented Networks
+RELIABILITY AND DATA INTEGRITY: Because each data packet is independent in a disconnection-oriented network, additional mechanisms are needed to ensure reliability and data ordering. This increases the complexity of error detection and retransmission, making design and implementation more difficult.
+Managing end-to-end performance: Data packets can take different paths, making end-to-end latency and performance difficult to predict. This is especially problematic for applications that require real-time communication and high reliability.
+Security: In unconnected oriented networks, each packet is independent, complicating security measures against packet tampering and sniffing. End-to-end encryption and authentication mechanisms must be properly designed and implemented.
+
+These design issues are important factors to consider when designing a network. Each approach has unique challenges and requires appropriate design strategies and implementation techniques to address these issues.
+
+**3. Your preference among the two and a suggestion to resolve any one of its design-related problem.**
+
+
+The reasons for choosing unconnected-oriented networks are their flexibility, efficiency, and scalability. Especially in a large and complex network environment such as the Internet, the ability to dynamically select the optimal path for data packets is a major advantage. Unconnected-oriented networks are more flexible than connected-oriented networks with respect to resource allocation and network management, allowing for rapid data transmission. However, they present challenges in terms of reliability and data integrity assurance.
+
+Proposed Solution: Improved End-to-End Reliability
+Among the design-related issues of unconnected oriented networks, reliability, and data integrity assurance are particularly important. To solve this problem, we offer the following suggestions
+
+Enhanced segmentation and retransmission control protocols
+Segmentation: Split a large data set into smaller segments and assign a unique sequence number to each segment to facilitate reassembly and order assurance at the receiving end. This allows, in the event of partial data loss, to identify only the lost segment and request retransmission.
+
+Retransmission Control: Enhances the retransmission control mechanism with timeouts and acknowledgments (ACKs) during data transmission. If there is no acknowledgment of receipt of a particular segment from the receiver, the sender automatically retransmits that segment. To avoid unnecessary retransmissions, a dynamic timeout adjustment algorithm is employed to adjust the timeout period according to network conditions.
+
+End-to-end encryption and authentication
+Enhanced Security: End-to-end encryption is employed to ensure data privacy and security. In addition, strengthen authentication mechanisms at both sending and receiving endpoints to ensure data integrity and origin verification.
+These proposals will significantly improve the reliability and data integrity of unconnected-oriented networks. Enhanced segmentation and retransmission control protocols can solve data ordering and integrity issues, and end-to-end encryption and authentication can improve security. This makes unconnected-oriented networks applicable to applications that require high reliability and security.
+
+Conclusion
+
+Through this discussion, it has become clear that both connection-oriented and non-connection-oriented networks have their own advantages and disadvantages and should be selected according to the needs of different applications and users. Connection-oriented networks stand out due to their reliability and data integrity, while non-connection-oriented networks excel in terms of flexibility, efficiency, and scalability. The proposal for disconnection-oriented networks aims to address reliability and data integrity issues and pave the way for these networks to be effectively used in an even wider range of applications. Ultimately, the network type selected should be one that provides the best balance for the particular situation and requirements. As technology evolves, it is expected that new methods will be developed to address these network design challenges and combine the benefits of both approaches.
+
+Word-Count: 1,088
+
+References:
+Dordal, P. (2019). An introduction to computer networks.
+(n.d.). Computer networks.

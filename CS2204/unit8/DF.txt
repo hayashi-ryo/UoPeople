@@ -1,0 +1,22 @@
+Hello classmates, for this topic, I have researched ”2. Secure Shell (SSH)" and I will share my findings.
+SSH (Secure Shell) is a protocol and toolset for securely connecting to remote machines over a network.SSH provides encrypted communication and allows users to perform secure operations on remote machines.
+The following is a survey based on RFC 4254 "The Secure Shell (SSH) Connection Protocol".
+
+Technical overview
+SSH has the following four technical features
+
+1. Encryption: SSH encrypts communications using cryptographic techniques such as public key cryptography and target key cryptography. This ensures security by preventing data from being intercepted.
+2. Authentication: the SSH server uses password or public key authentication to ensure that the client is a legitimate user. This prevents unauthorized access.
+3. Session management: SSH establishes and manages sessions while a user is connected to a remote machine. Within the session, commands and file transfers take place.
+4. Port forwarding: SSH supports port forwarding between the local machine and the remote machine. This allows services to be accessed via a secure communication channel even when the remote machine cannot be accessed directly for security reasons.
+
+Operation overview.
+SSH uses the following flow to establish a connection.
+
+1. Establishing a connection: when a client requests a connection to the SSH server, the server requests the client's authentication information. Authentication is carried out here using a password or public key.
+2. Establishing a session: if the authentication is successful, the SSH server establishes a session and opens an encrypted communication channel with the client. This session continues until the client logs out.
+3. Data transfer: once the session is established, any commands or files entered by the user are securely transferred. Data is sent encrypted and decrypted when received.
+4. Session termination: the SSH session is terminated when the user logs out or the connection times out. When the session ends, the encrypted communication channel is also disconnected.
+
+Reference
+Chris M. Lonvick , Tatu Ylonen. (2006). The Secure Shell (SSH) Connection Protocol. RFC 4254 https://datatracker.ietf.org/doc/html/rfc4254

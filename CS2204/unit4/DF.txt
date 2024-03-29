@@ -1,0 +1,12 @@
+Both IPv4 and IPv6 neighbor solutions are protocols for resolving addresses between devices on a network. However, there are some differences. This post will discuss four differences.
+
+1. Protocol function and purpose
+ARP is used to map IPv4 addresses to their corresponding MAC addresses. This is to enable the connection between the IP network layer and the physical network. Neighbor Resolution, on the other hand, is implemented as a function of the ICMPv6 protocol, which is part of IPv6, and implements not only the mapping of IPv6 addresses to MAC addresses, but also a wider range of functions such as checking for the presence of other addresses on the network, detecting address duplication, and parameter discovery. It is implemented as a function of the ICMPv6 protocol.
+2. Protocol differences
+ARP is a proprietary protocol, used only with IPv4; ARP requests are broadcast and MAC addresses are provided by ARP replies from the corresponding devices. Neighbor Solicitation is implemented as a type of ICMPV6 message, which is unicast or multicast to a specific target address and sent to a specific device or group of devices on the network.
+3. Security
+ARP does not provide security features and is vulnerable to attacks such as ARP spoofing. On the other hand, Neighbor Solicitation can use an extension called Secure Neighbor Discovery (SEND) to enhance security; SEND uses a Public Key Infrastructure (PKI) to authenticate the originator of a message and ensure data integrity.
+4. Address resolution process
+In ARP, a broadcast message is sent to all devices on the network to learn the MAC address corresponding to the requested IPv4 address. With neighbor resolution, messages are sent for specific IPv6 or multicast addresses, providing a more efficient address resolution process.
+
+These differences indicate that IPv6 offers many improvements and enhancements over IPv4. the design of IPv6 is aimed at a larger address space, improved security, and increased network efficiency and scalability.
