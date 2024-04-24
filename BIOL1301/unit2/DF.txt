@@ -1,0 +1,8 @@
+Hello classmates. In this unit, we have learned about metabolic disorders, and I will explain one such disorder as an example.
+Phenylketonuria (PKU) is a genetic disorder caused by a deficiency in the enzyme phenylalanine hydroxylase. This enzyme is responsible for converting the amino acid phenylalanine into tyrosine. When the enzyme activity is reduced, phenylalanine accumulates in the body, potentially acting as a neurotoxin and causing damage to the brain.
+Typical symptoms of PKU include developmental delays, intellectual disabilities, behavioral problems, epilepsy, and unusually light skin and hair color. These symptoms are often diagnosed early through newborn screening.
+The treatment for PKU primarily involves a dietary regimen that strictly limits the intake of foods containing phenylalanine. This helps prevent the accumulation of phenylalanine in the body and minimizes brain damage. The treatment aims to manage symptoms and directly address the metabolic nature of the disease, but it does not resolve the underlying genetic cause.
+
+
+References
+Openstax. (2024). Biology. https://openstax.org/books/biology/pages/preface
