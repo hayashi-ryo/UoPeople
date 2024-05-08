@@ -1,0 +1,29 @@
+Hello classmates. Building on what we've learned in this week's unit, I will explain the mechanisms of colorectal cancer.
+
+Introduction
+
+Colorectal cancer begins in the glandular cells lining the inside of the colon or rectum. These cancers are often treated together because they share common features and similar treatment approaches.
+
+Affected Cell Type
+
+Colorectal cancer primarily arises from the glandular cells that cover the colon and rectum. These cells produce mucus that helps the movement of stool. The most common type is adenocarcinoma, which starts from these glandular cells.
+
+Defects in Cellular Reproduction
+
+Colorectal cancer usually starts with growths called polyps inside the colon or rectum. Not all polyps turn into cancer, but adenomatous polyps are known precursors to cancer. The transition from benign polyps to cancer occurs over several years through a series of genetic changes that affect the regulation of normal cell growth and division. For example, mutations in the APC gene are a common early change in colorectal cancer. Normally, the APC gene plays a role in controlling cell growth, but mutations in the APC gene promote uncontrolled cell proliferation, increasing the risk of cancer.
+
+Available Treatments
+
+The treatment of colorectal cancer may include surgery, chemotherapy, radiation therapy, and targeted therapy, depending on the stage and location of the cancer. Surgical options vary but may involve removing part of the colon or rectum containing the cancer. Chemotherapy is used in conjunction with surgery to kill cancer cells. Radiation therapy is primarily used for rectal cancer to shrink tumors before surgery and to remove remaining cancer cells after surgery. Targeted therapies and immunotherapy are newer treatments that specifically target cancer cells without affecting normal cells.
+
+Focus of Treatment
+
+The treatment of colorectal cancer focuses on removing or destroying cancer cells. Surgical methods directly remove the tumor, while treatments like chemotherapy and radiation therapy target the genetic nature of the disease by focusing on rapidly dividing cancer cells. Targeted therapies and immunotherapies specifically target the unique genetic characteristics of cancer cells to effectively inhibit their growth and spread.
+
+
+
+By understanding the types of cells that change in colorectal cancer and the genetic changes involved, we can guide effective treatment strategies.
+
+
+References
+Openstax. (2024). Biology. https://openstax.org/books/biology/pages/preface
