@@ -1,0 +1,36 @@
+In this week's unit, we learned about the major animal phyla. Here, I will choose the sea turtle as a representative of the phylum Chordata and describe its characteristics.
+
+### Characteristics of the Sea Turtle
+
+**Morphology**  
+Sea turtles have a streamlined shell and their forelimbs have evolved into long flippers. This morphology allows them to swim efficiently in water. The shell is composed of bony plates and serves to protect the body (Spotila, 2004).
+
+**Embryology**  
+Sea turtles are oviparous and lay their eggs on sandy beaches. The eggs are buried in the sand, and they hatch under appropriate temperature and humidity conditions. During embryonic development, the notochord and neural tube are formed, which are characteristic features of chordates (Miller, 1997).
+
+**Physiology**  
+Sea turtles surface regularly to breathe using their lungs. They possess efficient energy metabolism for long-distance swimming. Additionally, they have salt glands to excrete excess salt from the seawater they ingest (Lutz & Musick, 1997).
+
+### Adaptations Compared to Other Animals
+
+**Streamlined Body Shape**  
+The streamlined body shape of sea turtles is a crucial adaptation for survival in competition with other marine organisms. This shape minimizes water resistance, allowing for efficient movement through the water (Spotila, 2004).
+
+**Flipper-like Forelimbs**  
+The flipper-like forelimbs of sea turtles are specialized for swimming and are a notable adaptation compared to other terrestrial animals. This allows them to navigate the vast ocean efficiently (Miller, 1997).
+
+### Adaptations Compared to More Primitive Organisms
+
+**Oviparous Strategy**  
+The oviparous strategy of sea turtles is a more advanced adaptation compared to more primitive invertebrates. By laying eggs in the sand, sea turtles can protect their eggs from predators and ensure proper temperature conditions for embryonic development (Miller, 1997).
+
+**Presence of Salt Glands**  
+Sea turtles possess salt glands to excrete excess salt from the seawater they ingest, an adaptation not found in freshwater organisms or more primitive organisms. This allows them to survive in high-salinity marine environments (Lutz & Musick, 1997).
+
+Word Count: 322
+
+References
+
+Lutz, P. L., & Musick, J. A. (1997). The biology of sea turtles. CRC Press.
+Miller, J. D. (1997). Reproduction in sea turtles. In P. L. Lutz & J. A. Musick (Eds.), The biology of sea turtles (pp. 51-81). CRC Press.
+Spotila, J. R. (2004). Sea turtles: A complete guide to their biology, behavior, and conservation. Johns Hopkins University Press.
