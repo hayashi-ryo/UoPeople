@@ -1,0 +1,7 @@
+
+| Biological Macromolecule | Monomer Building Blocks | Nature of Monomer           | Specific Examples            | Specific Functions                    |
+|--------------------------|-------------------------|-----------------------------|------------------------------|---------------------------------------|
+| Carbohydrates            | Monosaccharides         | Small sugar molecules       | Glucose, Fructose            | Energy source, structural material    |
+| Lipids                   | Fatty acids, Glycerol   | Long chain hydrocarbons     | Triglycerides, Phospholipids | Energy storage, components of cell membrane |
+| Proteins                 | Amino acids             | Amine group and carboxyl group | Insulin, Hemoglobin        | Catalysts (enzymes), movement, immunity |
+| Nucleic Acids            | Nucleotides             | Sugar, phosphate, nitrogenous base | DNA, RNA               | Storage and transmission of genetic information |

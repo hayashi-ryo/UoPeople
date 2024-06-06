@@ -1,0 +1,8 @@
+Hello classmates. I will explain my understanding of this topic.
+Before explaining specific examples, two logical deductions need to be sorted out. I will explain my understanding of them as gleaned from the text.
+Inductive reasoning is an approach in which general conclusions or laws are drawn from specific observations or experimental results. In this reasoning, an overall pattern or theory is formed from individual data. In biology, it is used to generate new theories and hypotheses from individual observations of tas.
+Deductive reasoning is an approach that draws specific conclusions or predictions from existing general theories or principles. In this reasoning, inferences are made based on hypotheses, to reach a conclusion that solves a particular problem.
+Both methods of reasoning are used in biological research, but inductive reasoning is more effective for clarifying causal relationships. An example is the association between smoking habits and lung cancer. To infer this association, data on smoking habits and lung cancer incidence in a large number of people from different regions and different backgrounds are collected. From these data, a general rule can be derived that smokers have a higher isolated place of developing lung cancer compared to non-smokers. With many independent KenCu showing the same result, it is possible to derive a causal link that smoking is an important cause of lung cancer.
+
+References
+Openstax. (2024). Biology. https://openstax.org/books/biology/pages/preface

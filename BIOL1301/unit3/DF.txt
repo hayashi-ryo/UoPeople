@@ -1,0 +1,15 @@
+
+Hello classmates. In this unit, we learned how organisms utilize energy. The transfer of energy in biological systems heavily relies on the role of electrons. Cells frequently use the movement of electrons to incorporate and utilize energy. This is particularly evident in the processes of cellular respiration and photosynthesis.
+
+Cellular Respiration
+During cellular respiration, energy obtained from nutrients is converted into a form usable by the cell, namely ATP. The core of this process is the electron transport chain. For instance, within the mitochondrial inner membrane, electrons pass through a series of protein complexes and ultimately bind with oxygen to form water. The movement of these electrons drives protons across the mitochondrial membrane, creating a proton gradient that the ATP synthase enzyme uses to synthesize ATP.
+
+Photosynthesis
+In photosynthesis, electrons again play a crucial role in converting light energy into chemical energy. During the photochemical reactions of photosynthesis, light absorbed by chlorophyll excites electrons to a higher energy state. These excited electrons travel through the photosynthetic electron transport chain, utilizing their energy to produce ATP and NADPH. These compounds are crucial in the Calvin cycle, where they help convert carbon dioxide into sugars and other organic compounds.
+
+As these examples illustrate, electrons are central to the acquisition and utilization of energy in biological systems, playing a pivotal role in fundamental processes that support life activities.
+
+Word-Count: 225
+
+References
+Openstax. (2024). Biology. https://openstax.org/books/biology/pages/preface
