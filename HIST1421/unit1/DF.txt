@@ -1,0 +1,13 @@
+The study of Greek and Roman civilizations provides important insights into the understanding of modern political systems and social structures. In particular, Athenian democracy is one of the significant models that formed the foundation of today's democracy. In this discussion, we will compare Athenian democracy with the political system of Japan, where I live, to explore their similarities and differences.
+Hello classmates, my name is Ryohei Hayashi, and I live in Japan. Currently, I am majoring in Computer Science at UoPeople. To be honest, I have not had much interest in Greek and Roman civilizations. However, through this course, I hope to learn how ancient political systems and cultures have influenced the modern world.
+
+Comparison between Athenian Democracy and Japan's Political System
+
+| Comparison Item             | Athenian Democracy                         | Japan's Political System                       |
+|-----------------------------|--------------------------------------------|-----------------------------------------------|
+| Citizenship and Franchise| Citizenship is only for adult males; women, slaves, and foreigners are excluded | All nationals over 18 years old have the right to vote |
+| Procedure to Make Laws and Who Has the Power | Citizens gather in assemblies to directly make laws | Elected representatives in the parliament make laws |
+| Power of the Judiciary  | Citizens act as judges and deliver verdicts | Independent judiciary where judges deliver verdicts |
+| Judicial Review         | No judicial review in the modern sense     | Courts have the power to review the constitutionality of laws and administrative actions |
+| Ways of Constraining the Power of Public Officials | Annual reviews and ostracism (exile system) constrain the power of public officials | Separation of powers and oversight bodies as stipulated by the constitution and laws |
+
