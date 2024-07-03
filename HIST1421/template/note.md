@@ -16,6 +16,12 @@
 
 ## Discussion Forum
 
+### Japanese Discussion
+
 ## Written Assignment
 
+### Japanese Written Assignment
+
 ## Learning Journal
+
+### Japanese Learning Journal
