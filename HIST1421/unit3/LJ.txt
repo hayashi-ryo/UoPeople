@@ -1,0 +1,23 @@
+1. Athens could not effectively handle the Peloponnesian War, do you agree? Why/why not?
+
+I agree that Athens could not effectively handle the Peloponnesian War. The conflict between Athens and Sparta, lasting from 431 BCE to 404 BCE, showcased several key failures on the part of Athens that highlighted their ineffective management of the war. 
+Firstly, Athens' strategy under Pericles involved using its superior navy to conduct raids along the Peloponnesian coast while relying on the Long Walls to protect the city from Spartan land attacks. While initially promising, this strategy failed to anticipate the prolonged nature of the war and the resilience of Sparta. 
+A significant blunder was the Sicilian Expedition of 415-413 BCE. Athens aimed to conquer Sicily and expand its influence, but the campaign ended in disaster. The entire Athenian force was either killed or captured, which was a severe blow to Athenian military capability and morale. Thucydides, in his "History of the Peloponnesian War," describes the Sicilian Expedition as a catastrophic failure that marked a turning point in the war (Thucydides, Book 7). This defeat not only drained Athens of vital resources but also emboldened its enemies.
+Furthermore, internal political strife and instability plagued Athens during the war. In 411 BCE, a coup led by the oligarchic faction known as the Four Hundred temporarily overthrew the democratic government. This internal conflict weakened Athens' ability to present a unified front against Sparta. According to Kagan, the instability and division within Athens significantly undermined its war effort (Kagan, 1991).
+The plague that struck Athens in 430 BCE further compounded these problems. The epidemic, which claimed the lives of thousands of Athenians, including the influential leader Pericles, created chaos and fear within the city. Thucydides recounts how the plague led to a breakdown of social order and contributed to Athens' inability to manage the war effectively (Thucydides, Book 2).
+
+2. Is it correct to say that democracy in Athens was overthrown after the war?
+
+It is partially correct to say that democracy in Athens was overthrown after the war. However, it is important to recognize multiple instances of democratic overthrow during and after the war.
+The first significant overthrow occurred in 411 BCE during the war. Amidst widespread dissatisfaction with the democratic leadership’s handling of the war, the oligarchic faction known as the Four Hundred seized power. This regime, although short-lived, marked a clear departure from democratic governance. Democracy was restored in 410 BCE, but this period of oligarchic rule exposed the vulnerabilities of the Athenian political system.
+The final and more definitive overthrow of Athenian democracy occurred after Athens' defeat in 404 BCE. Following surrendering to Sparta, the Spartans imposed an oligarchic regime known as the Thirty Tyrants. This regime, led by Critias, was marked by severe repression and the execution or exile of many democratic supporters. According to Hornblower, the Thirty Tyrants’ rule was a period of terror and marked a significant break from Athenian democratic traditions (Hornblower, 2011).
+This oligarchic regime lasted until 403 BCE when a democratic rebellion, led by Thrasybulus, succeeded in overthrowing the Thirty Tyrants and restoring democracy. Therefore, while the statement that democracy was overthrown after the war is accurate, it is crucial to acknowledge that the overthrow began during the war and was solidified by the post-war political landscape.
+In conclusion, Athens' ineffective handling of the Peloponnesian War, characterized by strategic blunders, internal political strife, and the devastating plague, contributed to the downfall of its democracy. The multiple instances of democratic overthrow during and after the war illustrate the profound impact the conflict had on Athenian political stability.
+
+Word Count: 568
+
+References
+
+Thucydides. (2008). *History of the Peloponnesian War*. (R. Crawley, Trans.). Digireads.com.
+Kagan, D. (1991). *The Fall of the Athenian Empire*. Cornell University Press.
+Hornblower, S. (2011). *The Greek World 479-323 BC*. Routledge.
