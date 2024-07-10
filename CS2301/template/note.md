@@ -8,7 +8,7 @@
 - [ ] Discussion Forum
   - [ ] first post
   - [ ] reply classmates
-- [ ] Programming assignmet
+- [ ] Written assignmet
 - [ ] Learning Journal
 - [ ] Take Self-Quiz
 
@@ -16,6 +16,12 @@
 
 ## Discussion Forum
 
+### Japanese Discussion
+
 ## Written Assignment
 
+### Japanese Written Assignment
+
 ## Learning Journal
+
+### Japanese Learning Journal
