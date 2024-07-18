@@ -1,0 +1,25 @@
+Operating System and CPU: Which Controls the Overall Machine?
+
+The question of whether the CPU or the operating system (OS) is in charge of the overall machine, given that the OS holds the algorithms for scheduling between multiple processors that process given data, is a fascinating topic. Exploring this issue helps us understand the fundamental principles of computer operation.
+
+The Role of the CPU
+
+The Central Processing Unit (CPU) functions as the "brain" of the computer, performing basic computational tasks. The CPU's ability to process numbers quickly and execute instructions is its most critical feature. For example, mathematical operations and data comparisons are all handled by the CPU. Additionally, the CPU can directly manipulate hardware, performing tasks such as memory access and device control, thus handling the system's overall computational processes.
+
+The Role of the Operating System
+
+On the other hand, the Operating System (OS) acts as an intermediary between the hardware and software, managing the system's resources. The OS is responsible for process scheduling, memory, and device management, enabling multiple programs to run simultaneously. The OS provides an abstraction layer, simplifying complex hardware operations so that users and applications can interact with hardware without needing to understand its intricacies.
+
+Comparison and Contrast
+
+The CPU and OS work in tandem, with the CPU executing instructions provided by the OS and the OS designed to maximize the CPU's processing capabilities. Without the OS, the CPU would be just a simple calculator, unable to manage multiple tasks efficiently. The OS plays a crucial role in allocating resources and scheduling, ensuring the system operates harmoniously. Therefore, the question of which controls the overall machine should be viewed as both working collaboratively to achieve this control.
+
+My Opinion and Conclusion
+
+In my view, the Operating System controls the overall machine for several reasons.
+First, the OS functions as the manager of resources. While the CPU performs basic computational tasks, the OS manages these tasks efficiently and ensures multiple processes run smoothly. For instance, in a multitasking environment, the OS allocates CPU time to each process, preventing deadlocks and resource conflicts, thus ensuring smooth system operation.
+Furthermore, the OS provides an abstraction layer. Direct hardware manipulation is complex and inefficient for users and applications. The OS abstracts these details, allowing users and applications to utilize hardware resources easily. For example, file system management and device driver provision are typical functions of the OS, enabling users and applications to operate without concerning themselves with complex hardware details.
+Additionally, security and stability are significant roles of the OS. The OS maintains system security through user privilege management and access control. By preventing specific applications from accessing critical system parts, the OS ensures overall system stability, a task impossible for the CPU alone to handle.
+Moreover, the OS supports the long-term operation of the system through updates and patches. When new hardware is introduced or security vulnerabilities are discovered, the OS can respond through updates, keeping the system up-to-date and secure.
+
+For these reasons, the OS is in charge of the overall machine. While the CPU is a vital hardware component, it is the OS that brings out the CPU's full potential and maintains system harmony. Without the OS, the CPU would merely be a basic computing device, unable to provide the advanced functionality and user-friendliness expected by users.
