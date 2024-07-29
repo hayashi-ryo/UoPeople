@@ -1,0 +1,138 @@
+The purpose of this assignment is to learn various methods for exploring the Linux file system and understand the advantages and disadvantages of each method. Understanding the file system plays a crucial role in system management and troubleshooting. Linux offers numerous commands to explore the file system, each providing different information. This report will analyze the results obtained using the `df`, `lsblk`, and `blkid` commands, as referenced in "Ways to Determine the File System Type in Linux" (Shovon, n.d.).
+
+Method 1: df Command
+The `df` command is a basic tool used to display disk usage. By using the `-Th` option, it is possible to display the type of each file system and output the sizes in a human-readable format. This command allows for a quick overview of the disk usage and the type of file system for each mount point on the system. The results of executing the `df` command are as follows:
+
+From this output, the following insights can be gained:
+Key Points
+1. tmpfs File System
+`tmpfs` is a temporary file system used for multiple mount points (e.g., `/run`, `/dev/shm`, `/run/lock`, `/run/user/1000`).
+`tmpfs` is memory-based, resides in RAM, and allows fast access. The memory consumption is displayed.
+`/run` is mounted on `tmpfs` with 1.3M used and 389M free space available.
+
+2. efivarfs File System
+`efivarfs` is used to store EFI variables and is mounted at `/sys/firmware/efi/efivars`.
+It has a small size (256K), with most of the space free (231K free).
+
+3. Root File System
+`/dev/mapper/ubuntu--vg-ubuntu--lv` is the main root file system with an `ext4` type.
+It has a size of 30G, with 9.4G used and approximately 19G free (34% used).
+
+4. /dev/shm
+This is a `tmpfs` file system with a size of 2.0G, all of which is free space (2.0G available).
+
+5. /run/lock
+This is a `tmpfs` file system with a size of 5.0M, with minimal usage (8.0K used, 5.0M available).
+
+6. Boot Partition
+`/dev/vda2` is an `ext4` file system used as a boot partition.
+It has a size of 2.0G, with 190M used and 1.6G free (11% used).
+
+7. EFI System Partition
+`/dev/vda1` is a `vfat` file system used as an EFI system partition.
+It has a size of 1.1G, with 6.4M used and most of the space free (1.1G available).
+
+8. User-Specific tmpfs
+`/run/user/1000` is a `tmpfs` file system for user-specific temporary files.
+It has a size of 391M, with minimal usage (12K used, 391M available).
+
+9. Shared Folder
+`share` is a `9p` file system mounted at `/home/ryohei/share`.
+It has a size of 461G, with 367G used and 94G free (80% used).
+
+Summary
+`tmpfs` provides fast access and is used for temporary file storage, contributing to system performance.
+`efivarfs` manages EFI variables and holds information related to the boot process.
+The main root file system (`/dev/mapper/ubuntu--vg-ubuntu--lv`) is of the `ext4` type and efficiently manages disk space usage.
+Boot and EFI system partitions use `ext4` and `vfat` file systems, respectively, and play crucial roles in system booting.
+The shared folder uses a large `9p` file system, facilitating data sharing and access.
+
+Method 2: lsblk Command
+The `lsblk` command displays information about all block devices on the system. By using the `-f` option, it also shows the file system type and UUID for each device. This command visually displays the device tree structure, making it easier to understand which devices correspond to which partitions. The results of executing the `lsblk` command are as follows:
+
+
+From this output, the following insights can be gained:
+
+Key Point
+1. sr0
+This device represents an optical drive but is not currently mounted and has no file system set up.
+
+2. vda
+This is the virtual disk device for the virtual machine. It shows detailed partition information and how these partitions are used.
+
+3. vda1
+A `vfat` file system partition with version `FAT32`.
+UUID is `0F22-E2E0`, and the mount point is `/boot/efi`.
+It has a capacity of 1G, with 1% used.
+
+4. vda2
+An `ext4` file system partition with version `1.0`.
+UUID is `732844e3-5507-466b-919b-786653da7770`, and the mount point is `/boot`.
+It has 1.6G free and is 10% used.
+
+5. vda3
+An `LVM2_member` file system, part of the logical volume manager (LVM).
+UUID is `BxRqQV-KCRU-SJsc-JLpd-IJVj-dxO7-qaRlMh`, with no direct mount point.
+
+6. ubuntu--vg-ubuntu--lv
+A logical volume within the `vda3` partition with an `ext4` file system and version `1.0`.
+UUID is `9293ef85-16bf-46d5-9ce5-878195ad9e53`, and the mount point is the root directory `/`.
+It has 18.9G free and is 31% used.
+
+Summary
+Visual Representation of Device Tree: The `lsblk` command visually displays the device tree structure, making it easy to see which devices correspond to which partitions. This is particularly helpful for understanding the configuration of virtual disk devices (vda).
+Detailed File System Information: Each partition's file system type, version, UUID, free space (FSAVAIL), and usage percentage (FSUSE%) are displayed. This allows for a detailed understanding of each file system's state and usage.
+LVM Confirmation: For systems using LVM (Logical Volume Manager), the relationship between physical volumes (vda3) and logical volumes (ubuntu--vg-ubuntu--lv) is clarified.
+Usage Monitoring: The usage percentage for each mount point is visible, enabling efficient monitoring and management of disk usage.
+
+Method 3: blkid Command
+The `blkid` command is a tool for displaying detailed attributes of block devices. This allows for the identification of the file system type, UUID, and label of each device. The results of executing the `blkid` command are as follows:
+
+From this output, the following insights can be gained:
+
+Key Points
+1. /dev/mapper/ubuntu--vg-ubuntu--lv
+UUID: "9293ef85-16bf-46d5-9ce5-878195ad9e53"
+BLOCK_SIZE: 4096
+TYPE: ext4
+This device represents a logical volume in the LVM (Logical Volume Manager). The `ext4` file system is used with a block size of 4096 bytes. The UUID uniquely identifies this volume.
+
+2. /dev/vda2
+UUID: "732844e3-5507-466b-919b-786653da7770"
+BLOCK_SIZE: 4096
+TYPE: ext4
+PARTUUID: "fdd426b3-6ce7-4cb5-ad5b-bc571d0be225"
+This device is an `ext4` file system partition with a block size of 4096 bytes. The PARTUUID identifies it within the partition table.
+
+3. /dev/vda3
+UUID: "BxRqQV-KCRU-SJsc-JLpd-IJVj-dxO7-qaRlMh"
+TYPE: LVM2_member
+PARTUUID: "c4df3d29-6484-47b7-9351-79938a20faae"
+This device is recognized as an LVM physical volume and identified as an LVM2_member. The PARTUUID identifies it within the partition table. There is no file system on it; it functions as part of the LVM.
+
+4. /dev/vda1
+UUID: "0F22-E2E0"
+BLOCK_SIZE: 512
+TYPE: vfat
+PARTUUID: "19b16908-1672-4c55-9aef-495620400714"
+This device is a `vfat` file system partition with a block size of 512 bytes. The PARTUUID identifies it within the partition table. It is typically used as an EFI system partition.
+
+Summary
+UUID and PARTUUID: The `blkid` command displays the UUID and PARTUUID for each device, allowing for unique identification. The UUID is the identifier at the file system level, while the PARTUUID is the identifier within the partition table.
+File System Types: The command shows the file system type for each device (e.g., ext4, vfat, LVM2_member), clarifying which file system is used.
+Block Size: The block size for each file system is displayed, showing the minimum unit for data read/write operations. This helps in understanding the performance characteristics of the file system.
+LVM Usage: Devices recognized as LVM2_member indicate the use of LVM for logical volume management, allowing for flexible storage management.
+
+Conclusion
+In this report, we explored the Linux file system using the `df`, `lsblk`, and `blkid` commands and analyzed the results. Each command provides different information, serving as useful tools for system administrators to gain detailed insights into the state of the file system.
+
+df Command: Provides a quick overview of disk usage and file system types, making it suitable for monitoring overall disk usage.
+lsblk Command: Visually displays the device tree structure, showing detailed file system information and UUIDs for each device, aiding in storage device management.
+blkid Command: Offers detailed attribute information (UUID, file system type, block size) for each device, helping in the identification and management of specific devices.
+
+Each method has its unique advantages, and it is important to use them according to the system's state and needs. Overall, using these tools provides a powerful means to effectively manage and optimize the Linux system's file system.
+
+Word Count: 1,319
+
+References
+Shovon, S. (n.d.). Ways to determine the file system type in Linux. Linux Hint. https://linuxhint.com/determine-file-system-type-linux/
