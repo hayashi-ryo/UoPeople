@@ -25,7 +25,7 @@ ja
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Discussion Forum
   - [x] first post
   - [x] reply classmates
@@ -39,7 +39,9 @@ ja
   VirtualBoxのインストール方法
 2. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. <https://pages.cs.wisc.edu/~remzi/OSTEP/>
   Chapter1「Dialogue」
+    仮想化・並行処理・永続化がOSにとって重要な概念である。
   Chapter2「Introduction」
+    OSはプログラムの基本動作である、fetch/decode/executeを司る
 3. Franklin, C., & Pollette, C. (2021, November 18). How operating systems work. howstuffworks. <https://computer.howstuffworks.com/operating-system.htm>
   1-10ページを読んでOSの基本原則と、それらがOSの作成にどのように役立つかを理解する
 4. Jagroopofficial. (2021, March 31). Pros and cons of virtualization in cloud computing. GeeksforGeeks. Retrieved June 6, 2022, from <https://www.geeksforgeeks.org/pros-and-cons-of-virtualization-in-cloud-computing/>
