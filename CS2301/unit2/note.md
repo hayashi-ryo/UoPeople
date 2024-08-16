@@ -22,7 +22,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Peer Assessment
 - [x] Discussion Forum
   - [x] first post
@@ -35,8 +35,13 @@
 
 1. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. Retrieved June 16, 2022, from <https://pages.cs.wisc.edu/~remzi/OSTEP/>
   Read Virtualization: Chapter 3 – Dialogue, Chapter 4 – Processes, and Chapter 5 – Process API
+    Time Sharing: OSがCPUを分け合うために利用される、分割の考え方。様々な方法がある。
+    C言語におけるHeap領域の確保と解放
+      malloc(): heap領域の確保
+      free(): heap領域の解放
 2. Baeldung. (2021, November 9). A guide to POSIX. <https://www.baeldung.com/linux/posix>
   Learn the history of POSIX and how it works with Linux/Unix/Mac systems.
+    POSIXは様々なOS間でプログラムの移植性を高めるために標準化されたもの。APIコールや出力形式などが標準化されているため、OS間での修正を必要な範囲に絞ることができる。
 3. Franklin, C., & Pollette, C. (2021, November 18). How operating systems work. howstuffworks.   Retrieved June 16, 2022, from <https://computer.howstuffworks.com/operating-system9.htm>
   Learn how operating systems use APIs to call processes and do things.
 4. Multitasking. (n.d.). javaTpoint. <https://www.javatpoint.com/multitasking-operating-system>

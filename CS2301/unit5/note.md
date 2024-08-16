@@ -20,7 +20,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Peer Assessment
 - [x] Discussion Forum
   - [x] first post
@@ -32,7 +32,11 @@
 ## Reading Assignment
 
 1. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. Retrieved June 16, 2022, from <https://pages.cs.wisc.edu/~remzi/OSTEP/>
-  Read Virtualization: Chapter 14 - Memory-API; Chapter 15 - Address Translation; Chapter 16 - Segmentation; and Chapter 17 - Free Space Management.
+  Read Virtualization:
+    Chapter 14 - Memory-API
+    Chapter 15 - Address Translation
+    Chapter 16 - Segmentation
+    Chapter 17 - Free Space Management.
 2. DivyankSinghSikarwar. (2020, January 6). Difference between fine-grained and coarse-grained SIMD architecture. GeeksforGeeks. Retrieved July 8, 2022, from <https://www.geeksforgeeks.org/difference-between-fine-grained-and-coarse-grained-simd-architecture/>
   Read this to learn the difference between fine-grained and coarse-grained SIMD architecture.
 3. 5 useful tools to detect memory leaks with examples. (2021, June 12). GoLinuxCloud. <https://www.golinuxcloud.com/how-to-find-memory-leaks/#:~:text=A%20memory%20leak%20occurs%20when,deleted%2C%20lost%2C%20or%20overwritten>

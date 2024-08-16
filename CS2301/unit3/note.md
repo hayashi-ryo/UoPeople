@@ -22,7 +22,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Peer Assessment
 - [x] Discussion Forum
   - [x] first post
@@ -37,6 +37,11 @@
 1. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. Retrieved June 16, 2022, from <https://pages.cs.wisc.edu/~remzi/OSTEP/>
   Read Virtualization: Chapter 6 - Direct Execution
   Chapter 7 - CPU Scheduling
+    CPUのスケジューリングアルゴリズム
+      FIFO: 重い処理によって軽い処理まで遅くなる可能性がある
+      SJF: タイミングによってはFIFOと同じ問題がある
+      STCF: 途中で新たな処理が到着しても、「完了予定時間が最短」であるものから優先して実施する
+      RR(Time slicing): 全ての処理を一定時間ずつ実行することでトータルのレスポンスタイムの改善を図る。しかし、ターンアラウンドタイムを基準とすると悪い。
   Chapter 8 - Multi-level Feedback
   Chapter 9 - Lottery Scheduling.
 2. CFS scheduler. (n.d.). The Linux Kernel.  <https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html>

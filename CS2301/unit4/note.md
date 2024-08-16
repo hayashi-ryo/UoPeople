@@ -35,7 +35,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Peer Assessment
 - [x] Discussion Forum
   - [x] first post
@@ -47,7 +47,12 @@
 ## Reading Assignment
 
 1. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. Retrieved June 16, 2022, from <https://pages.cs.wisc.edu/~remzi/OSTEP/>
-  Read Virtualization: Chapter 10 – Multi-CPU Scheduling, Chapter 11 – Summary, Chapter 12 – Dialogue, and Chapter 13 – Address Spaces.
+  Read Virtualization:
+    Chapter 10 – Multi-CPU Scheduling
+      タイムスライスを利用した方法でマルチコアCPUを扱うとCPUに搭載されたキャッシュへのアクセスができない問題が発生する。そのため、連続した処理はできるだけ同じCPUで実施する必要がある。
+    Chapter 11 – Summary
+    Chapter 12 – Dialogue
+    Chapter 13 – Address Spaces
 
 2. Multiple processors scheduling in operating system. (n.d.). javaTpoint. <https://www.javatpoint.com/multiple-processors-scheduling-in-operating-system>
   Read the section on multiprocessing and processor affinity from this resource.

@@ -20,7 +20,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Peer Assessment
 - [x] Discussion Forum
   - [x] first post

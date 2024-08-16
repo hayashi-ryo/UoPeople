@@ -18,7 +18,7 @@
 
 ## Task
 
-- [ ] Reading assignment
+- [x] Reading assignment
 - [x] Discussion Forum
   - [x] first post
   - [x] reply classmates  
@@ -29,9 +29,13 @@
 ## Reading Assignment
 
 1. Arpaci-Dusseau, R. H., & Arpaci-Dusseau, A. C. (2018). Operating systems: three easy pieces (1.01 ed.). Arpaci-Dusseau Books. Retrieved June 16, 2022, from <https://pages.cs.wisc.edu/~remzi/OSTEP/>
-  Read Virtualization: Chapter 18 – Introduction to Paging, Chapter 21 – Beyond Physical Memory: Mechanisms, Chapter 22 – Beyond Physical Memory: Policies, and Chapter 23 – Complete VM Systems.
+  Chapter 18 – Introduction to Paging
+  Chapter 21 – Beyond Physical Memory: Mechanisms
+  Chapter 22 – Beyond Physical Memory: Policies
+  Chapter 23 – Complete VM Systems.
 2. Buzdar, K. (2020). What is swap memory in linux? Linux Hint. <https://linuxhint.com/swap_memory_linux/>
   Read this document on swap memory.
+   RAMが不足した時に利用される、HDDなどの二次利用領域のこと
 3. Concepts overview. (n.d.). The Linux Kernel. <https://www.kernel.org/doc/html/v5.7/admin-guide/mm/concepts.html>
   Read this document on memory management.
 4. GeeksforGeeks. (2021, September 21). Paging in operating system. Retrieved July 2, 2022, from <https://www.geeksforgeeks.org/paging-in-operating-system/>
