@@ -1,0 +1,10 @@
+Filesystem                        Type      Size  Used Avail Use% Mounted on
+tmpfs                             tmpfs     391M  1.3M  389M   1% /run
+efivarfs                          efivarfs  256K   26K  231K  10% /sys/firmware/efi/efivars
+/dev/mapper/ubuntu--vg-ubuntu--lv ext4       30G  9.4G   19G  34% /
+tmpfs                             tmpfs     2.0G     0  2.0G   0% /dev/shm
+tmpfs                             tmpfs     5.0M  8.0K  5.0M   1% /run/lock
+/dev/vda2                         ext4      2.0G  190M  1.6G  11% /boot
+/dev/vda1                         vfat      1.1G  6.4M  1.1G   1% /boot/efi
+tmpfs                             tmpfs     391M   12K  391M   1% /run/user/1000
+share                             9p        461G  367G   94G  80% /home/ryohei/share

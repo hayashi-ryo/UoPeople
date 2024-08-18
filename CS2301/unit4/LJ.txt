@@ -1,0 +1,28 @@
+# Introduction
+
+This paper compares and contrasts virtual memory and garbage collection methods used in the Java programming language. Virtual memory is a technique used by operating systems to efficiently manage physical memory and provide programs with a virtual address space. On the other hand, garbage collection is a method used in the Java programming language to automate memory management by automatically freeing up memory occupied by objects that are no longer needed. This paper will detail the operating principles, advantages, and disadvantages of both techniques and compare them.
+
+# Overview of Virtual Memory
+
+Virtual memory is a technology that abstracts physical memory and provides programs with a vast virtual address space. This allows each program to have an independent address space from other programs, enhancing memory protection. Virtual memory uses paging techniques to provide a memory space larger than the actual physical memory.
+The advantages of virtual memory include enhanced memory protection, efficient use of physical memory, and the ability to run larger programs. However, the disadvantages include the potential for increased disk I/O and system performance degradation when page faults occur.
+
+# Overview of Garbage Collection
+
+Garbage collection is part of automatic memory management in the Java programming language, where unnecessary objects are automatically freed. Java’s garbage collection operates in two stages: marking and sweeping. First, it marks unnecessary objects, and then it frees them.
+The advantages of garbage collection include the elimination of the need for programmers to manually manage memory, preventing errors such as memory leaks and dangling pointers. However, garbage collection has the drawback of temporarily lowering program execution performance when the garbage collector runs.
+
+# Comparison of Virtual Memory and Garbage Collection
+
+Virtual memory and garbage collection are both memory management technologies, but they have significant differences in their roles and operating principles. Virtual memory mainly aims to efficiently utilize physical memory and enhance memory protection, managed by the operating system. In contrast, garbage collection aims to reduce the burden on programmers by automatically freeing up unused objects within a program, preventing memory leaks.
+In terms of performance impact, virtual memory can lead to increased disk I/O and potential system-wide performance degradation when page faults occur. On the other hand, garbage collection may temporarily halt program execution when the garbage collector runs, lowering performance but improving long-term stability by preventing memory leaks.
+Regarding the use of system resources, virtual memory efficiently uses physical memory and disk storage to enable the execution of large programs. Garbage collection, however, dynamically manages memory allocated by the program, automatically freeing up unused memory and thus achieving efficient use of memory resources.
+
+# Conclusion
+
+Virtual memory and garbage collection are technologies that manage memory in different ways for different purposes. Virtual memory operates at the operating system level to efficiently utilize and protect physical memory, while garbage collection automatically frees unused objects within a program, reducing the burden on programmers. Both technologies are crucial for enhancing system stability and performance and should be appropriately utilized depending on the specific situation.
+
+# References
+
+1. TechTarget. (n.d.). Virtual Memory. Retrieved from <https://www.techtarget.com/searchstorage/definition/virtual-memory#>
+2. JavaTpoint. (n.d.). How Garbage Collection Works in Java. Retrieved from <https://www.javatpoint.com/how-garbage-collection-works-in-java#>

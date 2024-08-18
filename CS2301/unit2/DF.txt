@@ -1,0 +1,13 @@
+Hello classmates. I will explain my kite right for this topic.
+
+1. Introduction
+It is a common issue for many users that a Windows computer slows down over time. This phenomenon is often caused by an increase in processes that consume a large amount of system resources. To maintain system performance and improve work efficiency, it is important to identify and appropriately handle these processes.
+
+2. Identifying the Cause
+The first step is to open Task Manager and check the processes running on your system. Task Manager can be easily launched using the shortcut "Ctrl + Shift + Esc." Once open, select the "Processes" tab and check for processes with high CPU, memory, and disk usage.
+
+3. Investigating and Identifying Processes
+After identifying the processes that consume a lot of resources, investigate what these processes are doing. Pay attention to unfamiliar process names or processes that seem unnecessary for the system. By searching the internet for specific processes and confirming their roles and importance, you can determine whether it is safe to terminate them.
+
+4. Handling the Issue: Ending Processes
+To terminate a process deemed unnecessary, right-click the relevant process in Task Manager and select "End Task." However, it is essential to be cautious in selecting which processes to terminate, as this may affect the stability of the system. In particular, avoid terminating Windows system processes or security software processes.

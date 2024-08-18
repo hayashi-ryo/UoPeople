@@ -1,0 +1,53 @@
+Monitoring and efficiently managing system performance is a crucial skill for daily computer use. Utilizing Activity Monitor to review running processes and sort them by CPU usage allows users to understand their system's resource consumption. This paper will detail the steps to use Activity Monitor on macOS to sort system processes by CPU usage. By doing so, users can gain insights into their computer's operations and take appropriate actions when necessary.
+
+**Procedure for sorting processes running on the system based on CPU usage.
+
+To sort system processes by CPU usage using Activity Monitor on macOS, follow these steps:
+
+1. Open Activity Monitor
+Alternatively, you can use Spotlight by pressing Command + Space, typing "Activity Monitor," and pressing Enter.
+
+2. View CPU Tab
+Once Activity Monitor is open, click on the CPU tab at the top of the window. This tab shows all running processes and their CPU usage.
+
+3. Sort by CPU Usage
+To sort the processes by CPU usage, click on the column header labeled % CPU.
+画像
+
+**Description of System Processes
+画像
+
+1. DeepL
+DeepL is translation software that provides high-accuracy translations in real-time. This process may use a significant amount of CPU resources when the user is performing translations.
+
+2. WindowServer
+WindowServer is a system process on macOS that manages the graphical user interface. It handles the drawing of windows, updating the screen, and processing user inputs. This process runs continuously and uses CPU resources based on the GUI operations.
+
+3. kernel_task
+kernel_task is a crucial system process that manages kernel-related tasks on macOS. It is responsible for allocating hardware resources, handling system calls, and managing memory, ensuring overall system stability and performance. High CPU usage by this process might indicate that the system is managing load.
+
+4. screencapture
+screencapture is a process used to take screenshots. It temporarily consumes CPU resources when the user takes a screenshot, handling the capture and saving or editing of the screenshot.
+
+5. Activity Monitor
+Activity Monitor is a utility that monitors system performance. It displays real-time information about running processes, CPU usage, memory usage, disk activity, and network traffic. This process itself uses CPU resources but is essential for managing system performance.
+
+6. BTLEServer
+BTLEServer is a process that manages Bluetooth Low Energy (BLE) devices. It maintains connections with BLE devices and handles data transmission, primarily associated with wireless devices such as headsets, keyboards, and mice.
+
+7. Magnet
+Magnet is a window management application that allows users to snap windows to specific positions on the screen or resize them to specific proportions. It is useful for organizing multiple windows and enhancing productivity.
+
+8. karabiner_grabber
+karabiner_grabber is part of the Karabiner keyboard customization tool. It monitors keyboard input and applies user-defined keyboard mappings and shortcuts. This process runs in the background to apply custom keyboard settings continuously.
+
+9. bluetoothd
+bluetoothd is the Bluetooth daemon that manages Bluetooth devices. It handles pairing, connections, and data transfers, managing all Bluetooth-related tasks. This process uses CPU resources when Bluetooth devices are in use.
+
+10. sysmond
+sysmond is the system monitoring daemon that collects system performance data and provides it to applications like Activity Monitor. It monitors the system's status in real-time, assisting in performance troubleshooting.
+
+This description helps in understanding what each system process does. Each process plays a crucial role in maintaining the normal operation of the system and supporting the user experience.
+
+
+Understanding the steps to sort system processes by CPU usage using Activity Monitor empowers users to gain a detailed view of system performance and identify excessive resource consumption. This knowledge enables users to terminate unnecessary processes and optimize system settings. Regularly practicing these steps ensures efficient computer operation and a comfortable user experience.
