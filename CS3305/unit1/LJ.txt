@@ -1,0 +1,37 @@
+1. Introduction
+
+This week, I had the opportunity to gain a deeper understanding of the evolution of web technologies and the corresponding changes in internet systems. I particularly learned about the transition from Web 1.0 to Web 2.0, along with the characteristics of each. I also explored the differences between static and dynamic content in online applications. Additionally, I deepened my understanding of the importance of server-side programming languages and the processes of scripting and compilation in software. Through these learnings, I was able to recognize how modern internet technologies have been constructed and evolved over time.
+
+2. Summary of Learning Content
+
+Distinction between Web 1.0 and Web 2.0
+Web 1.0 consisted mainly of static websites, where information delivery was one-way with minimal user participation. On the other hand, Web 2.0 introduced dynamic systems where users themselves became content creators, and two-way communication became possible. Understanding this distinction allowed me to better appreciate how the internet has evolved.
+
+Comparison between Static and Dynamic Content
+Static content is fixed information stored on a server, typically displayed via HTML, and does not change for different users. In contrast, dynamic content is generated in real-time through databases and programming, and changes based on user input or circumstances.
+
+Importance of Server-Side Programming
+Server-side programming is essential for generating dynamic content and enables complex processing through interactions with databases. This makes it possible to provide personalized information to users, forming the foundation of interactive websites like those seen in Web 2.0.
+
+Definition of Script and Compilation Processes
+Script languages are interpreted and executed in real-time, primarily used for dynamic operations on web pages. On the other hand, compiled languages go through a compilation process where code is pre-compiled into executable files.
+
+3. Reflection and Consideration
+
+Reevaluation of Web 1.0 and Web 2.0
+While Web 3.0 is often the focus today, I found it important to learn about the technologies and backgrounds of Web 1.0 and Web 2.0 to understand future technological progress. It was particularly meaningful to understand how Web 1.0, which was passive and limited, evolved into the interactive Web 2.0 that transformed user behavior on the internet.
+
+Understanding of Dynamic Content
+By learning about the differences between static and dynamic content from a programming perspective, I gained a deeper understanding of how the web applications I use daily function. Specifically, understanding the server-side technologies that enable real-time updates allowed me to reaffirm the importance of these technologies in online application development.
+
+Background of Server-Side Technology Development
+I was fascinated to learn how server-side programming technologies, which I have used casually, were developed and evolved into their current form. This knowledge will be highly beneficial as I work to improve my technical skills. Additionally, discussing these topics with my classmates provided me with alternative perspectives on the differences between Web 1.0 and Web 2.0, further deepening my understanding.
+
+4. Looking Ahead
+Building on my understanding of the historical background of web technologies and the differences between dynamic and static content, I look forward to focusing on server-side and client-side technologies next week. This will help me gain a better understanding of how responsibilities are divided in web application design and how these technologies integrate. I am particularly eager to explore how server-side data processing and client-side interface design impact user experience.
+
+5. Conclusion
+This week, I gained a deep understanding of the technical background of Web 1.0 and Web 2.0 and the differences in content in online applications, as well as how these concepts influence modern web technologies. Additionally, I gained new insights into server-side programming and the differences between scripting and compiled languages, which are technologies I use regularly.
+Furthermore, engaging in discussions with my peers provided me with diverse perspectives, which greatly enriched my knowledge. In the coming weeks, I look forward to applying the knowledge I have gained as I explore server-side and client-side technologies and work toward a comprehensive understanding of how web applications function. Going forward, I aim to increase opportunities to practice these skills and apply them in real-world contexts.
+
+Word Count: 672

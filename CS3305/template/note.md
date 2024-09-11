@@ -16,6 +16,8 @@
 
 ## Discussion Forum
 
+### Japanese Discussion Question
+
 ### Japanese Discussion
 
 ## Programming Assignment
@@ -23,5 +25,7 @@
 ### Japanese Programming Assignment
 
 ## Learning Journal
+
+### Japanese Learning Journal Question
 
 ### Japanese Learning Journal
