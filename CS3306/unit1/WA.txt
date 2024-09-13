@@ -1,0 +1,37 @@
+Databases are essential tools for organizations to efficiently manage and use information. In particular, E-R diagrams (Entity-Relationship diagrams) play a crucial role in visualizing the relationships between entities, which is fundamental in database design. In this assignment, an E-R diagram is created for a car insurance company whose customers own vehicles, modeling the relationships between customers, vehicles, and accident records. The purpose of this E-R diagram is to provide a database design that enables the insurance company to manage customer and vehicle information effectively. The E-R diagram will be created by referring to the textbook (Silberschatz, A., Korth, H.F., & Sudarshan, S. (2001)).
+
+Problem Definition
+
+In this assignment, the task is to design a data model for a car insurance company where customers own one or more vehicles, and each vehicle is associated with zero or more accident records. Customers, vehicles, and accidents are independent entities, and there are clear relationships between these entities. Customers may own one or more vehicles, and each vehicle may have zero or more accident records. The database design is based on this model.
+
+E-R Diagram Creation
+
+This E-R diagram defines three main entities: "Customer," "Car," and "Accident," and specifies the relationships between each of these entities.
+
+- Customer: Manages customer information. Key attributes include "CustomerID," "Name," "Address," and "Phone Number." A customer may own one or more vehicles.
+- Car: Manages vehicle information. Key attributes include "CarID," "Make," "Model," and "Year." Each vehicle may be associated with zero or more accident records.
+- Accident: Manages accident information. Key attributes include "AccidentID," "Date of Accident," and "Damage."
+
+The relationships between these entities are defined as follows:
+
+- Customer and Car relationship (1-to-many): Since each customer owns one or more vehicles, there is a "1-to-many" relationship between customers and vehicles. This means that one customer can be associated with multiple vehicles.
+- Car and Accident relationship (0-to-many): Each vehicle may be associated with zero or more accident records, meaning there is a "0-to-many" relationship between vehicles and accidents. This implies that a vehicle may not have any accident records, or it may have several.
+
+Figure E-R Diagram
+
+Based on this information, the E-R diagram is created. Below is an explanation of the created E-R diagram:
+
+1. Customer: "CustomerID" serves as the primary key and is used to identify customers. Other attributes include "Name," "Address," and "Phone Number."
+2. Car: "CarID" serves as the primary key and uniquely identifies each vehicle. Other attributes include "Make," "Model," and "Year."
+3. Accident: "AccidentID" serves as the primary key and identifies each accident. Attributes such as "Date of Accident" and "Damage" provide details about the accident.
+
+Each relationship shows that customers can own multiple vehicles, and vehicles can be associated with multiple accidents. This structure allows the car insurance company to manage data related to customers, vehicles, and accidents efficiently.
+
+Conclusion
+
+This E-R diagram provides a basic structure for managing data within a car insurance company, modeling the relationships between customers, vehicles, and accidents. Based on this model, the insurance company can design an efficient database to manage customer information and accident records smoothly. Moreover, this data model is designed to accommodate future system expansions, such as the addition of new insurance contracts or accident records, making it a flexible and scalable design.
+
+Word Count: 536
+
+References
+Silberschatz, A., Korth, H.F., & Sudarshan, S. (2001). Database System Concepts (4th ed.). New York, NY: McGraw-Hill. Available at Database System Concepts 4th Edition By Silberschatz-Korth-Sudarshan.pdf

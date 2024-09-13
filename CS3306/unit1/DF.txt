@@ -1,0 +1,38 @@
+Hello classmates. This week's unit covered some very basic aspects of DBMS. I will then explain my understanding and answers to your questions.
+Database architecture plays a crucial role in the design of data management systems. Different architectures affect the system's scalability, performance, and security, making it essential to choose the right one. Two-tier and three-tier architectures are key options for structuring communication between clients and servers. This paper will explain the characteristics and differences between these architectures.
+
+- Explanation of Two-Tier Architecture
+The two-tier architecture (client-server model) is characterized by direct communication between the client and the database server. The client side provides the user interface, while the database server handles data management and processing. This simple structure is suitable for efficiently handling data within a local network.
+
+Advantages
+The advantage of a two-tier architecture is that it is relatively simple and has low development costs. It is efficient and fast for small-scale systems or environments where simple data processing is required.
+
+Disadvantages
+However, two-tier architecture has scalability challenges, and performance tends to degrade as the number of users or the amount of data increases. Additionally, since business logic relies on the client, security risks are higher (Silberschatz et al., 2001).
+
+- Explanation of Three-Tier Architecture
+Three-tier architecture is divided into three layers: the presentation layer, the business logic layer, and the data layer. Each layer functions independently and is often executed on different servers. This model is well-suited for distributed systems and web-based applications.
+
+Presentation Layer
+The presentation layer provides the interface between the user and the system, referring to the screens and applications that allow users to access and manipulate data.
+
+Business Logic Layer
+The business logic layer executes the business rules of the system. By processing data logic on the server side, it operates efficiently without burdening the client.
+
+Data Layer
+The data layer is responsible for storing and managing data. The database server efficiently processes data and responds to requests from other layers.
+
+Advantages
+The primary advantage of a three-tier architecture is its enhanced scalability and security. Since business logic is processed on the server, independent of the client, it is suitable for large distributed systems and systems accessed via the internet.
+
+Disadvantages
+However, three-tier architecture is more complex in design and implementation, leading to higher development costs (Silberschatz et al., 2001).
+
+- Comparison Between Two-Tier and Three-Tier Architectures
+The main differences between two-tier and three-tier architectures lie in system complexity, scalability, and security. While two-tier architecture is suitable for small systems and simple data processing, it has limitations in performance and security when scaled. In contrast, three-tier architecture is better suited for large-scale systems, offering improved scalability and security.
+
+- Conclusion
+The choice of architecture should be made based on the use case. Two-tier architecture is cost-effective and appropriate for small-scale, simple systems, while three-tier architecture provides greater security and scalability for large distributed systems. It is essential to choose the right architecture based on the business needs and the expected system growth.
+
+References
+Silberschatz, A., Korth, H.F., & Sudarshan, S. (2001). Database System Concepts (4th ed.). New York, NY: McGraw-Hill. Available at Database System Concepts 4th Edition By Silberschatz-Korth-Sudarshan.pdf
