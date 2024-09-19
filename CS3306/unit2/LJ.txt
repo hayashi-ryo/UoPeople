@@ -1,0 +1,15 @@
+In line with the current theme, I will explain backup and recovery software by using Windows Server Backup as an example, which I have used in my previous work.
+
+Overview of Windows Server Backup
+Windows Server Backup is a standard backup software provided by Microsoft, primarily used as a built-in tool in Windows Server. This software is designed to meet basic data protection needs by creating backups of files, folders, and even entire systems. Backups can be saved to local disks, external drives, or network drives, and scheduling regular backups is simple (Microsoft, n.d.). It is highly cost-effective, especially for small businesses or environments with simple backup needs, as there are no additional costs involved.
+
+My Experience Using It in Work
+In my work, I used Windows Server Backup to run regular backups and protect important data. I found it particularly helpful for its simplicity in backing up server files and folders. The scheduling feature allowed automatic weekly backups to be set up, reducing the need for manual intervention. On one occasion, when the server experienced an issue, I was able to quickly recover the system using the backup data, minimizing downtime. Based on this experience, I consider Windows Server Backup to be a highly reliable solution for small and medium-sized businesses.
+
+Benefits and Challenges
+The greatest advantage of Windows Server Backup is that it is included with Windows Server, so no special licenses or additional costs are required. Moreover, the interface and scheduling functions are easy to use, allowing staff with lower technical skills to manage the backup process effortlessly. However, a challenge is that cloud-based backup functionality is not built-in. If cloud-based automatic backups are desired, separate solutions such as Azure Backup must be implemented (Microsoft, n.d.). For larger enterprises with more advanced backup strategies, additional tools may need to be integrated.
+
+Word Count: 304
+
+References
+Microsoft. (n.d.). Windows Server Backup Overview. Retrieved from https://docs.microsoft.com/en-us/windows-server/administration/windows-server-backup/windows-server-backup-overview

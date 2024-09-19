@@ -1,0 +1,32 @@
+Hello classmates. I would like to explain my understanding of this topic.
+
+Introduction
+
+In a Database Management System (DBMS), a transaction is a process that executes a series of database operations as a single unit. Maintaining the integrity and reliability of the database depends on whether a transaction succeeds or fails. Transactions are designed based on ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure that the data remains in a consistent state. Since a transaction goes through different states during execution, understanding these states is essential for grasping how a DBMS operates. This paper will explain the five states of a transaction with examples.
+
+The Five States of Transactions
+
+1. Active
+A transaction is in the active state when it has been initiated and is still in progress. At this stage, the operations within the transaction are being executed one by one, but the entire transaction has not yet been completed. For instance, when a user begins a money transfer at a bank, entering the amount and recipient details, and starting the transaction, this process is in the active state. Since the transaction is ongoing, nothing is confirmed yet.
+
+2. Partially Committed
+A transaction is partially committed when all the operations have been executed but the commit process has not yet been completed. At this stage, the transaction's operations have finished, but further verification is required before the results are confirmed. For example, after all the necessary steps of a bank transfer have been completed, the system prepares to update the account balance, but the transaction is not yet reflected in the database.
+
+3. Committed
+A transaction is in the committed state when it has successfully completed, and the results have been reflected in the database, making them visible to other transactions. Since all operations have been successful and the changes are stored permanently, this state ensures durability. For instance, once a transfer is completed, the user's account balance is updated, and this new balance is visible to other users and systems. This marks the committed state.
+
+4. Failed
+A transaction enters the failed state when it terminates abnormally, and some or all of the operations are not executed. This state occurs if an error or issue arises during the execution of the transaction. For example, if a network failure occurs during a bank transfer and the process is interrupted, the transaction is in the failed state. No changes will be made to the database in this state.
+
+5. Aborted
+A transaction is aborted when it is canceled, and the database is returned to its previous state. After a failed transaction, the database is rolled back to its original state before the transaction was executed. For example, if a transfer fails, the system cancels the transaction and restores the account balance to its initial state, ensuring the consistency of the database.
+
+The Importance of Transaction Management
+These five states are critical for maintaining the integrity and reliability of a database system. Particularly in relation to ACID properties, transaction management ensures that the database remains consistent even during concurrent transactions. The rollback process during failure or abortion guarantees that the system can return to a correct state, even when an error occurs.
+
+Conclusion
+By understanding the five states of transactions (Active, Partially Committed, Committed, Failed, Aborted), we gain a deeper insight into how database integrity and reliability are maintained. Transactions are essential to the operation of databases, and their proper management ensures the system functions securely and reliably.
+
+References:
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2019). Database System Concepts (7th ed.). McGraw-Hill Education.
+Elmasri, R., & Navathe, S. B. (2016). Fundamentals of Database Systems (7th ed.). Pearson.
