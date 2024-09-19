@@ -1,0 +1,40 @@
+
+1. The number of steps for Algorithm A is \(1000n^3\), and for Algorithm B, it is \(2^n\). To compare them, we set up the following inequality:
+\[
+1000n^3 < 2^n
+\]
+Solving this inequality allows us to determine the values of \(n\) where Algorithm A is faster than Algorithm B. Since solving this inequality analytically is difficult, we can substitute specific values for \(n\) to check when this condition holds. The table below shows the specific number of steps for Algorithm A and Algorithm B for each value of \(n\).
+
+| n  | Algorithm A | Algorithm B | A < B  |
+|----|-------------|-------------|--------|
+| 1  | 1,000       | 2           | FALSE  |
+| 2  | 8,000       | 4           | FALSE  |
+| 3  | 27,000      | 8           | FALSE  |
+| 10 | 1,000,000   | 1,024       | FALSE  |
+| 15 | 3,375,000   | 32,768      | FALSE  |
+| 20 | 8,000,000   | 1,048,576   | FALSE  |
+| 21 | 9,261,000   | 2,097,152   | FALSE  |
+| 22 | 10,648,000  | 4,194,304   | FALSE  |
+| 23 | 12,167,000  | 8,388,608   | FALSE  |
+| 24 | 13,824,000  | 16,777,216  | TRUE   |
+| 25 | 15,625,000  | 33,554,432  | TRUE   |
+
+Figure
+
+From this table, we can see that for \(n = 24\), Algorithm A first becomes faster than Algorithm B. Therefore, for problem sizes greater than \(n = 24\), Algorithm A performs faster than Algorithm B.
+
+2. In this code, the outer loop runs \(n\) times, with \(i\) ranging from 0 to \(n-1\). The inner loop runs \(j\) from 0 to \(i-1\), so the number of iterations of the inner loop depends on \(i\).
+The number of iterations for the inner loop is 0 when \(i = 0\), 1 when \(i = 1\), 2 when \(i = 2\), and so on. Therefore, the total number of iterations for the inner loop can be expressed as the sum:
+
+\[
+0 + 1 + 2 + \dots + (n-1)
+\]
+
+This sum can be calculated using the formula for the sum of an arithmetic series:
+
+\[
+\frac{(n-1)n}{2}
+\]
+
+Thus, the total number of steps for the entire loop is \(\frac{(n-1)n}{2}\), which asymptotically is \(O(n^2)\).
+Additionally, since each step of the code must be executed, the lower bound is also \(O(n^2)\). The number of iterations always increases as shown above, so the lower bound is expected to be the same as the upper bound: \(O(n^2)\).
