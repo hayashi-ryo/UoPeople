@@ -1,0 +1,13 @@
+services:
+  php-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/usr/src/app
+    command: >
+      /bin/sh -c 'tail -f /dev/null'
+    stdin_open: true
+    tty: true

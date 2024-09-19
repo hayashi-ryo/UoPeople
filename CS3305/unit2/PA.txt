@@ -1,0 +1,19 @@
+Part 1
+The result of executing the provided code is shown below.
+
+
+
+Part 2
+I have created the PHP code to obtain the specified output. The requirements for this task can be summarized as follows:
+
+The first line, "PHP is sorta Fun!" needs to be displayed in bold.
+The second through fourth lines, "My Hello world! program", "There is a lot more to learn about PHP!", and "My name is yourname_" should be displayed on separate lines with appropriate line breaks.
+The PHP code that fulfills these requirements, along with a screenshot of its output, is provided below.
+
+Screenshot
+
+From this result, I confirmed that the PHP code correctly meets the requirements. Additionally, I verified the output of the HTML by testing it on another HTML validation site, and the screenshot of this confirmation is included below.
+
+Screenshot
+
+Based on these results, I confirmed that all the requirements have been successfully met.
