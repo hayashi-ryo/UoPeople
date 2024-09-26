@@ -1,0 +1,16 @@
+Overview of the Week
+This week, I learned about the basic properties of the list data structure. Specifically, I understood concepts such as list elements, empty lists, the head, the tail, and the length of a list. I also reviewed how to manipulate elements within the list and how lists are implemented. Furthermore, by implementing the Stack data structure myself, I was able to deepen my understanding of data structures.
+I also studied the various structures in lists and how to use them. In particular, I reviewed the role of free lists and linked lists and how they are implemented, which helped me recognize the importance of efficient memory management. I believe this knowledge will be helpful in future data structure design.
+
+Personal Reflections
+Studying the list data structure helped me deepen my understanding of fundamental concepts. I found it interesting to think about how operations related to the head and tail of a list affect efficiency. At first, I found it difficult to understand how important dynamic memory allocation is in the implementation of linked lists, but by working through the code and observing its behavior, I gradually gained confidence. I would like to continue deepening my understanding of the differences between linked lists and array-based lists.
+However, this week I faced one major challenge. It is the fact that the assignments require the use of software that is nearly 20 years old. While I understand that this might be unavoidable, it was frustrating because I could not use that software in my current environment. I hope this issue is addressed, but for now, I have no choice but to adapt.
+On the other hand, the discussion with my classmates about the basic data structures of Stack and Queue was very meaningful. Although these are fundamental concepts, we were able to share different perspectives and approaches, which led to a deeper understanding.
+
+Topics Studied in Depth
+The most in-depth topic I studied this week was the difference between linked lists and array-based lists. While array-based lists use a fixed block of memory, linked lists dynamically allocate memory as needed, which is crucial for efficient memory usage when the size of the list changes. I also found the role of free lists and the differences between doubly linked and singly linked lists fascinating. In doubly linked lists, data can be traversed in both directions, allowing for more efficient searching and manipulation of data, though it requires more memory.
+
+Future Challenges and Goals for the Next Week
+Next week, I will study binary trees and their implementation. I am particularly looking forward to understanding the Full Binary Tree Theorem and various traversal methods. I will also work on implementing binary tree nodes using both pointer-based and array-based implementations. In addition, I will cover topics related to heaps, priority queues, and Huffman coding trees, which are critical concepts in efficient data structure design. Although I anticipate many challenges in the practical aspects of this, I believe the knowledge I gained this week about list data structures will form a solid foundation for designing efficient data structures. ​​
+
+Word Count: 514

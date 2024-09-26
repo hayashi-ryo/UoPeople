@@ -34,7 +34,7 @@ ja
 - [x] Discussion Forum
   - [x] first post
   - [x] reply classmates
-- [ ] Learning Journal
+- [x] Learning Journal
 - [x] Take Self-Quiz
 
 ## Reading Assignment

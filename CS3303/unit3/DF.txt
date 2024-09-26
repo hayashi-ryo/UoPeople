@@ -1,0 +1,20 @@
+Hello classmates. I would like to explain my understanding of this topic.
+
+Introduction
+Stacks and queues are fundamental data structures used in computer science to efficiently manage data. Due to the differences in how data is inserted and removed, each is applied in different scenarios. In the following sections, I will explain the structure and function of each and discuss how they differ.
+
+Structure and Function of the Stack
+A stack operates on the principle of LIFO (Last In, First Out), meaning that the last item added is the first to be removed. In a stack, new data is added using the push operation, and data is removed using the pop operation. Additionally, the top operation allows access to the top element of the stack without removing it. Due to this structure, stacks are particularly suitable for temporarily storing the state of a program, such as during recursive processes or managing function calls. The reason stacks are used for function calls and returns is that the LIFO nature ensures that the most recent call information is processed first (Shaffer, 2011).
+
+Structure and Function of the Queue
+In contrast, a queue operates on the principle of FIFO (First In, First Out), meaning that the first item added is the first to be removed. Data is added to the queue using the enqueue operation and removed using the dequeue operation. Moreover, the front operation allows access to the front element of the queue. Due to this structure, queues are useful in situations where tasks or data must be processed in the order they arrive, such as task processing and data buffering. For example, in operating system process scheduling, tasks are processed in the order they arrive, making FIFO the ideal structure (Shaffer, 2011).
+
+Differences Between Stack and Queue
+The primary difference between stacks and queues is the order in which data is removed. In a stack, the LIFO method ensures that the last item added is removed first. On the other hand, in a queue, the FIFO method ensures that the first item added is the first to be removed. As a result, stacks are suited for recursive processing and backtracking, while queues are better for situations where tasks must be processed in order. For example, a web browser's back button uses a stack structure, while managing print jobs uses a queue. Choosing the appropriate data structure significantly impacts system efficiency.
+
+Conclusion
+Stacks and queues are both efficient data structures that serve different purposes depending on the requirements of data retrieval order. Stacks are best used when the most recent data needs to be processed first, while queues are ideal when maintaining the order of data is crucial. By using the appropriate structure, system performance can be optimized.
+
+
+References
+Shaffer, C. (2011). A Practical Introduction to Data Structures and Algorithm Analysis. Blacksburg: Virginia. Tech.

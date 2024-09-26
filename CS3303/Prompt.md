@@ -58,3 +58,14 @@ I submit a word document answering the questions. Please check and grade the doc
 ・採点要件はAspect[Number] の[num]つからなる
 
 [採点要件]
+
+## Learning Journal Composition
+
+文章全体の構成は以下としたいです。
+
+1. 今週の概要
+2. 自分の感想
+3. 特に深く学習したこと
+4. 今後の課題と来週に向けて
+
+以下に今週学習した内容について記載するので文章案を作成してください。
