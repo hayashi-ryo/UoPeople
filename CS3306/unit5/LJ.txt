@@ -1,0 +1,18 @@
+Overview of the Week
+This week, we focused on the basic concepts of backup and recovery. Backup is essential for data protection and is crucial for recovering from data loss or system failures. We learned about the primary types of backups: full, differential, and incremental, and understood the advantages and application scenarios of each. This helped me recognize the importance of having a proper plan to safeguard corporate data (Stanek, 1999).
+
+Personal Reflections
+I have previously encountered a situation where file recovery was necessary. After a system crash, I attempted to recover important data, but the backup process had not been carried out correctly, resulting in failure. This experience made me realize how important it is to have regular backups in place. Through this week’s learning, I reaffirmed the necessity of planning and having a robust backup and recovery strategy.
+
+Topics Studied in Depth
+What I found particularly interesting were the differences between full, differential, and incremental backups, and their application scenarios. Full backups create a complete copy of all data, allowing for quick and reliable recovery, but they require significant time and resources. On the other hand, differential and incremental backups save only the changed data, making them more efficient, though they can complicate the recovery process.
+Differential backups save all changes made since the last full backup, which can result in larger backup sizes over time, but during recovery, only the full backup and the differential backup are needed. Incremental backups, by contrast, save only the changes since the last backup, making the backup size smaller, but all incremental backups are required for recovery (Watson, Berthon, Pitt, & Zinkhan, n.d.). I found it valuable to understand how these methods can be applied depending on the situation to manage data efficiently.
+
+Future Challenges and Next Week
+Next week, I will be learning about the basic concepts of transaction processing and how to use workflows as a tool for planning transaction processing. Both transaction planning and backup strategies play vital roles in maintaining system reliability and data consistency. I aim to apply this knowledge to future tasks and continue building on what I have learned.
+
+Word Count: 355
+
+References
+Stanek, W. R. (1999). *Microsoft Windows 2000 administrator's pocket consultant*. Microsoft Corporation.
+Watson, R. T., Berthon, T., Pitt, L. F., & Zinkhan, G. M. (n.d.). *Electronic commerce: The strategic perspective*.
