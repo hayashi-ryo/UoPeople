@@ -1,0 +1,18 @@
+Hello, classmate. I will explain my understanding of this week's unit.
+
+1. Best Security Practices When Accepting Electronic Payments Online
+Electronic payments are an essential part of modern e-commerce, but they also increase security risks. To ensure the safety of electronic payments, it is crucial to implement several key security measures. First, the use of encryption technology is a fundamental practice. SSL (Secure Sockets Layer) and TLS (Transport Layer Security) encrypt customer credit card information and personal data, protecting them from hackers and unauthorized access. This reduces the risk of data being stolen while being transmitted over the internet (Watson et al., n.d.).
+Next, the implementation of tokenization technology is also important. Instead of storing actual credit card numbers, temporary tokens are issued to process payments, ensuring that even if data is stolen, the token cannot be reused. Furthermore, multi-factor authentication (MFA) is an effective measure. MFA requires additional authentication methods (e.g., SMS codes, biometrics) during the payment process, further preventing unauthorized access.
+Lastly, e-commerce sites must comply with PCI-DSS (Payment Card Industry Data Security Standard). This standard outlines stringent security requirements for companies handling card information, helping to minimize security risks (Watson et al., n.d.).
+
+2. Staying Updated with Changing Electronic Payment Regulations and Laws
+Electronic payments in e-commerce must comply with the regulations and laws of each country, making it essential to stay informed about changes. One way to achieve this is by utilizing industry organizations and legal notification services. By subscribing to services that monitor payment industry regulations, businesses can quickly receive updates on changes. Additionally, working with legal advisors or consultants who specialize in these matters is effective.
+Regular participation in seminars and webinars is another practical approach for adapting to changing regulations. These training programs provide up-to-date information on legal changes and new regulations, helping e-commerce operators stay compliant. Moreover, regularly reviewing resources from government agencies and regulatory authorities is an important way to obtain the latest information. This ensures that businesses can maintain legal compliance while adapting to new regulations (Watson et al., n.d.).
+
+3. Security Measures to Protect an E-commerce Site from Hackers, Phishing, and Malware
+To protect e-commerce sites from threats such as hackers, phishing, and malware, a multi-layered security approach is required. First, the implementation of a firewall is essential for blocking unauthorized access from external sources. A firewall monitors and controls traffic between the internet and the internal network, serving as the first line of defense against unauthorized access (Watson et al., n.d.).
+Next, regularly performing vulnerability scans and penetration testing helps to identify and address any security weaknesses. Additionally, installing anti-malware software is crucial for protecting the site from malware and viruses. Keeping the software updated regularly ensures that it can handle the latest threats.
+Finally, educating customers about phishing is critical. By providing information on how to identify phishing emails and conduct secure transactions, businesses can enhance customer protection against such attacks. Combining these measures will enable e-commerce sites to be better protected against security threats (Watson et al., n.d.).
+
+References
+Watson, R. T., Berthon, T., Pitt, L. F., & Zinkhan, G. M. (n.d.). Electronic commerce: The strategic perspective. 

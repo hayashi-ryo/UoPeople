@@ -1,0 +1,15 @@
+Overview of the Week
+This week, the focus was on installing and configuring an e-commerce application. Specifically, I demonstrated the ability to install and operate the e-commerce application and concentrated on security measures. Through this, I gained an understanding of how users are protected when they actually use the application.
+
+Personal Reflections
+This week, I had the opportunity to create an e-commerce site for the first time, which allowed me to learn the basic aspects of configuration and operation. Although it was a simple example, I was able to gain a concrete understanding of the installation procedures and the backend operations of running a site. Additionally, I found it fascinating to learn how security incidents occur and how the necessary countermeasures are constructed. I particularly realized the importance of protecting personal information and payment data.
+
+Topics Studied in Depth
+This week, I had the opportunity to delve deeper into the security measures required for e-commerce sites. Since these sites handle customers' personal information and payment data, I came to understand how vulnerable this data can be and how essential appropriate security measures are. During the site setup, one key element I found important was the implementation of SSL certificates. SSL certificates encrypt communication content and protect against data eavesdropping or tampering by external entities. This helps provide an environment where customers can feel secure while conducting transactions.
+Furthermore, e-commerce sites face high risks of attacks on accounts and passwords, which is why the implementation of multi-factor authentication (MFA) is recommended. By introducing MFA, even if passwords are leaked, additional authentication steps are required, significantly preventing unauthorized access. By learning and implementing these security measures, I realized just how crucial they are.
+In addition to the technical aspects of security measures, I also learned the importance of policies and regular maintenance from the operational side. Security measures are not something that can be set up once and then forgotten; they require continuous monitoring and updates. For instance, neglecting to apply patches for vulnerabilities in plugins or the system as a whole can lead to significant security risks. Based on this knowledge, I now recognize that maintenance and management of the site are essential parts of my learning as well.
+
+Future Challenges and Goals for Next Week
+Next week, I plan to study content management systems (CMS). My goal is to understand the benefits of CMS systems for organizations, developers, and users, and to demonstrate the ability to install, configure, and create web pages using Joomla CMS. Additionally, I aim to acquire the skill to add new Joomla modules, which will further enhance my practical abilities.
+
+Word Count: 404
