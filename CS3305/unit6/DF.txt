@@ -1,0 +1,25 @@
+Hello, classmate. I will explain my understanding of this week's unit.
+
+Introduction  
+Joomla is an open-source content management system (CMS) widely used to simplify the creation and management of websites. Alongside WordPress and Drupal, it is one of the most popular CMS platforms, praised for its flexibility and rich features that cater to developers and businesses alike. Joomla is particularly valued by small to medium-sized enterprises and non-profit organizations, as it allows them to manage websites efficiently.
+
+Skills Employers Are Looking For  
+The skills required for Joomla administrators and developers generally include a range of technical knowledge and practical experience. First, PHP and MySQL are essential for Joomla development and customization. Since Joomla is built on these technologies, they are crucial for database management and implementing custom functionalities. Additionally, HTML/CSS and JavaScript are important for customizing web design and user interfaces. A good understanding of the Joomla framework is also necessary for using and customizing extensions and themes.  
+Moreover, employers often seek communication skills and problem-solving abilities in addition to technical skills, as smooth collaboration with clients and team members is critical in many roles.
+
+Further Training Opportunities  
+There are many training opportunities available for learning Joomla. Platforms such as Udemy and LinkedIn Learning offer online courses that cover everything from basic Joomla skills to advanced techniques. Joomla’s official website also provides comprehensive documentation for users of all levels, which is helpful for self-study. Additionally, Joomla’s community forums offer a space for developers to exchange information and learn through problem-solving with peers. These resources allow individuals to strengthen their practical Joomla skills and build a career as CMS specialists.
+
+Specific Jobs in Japan or Nearby  
+In Japan, there has been an increase in job postings for Joomla administrators and developers. However, many of these positions are not exclusively focused on Joomla but involve CMS development and management in general. Below are three examples of jobs found on LinkedIn:  
+1. Slalom  
+   - Job Description: Utilization and management of CMS platforms  
+2. StoneX Group Inc.  
+   - Job Description: CMS platform utilization and management, SEO management  
+3. Morgan McKinley  
+   - Job Description: CMS platform development, coordinating requirements with clients  
+
+These job postings particularly emphasize experience with multiple CMS platforms, as well as SEO and client coordination skills.
+
+Conclusion  
+Joomla is a powerful tool for website management, and many companies are seeking professionals with Joomla skills. In addition to technical expertise, soft skills like communication and problem-solving are becoming increasingly important. By taking advantage of available training resources, individuals can improve their skills and expand their career opportunities. Continuous learning and deepening one’s knowledge of Joomla will be key to success in the field.
