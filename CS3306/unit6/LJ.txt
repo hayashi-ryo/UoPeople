@@ -1,0 +1,20 @@
+Overview of the Week
+This week, the main learning objective was to identify and explain the basic concepts of transaction processing. I also learned how to use workflow as a tool in planning transaction processing and developed skills to analyze and improve transaction processes based on real-world business scenarios. Through this, I was able to understand how transaction processing ensures data consistency and efficiency.
+
+Understanding Transaction Processing and Workflow Utilization
+Through this week’s learning, I gained a deeper understanding of how transaction processing is designed to ensure reliability and efficiency in database systems. Specifically, I realized the importance of maintaining data integrity through the ACID properties (Atomicity, Consistency, Isolation, Durability) in transactions. For instance, as noted in the course text, transaction processing is "designed to ensure ACID properties even in environments where failure can occur" (Silberschatz, Korth, & Sudarshan, 2001, p. 884).
+Additionally, using workflow to organize transaction planning allowed me to visualize how multiple tasks work together efficiently. I found this approach particularly effective in complex processes, such as loan applications or order processing.
+
+Example of a Transaction and Database Involvement
+As an example of a transaction I engaged in within the past month, I recently purchased a product on Amazon. During this process, the items I selected were added to my cart, and once the payment was completed, the purchase data was stored in Amazon's database. Amazon processes a large number of transactions daily, maintaining data consistency through the ACID properties. In my case, inventory was checked before the payment was processed, and once successful, the payment was confirmed.
+
+Personal Reflections on the Week’s Learning
+Learning about transaction processing gave me a deeper understanding of how business systems ensure efficiency and data integrity. I also found that using workflow to plan complex processes makes them more manageable and easier to visualize. This was especially relevant when considering large-scale e-commerce platforms like Amazon, where transaction processing plays a critical role.
+
+Future Challenges and Goals for Next Week
+Next week, I will be learning about advanced query processing and using data mining techniques for data classification and analysis. Understanding more complex workflows and detailed database management concepts will be a challenge going forward. I am particularly interested in further exploring the optimization of transaction processing.
+
+Word Count: 375
+
+References
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2001). Database system concepts (4th ed.). McGraw-Hill.
