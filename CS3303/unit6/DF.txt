@@ -1,0 +1,19 @@
+Hello, classmate. I will explain my understanding of the theme this time.
+
+How Quicksort Works and the Role of the Pivot
+Quicksort is an efficient sorting algorithm that utilizes the divide and conquer method. This algorithm recursively divides the array to be sorted into smaller sub-arrays and sorts each part independently to complete the overall sorting. A key feature of Quicksort is the use of an element called the "pivot," which is crucial in dividing the array. The selection and placement of the pivot play a vital role in the success of Quicksort.
+
+The Selection and Importance of the Pivot
+In the operation of Quicksort, the pivot serves as the reference point for dividing the array into smaller and larger values. There are several methods for selecting the pivot, with common choices being the first element, the middle element, or a randomly chosen element. If the pivot is poorly chosen, the division can be highly unbalanced, potentially leading to a worst-case time complexity of O(n²) (Shaffer, 2011). However, if the pivot is chosen appropriately, the time complexity in average cases can be O(n log n), allowing for efficient sorting.
+
+The Procedure of Quicksort
+The procedure of Quicksort begins by selecting one element as the pivot. The other elements are then compared to the pivot, and the array is partitioned into two parts: elements smaller than the pivot on the left side and elements greater than or equal to the pivot on the right side. This process is known as "partitioning" (Shaffer, 2011). The Quicksort algorithm is then recursively applied to the left and right sub-arrays, repeating this process until the entire array is sorted.
+
+Performance and Advantages of Quicksort
+One of the major advantages of Quicksort is that it is an in-place algorithm, meaning it does not require additional memory. This makes it particularly efficient. Compared to other sorting algorithms, Quicksort performs exceptionally well in average cases (Shaffer, 2011). Its average time complexity is O(n log n), but in the worst case, it can degrade to O(n²), making the selection of the pivot a critical aspect of its performance.
+
+Conclusion
+Quicksort is a highly efficient and powerful sorting algorithm, with its success largely dependent on the selection of the pivot and the partitioning process. When the pivot is chosen well and the division is balanced, Quicksort performs very quickly. Therefore, the importance of pivot selection cannot be overstated.
+
+References  
+Shaffer, C. (2011). A Practical Introduction to Data Structures and Algorithm Analysis. Blacksburg: Virginia. Tech.
