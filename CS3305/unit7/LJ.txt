@@ -1,0 +1,12 @@
+Overview of the Week
+This week, I defined the benefits of an expandable CMS system, demonstrated the ability to install Joomla modules and extensions, and confirmed the ability to build Joomla modules using PHP. I deepened my understanding of the methods for customizing and extending a CMS system.
+
+Personal Reflections
+I found it highly efficient and flexible to customize Joomla sites using extension modules tailored to specific purposes. Through discussions and the Written Assignment, I learned about researching and installing Joomla extensions, which provided valuable insights into how these processes can be applied in actual projects.
+
+Topics Studied in Depth
+The most significant learning this week was about installing Joomla modules and building them using PHP. First, I experienced how easily the functionality of Joomla sites can be expanded through module installation. Since modules directly impact the functionality and layout of a Joomla site, they enable site administrators and developers to customize the system to meet specific business needs.
+Moreover, when building modules with PHP, I realized the importance of understanding basic PHP syntax and how Joomla's extension framework interacts with the system. Writing the code helped me grasp how modules integrate with other system components and how they can enhance both performance and user experience. Additionally, through error handling and debugging during module development, I learned how to address issues that arise in real system development. This deepened my understanding of how module development and management play a crucial role in maintaining the overall website.
+
+Future Challenges and Goals for Next Week
+Next week, I plan to define the importance of performance in internet systems, compare real-user monitoring with synthetic transaction monitoring, and list common performance issues in internet systems. I also intend to spend significant time preparing for the Review-Quiz to achieve satisfying results in the final test. I aim to steadily improve my understanding to ensure success in the final exam.
