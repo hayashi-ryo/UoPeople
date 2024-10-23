@@ -1,0 +1,33 @@
+Hello, classmate. I will explain my understanding of this week's unit.
+
+Overview of Materialized Views
+Materialized views are special views in databases that physically store the precomputed results of a query. Unlike regular views, materialized views retain the actual data, which helps to reduce the execution time of complex queries. On the other hand, regular views are virtual and do not store data, generating the result each time a query is executed. This difference makes materialized views especially useful in large-scale data analysis environments like data warehousing and OLAP (Online Analytical Processing).
+
+Advantages of Materialized Views
+Performance Improvement
+One of the greatest advantages of materialized views is their ability to significantly improve query performance. Since materialized views store precomputed query results, there is no need to recalculate complex queries, allowing for faster retrieval of results (Silberschatz et al., 2001). This reduces the load on the database, making it especially effective when dealing with large datasets.
+
+Efficiency in Decision Support Systems
+Materialized views also play a crucial role in OLAP systems and decision support systems. These systems require fast retrieval of analysis results from large datasets. By using materialized views, analytical queries can be sped up, allowing organizations to quickly obtain valuable insights (Silberschatz et al., 2001).
+
+Reduction in Computational Load
+When handling large datasets, executing the same query multiple times can place a heavy burden on the system. With materialized views, these query results can be reused, greatly reducing the computational load. This efficiency is particularly valuable in systems that frequently access the same data.
+
+Disadvantages of Materialized Views
+Storage Overhead
+Due to the nature of materialized views, they require additional storage space, which can become a significant burden in large databases. Compared to regular views, which do not store data, materialized views can lead to increased storage costs if not managed properly (Silberschatz et al., 2001).
+
+Maintenance Costs
+A key disadvantage of materialized views is the high maintenance cost. Materialized views need to be kept up-to-date when changes occur in the underlying data. In databases where updates are frequent, the cost of refreshing the views can be high, potentially offsetting the performance benefits (Silberschatz et al., 2001).
+
+Complexity in Updates
+When data is updated, materialized views may not immediately reflect those changes, which can lead to data inconsistencies. It is essential to set an appropriate refresh frequency to ensure accurate data analysis. If the view update lags behind, there is a risk of running queries based on outdated data.
+
+Practical Use Cases
+Materialized views are particularly effective in environments such as data warehousing and read-heavy workloads. For example, in systems with heavy read operations, materialized views can shorten query execution times and provide faster responses to users. This allows companies to make decisions quickly, contributing to improved business processes.
+
+Conclusion
+Materialized views are a powerful tool for improving query performance. However, storage costs and maintenance complexity must also be considered. With proper design and management, the benefits of materialized views can be maximized, leading to more efficient database operations.
+
+References
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2001). Database system concepts (4th ed.). McGraw-Hill.
