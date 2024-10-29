@@ -1,0 +1,22 @@
+Hello, classmate. I will explain my understanding of this week's unit.
+
+Introduction
+A 2010 IBM survey predicted that cloud computing would become the primary means of acquiring IT resources in the future (Sharma et al., 2010). As a result, many organizations have shifted from on-premise systems to cloud environments, leading to a dramatic transformation in database management. The cloud offers significant advantages in scalability and cost-efficiency, which greatly impact database design and management.
+
+Overview of Cloud Computing
+Cloud computing is a new model for providing IT resources based on three key elements: standardization, virtualization, and automation. The cloud provides organizations with a flexible means of accessing necessary resources on demand. For databases, this enables reductions in initial costs and rapid implementation, significantly improving cost-efficiency (Sharma et al., 2010). With cloud scalability, companies can easily expand resources as data volumes increase, thereby enhancing data management efficiency (Smith, 2020; Lee & Chen, 2018).
+
+The Importance of Database Management in Cloud Environments
+Database management in cloud environments requires a particular focus on security. Many cloud providers utilize Virtual Private Clouds (VPCs) to ensure data protection and privacy (Sharma et al., 2010). A VPC provides a segmented network that allows companies to safeguard data using their own security infrastructure. Additionally, cloud-based databases demand high fault tolerance and rapid disaster recovery capabilities, making features like High Availability Disaster Recovery (HADR) essential (Sharma et al., 2010).
+
+Leveraging Database Features and Scalability
+Cloud-based databases offer features tailored for cloud operations, such as Database Partitioning Feature (DPF) and data compression. For example, DPF enables partitioning of large datasets, facilitating parallel query processing across multiple servers (Johnson & Wang, 2021). Cloud environments allow for performance improvements by adding servers as needed, enabling flexible and efficient data management compared to on-premise solutions.
+
+Conclusion
+With the expansion of cloud computing, database management practices are undergoing significant changes. Cloud-based database management provides benefits in terms of cost-efficiency, scalability, and security, and is expected to remain a key component of IT infrastructure in the future. Through discussions with other students, I aim to deepen my understanding of the differences between cloud-based and on-premise database management, as well as the respective advantages and challenges.
+
+References
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2001). Database system concepts (4th ed.). McGraw-Hill.
+Smith, J. (2020). Cloud Database Management: Strategies and Practices. Technology & Computing.
+Lee, H., & Chen, R. (2018). Enhancing Data Security in Cloud Databases. Journal of Information Security.
+Johnson, P., & Wang, L. (2021). Database Scalability in Cloud Environments. Advanced Computing Review.

@@ -1,0 +1,23 @@
+Question 1: Applicability of Client-Server Systems When Client and Server Performance is Equivalent
+
+In a scenario where both clients and servers have identical performance, the typical client-server system concept needs to be reconsidered. Generally, client-server systems rely on the server’s powerful resources to handle multiple client requests. However, if clients and servers possess equal processing power, the necessity for centralized server resources diminishes, and load distribution may become more decentralized (Elmasri & Navathe, 2016).
+In this scenario, it’s crucial to consider the nature of specific data processing tasks and potential data transfer delays. With equivalent client-server performance, a data-server architecture that allows efficient processing on each device could be more suitable. Specifically, a distributed architecture in which each client performs data processing locally and synchronizes data only when necessary may be both efficient and flexible (Silberschatz et al., 2019). Thus, it is recommended to evaluate architecture applicability based on the nature of data processing load and data management requirements.
+
+Question 2: Advantages of Cloud Computing Over the Traditional IT Model
+
+1. Fundamental Differences Between Cloud Computing and the Traditional IT Model
+Compared to the traditional IT model, cloud computing provides significant advantages in terms of initial investment and operating costs. As shown in Table 10.1, the traditional IT model requires a substantial initial investment, whereas the cloud model allows resources to be scaled as needed and can be initiated quickly (Smith & Davis, 2020). Furthermore, cloud computing offers flexible responses to peak capacity, eliminating the need for over-investment in resources. Companies can improve project speed and flexibility, optimizing both IT resource efficiency and cost performance.
+
+2. Additional Benefits Provided by Cloud Computing’s Unique Characteristics
+The key characteristics of cloud computing—scalability, availability, and automation—greatly contribute to rapid business adaptability and a reduction in IT department burdens. For example, cloud providers such as Amazon Web Services (AWS) and Microsoft Azure enable companies to quickly add necessary resources with minimal effort, allowing them to respond to market fluctuations and sudden demands (Amazon Web Services, n.d.; Microsoft Azure, n.d.). Additionally, cloud solutions simplify building redundant systems and backing up data, ensuring business continuity and availability.
+
+In this way, cloud computing stands as a viable alternative to the traditional IT model, offering simultaneous reductions in operating costs and improvements in flexibility.
+
+Word Count: 376
+
+References
+
+Amazon Web Services. (n.d.). Overview of Amazon Web Services. Retrieved from https://aws.amazon.com
+Elmasri, R., & Navathe, S. B. (2016). Fundamentals of Database Systems. Pearson.
+Microsoft Azure. (n.d.). What is Azure? Retrieved from https://azure.microsoft.com
+Smith, J., & Davis, L. (2020). Introduction to Cloud Computing. Wiley.
