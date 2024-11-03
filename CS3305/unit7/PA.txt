@@ -1,0 +1,15 @@
+For this assignment, I downloaded and installed an extension called "Latest News Enhanced."
+
+The main features of Latest News Enhanced are as follows:
+1. Advanced Filtering Options: It allows articles to be filtered by category, author, or date range, giving precise control over the content displayed.
+2. Display Customization: The module offers various layout options, allowing you to show or hide article details such as the author, date, and introduction text.
+3. Support for Multiple Templates: It supports multiple templates, making it easier to match the style of the news articles to the design of the site.
+4. Performance Improvements: The module includes performance enhancements to optimize the loading time of news articles, especially when managing a large amount of content.
+5. Responsive Design: It is fully responsive, ensuring that the news display adapts seamlessly to different screen sizes and devices.
+
+Below is a screenshot of the module list screen after executing the download.
+
+Figure 1: Screenshot showing that the extension has been installed.
+
+References
+Simplify Your Web. (n.d.). Latest News Enhanced. Retrieved from https://simplifyyourweb.com/free-products/latest-news-enhanced
