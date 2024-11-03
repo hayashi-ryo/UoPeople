@@ -1,0 +1,26 @@
+This week, being the first week of the course, the focus was more on defining the foundational concepts that will be built upon in future units, rather than covering particularly difficult topics. Below, I will describe my thoughts and what I learned in depth.
+
+1. Overview of the Week
+This week’s study deepened my foundational understanding of data structures and the related mathematical methods. I focused particularly on abstract data types (ADT) and design patterns such as Flyweight, Visitor, and Composite, learning their characteristics and how to apply them. I also studied mathematical concepts and proof techniques related to recursion and sets, confirming how these theories will be useful in future algorithm analysis.
+
+2. My Reflections
+This week, I placed particular importance on understanding the clear definitions and applications of data structures and design patterns, which I had previously recognized somewhat vaguely. Flyweight and Visitor were new design patterns to me, and while it took time to grasp their specific uses fully, I gradually came to appreciate their significance as my understanding deepened. Additionally, my background in physics proved helpful for smoothly progressing through the mathematical methods. In the Self-Quiz, I encountered questions where recalling precise definitions was essential for answering correctly. To achieve a high score on the Graded-Quiz, I plan to focus on daily reviews and solidifying my understanding of the key definitions.
+
+3. In-Depth Learning
+Among the design patterns learned this week, the three that stood out as particularly important were Flyweight, Visitor, and Composite.
+
+Flyweight  
+  The Flyweight pattern is a design technique that optimizes memory usage by sharing common states among objects. When many objects with the same data are created, using Flyweight allows for shared data, leading to improved performance by reducing memory duplication.
+
+Visitor  
+  The Visitor pattern allows adding new operations to an object structure. This enables the extension of operations dynamically without modifying the existing structure, enhancing the maintainability and flexibility of software. It is particularly effective when multiple objects with different processing requirements exist.
+
+Composite  
+  The Composite pattern represents objects in a tree structure, allowing individual objects and collections to be treated uniformly. This pattern is especially useful when dealing with recursive data structures, simplifying the management of complex object structures.
+
+I found these patterns to be powerful tools for solving problems, each effective in different scenarios, and essential for realizing flexible and efficient design.
+
+4. Future Challenges and Looking Ahead
+A key challenge moving forward will be applying the design patterns learned this week in real projects and problem-solving scenarios. Flyweight and Visitor, in particular, offer the potential for efficiency and flexible expansion, so I need to deepen my understanding to apply them effectively in appropriate contexts. Next week, I am scheduled to learn about asymptotic analysis of algorithms and recursive algorithm design, and I plan to explore how the mathematical methods learned this week can be applied to these topics. Building on this week’s learning, I aim to continue developing practical skills in the weeks to come.
+
+Word Count: 510

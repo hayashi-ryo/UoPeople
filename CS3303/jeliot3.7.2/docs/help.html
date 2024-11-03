@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+           "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<meta name="GENERATOR" content="TtH 3.74">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <style type="text/css"><!-- div.p { margin-top: 7pt;} --></style>
+ <style type="text/css"><!--
+ td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+ td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+ td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+ td div.norm {line-height:normal;}
+ span.roman {font-family: serif; font-style: normal; font-weight: normal;} 
+ span.overacc2 {position: relative;  left: .8em; top: -1.2ex;}
+ span.overacc1 {position: relative;  left: .6em; top: -1.2ex;} --></style>
+
+
+<title> Jeliot Program Animation System\Version 3.6.1</title>
+ 
+<h1 align="center">Jeliot Program Animation System<br>Version 3.6.1</h1>
+
+<h3 align="center">Niko Myller, Andr&#233;s Moreno Garc&#237;a, Moti Ben-Ari, Erkki Sutinen </h3>
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc1">
+1</a>&nbsp;&nbsp;Introduction</h2>
+
+<div class="p"><!----></div>
+Jeliot is a program animation system intended for teaching introductory 
+programming. Programs are animated automatically, requiring no modifications or 
+annotations on the part of the instructor or student. Jeliot is written in Java 
+for portability and animates programs that are written in Java.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc2">
+2</a>&nbsp;&nbsp;Display</h2>
+
+<div class="p"><!----></div>
+The screen is divided into a source frame on the left and a tabbed pane on the 
+right. The default for the right pane is the animation frame called the 
+Theater. Call Tree shows a tree of the current methods that have been called; 
+it is useful for studying recursive programs. History enables display of the 
+snapshots of the previous animation; use the arrow buttons and sliders to go 
+backwards or forwards in the sequence of frames. Note that the generation of
+the history images takes some time and might slow down the visualization.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc3">
+3</a>&nbsp;&nbsp;User interface</h2>
+Commands may be issued from the menus or from two sets of buttons: one at the 
+top of the screen for file and edit operations, and one at the bottom for 
+animation control. All commands have mnemonics and shortcuts for quicker 
+keyboard control. The following commands are standard in an graphical user 
+interface:
+
+<div class="p"><!----></div>
+File menu: New, Open, Save, Save As, Print, Exit.
+
+<div class="p"><!----></div>
+Edit menu: Undo, Redo, Cut, Copy, Paste, Select All, Find, Replace.
+
+<div class="p"><!----></div>
+Help menu: Help, About.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc4">
+4</a>&nbsp;&nbsp;Editing and compiling</h2>
+Jeliot can be in one of two modes: editing and animating. The Control menu (and 
+the toolbar buttons at the bottom of the screen) change modes: In edit mode, 
+Compile compiles the source file that has been opened and changes into 
+animation mode. In animation mode, Edit returns to edit mode to enable 
+modifying the source or opening a new source file.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc5">
+5</a>&nbsp;&nbsp;Animation control</h2>
+The animation is controlled by buttons at the bottom of the screen. Select Step 
+for step-by-step animation. Select Play for continuous animation; you may stop 
+it at any time by selecting Pause and resume the animation by selecting Play 
+or Step again. Rewind restarts the animation from the beginning. The slider controls 
+the speed of the animation.
+
+<div class="p"><!----></div>
+The Animation menu includes selections: Run Until to interpret the program
+without animation until a line is reached (if the line is never reached the
+visualization will stop in the end of program), and Print current visualization to
+print a screen shot of the current display.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc6">
+6</a>&nbsp;&nbsp;Options</h2>
+
+<div class="p"><!----></div>
+Save Files In Unicode: If you experience problems with native characters
+either when saving and loading files or during visualization, set this option on.
+
+<div class="p"><!----></div>
+Save On Compilation: Save the source file automatically before compilation.
+
+<div class="p"><!----></div>
+Show Strings as Objects: Changes the visualization of a String value to be an object.
+
+<div class="p"><!----></div>
+Do Garbage Collection: Enables garbage collection during the program visualization.
+This is very useful when Strings are showns as objects because otherwise screen can be cluttered.
+
+<div class="p"><!----></div>
+Ask For Command Line Parameters: When the animation starts, you will be asked
+for parameters for the method called.
+
+<div class="p"><!----></div>
+Ask For Method: When the animation starts, you will be asked for a method name
+to call instead of the main method.
+
+<div class="p"><!----></div>
+Use Null Parameter To Call Main: If checked, the main method will be called 
+with a null parameter; this avoids animating the creation of an empty array.
+
+<div class="p"><!----></div>
+Ask Questions During Animation: Whenever an expression is to be evaluated, a 
+popup window will ask for the result. However, currently questions are generated
+only for assignment statements.
+
+<div class="p"><!----></div>
+Pause On Message: Automatically pauses the animation to display messages
+explaining its progress.
+
+<div class="p"><!----></div>
+Show History View: Enables or disables the generation of the history view that
+shows snapshots of the previous animation in the theater. Note that the generation of
+the history images takes some time and might slow down the visualization. If the animation
+is too slow disable this option.
+
+<div class="p"><!----></div>
+Select Font Of Code: Select the font for the code editor.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc7">
+7</a>&nbsp;&nbsp;I/O</h2>
+
+<div class="p"><!----></div>
+Jeliot supports System.out.print(ln) and basic functionality of Scanner class, namely methods next(), nextInt(), nextDouble().
+
+<div class="p"><!----></div>
+The package jeliot.io provides the methods void Output.println(), int Input.readInt(), double Input.readDouble(), 
+char Input.readChar(), String Input.readString().
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc8">
+8</a>&nbsp;&nbsp;Limitations</h2>
+
+<div class="p"><!----></div>
+All classes must be in a single source file. 
+
+<div class="p"><!----></div>
+Only static methods that do not return an object can be called from Java API.
+
+<div class="p"><!----></div>
+Constructors cannot ask for user input.
+
+<div class="p"><!----></div>
+Inner classes are not supported.
+
+<div class="p"><!----></div>
+Because of the underlying interpreter no circular dependencies between classes can be resolved and thus they are not supported.
+
+<div class="p"><!----></div>
+The run until -feature cannot be set on lines with this- or super-method calls.
+
+<div class="p"><!----></div>
+In some (hopefully, very few) occasions, a reference/value is shown in a expression evaluation area longer than it should be due to the design of Jeliot and DynamicJava because we cannot make sure if those references/values are still needed.
+
+<div class="p"><!----></div>
+ <h2><a name="tth_sEc9">
+9</a>&nbsp;&nbsp;References</h2>
+
+<div class="p"><!----></div>
+Mordechai Ben-Ari, Niko Myller, Erkki Sutinen, and Jorma Tarhio. Perspectives 
+on program animation with Jeliot. In Software Visualization: International 
+Seminar, Lecture Notes in Computer Science 2269, 31-45, Dagstuhl Castle, 
+Germany, 2002.
+
+<div class="p"><!----></div>
+Ronit Ben-Bassat Levy, Mordechai Ben-Ari, and Pekka A. Uronen. The Jeliot 2000 
+program animation system. Computers &amp; Education, 40(1), 1-15, 2003.
+
+<div class="p"><!----></div>
+Andr&#233;s Moreno, Niko Myller, Erkki Sutinen, and Moti Ben-Ari. Visualizing Programs with Jeliot 3. Proceedings of the International Working Conference on Advanced Visual Interfaces (AVI 2004), 373-376, Gallipoli, Lecce, Italy, 2004.
+
+<div class="p"><!----></div>
+
+<br><br><hr><small>File translated from
+T<sub><font size="-1">E</font></sub>X
+by <a href="http://hutchinson.belmont.ma.us/tth/">
+T<sub><font size="-1">T</font></sub>H</a>,
+version 3.74.<br>On 24 Jul 2006, 13:27.</small>
+</html>

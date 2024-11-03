@@ -1,0 +1,16 @@
+Summary of the Week
+This week, I studied the theoretical background and implementation methods of various sorting algorithms. Specifically, I learned about basic algorithms such as Insertion Sort, Bubble Sort, and Selection Sort, as well as more advanced algorithms like Shellsort, Mergesort, Quicksort, and Heapsort. I also studied the inefficiencies in these sorting algorithms and how the concept of swapping is used in Exchange Sort. Additionally, I deepened my understanding of Bin Sort and Radix Sort, applying asymptotic analysis to these algorithms to determine the cost in processing time (Shaffer, 2011).
+
+Personal Reflections
+Through this week’s learning, I gained a deeper understanding of sorting algorithms, which I usually don’t think about in much detail. In particular, implementing Quicksort and Mergesort, along with conducting asymptotic analysis, was highly beneficial. Normally, when I program, I simply use the standard sort functions provided by libraries without considering the underlying algorithms. However, I learned that selecting an algorithm based on the characteristics of the data being sorted can significantly improve processing time, which I found very interesting (Shaffer, 2011).
+
+Topics Studied in Depth
+This week, I particularly focused on Quicksort and Mergesort. Both are efficient algorithms with asymptotic complexity of \(O(n \log n)\), but I learned that Quicksort can have a worst-case complexity of \(O(n^2)\), depending on the choice of pivot, which greatly affects its performance. I also realized that Mergesort is a stable sorting algorithm and is effective for handling large datasets (Shaffer, 2011). Using this knowledge, I implemented and analyzed the algorithms in the assignment, allowing me to experience firsthand how these sorting algorithms work.
+
+Future Challenges and Goals for Next Week
+Next week, I plan to deepen my understanding of the differences between primary and secondary storage in computers. I aim to learn more about RAM, disk drives, and other secondary storage devices, as well as concepts such as persistent and volatile memory. Furthermore, I want to better understand the architecture and terminology of disk drives, including the concept of disk access costs related to head movement and seek time. This will help me tackle more complex topics, such as implementing external sorting and understanding the key concepts behind buffer caches, virtual memory, and data structures implemented in secondary storage.
+
+Word Count: 369
+
+References
+Shaffer, C. (2011). A Practical Introduction to Data Structures and Algorithm Analysis. Blacksburg: Virginia. Tech.
