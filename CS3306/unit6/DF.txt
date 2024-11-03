@@ -1,0 +1,31 @@
+1. Introduction
+A workflow refers to a process where multiple tasks are coordinated and executed. In transaction processing, workflows play a vital role in maintaining data consistency and ensuring the smooth operation of systems. Figure 24.4 in this week's reading illustrates a workflow for loan processing, showing the flow of a loan application and how it leads to the outcomes of acceptance or rejection. Similarly, in this assignment, we will examine a workflow that depicts the process of a student submitting an assignment to a professor and the possible outcomes.
+
+2. Workflow Description
+There are several steps in the process of a student submitting an assignment to a professor. This workflow includes the following stages:
+
+1. Assignment Submission: The student submits their assignment through an online platform.
+2. Receipt Confirmation: The professor confirms receipt of the assignment through the system.
+3. Assignment Review: The professor reviews the submitted assignment and evaluates it. At this stage, the professor makes a judgment based on the content, deciding on acceptance, requesting revisions, or rejecting the submission.
+4. Notification of Results: The student receives feedback from the professor. The following three scenarios are possible:
+
+   - Acceptance: If the assignment is satisfactory, it is accepted as is.
+   - Revision Request: If revisions are deemed necessary, the student is asked to resubmit the assignment.
+   - Rejection: If the assignment is deemed insufficient, the submission is rejected.
+
+3. Workflow Diagram
+To visualize this workflow, the following diagram is used for explanation:
+
+- Step 1: The student submits the assignment.
+- Step 2: The professor confirms the receipt of the assignment.
+- Step 3: The professor evaluates the assignment (at this step, either "acceptance," "revision request," or "rejection" is determined).
+- Step 4: The result is communicated to the student.
+
+These steps correspond to the typical transaction processing flow in an assignment submission system, with each step leading to a corresponding outcome. The workflow diagram can be drawn using online tools (e.g., Lucidchart) and labeled to show each step and outcome.
+
+4. Conclusion
+This workflow provides an efficient method for managing the process of assignment submission and evaluation between students and professors. Based on the principles of transaction processing, data consistency and the finalization of processing results at each step play a crucial role. This type of workflow is an example of digitized processes in educational institutions and ensures the smooth flow of information.
+
+
+References
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2001). Database System Concepts (4th ed.). McGraw-Hill.

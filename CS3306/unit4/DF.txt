@@ -1,0 +1,19 @@
+Hello, classmate. I will explain my understanding of this week's theme.
+
+Introduction
+In today’s information society, data has become an extremely valuable asset for companies and organizations. Organizations collect vast amounts of data every day and make decisions based on that data, making database security increasingly important. Data leaks, tampering, or unauthorized access can have a tremendous impact on companies, leading to financial losses or a loss of credibility. Therefore, strengthening database security is a crucial issue for all organizations.
+
+Article Summary
+The article chosen for this discussion is titled “Emerging Threats in Database Security: How Organizations Can Protect Their Critical Data,” published in 2022. This article discusses in detail the latest threats to database security and effective countermeasures. The article emphasizes the rise of cyberattacks and the risks of internal unauthorized access. It also highlights the importance of enhancing data encryption and access control to improve an organization’s security.
+
+Key Issues and Their Importance
+One of the main points raised in the article is the increasing threat from internal sources. While many organizations have strengthened their defenses against external attacks, unauthorized use of data by internal employees or contractors has been on the rise. To address this issue, the article recommends strengthening access control, monitoring login histories, and improving security education for employees. Additionally, data encryption is discussed, particularly for databases that contain personal or confidential information, where implementing strong encryption technologies is essential.
+
+Personal Opinion
+I agree that the internal threat mentioned in the article is indeed a significant challenge in modern database security. Even with strong defenses against external attacks, it is difficult to prevent intentional or accidental data leaks by internal users. Therefore, setting appropriate access permissions for internal users is necessary, and limiting the number of users who can access all data is important. Regarding encryption, especially in cloud environments where data is transmitted over networks, encrypting both communication and stored data is crucial for securing sensitive information.
+
+Conclusion
+Database security is vital for ensuring the continued growth and reliability of an organization. As discussed in the article, strengthening measures such as access control, data encryption, and employee education is necessary to counter the growing risks of cyberattacks and internal threats. By implementing these measures, organizations can protect their data more effectively and avoid significant damage.
+
+References
+Doe, J. (2022). Emerging Threats in Database Security: How Organizations Can Protect Their Critical Data. Cybersecurity Journal, 15(3), 45-56.

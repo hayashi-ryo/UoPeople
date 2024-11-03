@@ -1,0 +1,19 @@
+Introduction
+The purpose of this assignment is to create a classification tree using the course grading scale (from A+ to F) based on study hours and study efficiency, in order to predict grades. A classification tree is an important tool for visualizing how data is divided into groups and how each group is assigned a suitable class. In this assignment, we will create a classification tree based on weekly study hours and study efficiency to predict grades and visualize the results.
+
+Construction of the Grade Classification Tree
+According to Silberschatz and colleagues, Figure 22.6 introduces a classification tree based on education level and income. Similarly, this time, we will construct a classification tree based on "weekly study hours" and "study efficiency" to predict grades. The tree divides study hours into three categories: "20 hours or more," "10 to 20 hours," and "less than 10 hours." Within each category, grades are predicted based on four levels of efficiency: "highly efficient," "efficient," "average," and "inefficient." This visually represents how grades from A+ to F branch out in the tree.
+
+Figure 1: Classification Tree
+Figure 1 shows how grades are divided based on study hours and study efficiency. It reveals that the more study hours, the higher the grades, but study efficiency also plays a significant role in improving grades. For instance, even with fewer study hours, a student who studies very efficiently can achieve grades like B+ or A-, while someone who studies inefficiently, even with more hours, may only achieve grades like C+ or B-.
+
+Identification of Desired Grade
+According to this classification tree, achieving an A requires securing at least 10 to 20 hours of study time per week and maintaining at least "efficient" study habits. If one studies "highly efficiently," it is possible to achieve an A or A- even with fewer than 20 hours. Based on this tree, I plan to set a specific study schedule aiming for at least 15 hours of efficient study per week to achieve my goal.
+
+Conclusion
+Through the creation of this classification tree, we were able to concretely understand the impact of study hours and study efficiency on grades. In particular, it became clear that even with a large number of study hours, grades may fall short if efficiency is low. On the other hand, efficient study habits can lead to good grades even with fewer study hours. This classification tree is a valuable tool for planning study strategies that balance both the quantity and quality of study.
+
+Word Count: 416
+
+References
+Silberschatz, A., Korth, H. F., & Sudarshan, S. (2001). Database system concepts (4th ed.). McGraw-Hill.
