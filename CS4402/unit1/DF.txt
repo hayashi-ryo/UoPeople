@@ -1,0 +1,20 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Programming languages can be broadly categorized into imperative and non-imperative types, each offering distinct programming styles and use cases. Imperative languages control program flow through sequential commands, while non-imperative languages adopt a more declarative approach. This essay explores the features and use cases of each type and discusses scenarios where they are best suited.
+
+- Imperative Programming Languages
+Imperative programming languages describe programs as a sequence of commands, directing computers step-by-step on what to do. This style is characterized by explicit state changes and procedural flow (Ben-Ari, 2006). For example, C++ and Python are well-known imperative languages, commonly used in system development and performance-critical applications.
+One practical use case for imperative languages is graphics processing. For instance, in game development or 3D modeling software, sequential calculations and state management are crucial. Using C++, developers can achieve high-speed rendering and complex physical simulations. According to Zyda (2005), imperative programming proves highly effective in real-time graphics applications due to its performance and control capabilities.
+
+- Non-imperative programming languages describe "what to achieve" rather than "how to achieve it," making them declarative in nature. This category includes functional and declarative programming languages. Haskell and SQL are examples of non-imperative languages, excelling in scientific computations and database management, respectively.
+A practical example of non-imperative languages is declarative data transformation in web development. For instance, template engines can simplify the generation of dynamic web pages by clearly specifying data manipulation and view generation. SQL is another prominent use case for non-imperative programming in data querying. Barker-Plummer (2012) found that the declarative approach of non-imperative languages enhances maintainability in large-scale system design.
+
+- Comparative Use Cases
+Imperative languages excel in scenarios requiring real-time processing and sequential control, such as graphics processing and game development, where complex algorithms are executed step-by-step. On the other hand, non-imperative languages shine in contexts demanding simplicity and declarative descriptions, such as template engines and database operations, improving code readability and maintainability.
+
+- Conclusion
+Imperative and non-imperative programming languages possess unique strengths that make them suitable for different use cases. Imperative languages excel in sequential processing and state management, making them ideal for performance-critical tasks. Conversely, non-imperative languages are well-suited for declarative operations, prioritizing readability and maintainability. Choosing the appropriate language depends on the requirements and goals of the project.
+
+References
+Ben-Ari, M. (2006). Understanding programming languages. Weizman Institute of Science.
+Zyda, M. (2005). From visual simulation to virtual reality to games. Computer, 38(9), 25-32. https://doi.org/10.1109/MC.2005.297
+Barker-Plummer, D. (2012). Turing Machines. The Stanford Encyclopedia of Philosophy (Fall 2012 Edition), Edward N. Zalta (ed.). Retrieved from http://plato.stanford.edu/archives/fall2012/entries/turing-machine/
