@@ -74,3 +74,4 @@ I submit a word document answering the questions. Please check and grade the doc
 4. 今後の課題と来週に向けて
 
 以下に今週学習した内容について記載するので文章案を作成してください。
+来週学習する内容は以下の通りです。
