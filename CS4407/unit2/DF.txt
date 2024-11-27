@@ -1,0 +1,29 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Hadoop has been widely adopted as an innovative framework for big data and analytics. Its distributed processing capability and cost efficiency make it indispensable for organizations seeking valuable insights from massive datasets. This article provides an overview of Hadoop, explains its mechanisms, and discusses its significance.
+
+What is Hadoop?
+Hadoop is an open-source distributed data processing framework developed by the Apache Software Foundation. It consists of the following three key components:
+1. HDFS (Hadoop Distributed File System): A distributed storage system that ensures fault tolerance and efficiently stores large amounts of data (Apache Software Foundation, n.d.).
+2. MapReduce: A programming model that enables parallel processing and is ideal for handling massive datasets (Strauch, 2010).
+3. YARN (Yet Another Resource Negotiator): A component responsible for resource management and job scheduling (Chaudhuri, Dayal, & Narasayya, 2011).
+
+These components collectively make Hadoop a powerful tool for big data analytics.
+
+How Hadoop Functions
+Hadoop’s core mechanism relies on HDFS and MapReduce. HDFS divides data into blocks and distributes them across multiple servers, ensuring fault tolerance. MapReduce, on the other hand, maps data for parallel processing and aggregates the results. This approach enables efficient and rapid large-scale data processing (Chaudhuri et al., 2011; Strauch, 2010).
+Additionally, YARN manages job execution and optimizes resource allocation, enhancing overall system efficiency. This distributed architecture allows Hadoop to provide a cost-efficient and highly scalable platform (Chaudhuri et al., 2011).
+
+Why Hadoop is Important
+The importance of Hadoop can be summarized as follows:
+1. Scalability and Cost Efficiency: Hadoop can scale horizontally using inexpensive hardware, making it capable of handling large-scale data that traditional RDBMSs struggle with (Strauch, 2010; Wahbeh, Al-Radaideh, Al-Kabi, & Al-Shawakfa, 2010).
+2. Flexibility: Hadoop supports structured, semi-structured, and unstructured data, making it applicable across various industries (Wahbeh et al., 2010).
+3. Real-Time Analytics: With tools like MapReduce, Hadoop enables real-time data processing, which supports faster decision-making (Chaudhuri et al., 2011).
+
+Conclusion
+Hadoop is a powerful tool for enabling big data analytics and plays a vital role in modern business. Its scalability, cost efficiency, and flexibility are key to driving competitive advantages across industries. Looking ahead, Hadoop will continue to evolve, addressing new challenges in data processing.
+
+References
+Apache Software Foundation. (n.d.). Hadoop. Retrieved from <https://hadoop.apache.org/>
+Chaudhuri, S., Dayal, U., & Narasayya, V. (2011). An overview of business intelligence technology. Communications of the ACM, 54(8), 88-93.
+Strauch, C. (2010). NoSQL Databases. Hochschule der Medien, Stuttgart.
+Wahbeh, A. H., Al-Radaideh, Q. A., Al-Kabi, M. N., & Al-Shawakfa, E. M. (2010). A comparison study between data mining tools over some classification methods. International Journal of Advanced Computer Science and Applications.

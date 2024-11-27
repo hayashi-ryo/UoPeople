@@ -18,9 +18,9 @@
 
 ### Japanese Discussion
 
-## Written Assignment
+## Programming Assignment
 
-### Japanese Written Assignment
+### Japanese Programming Assignment
 
 ## Learning Journal
 
