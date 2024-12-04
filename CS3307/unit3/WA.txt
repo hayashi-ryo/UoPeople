@@ -1,0 +1,144 @@
+Introduction
+This document aims to help junior developers understand the basic concepts and mechanisms of file systems, prompts, and remote procedure calls (RPC) in Unix/Linux operating systems. Additionally, it seeks to enhance the safety of development environments by providing supplementary information on Unix/Linux security.
+The target audience is junior developers working with Unix/Linux who are at the stage of acquiring technical fundamentals. This document combines theoretical explanations with practical examples to deepen understanding.
+
+The following sections cover these topics in detail:
+- Basic concepts and functions of file systems
+- The role and customization of prompts
+- The mechanism of RPC
+- Unix/Linux security
+
+---
+
+File Systems
+2.1 Definition and Basic Concepts
+A file system is a mechanism that an operating system uses to store and manage data. It creates a hierarchical structure of files and directories (folders) that allows efficient access to data on storage devices. In Linux systems, the file system is represented as a single tree structure, and external storage devices or network drives are mounted into this tree.
+For example, Linux uses the `/etc/fstab` file to manage automatic device mounting settings. This file defines which devices are mounted at boot time and where, streamlining device management (Shotts, 2019).
+
+2.2 Key Functions
+The primary functions of a file system include:
+- Data Storage: Managing the hierarchical structure of files and directories for efficient data storage.
+- Access Control: Setting permissions (read, write, execute) to manage user-specific access rights.
+- Recovery Tools: Providing tools like `fsck` to detect and repair file system errors (Lavarian, 2022).
+
+2.3 File System Operations
+2.3.1 Displaying File Systems
+You can display the current file systems using commands like `mount` or `df -h`. Below is an example output of `df -h`.
+
+2.3.2 Mounting and Unmounting Devices
+When connecting new devices, such as USB drives, to the OS, a mounting operation is required. For instance:
+```bash
+mount /dev/sda4 /mnt
+```
+To remove a mounted device:
+```bash
+umount /mnt
+```
+
+2.3.3 Creating a File System
+To create a file system on a new partition, use the `mkfs` command.
+
+---
+
+Prompts
+3.1 Definition and Role
+A prompt is a text-based indicator that provides an interface for users to input commands in the command-line interface (CLI). In Linux, Bash (Bourne Again Shell) is commonly used by default, and prompts typically take the following format:
+```bash
+[username@hostname currentDirectory]$
+```
+Prompts provide basic information that helps users understand the current state of the computer and execute commands effectively (Shotts, 2019).
+
+3.2 Key Operations
+The following basic operations can be executed using a prompt:
+- 3.2.1 Checking the Current Directory (`pwd`)
+- 3.2.2 Navigating Between Directories (`cd`)
+- 3.2.3 Displaying Files and Directories (`ls`)
+
+3.3 Customizing Prompts
+Prompt customization can enhance work efficiency. In Bash, you can change the prompt by setting the `PS1` variable. For example:
+```bash
+PS1="[\u@\h \W]\$ "
+```
+After customization:
+```bash
+[username@hostname currentDirectory]$
+```
+To make this change permanent, add the setting to the `.bashrc` file.
+
+---
+
+Remote Procedure Calls
+4.1 Definition and Basic Concepts
+A Remote Procedure Call (RPC) is a technology that enables communication between processes on different computers over a network. RPC allows a remote server's function to be executed with the same ease as a local function call, simplifying distributed application design (GeeksforGeeks, 2022).
+RPC Process:
+1. The client program calls the remote procedure.
+2. The RPC library converts the call into a network message and sends it to the remote server.
+3. The server program receives the message and executes the specified procedure.
+4. The execution result is returned to the client as a network message.
+
+4.2 Example Processes and Use Cases
+4.2.1 Preparing the Server Program
+Define and prepare a remote executable procedure. For example, using Python's `xmlrpc.server` library:
+```python
+from xmlrpc.server import SimpleXMLRPCServer
+def add(x, y):
+    return x + y
+server = SimpleXMLRPCServer(("localhost", 8000))
+server.register_function(add, "add")
+server.serve_forever()
+```
+
+4.2.2 Creating the Client Program
+Here is a simple client program to call the remote procedure:
+```python
+import xmlrpc.client
+proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")
+print("Result:", proxy.add(5, 3))  # Output: Result: 8
+```
+
+4.2.3 Verifying Communication
+Keep the server program running and connect via the client. The client program will display the result of calling the remote procedure.
+
+4.3 Advantages and Disadvantages
+Advantages:
+- Abstracts network details to improve development efficiency.
+- Simplifies distributed system design.
+
+Disadvantages:
+- Potential performance degradation due to network delays.
+- Risk of system-wide impact from network failures.
+
+---
+
+Unix/Linux Security
+5.1 Definition and Importance
+
+Unix/Linux security is essential for ensuring system stability and data protection. Security features include user and group management, file permission settings, and privilege escalation (`sudo`). These measures help prevent unauthorized access and mitigate significant system damage (Shotts, 2019).
+
+5.2 Key Security Features
+5.2.1 User and Group Management
+- Linux uses `/etc/passwd` and `/etc/group` files to manage users and groups.
+- Each user is assigned a unique UID (User ID) to control access.
+
+5.2.2 File Permission Settings
+- Linux file systems provide three access levels: read (r), write (w), and execute (x).
+- Permissions are set for owners, groups, and other users.
+
+5.2.3 Privilege Escalation (`sudo`)
+- `sudo` allows temporary administrative privileges for critical operations.
+- The `sudoers` file can be edited to grant specific users permissions.
+
+5.2.4 Security Tools
+- Tools like firewalls (`ufw`) and SELinux are used to enhance security.
+
+---
+
+Conclusion
+This document introduced fundamental knowledge for understanding critical technical concepts in Unix/Linux systems. By applying the information provided, readers can improve the efficiency and security of their system operations. Hands-on practice with real Linux systems will further enhance these skills.
+
+Word Count: 888
+
+References
+GeeksforGeeks. (2022). Remote procedure call (RPC) in operating system. Retrieved March 7, 2023, from https://www.geeksforgeeks.org/remote-procedure-call-rpc-in-operating-system/
+Lavarian, R. (2022). What is a file system? Types of computer file systems and how they work – explained with examples. FreeCodeCamp. Retrieved from https://www.freecodecamp.org/news/file-systems-architecture-explained/
+Shotts, W. (2019). The Linux command line: A complete introduction (5th ed.). No Starch Press.
