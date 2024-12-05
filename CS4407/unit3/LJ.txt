@@ -1,0 +1,47 @@
+Weekly Overview
+
+This week, we focused on regression analysis, a statistical technique for predicting the future based on past data. Through this topic, I deepened my understanding of the differences between linear regression, curvilinear regression, and logistic regression, while also learning how regression algorithms work. Additionally, I analyzed linear data using R and worked on programming assignments involving the construction of regression models and error minimization.
+The learning objectives for this week included:
+
+- Explaining the differences between linear regression, curvilinear regression, and logistic regression.
+- Understanding the workings of the linear regression algorithm.
+- Performing regression analysis and analyzing data using R.
+
+In the discussion, we examined the limitations of regression analysis, particularly the constraints of its predictive range. This exercise involved in-depth research using academically reliable sources to create a comprehensive post. Furthermore, the programming assignments followed the guidelines outlined in Section 3.6 of the textbook, using the `lm()` function in R to build simple and multiple regression models. These models were evaluated with a dataset, calculating 95% confidence intervals and conducting residual analysis. 
+Next week, I plan to learn about classification algorithms and their applications. The goal is to understand the function of classifiers and the concept of “nearness,” with a particular focus on implementing the K-Nearest Neighbors (KNN) algorithm.
+
+---
+
+Personal Reflections
+
+This week’s learning reinforced the importance of leveraging statistical techniques I had previously learned while applying them to uncover new insights. Understanding the fundamental differences between linear regression, curvilinear regression, and logistic regression is essential for making predictions and decisions based on statistical data. Moreover, implementing regression algorithms in R and analyzing the results strengthened the connection between theory and practice, enriching my overall learning experience.
+Through the assignments, I had the opportunity to explore the limitations of regression models in predictions based on past data, particularly the constraints of the predictive range. This taught me the critical lesson of exercising caution when interpreting regression outcomes. Reaffirming the simplicity and limitations of linear regression highlighted the necessity of selecting appropriate models for complex datasets.
+
+---
+
+Topics Studied in Depth
+This week, I delved deeply into implementing and evaluating linear regression models. I learned how regression algorithms predict future outcomes using past data. Specifically, I understood how to estimate model parameters through the least squares method and predict future values based on those parameters. The process of evaluating predictive accuracy using Residual Standard Error (RSE) and R-squared (R²) provided valuable insights into how well the model fits the data (James et al., 2013).
+A significant element in promoting my understanding was the practical experience gained through the programming assignments. Using R, I built regression models and analyzed their outputs, gaining not just theoretical knowledge but also practical skills in the following areas:
+
+1. Model Construction Process  
+The assignments required the implementation of simple and multiple regression models using the `lm()` function. Through this, I realized the importance of proper data preprocessing and careful selection of explanatory and target variables. I also learned key considerations when building models with multiple independent variables.
+
+2. Interpreting Outputs  
+By calculating regression coefficients and confidence intervals, I learned how to interpret the information provided by the model. For instance, I practiced evaluating p-values and t-values to determine the statistical significance of coefficients, which clarified how to assess whether the model provides reliable predictions.
+
+3. Residual Analysis  
+I conducted residual analysis to verify whether the assumptions of the model (e.g., independence and normality of errors) were satisfied. This task extended beyond theoretical understanding to practical evaluation of the model’s validity in real-world data analysis.
+
+Through these processes, I gained not only a theoretical understanding of regression analysis but also practical application skills. These programming exercises laid the foundation for applying regression models to solve real-world problems. I feel that this experience significantly enhanced my skills in data science and statistical modeling.
+
+---
+
+Future Challenges and Goals for Next Week
+
+Next week, I plan to focus on classification algorithms, aiming to understand their scope of application. A specific goal is to tackle the implementation of the K-Nearest Neighbors (KNN) algorithm. I hope to deepen my understanding of the role of classifiers and how the concept of “nearness” is used to classify data. Additionally, I plan to explore various classification methods, such as Bayes’ theorem and logistic regression, and examine scenarios where each technique is most applicable.
+Reflecting on this week’s assignments, I aim to improve the efficiency of writing regression analysis scripts in R and explore the applicability of these models to more complex datasets. Lastly, I hope to organize my learnings in a way that can be practically applied to enhance my skill set further.
+
+Word Count: 768
+
+References
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. New York, NY: Springer.
