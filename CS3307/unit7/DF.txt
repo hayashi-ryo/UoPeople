@@ -1,0 +1,63 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Operating systems offer a variety of utility tools to support system performance and resource management. These tools are indispensable for daily system optimization and troubleshooting.
+This article introduces three powerful tools: `top` and `df` for Linux, and Process Monitor for Windows. Each tool excels in different areas of efficient system management, which will be detailed below.
+
+---
+
+### Linux: top - Real-Time Process Management Tool
+
+`top` is a tool that displays real-time information about processes and resource usage in Linux systems. It is particularly helpful for quickly identifying processes with high CPU or memory usage.
+
+Key Features
+Provides dynamically updated, real-time information.
+Offers visual displays of CPU, memory, and process states.
+Allows stopping processes or adjusting their priority with ease.
+
+Use Case
+During system operations, using `top` to monitor CPU and memory usage trends enables the identification of high-load processes. This helps in implementing appropriate measures such as optimizing processing or adjusting timeout settings.
+
+Figure 1: The `top` interface
+
+---
+
+### Linux: df - Disk Usage Monitoring Tool
+
+`df` is a utility that displays disk usage and available space for each file system. Since running out of disk space poses significant risks to system operations, `df` is an essential tool for regular monitoring.
+
+Key Features
+Displays disk usage and available space for each file system.
+Outputs data in a human-readable format using the `-h` option.
+
+Use Case
+Before installing new software, `df` can be used to ensure sufficient disk space is available. Additionally, when disk space approaches its limit, it assists in planning the deletion of unnecessary files.
+
+Figure 2: Example output of the `df` command
+
+---
+
+### Windows: Process Monitor - Advanced Process Monitoring Tool
+
+Process Monitor is an advanced monitoring tool for Windows systems. It specializes in troubleshooting by providing real-time data on file systems, registries, and network activities.
+
+Key Features
+Offers advanced filtering capabilities to focus on specific processes.
+Monitors detailed activities such as file access and registry operations.
+Quickly identifies the causes of system anomalies or errors.
+
+Use Case
+It is particularly useful for investigating the causes of application crashes. By checking logs at the time of an error, it provides valuable clues for problem resolution.
+
+Figure 3: The Process Monitor interface
+
+---
+
+### Comparison and Conclusion
+
+`top` is an excellent tool for process management and resource monitoring, enabling quick evaluation of system performance. On the other hand, `df` specializes in storage management, offering essential information for effective disk space usage. Finally, Process Monitor is an indispensable tool for detailed troubleshooting in Windows systems.
+Utilizing these tools significantly improves the efficiency of system management. Select and use the appropriate tool according to your objectives to enhance your operational capabilities.
+
+---
+
+### References
+
+markruss., foxmsft., MarioHewardt., pzhlkj6612., lukekim., hecongy., analyze-v., VSC-Service-Account., & markrussinovich. (2022, October 27). [Process monitor v3.92.](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) Microsoft Learn.

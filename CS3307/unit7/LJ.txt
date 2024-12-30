@@ -1,0 +1,81 @@
+## Process Monitoring and Identification Method
+
+Activity Monitor is a convenient tool for monitoring macOS processes and checking resource usage in real time. The following steps were taken to monitor processes and distinguish between critical and non-critical processes:
+
+### 1. Launching Activity Monitor
+
+I opened Activity Monitor from the "Utilities" folder in the "Applications" directory using Finder.
+
+Figure 1: Launching Activity Monitor
+
+### 2. Checking Memory Usage
+
+I selected the "Memory" tab in Activity Monitor and sorted the processes by descending memory usage. This allowed me to identify the processes consuming the most system memory.
+
+Figure 2: Listing processes by memory usage
+
+### 3. Distinguishing Process Roles
+
+Before stopping any processes, it was necessary to evaluate their roles and importance. Processes were categorized based on the following criteria:
+
+1. Memory Usage
+Processes with high memory usage (e.g., Code Helper (Renderer), Google Chrome Helper) were prioritized for review due to their significant impact on system resources. Conversely, processes with low memory usage were deemed to have minimal impact and did not require stopping.
+
+2. Process Roles
+Processes were classified into the following two categories:
+System Core Processes
+Processes such as `mds_stores` and `WindowServer`, which are critical for macOS's basic operations, were excluded from stopping as they are essential for the overall system's functionality.
+Application-Related Processes
+Processes such as Code, Google Chrome, and DeepL, which I was directly using, were reviewed to determine if they were currently in use. If not, they were deemed safe to stop. For instance, Google Chrome Helper processes running in the background and linked to inactive tabs or extensions could be stopped to optimize system resources.
+
+3. Usage Frequency and Urgency
+Clearly unused processes, such as the DeepL Translator process, were stopped to free up memory resources.
+
+4. Research-Based Confirmation
+For unfamiliar processes, I searched their names to understand their roles. This ensured that I was aware of the potential impacts of stopping them in advance.
+
+---
+
+## Stopping Processes
+
+The process chosen to stop was "Google Chrome," which was not actively being used at the time. Although this process was running in the background, it was determined to be unnecessary for my current tasks. The following steps were taken to stop the process:
+
+1. Selected "Google Chrome" from the list in Activity Monitor.
+2. Clicked "Quit" in the pop-up to stop the process.
+
+Figure 3: Quitting Google Chrome
+
+After stopping the process, I confirmed that other system functions and tasks were not affected.
+
+---
+
+## Results and Observations
+
+After stopping the process, the following improvements were observed:
+
+Changes in Memory Usage
+Comparing memory usage before and after stopping the process, system memory usage decreased by approximately 0.5 GB. The responsiveness of the system, particularly when using multiple applications simultaneously, improved significantly.
+
+Performance Enhancements
+Following the process termination, resource-intensive applications like Safari and Xcode operated more smoothly.
+
+Visual Evidence
+Screenshots illustrating the process monitoring and termination were captured and included in the report.
+
+Figure 4: Activity Monitor after stopping the process
+These results confirm that efficient system memory management contributes to improving the efficiency of everyday tasks.
+
+---
+
+## Conclusion
+
+Through this assignment, I learned the importance of process monitoring and management using Activity Monitor. Identifying and stopping processes allowed me to optimize system resources effectively. This experience has provided a solid foundation for further enhancing my process management skills in macOS.
+
+Word Count: 546
+---
+
+## References
+
+How to monitor and manage processes on Linux. (2021, January 22). aruba Cloud. https://www.arubacloud.com/tutorial/how-to-monitor-and-manage-processes-on-linux.aspx
+markruss., foxmsft., MarioHewardt., pzhlkj6612., lukekim., hecongy., analyze-v., VSC-Service-Account., & markrussinovich. (2022, October 27). Process monitor v3.92. Microsoft Learn. https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+View information about Mac processes in activity monitor. (n.d.). In Activity Monitor User Guide (macOS Ventura 13). Apple Support. https://support.apple.com/en-in/guide/activity-monitor/actmntr1001/mac#:~:text=Table%20of%20Contents-,View%20information%20about%20Mac%20processes%20in%20Activity%20Monitor,-Processes%20are%20programs
