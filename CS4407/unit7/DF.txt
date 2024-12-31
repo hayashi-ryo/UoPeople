@@ -1,0 +1,100 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Here is the English translation of the provided content:
+1
+---
+
+Differences in Training Between the Perceptron and a Feed Forward Neural Network Using the Back Propagation Algorithm
+
+---
+
+1. Introduction
+
+Neural networks are an essential technology widely used in various fields such as pattern recognition and machine learning. Among these, the perceptron is recognized as a foundational model for solving simple classification problems, while the feed forward neural network (FNN) has evolved to handle more complex issues. This response will compare the primary differences in training methods between perceptrons and FNNs, detailing their features and applicability.
+
+---
+
+2. Training Method of the Perceptron
+
+The perceptron is a simple neural network model with a single-layer structure, composed of the following elements:
+
+1. Input Nodes: Features are provided as input.
+2. Output Nodes: Produces binary classification results.
+3. Weights and Biases: Represent relationships between input and output.
+
+The training process involves the following steps:
+1. Initialize weights with random values.
+2. Compute the predicted value \(\hat{y}\) using a threshold function (e.g., step function).
+3. Update weights based on the difference between the expected output \(y\) and the predicted value \(\hat{y}\).
+4. Adjust scaling using the learning rate \(\eta\).
+
+The weight update rule is defined as:
+\[
+w_{i}^{(t+1)} = w_{i}^{(t)} + \eta \cdot (y - \hat{y}) \cdot x_{i}
+\]
+
+While this algorithm is effective for linearly separable problems, it cannot handle linearly inseparable problems (e.g., XOR problems) (Jaksa & Katrak, 2006).
+
+---
+
+3. Training Method of Feed Forward Neural Networks
+
+The feed forward neural network (FNN) was developed to solve nonlinear problems that the perceptron could not address. FNNs have the following features:
+
+1. Multi-layer Structure: Consists of input, hidden, and output layers, with full connectivity between layers.
+2. Activation Functions: Uses nonlinear functions (e.g., sigmoid, ReLU) to learn complex data patterns.
+
+#Training Process
+Training involves the back propagation algorithm, which includes the following steps:
+
+1. Forward Pass: Input data passes through the network to calculate the predicted value.
+2. Error Metric: Calculates the difference between the expected output and the predicted value using a loss function (e.g., mean squared error).
+3. Error Backpropagation: Adjusts the weights in the hidden layers using gradient descent, computing the gradients of the loss function and optimizing all weights.
+4. Weight Update: Updates the weights using the following formula:
+\[
+w_{ij} \leftarrow w_{ij} - \eta \cdot \frac{\partial J}{\partial w_{ij}}
+\]
+where \(J\) represents the loss function and \(\eta\) the learning rate (Roy et al., 2005).
+
+While FNNs require significant computational resources, they can learn complex patterns, making them a central method in modern machine learning.
+
+---
+
+4. Differences in Training Methods
+
+The following table highlights the differences between perceptron and FNN training methods:
+
+1. Model Complexity:
+Perceptron: Comprises a single layer and uses a simple linear threshold function.
+FNN: Features a multi-layer structure with nonlinear activation functions, allowing it to capture complex patterns.
+
+2. Learning Process:
+Perceptron: Relies on straightforward update rules, enabling rapid training.
+FNN: Employs back propagation with gradient descent, requiring more computational steps.
+
+3. Applicability:
+Perceptron: Limited to linearly separable problems.
+FNN: Capable of solving nonlinear problems.
+
+4. Computational Cost:
+Perceptron: Low computational cost allows for quick training.
+FNN: Requires higher computational resources and training time.
+
+5. Flexibility:
+Perceptron: Lacks flexibility and cannot easily adapt to complex problems.
+FNN: Offers adaptability by adjusting its structure and activation functions to fit various challenges.
+
+---
+
+5. Conclusion
+
+Both the perceptron and feed forward neural network have distinct applications. While the perceptron is suitable for simple linear problems with minimal computational costs, FNNs are indispensable for addressing complex patterns and real-world problems. Understanding these differences enables the appropriate use of each algorithm based on the specific requirements of the task.
+
+---
+
+References
+Jaksa, R., & Katrak, M. (2006). Neural network model of the backpropagation algorithm. Available from <https://pdfs.semanticscholar.org/f7de/25eb027083d4e7144c1ef6831baff35d6d06.pdf>.
+Roy, K., Chaudhuri, C., Kundu, M., Nasipuri, M., & Basu, D. K. (2005). Comparison of the Multi Layer Perceptron and the Nearest Neighbor Classifier for Handwritten Numeral Recognition. Journal of Information Science and Engineering, 21, 1247–1259.
+
+---
+
+This translation faithfully maintains the original content's structure and depth, ensuring clarity and precision. Let me know if further refinements are needed!

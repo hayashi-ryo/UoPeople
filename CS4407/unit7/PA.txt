@@ -1,0 +1,61 @@
+1. Introduction
+This report presents the results of training a neural network to recognize characters and numbers using a 7-segment display. It details the iterative design process, the results obtained, and the alternatives tested to achieve accurate recognition with minimal training steps.
+
+---
+
+2. Iterations of Network Design
+The design of the neural network involved multiple iterations to optimize its performance. The initial configuration included:
+Input Units: 7
+Output Units: 7
+Hidden Layer (Layer 1) Units: 7
+
+Through experimentation, Layer 1 was adjusted to 10 units, which improved the network's ability to learn complex patterns.
+
+The following iterative adjustments were made:
+1. The learning rate was initially set to 0.3 but was reduced to 0.2 to stabilize convergence.
+2. The momentum was set to the default value of 0.8 but later increased to 0.9 to accelerate learning.
+3. The number of neurons in Layer 1 was increased from 7 to 10, which yielded better accuracy without significantly increasing training time.
+
+In total, four major iterations of network design and parameter tuning were conducted to reach the optimal configuration.
+
+---
+
+3. Results Obtained
+The training process produced the following key results:
+At 5000 iterations, the network achieved an error rate of 0.127.
+Extending the training to 25000 iterations reduced the error rate to 0.04364.
+Optimizing the learning rate to 0.4 and momentum to 0.9 resulted in an error rate of 0.026299 at 25000 iterations.
+
+The average error rates for specific patterns were also calculated, showing consistent improvements across iterations. For example:
+Pattern: "1, 1, 1, 1, 1, 1, 0"
+Result: Error reduced from 0.04 to 0.02.
+Pattern: "0, 1, 1, 0, 0, 0, 0"
+Result: Error reduced from 0.03 to 0.01.
+
+These results demonstrate the effectiveness of iterative design and parameter optimization.
+
+---
+
+4. Testing Alternatives
+To determine the best training approach, the following alternatives were tested:
+1. Learning Rate Adjustments:
+Lowering the learning rate from 0.3 to 0.2 improved stability.
+Increasing it to 0.4 during the final optimization phase accelerated convergence.
+2. Momentum Values:
+Testing both 0.8 and 0.9 showed that a higher momentum resulted in faster and more consistent learning.
+3. Hidden Layer Neuron Adjustments:
+Increasing Layer 1 neurons from 7 to 10 improved the network's ability to generalize while maintaining training efficiency.
+
+A comparison of error progress graphs highlighted the significance of these adjustments. For instance, an inappropriate configuration with a learning rate of 0.5 led to stagnation around an error rate of 0.1 (Figure 3: Bad Pattern).
+
+---
+
+5. Conclusion
+The iterative process of network design and parameter tuning proved essential for achieving optimal results. By systematically adjusting the learning rate, momentum, and hidden layer configuration, the network achieved an error rate of 0.026299, a significant improvement over the initial configuration.
+
+This process highlights the importance of experimentation in neural network training. The achieved results demonstrate the network's capability to accurately recognize 7-segment display patterns with minimal error.
+
+---
+
+6. References
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning with Applications in R. Springer.
