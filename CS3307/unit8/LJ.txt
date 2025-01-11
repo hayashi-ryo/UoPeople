@@ -1,0 +1,45 @@
+Introduction
+This project involves designing a new graphical user interface (GUI) for Linux OS. The GUI is specifically aimed at system administrators and technicians for their daily tasks. It focuses on providing a simple yet efficient operating environment. The design prioritizes quick access to essential features, while ensuring high visibility and usability. Moreover, the lightweight design makes it suitable for low-resource environments.
+
+Key Features and Functionalities
+The main features and functionalities of the proposed design are as follows:
+
+Simple and Intuitive Usability
+A dark mode serves as the foundation of the interface, providing a visually comfortable environment for prolonged use. The interface eliminates excessive decorations, allowing users to focus on essential functionalities.
+
+Centralized Access Through the Taskbar
+A taskbar located on the left side of the screen provides shortcuts to essential Linux OS maintenance features, including:
+1. Setting: A button to manage general system settings.
+2. Log: A tool to view system operation histories and error logs.
+3. Status: Real-time monitoring of system conditions, such as CPU, memory, and disk usage.
+4. Network: Management of network settings and connection statuses.
+5. Search: A search function to locate files and settings within the system.
+6. Terminal: A shortcut for quickly launching the command-line interface (CUI).
+7. Power: Options for rebooting or shutting down the system.
+
+Instant Information Visibility
+Two main windows, "System Status" and "Log Viewer," are positioned in the center of the desktop to allow immediate access to critical system information. This setup facilitates efficient management tasks.
+
+Notification Area
+A "System Notification" area is located in the bottom-right corner of the screen. It displays real-time updates and important error messages, helping users stay informed about system status at all times.
+
+Removing Redundant Features
+The proposed design eliminates common elements seen in traditional GUIs, such as application lists and excessive widgets. These features are unnecessary for Linux OS maintenance tasks and only add visual clutter. By removing them, the interface becomes more streamlined, enabling users to focus on the tools they need. Additionally, this simplification minimizes resource consumption, ensuring smooth operation even on low-spec systems.
+
+Design Wireframe and Explanation
+
+Figure 1 wireframe
+
+Overview of the Design
+The wireframe aims to balance simplicity and efficiency. The taskbar on the left provides direct access to core functionalities, while the two main windows in the center—“System Status” and “Log Viewer”—ensure quick access to critical information. The "System Notification" area in the bottom-right corner displays key messages and alerts from the system.
+
+Strengths of the Design
+The biggest strength of this design lies in its specialization for Linux OS maintenance. By focusing only on the essential functionalities, the design allows users to quickly access the information and tools they need. Additionally, the unified design of the taskbar and notification area significantly enhances usability.
+
+Limitations of the Design
+Unlike standard GUIs, this design does not provide access to all applications and functionalities. Tasks outside the scope of this GUI require the use of a CUI, which might present a learning curve for users unfamiliar with command-line operations.
+
+Conclusion
+This proposal focuses on designing a GUI tailored to Linux OS maintenance tasks, prioritizing simplicity and efficiency. Its features, such as the visually accessible dark mode, centralized taskbar for core functionalities, and real-time notifications, enhance usability and information visibility. However, the reliance on the CUI for non-core tasks highlights an area for potential improvement. Moving forward, collecting user feedback will be essential for refining the design to create a more user-friendly GUI.
+
+Word Count: 574
