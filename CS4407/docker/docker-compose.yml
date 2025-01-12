@@ -1,0 +1,9 @@
+services:
+  rstudio:
+    build:
+      dockerfile: Dockerfile
+    container_name: rstudio
+    ports:
+      - 8787:8787
+    volumes:
+      - ./data:/root/data:cached

@@ -1,0 +1,143 @@
+# PA
+
+## Part 1: Output of Decision Tree
+
+The decision tree for the given Ionosphere dataset is constructed and visualized using R. The steps are as follows:
+
+### a. Setting the Working Directory and Loading Packages
+
+Set the working directory, load the required packages (`rpart` and `mlbench`), and then load the Ionosphere dataset.
+
+```R
+# Setting the working directory (modify as needed)
+setwd("/Users/hayashir/work/Github/UoPeople/CS4407-branch/CS4407/unit5/PA")
+
+# Loading packages
+library(rpart)
+library(mlbench)
+
+# Loading the dataset
+ionosphere_data <- read.table("Ionosphere.txt", 
+                            header = FALSE,
+                            sep = ",",
+                            stringsAsFactors = TRUE)
+
+# Adding column names
+colnames(ionosphere_data) <- c(paste0("V", 1:34), "Class")
+
+# Verifying the dataset
+head(ionosphere_data)
+summary(ionosphere_data)
+```
+
+This step ensures that the Ionosphere.txt dataset is correctly loaded as a dataframe with 34 continuous columns and 1 class label column (`Class: "g" or "b"`).
+
+---
+
+### b. Creating the Decision Tree
+
+Use the `rpart()` function to create a decision tree for classification. This model predicts the `Class` (whether the signal is good or bad).
+
+```R
+# Creating the decision tree
+ionosphere_tree <- rpart(Class ~ ., data = ionosphere_data)
+
+# Displaying the summary of the decision tree
+print(summary(ionosphere_tree))
+```
+
+![Figure 1 Decision Tree Overview](./Overview%20of%20Decision%20Trees%201.png)
+![Figure 2 Decision Tree Overview](./Overview%20of%20Decision%20Trees%202.png)
+Figure 1: Overview of the Decision Tree
+
+---
+
+### c. Visualizing the Decision Tree
+
+Use the `plot()` and `text()` functions to visualize the constructed decision tree. The commands are as follows:
+
+```R
+# Adjusting margins
+par(mar = c(4, 4, 4, 4))
+# Plotting the decision tree
+plot(ionosphere_tree, uniform = TRUE, main = "Ionosphere Decision Tree")
+# Adding labels to nodes
+text(ionosphere_tree, use.n = TRUE, all = TRUE, cex = 0.8)
+```
+
+The results are as follows:
+![Figure 2 Ionosphere Decision Tree](./Ionosphere%20Decision%20Tree.png)
+
+---
+
+## Part 2: Evaluating Accuracy
+
+This section involves splitting the Ionosphere dataset into training and testing datasets, building a decision tree, and evaluating its prediction accuracy on the test data.
+
+---
+
+### a. Splitting the Data
+
+Split the dataset into training (70%) and testing (30%) datasets using the `sample()` function.
+
+```R
+set.seed(123)
+# Splitting the data into 7:3
+train_indices <- sample(1:nrow(ionosphere_data), 0.7 * nrow(ionosphere_data))
+train_data <- ionosphere_data[train_indices, ]
+test_data <- ionosphere_data[-train_indices, ]
+```
+
+---
+
+### b. Creating the Decision Tree with Training Data
+
+Build a new decision tree using the training data.
+
+```R
+# Creating the decision tree with training data
+ionosphere_tree_train <- rpart(Class ~ ., data = train_data)
+# Displaying the summary of the model
+print(summary(ionosphere_tree_train))
+```
+
+![Figure Decision Tree for Test Data Overview 1](./Overview%20of%20Decision%20Trees%20Train%201.png)
+![Figure Decision Tree for Test Data Overview 2](./Overview%20of%20Decision%20Trees%20Train%202.png)
+Figure 3: Decision Tree Overview for Test Data
+
+---
+
+### c. Predicting with the Test Data
+
+Use the `predict()` function to make predictions based on the test data.
+
+```R
+# Making predictions with the test data
+test_predictions <- predict(ionosphere_tree_train, newdata = test_data, type = "class")
+```
+
+---
+
+### d. Calculating Accuracy
+
+Compare the predicted results with the actual class labels in the test data and calculate the model's accuracy.
+
+```R
+# Creating a confusion matrix
+confusion_matrix <- table(test_predictions, test_data$Class)
+
+# Calculating accuracy
+accuracy <- sum(diag(confusion_matrix)) / sum(confusion_matrix)
+
+# Displaying the results
+print(confusion_matrix)
+print(paste("Accuracy: ", round(accuracy * 100, 2), "%"))
+```
+
+The measured accuracy is as follows:
+![Figure Accuracy Calculation](./Calculation%20of%20model%20accuracy.png)
+Figure 4: Accuracy Calculation of the Model
+
+--- 
+
+If you need further refinements or adjustments, feel free to ask!

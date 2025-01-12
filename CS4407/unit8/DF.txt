@@ -1,0 +1,100 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Hierarchical clustering is one of the unsupervised learning algorithms used in data analysis, especially effective in understanding the structure of data. This method clusters data hierarchically based on the similarity of individual data points, with the dendrogram serving as a visualization tool (Rokach & Maimon, 2005). This paper describes how to implement a hierarchical clustering algorithm and discusses the role of dendrograms in this process.
+Hierarchical clustering has two main approaches: "agglomerative" and "divisive," each with its corresponding algorithm (Jain et al., 1999). Additionally, it is crucial to understand the impact of distance calculation methods and clustering rules on the final result. This paper focuses on agglomerative clustering, explaining its implementation and clarifying the specific role and advantages of dendrograms.
+
+---
+
+Explanation of the Hierarchical Clustering Algorithm
+
+Implementing hierarchical clustering involves evaluating data similarity and applying an algorithm to form clusters. The main steps of agglomerative clustering are as follows:
+
+1. Initial Cluster Setup
+Each data point is treated as an individual cluster, and the distances between all clusters are calculated.
+
+2. Distance Calculation and Similarity Measurement
+Distances between clusters are computed using methods such as Euclidean or Manhattan distance. Additionally, cluster evaluation methods such as single linkage, complete linkage, and Ward's method are applied (Ward, 1963).
+
+3. Cluster Merging
+The two closest clusters are merged to form a new cluster. This process is repeated until all data points are grouped into one cluster.
+
+The algorithm can be efficiently implemented using Python’s Scikit-learn library. Below is a basic implementation:
+
+```python
+from sklearn.cluster import AgglomerativeClustering
+
+# Preparing the data
+data = [[1, 2], [2, 3], [3, 4], [5, 6], [7, 8]]
+
+# Applying hierarchical clustering
+model = AgglomerativeClustering(n_clusters=2, linkage='ward')
+model.fit(data)
+```
+
+This code divides the provided dataset into two clusters.
+
+---
+
+Role of Dendrograms
+
+A dendrogram is a visual representation of the cluster merging process in hierarchical clustering (Murtagh & Contreras, 2012). Its primary roles are:
+
+1. Visualization of Cluster Merging Order
+The dendrogram illustrates the order in which clusters are merged, making it easier to understand data similarity.
+
+2. Optimal Number of Clusters Selection
+By setting an appropriate cutoff point based on the dendrogram height, it is possible to determine the optimal number of clusters.
+
+3. Understanding Data Structure
+A dendrogram helps intuitively grasp the hierarchical structure of the data.
+
+Below is an example of creating a dendrogram using the Scipy library:
+
+```python
+from scipy.cluster.hierarchy import dendrogram, linkage
+import matplotlib.pyplot as plt
+
+# Preparing the data
+data = [[1, 2], [2, 3], [3, 4], [5, 6], [7, 8]]
+
+# Creating the dendrogram
+linked = linkage(data, method='ward')
+dendrogram(linked)
+plt.show()
+```
+
+This code visualizes the cluster merging process.
+
+---
+
+Applications of Hierarchical Clustering
+
+Hierarchical clustering is used in various fields. Below are some specific examples:
+
+Customer Segmentation in Marketing
+By analyzing customer purchasing behavior, groups with similar characteristics can be identified, enabling the formulation of effective marketing strategies (Kotler & Keller, 2016).
+
+Gene Clustering in Bioinformatics
+This method groups genes or proteins based on functional similarity, aiding in the prediction of characteristics for unknown genes (Eisen et al., 1998).
+
+Document Clustering
+Text data is automatically classified based on its content to identify related themes and topics.
+
+---
+
+Conclusion
+
+Hierarchical clustering is a powerful method for visualizing and analyzing the hierarchical structure of data. Dendrograms, in particular, are crucial tools that clarify the relationships between clusters and aid in selecting the optimal number of clusters. However, this method has high computational costs and may not be suitable for large datasets, making it essential to choose an appropriate algorithm depending on the use case.
+
+---
+
+### References
+
+Eisen, M. B., Spellman, P. T., Brown, P. O., & Botstein, D. (1998). Cluster analysis and display of genome-wide expression patterns. Proceedings of the National Academy of Sciences, 95(25), 14863-14868. https://doi.org/10.1073/pnas.95.25.14863
+Jain, A. K., Murty, M. N., & Flynn, P. J. (1999). Data clustering: A review. ACM Computing Surveys (CSUR), 31(3), 264-323. https://doi.org/10.1145/331499.331504
+Kotler, P., & Keller, K. L. (2016). Marketing Management (15th ed.). Pearson Education.
+Murtagh, F., & Contreras, P. (2012). Algorithms for hierarchical clustering: an overview. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, 2(1), 86-97. https://doi.org/10.1002/widm.53
+Rokach, L., & Maimon, O. (2005). Clustering Methods. In Data Mining and Knowledge Discovery Handbook (pp. 321-352). Springer, Boston, MA. https://doi.org/10.1007/978-0-387-09823-4_15
+
+---
+
+If you have further requests for modifications or additional support, feel free to let me know!

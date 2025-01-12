@@ -1,0 +1,47 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Data preprocessing is a crucial step in data analysis and machine learning. Especially when feature scales differ, scaling and standardization can significantly impact model performance and convergence speed. Min-max normalization and Z-score standardization are two widely used techniques for this purpose. This paper explains the calculation methods for these techniques with concrete examples and discusses why data scientists choose to use them.
+
+---
+
+Min-Max Normalization and Example
+Min-max normalization is a method to scale data into a specific range, usually between 0 and 1. The following formula is used:
+\[ x' = \frac{x - x_{\text{min}}}{x_{\text{max}} - x_{\text{min}}} \]
+Here, \(x_{\text{min}}\) represents the minimum value, and \(x_{\text{max}}\) represents the maximum value in the dataset (James et al., 2013).
+
+As an example, consider the dataset [10, 20, 30, 40]. In this case, the minimum value \(x_{\text{min}} = 10\) and the maximum value \(x_{\text{max}} = 40\). Normalizing the value 20 gives:
+\[ x' = \frac{20 - 10}{40 - 10} = \frac{10}{30} = 0.33 \]
+
+This method is effective for unifying feature scales and preventing features with larger ranges from disproportionately influencing the model. Additionally, min-max normalization is particularly effective in models sensitive to scale, such as neural networks (Brownlee, 2020).
+
+---
+
+Z-Score Standardization and Example
+Z-score standardization scales data based on how far each data point is from the mean, measured in standard deviations. The formula is as follows:
+\[ z = \frac{x - \mu}{\sigma} \]
+Here, \(\mu\) represents the mean, and \(\sigma\) represents the standard deviation (James et al., 2013).
+
+For example, using the same dataset [10, 20, 30, 40], the mean \(\mu = 25\) and the standard deviation \(\sigma = 12.91\). Standardizing the value 20 gives:
+\[ z = \frac{20 - 25}{12.91} = -0.39 \]
+
+Z-score standardization adjusts data to have a mean of 0 and a standard deviation of 1, making it particularly useful for reducing the impact of outliers. This technique is also effective in models that assume a normal distribution, such as clustering and principal component analysis (PCA) (Han et al., 2011).
+
+---
+
+Why Data Scientists Use These Techniques
+Data scientists use these techniques primarily for the following reasons:
+1. Min-Max Normalization: Machine learning algorithms, especially gradient-based methods, are sensitive to feature scales. Min-max normalization ensures consistency among features and allows for intuitive interpretation of results, as the values are scaled between 0 and 1 (Brownlee, 2020).
+2. Z-Score Standardization: This technique mitigates the impact of outliers and is suitable for models assuming a normal distribution. It is also effective in applications such as clustering and PCA (Han et al., 2011).
+
+The choice of method depends on the nature of the data and the algorithm being used.
+
+---
+
+Conclusion
+Min-max normalization and Z-score standardization play critical roles in data preprocessing for data analysis. Each technique serves different purposes and has unique characteristics, making it essential to select the appropriate method based on the data's context. Proper application of these techniques can maximize model performance and ensure reliable results.
+
+---
+
+References
+Brownlee, J. (2020). How to normalize and standardize data in Python. Machine Learning Mastery. Retrieved from <https://machinelearningmastery.com/how-to-normalize-and-standardize-data-in-python/>
+Han, J., Kamber, M., & Pei, J. (2011). Data Mining: Concepts and Techniques (3rd ed.). Morgan Kaufmann.
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning: with Applications in R. Springer Texts in Statistics.

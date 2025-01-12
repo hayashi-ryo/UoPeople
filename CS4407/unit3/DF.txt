@@ -1,0 +1,26 @@
+Hello, classmate. I will explain my understanding of the theme for this time.
+Regression analysis is a fundamental and powerful statistical technique used to predict future trends based on past data. Its intuitive nature and practicality make it widely adopted in fields such as marketing, economics, and healthcare (James et al., 2013). Linear regression, in particular, serves as a foundational model, offering simplicity while addressing complex predictive problems. However, regression analysis is not without limitations, and misunderstanding these constraints can lead to incorrect conclusions. This post explains the major limitations of regression analysis, with a specific focus on the issue of the “range” of predictions.
+
+Limitations of Regression Analysis
+a. Assumption of Linearity
+Regression analysis assumes a linear relationship between independent and dependent variables. When this assumption does not hold true, the predictive accuracy of the model can significantly decrease (Gelman & Hill, 2006). For example, in real-world scenarios where sales data or advertising expenditures exhibit non-linear relationships, a simple linear model may struggle to provide accurate predictions.
+
+b. Impact of Outliers and Noise
+Outliers and data noise can heavily influence regression models. Outliers may distort regression coefficients calculated by the least squares method, reducing the model’s predictive performance. Effective data cleaning and outlier removal are crucial to maintaining the reliability of regression analysis (James et al., 2013).
+
+c. Multicollinearity
+High correlations among multiple independent variables lead to multicollinearity, which undermines the interpretability of the model. This issue can result in unstable regression coefficients and negatively affect the model’s reliability (James et al., 2013).
+
+d. Limitation of Range in Prediction
+One of the most significant limitations of regression analysis is the problem of extrapolation, which refers to making predictions outside the range of the training data. Regression models perform relatively well within the training data range (interpolation), but their reliability diminishes when predicting values beyond this range (Hastie et al., 2009). For instance, when advertising budgets exceed historical maximums, the model may produce unrealistic predictions.
+
+Examples of Range Limitation
+Using the "Advertising" dataset as an example, regression models struggle to maintain accuracy when television advertising expenditures exceed the observed data range (James et al., 2013). This occurs because the model is trained to learn patterns within the dataset and cannot generalize well to unseen data points. To avoid such situations, extending the training dataset or exploring alternative methods such as non-linear models or Bayesian regression is recommended.
+
+Effective Use and Conclusion
+To use regression analysis effectively, proper data preprocessing, validation of model assumptions, and careful model selection are essential. When linear relationships do not hold, supplementing regression analysis with non-linear models or machine learning algorithms can enhance predictive accuracy (Hastie et al., 2009). In conclusion, regression analysis is a practical and powerful tool, but understanding its limitations and combining it with other techniques when necessary are key to successful applications.
+
+References
+Gelman, A., & Hill, J. (2006). Data Analysis Using Regression and Multilevel/Hierarchical Models. Cambridge University Press.
+Hastie, T., Tibshirani, R., & Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer.
+James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning: With Applications in R. Springer.

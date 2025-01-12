@@ -1,0 +1,46 @@
+Overview of the Week
+This week focused on key neural network algorithms foundational to artificial intelligence, including the perceptron, multi-layer perceptron (MLP), and backpropagation algorithm. The main references for learning these topics were:
+Jaksa & Katrak (2006), Neural network model of the backpropagation algorithm
+Roy et al. (2005), Comparison of the Multi-Layer Perceptron and the Nearest Neighbor Classifier for Handwritten Numeral Recognition
+
+In the discussion assignment, we examined the differences in training between a single-layer perceptron and a feed-forward neural network using the backpropagation algorithm. Additionally, the programming assignment involved analyzing the training results of a neural network developed in Unit 6 and evaluating the best training approach.
+
+---
+
+Personal Reflections
+This week offered insights into both the theoretical and practical aspects of neural networks, leaving three major impressions:
+
+1. The importance of breaking down complex concepts
+The backpropagation algorithm involves intricate processes such as calculating gradients and propagating errors backward, which initially felt overwhelming. However, by breaking down each step and implementing it incrementally, I gradually grasped the overall picture. Through this process, I realized the importance of "starting with simple components" to deepen my understanding effectively.
+
+2. Gaining a multifaceted understanding through discussion
+The discussion assignment allowed me to encounter perspectives and use cases shared by other participants. For example, one classmate illustrated how MLP outperforms perceptrons in handwritten character recognition using real-world data, which was highly inspiring. This helped me deepen my understanding of not just theoretical concepts but also their practical applications.
+
+3. A sense of accomplishment through implementation
+In the programming assignment, I struggled to balance accuracy and efficiency while experimenting with different network designs. Nonetheless, optimizing the training steps and achieving closer results to the target provided a great sense of accomplishment. This experience reinforced the importance of trial and error, boosting my confidence for future challenges.
+
+---
+
+Topics Studied in Depth
+Among the topics covered this week, the following two stood out as areas where I gained deep understanding:
+
+1. Detailed mechanisms of the backpropagation algorithm
+Backpropagation involves calculating gradients based on the loss function and using these to adjust weights. Understanding this backpropagation process through both mathematical formulas and program code clarified how neural networks "learn" effectively. Moreover, studying how this algorithm functions within MLPs with multiple hidden layers provided a deeper understanding of how complex pattern recognition becomes feasible.
+
+2. The relationship between network design and results
+In the programming assignment, I tested about 10 different network designs and compared the outcomes. For instance, increasing the number of hidden layers improved accuracy in some cases but also heightened the risk of overfitting. This experience underscored the significant impact of design choices on results. Additionally, experimenting with varying learning rates and initialization methods revealed notable differences in the convergence speed of training steps.
+
+---
+
+Future Challenges and Goals for Next Week
+Next week will focus on unsupervised learning, particularly clustering methods such as K-means and hierarchical clustering. Specific objectives include:
+
+Clearly distinguishing between supervised and unsupervised learning
+Implementing K-means clustering and developing skills to visualize clustering results
+Understanding the role of dendrograms and applying hierarchical clustering techniques
+
+In addition, as the final test is approaching, I will dedicate myself to preparing for it and striving for a good score. My primary focus will be on reviewing all previously learned content and deepening my understanding of challenging algorithms and concepts. By maintaining a balance between theory and implementation, I aim to perform well in the final test through well-organized preparation.
+
+References
+Jaksa, R., & Katrak, M. (2006). Neural network model of the backpropogation algorithm. Retrieved from https://pdfs.semanticscholar.org/f7de/25eb027083d4e7144c1ef6831baff35d6d06.pdf. or download the pdf.
+K. ROY, C. CHAUDHURI, M. KUNDU, M. NASIPURI AND D. K. BASU (2005). Comparison of the Multi Layer Perceptron and the Nearest Neighbor Classifier for Handwritten Numeral Recognition. Journal of Information Science and Engineering, 21(2005), 1247-1259. Retrieved from https://www.researchgate.net/publication/220587524_Comparison_of_the_Multi_Layer_Perceptron_and_the_Nearest_Neighbor_Classifier_for_Handwritten_Numeral_Recognition
